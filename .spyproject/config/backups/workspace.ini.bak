@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['../.spyder-py3/temp.py', '../cGAN_Project/ML/rv1_raster_24_gen/tess_all/raster_gen_diffsize_b1.py', '../cGAN_Project/In_paper/mesh_convergence/results_processing.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+
