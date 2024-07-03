@@ -1,0 +1,262 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Xiao's projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+			<section id="header">
+
+				<!-- Logo -->
+					<h1><a href="index.html">Shubham Saurabh - Research projects</a></h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li class="current">
+								<a href="projects.html">Projects</a>
+								<ul>
+									<li><a href="projects.html#ded">Directed energy deposition</a></li>
+									<li><a href="projects.html#tailor3Dms">3D microstructures</a></li>
+									<li><a href="projects.html#fgm">Functionally graded material</a></li>
+									<li><a href="projects.html#bam">Bisatble auxetics</a></li>
+								</ul>
+							</li>
+							<li><a href="publications.html">Publications</a></li>
+							<li><a href="teaching&mentoring.html">Teaching & Mentoring</a></li>
+							<li>
+								<a href="#">Media Coverage</a>
+								<ul>
+									<li><a href="https://news.engineering.utoronto.ca/this-machine-learning-method-aims-to-speed-up-the-design-of-next-generation-biomedical-implants-and-aerospace-materials/" target="_blank">Deep learning work covered by UofT Engineering News</a></li>
+									<li><a href="https://mse.utoronto.ca/news/mse-student-xiao-shang-wins-the-poster-prize-at-the-accelerate-conference/" target="_blank">Conference poster prize featured in UofT MSE news</a></li>
+									<li><a href="https://mse.utoronto.ca/news/mse-phd-candidates-were-interviewed-by-citynews/" target="_blank">Interview by Toronto City News</a></li>
+									<li><a href="https://news.engineering.utoronto.ca/u-of-t-engineering-researchers-are-advancing-metal-3d-printing-technology-for-automotive-energy-and-biomedical-applications/" target="_blank">Our additive manufacturing lab by UofT News</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="aboutme.html">About Me</a>
+								<ul>
+									<li><a href="aboutme.html#education">Education & Training</a></li>
+									<li><a href="aboutme.html#awards">Awards</a></li>
+									<li><a href="aboutme.html#cv">Curriculum Vitae</a></li>
+								</ul>
+							</li>
+							<li><a href="memes.html">Memes for fun</a></li>
+						</ul>
+					</nav>
+
+				</section>
+
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+
+						<!-- Content -->
+							<article class="box post">
+								<header>
+									<h2 id="ded">Customized directed energy deposition (DED) system</h2>
+									<p>Associated with <a href="https://www.zou-mse-utoronto-ca.net/" target="_blank">LEMAM @ UofT</a></p>
+								</header>
+								<br>
+								<a class="image featured"><img src="images/ded_bg_large.gif" alt="" /></a>
+								<p>
+									This full-sized DED system is equipped with a powerful 1kw IPG laser, two powder feeding hoppers, and a user-friendly
+									interface. Materials available for printing includes 316L stainless steel, PH-17-4 stainless steel, Ni superalloys and 
+									more. It also supports in-situ monitoring with a CCD camera and a high-speed IR camera. Upgrading work is ongoing for
+									fully autonomous closed-loop control.
+								</p>
+								<div class="row aln-center">
+									<a class="image"><img src="images/ded_machine.png" alt="" style="width:360px;height:251px;"/></a>
+									<a class="image"><img src="images/ded_inside.gif" alt="" style="width:360px;height:251px;"/></a>
+									<a class="image"><img src="images/telops.png" alt="" style="width:360px;height:251px;"/></a>
+								</div>
+								<br>
+								<section>
+									<header>
+										<h2 id="ded_opt">DED processing parameter optimization</h2>
+										<p>Associated with <a href="https://www.zou-mse-utoronto-ca.net/" target="_blank">LEMAM @ UofT</a></p>
+									</header>
+									<p>
+										Optimizing the processing parameter for DED, and in fact for AM in general is chanllenging but at the same time crucial. Being able to fast and accurately identifying
+										the optimal processing parameters reduces the cost, materials waste, and more importantly, improves the build quality. <br>
+										We use machine learning and computer vision methods to study the melt pool and melt track variations under various processing parameters in order to create a framework for the esay identification of optimal processing parameters.
+									</p>
+									<div class="row aln-center">
+										<a class="image"><img src="images/melt_track.png" alt="" style="width:360px;height:251px;"/></a>
+										<a class="image"><img src="images/meltpool.png" alt="" style="height:251px;"/></a>
+									</div>
+								</section>
+									
+							</article>
+					</div>
+				</section>
+			<!-- Main -->
+				<section id="main">
+					<div class="container">
+	
+						<!-- Content -->
+							<article class="box post">
+								<header>
+									<h2 id="tailor3Dms">Tailoring the mechanical properties of 3D microstrutures</h2>
+									<p>Associated with <a href="https://www.zou-mse-utoronto-ca.net/" target="_blank">LEMAM @ UofT</a></p>
+								</header>
+								<br>
+								<a class="image featured"><img src="images/acposter.jpg" alt="" /></a>
+
+								<p>
+									Application-specific materials-by-design is a long-standing challenge due to the need for capturing the complex process-microstructure-property (P-S-P) relations. The efficient identification of microstructures inversely from target mechanical properties is intractable because of the high dimensionality of the design space. So far, there has only been limited preliminary investigations on establishing surrogation P-S-P models with over-simplified material representations forwardly (as opposite to inverse design). For the arguably more important inverse design problem, there have been even fewer reports. In this work, we provide an <b>end-to-end</b> framework that tackles both forward prediction and inverse exploration to streamline materials-by-design. Using <b>advanced deep-learning</b> and <b>genetic algorithm</b>, our framework exhibits promising potential in cutting down the time needed from target mechanical properties <b>directly</b> to desired material microstructure.
+								</p>
+								<p>
+									<b>Our poster won a <a href="aboutme.html#2023acposteraward">poster prize award</a> from Digital Discovery at the <a href="https://www.accelerate23.ca/" target="_blank">2023 Accelerate Conference</a> by the <a href="https://acceleration.utoronto.ca/" target="_blank">Acceleration Consortium!</a></b> <br>
+								<p>
+								<p>Please check out the published paper: <br>
+									<b>Shang, X.</b>, Liu, Z., Zhang, J., Lyu, T., & Zou, Y. (2023). Tailoring the mechanical properties of 3D microstructures: A deep learning and genetic algorithm inverse optimization framework. <i>Materials Today</i>. <a href="https://doi.org/10.1016/j.mattod.2023.09.007" target="_blank">https://doi.org/10.1016/j.mattod.2023.09.007</a></p>
+								<section>
+							</article>
+					</div>
+				</section>
+				
+			<!-- Main -->
+			<section id="main">
+				<div class="container">
+
+					<!-- Content -->
+						<article class="box post">
+							<header>
+								<h2 id="fgm">Metallic functional graded materials (FGMs) development</h2>
+								<p>Associated with <a href="https://www.zou-mse-utoronto-ca.net/" target="_blank">LEMAM @ UofT</a></p>
+							</header>
+							<br>
+							<a class="image featured"><img src="images/fgm.png" alt=""/></a>
+							<p>Image source:<br>
+							(a) Shinohara, Y., Handbook of Advanced Ceramics<br>
+							(b) Fan, X., et al., Thermoelectric magnetohydrodynamic control of melt pool flow during laser directed energy deposition additive manufacturing.<a href="https://doi.org/10.1016/j.addma.2023.103587" target="_blank"> https://doi.org/10.1016/j.addma.2023.103587</a><br>
+							(c) Todaro, C., et al., Grain structure control during metal 3D printing by high-intensity ultrasound.<a href="https://doi.org/10.1038/s41467-019-13874-z
+							" target="_blank"> https://doi.org/10.1038/s41467-019-13874-z</a></p>
+							<p>
+								<b>Functionally graded materials (FGMs)</b> are a class of materials whose compositions and/or microstructures vary along one or multiple spatial directions, thus lead to <b>varying material properties</b>. Compared with traditional composite materials, FGMs agglomerate contradictory properties such as high strength and toughness, good wear resistance, good heat resistance, high stiffness to weight ratio, which are well sough after in modern industries such as the aerospace, automotive, and biomedical sectors.<br>
+								In this project, I combine the flexibility of DED with external magnetic and ultrasonic vibration fields to locally tailor the microstructure of the builds. This way, FGMs with locally varying mechanical properties can be achieved. 
+							</p>
+							<section>
+						</article>
+				</div>
+			</section>
+
+			<!-- Main -->
+			<section id="main">
+				<div class="container">
+
+					<!-- Content -->
+						<article class="box post">
+							<header>
+								<h2 id="bam">Durable bistable auxetics made of rigid solids</h2>
+								<p>Associated with <a href="http://pasini.ca/" target="_blank">Pasini Grounp @ McGill University</a></p>
+							</header>
+							<br>
+							<a class="image featured"><img src="images/bam.gif" alt="" /></a>
+							<p>
+								Bistable Auxetic Metamaterials (BAMs) are a class of monolithic perforated periodic structures with negative Poisson’s ratio. Under tension, a BAM can expand and reach a second state of equilibrium through a globally large shape transformation that is ensured by the flexibility of its elastomeric base material. However, if made from a rigid polymer, or metal, BAM ceases to function due to the inevitable rupture of its ligaments. The goal of this work is to extend the unique functionality of the original kirigami architecture of BAM to a rigid solid base material. We use experiments and numerical simulations to assess performance, bistability, and durability of rigid BAMs at 10,000 cycles. Geometric maps are presented to elucidate the role of the main descriptors of the BAM architecture. The proposed design enables the realization of BAM from a large palette of materials, including elastic-perfectly plastic materials and potentially brittle materials.
+							</p>
+							<p>To find our more about this work: <br>
+								<b>Shang, X.</b>, Liu, L., Rafsanjani, A. et al. Durable bistable auxetics made of rigid solids. Journal of Materials Research 33, 300–308 (2018). https://doi.org/10.1557/jmr.2017.417. <a href="https://www.researchgate.net/publication/320875170_Durable_Bistable_Auxetics_Made_of_Rigid_Solids" target="_blank">Full-text paper</a>
+							<br>
+							Featured in the  <a href="https://www.cambridge.org/core/journals/mrs-bulletin/news/kirigami-art-and-geometric-manipulation-transform-rigid-solids-to-flexible-auxetic-materials" target="_blank">MRS Bulletin</a>
+							</p>
+							<section>
+						</article>
+				</div>
+			</section>
+			
+			
+
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-8 col-12-medium">
+							<section>
+								<header>
+									<h2>News</h2>
+								</header>
+								<ul class="dates">
+									<li>
+										<span class="date">Oct <strong>16</strong></span>
+										<h3><a href="projects.html#tailor3Dms">New work published in <i>Materials Today</i></a></h3>
+										<p>My new work is published in the prestigious journal <i>Materials Today</i>! The story is also covered by <a href="https://news.engineering.utoronto.ca/this-machine-learning-method-aims-to-speed-up-the-design-of-next-generation-biomedical-implants-and-aerospace-materials/" target="_blank">the University of Toronto Engineering news</a>.</p>
+									</li>
+									<li>
+										<span class="date">Aug <strong>24</strong></span>
+										<h3><a href="projects.html#tailor3Dms">Poster Prize Award @ 2023 Accelerate Conference</a></h3>
+										<p>Our poster won a poster prize from Digital Discovery at the <a href="https://www.accelerate23.ca/" target="_blank">2023 Accelerate Conference</a> by the <a href="https://acceleration.utoronto.ca/" target="_blank">Acceleration Consortium!</a> The news is featured in UofT's MSE <a href="https://mse.utoronto.ca/news/mse-student-xiao-shang-wins-the-poster-prize-at-the-accelerate-conference/" target="_blank">department news</a>!</p>
+									</li>
+									<li>
+										<span class="date">May <strong>26</strong></span>
+										<h3><a href="aboutme.html#awards">NSERC CGS D Award</a></h3>
+										<p>I am awarded the prestigious Canada Graduate Scholarship-Doctoral (CGS D) by The Natural Sciences and Engineering Research Council of Canada (NSERC)!</p>
+									</li>
+							</section>
+						</div>
+						<div class="col-4 col-12-medium">
+							<section>
+								<header>
+									<h2>Getting in touch</h2>
+								</header>
+								<ul class="social">
+									<li><a class="icon brands fa-linkedin-in" style="color: #000000;" href="https://www.linkedin.com/in/xiaos/" target="_blank"></a></li>
+									<li><a class="icon brands fa-google" href="https://scholar.google.com/citations?user=dkTMoJQAAAAJ&hl=en" target="_blank"></a></li>
+									<li><a class="icon brands fa-github" href="https://github.com/xshang93" target="_blank"></a></li>
+									<li><a class="icon brands fa-twitter" href="https://twitter.com/93xshang" target="_blank"></a></li>
+								</ul>
+								<ul class="contact">
+									<li>
+										<h3>Address</h3>
+										<p>
+											University of Toronto<br />
+											Department of Materials Science and Engineering<br />
+											Toronto, ON, Canada
+										</p>
+									</li>
+									<li>
+										<h3>Mail</h3>
+										<p><a href="#">xiao dot shang at mail.utoronto.ca</a></p>
+									</li>
+								</ul>
+							</section>
+						</div>
+						<div class="col-12">
+
+							<!-- Copyright -->
+								<div id="copyright">
+									<ul class="links">
+										<li>&copy; Shubham Saurabh 2023. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+	</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.dropotron.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
+</html>
