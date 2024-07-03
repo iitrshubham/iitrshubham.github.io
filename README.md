@@ -1,2 +1,0 @@
-# trainwithshubhamtech.github.io
-
