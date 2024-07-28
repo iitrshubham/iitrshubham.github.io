@@ -29,6 +29,12 @@ window.onscroll = () => {
 
 document.addEventListener("DOMContentLoaded", () => {
     const toggleSwitch = document.querySelector('#theme-toggle');
+    
+    if (!toggleSwitch) {
+        console.error('Toggle switch element not found.');
+        return;
+    }
+
     const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
 
     if (currentTheme) {

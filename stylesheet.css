@@ -60,7 +60,7 @@ body
   justify-content: space-between;
 
    height: 100vh;
-   background: url(Purple\ Illustrated\ Mountain\ Desktop\ Wallpaper.png) no-repeat; 
+   /* background: url(Purple\ Illustrated\ Mountain\ Desktop\ Wallpaper.png) no-repeat;  */
    background-size: cover;
    background-position: center;
    display: flex;
@@ -161,29 +161,32 @@ body
     width: 100%;
     border-radius: 8px;
 }
-.about-text h2{
+.about-text h2 {
     font-size: 60px;
-    
 }
-.about-text h2 span{
 
+.about-text h2 span {
     color: #0ef;
-    
-    
 }
-.about-text h4{
+
+.about-text h4 {
     font-size: 29px;
     font-weight: 600;
     color: #fff;
     line-height: 1.7;
     margin: 15px 0 30px;
 }
-.about-text p{
-    color: aliceblue;
+
+body.light-mode .about-text h4 {
+    color: black;
+}
+
+.about-text p {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 4rem;
 }
+
 #services{
     padding: 80px 0;
     margin-top: -100px;
@@ -819,4 +822,54 @@ body.dark-mode {
     from{
         width: 0;
     }
+}
+
+#blog{
+    background-color: var(--light-grey);
+}
+.blog-item{
+    background-color: #fff;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+.blog-item-top{
+    position: relative;
+}
+.blog-date{
+    position: absolute;
+    background-color: var(--green);
+    color: #fff;
+    padding: 0.5rem;
+    height: 38px;
+    min-width: 160px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    bottom: -19px;
+    left: 5%;
+}
+.blog-item-bottom{
+    padding: 2rem 1rem;
+}
+.blog-item-bottom span{
+    text-transform: uppercase;
+    color: var(--dark);
+    opacity: 0.7;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 1rem;
+}
+.blog-item-bottom a{
+    margin: 1rem 0;
+    font-size: 1.4rem;
+    display: block;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    -webkit-transition: var(--trans);
+    -o-transition: var(--trans);
+    transition: var(--trans);
+}
+.blog-item-bottom a:hover{
+    opacity: 0.8;
 }
