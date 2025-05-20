@@ -1,0 +1,124 @@
+{
+  "Projects": {
+    "Dash Analytica": {
+      "subtitle": "Election Officer Dashboard",
+      "img": "assets\\img\\Project_images\\dashAnalytica.webp",
+      "description": "Monitor voter turnout, run targetted campaigns in specific areas and estimate capital requirements for area-wise campaigns",
+      "year": "2023",
+      "link": "https://dash-analytica.vercel.app"
+    },
+    "Smart Home Web": {
+      "subtitle": "Smart Home Interface",
+      "img": "assets\\img\\Project_images\\SmartHomeWeb.webp",
+      "description": "Smart Home Automation System that allows users to control and monitor their home appliances and environmental conditions through a web interface",
+      "year": "2023",
+      "link": "https://github.com/SarthakSKumar/Smart-Home-Automation-With-Web-Interface"
+    },
+    "IoTforHire Website": {
+      "subtitle": "Catalogue Website",
+      "img": "assets\\img\\Project_images\\IoTforHire.webp",
+      "description": "Website for renting IoT components on short/long-term basis. Catalog, ordering system, and FAQs included",
+      "year": "2023",
+      "link": "https://github.com/SarthakSKumar/IoTforHire-Website"
+    },
+    "PESU Cafe": {
+      "subtitle": "Snacks at your fingertips",
+      "img": "assets\\img\\Project_images\\pesuCafe.webp",
+      "description": "Designed to provide information on the menu, product availability, and services provided by the PESU cafeteria",
+      "year": "2023",
+      "link": "https://github.com/SarthakSKumar/PESU-Cafe"
+    },
+    "Phoenix UAV (VTOL)": {
+      "subtitle": "Vertical Take-off & Landing",
+      "img": "assets\\img\\Project_images\\Phoenix.webp",
+      "description": "To solve poor connectivity in rural India by using <b>Pheonix</b> for delivery of goods. Built a <b>prototype</b> for concept proof and testing configurations.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/Phoenix"
+    },
+    "Notes Web App": {
+      "subtitle": "Simple Note Taking App",
+      "img": "assets\\img\\Project_images\\notesapp.webp",
+      "description": "We created a note-taking app using the <b>MERN</b>. Users can save notes and delete unused ones using this modern, fully managed cloud database application.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/Notes-Web-App"
+    },
+    "CAPA Website": {
+      "subtitle": "Care and Prevent Anemia",
+      "img": "assets\\img\\Project_images\\capawebsite.webp",
+      "description": "Currently Designing and Developing a full stack <b>MPA</b> for finding solutions to <b>Anemia</b> with interactive UI and a wide range of other functionalities.</p>",
+      "year": "2022",
+      "link": "https://capaforanemia.com"
+    },
+    "Shunya Club Website": {
+      "subtitle": "Math Club at PES University",
+      "img": "assets\\img\\Project_images\\ShunyaWebsite.webp",
+      "description": "Worked on the website for <b>Shunya Club</b> at PESU. Worked with <b>VantaJS</b> and <b>AoSJS</b> libraries. <b>Respsonsive design</b> with an interactive UI.",
+      "year": "2022",
+      "link": "https://shunyapes.com"
+    },
+    "Trendy Bites Website": {
+      "subtitle": "Snack Company Website",
+      "img": "assets\\img\\Project_images\\TrendyBitesWebsite.webp",
+      "description": "Developed a <b>SPA</b> for Trendy Bites, a vacuum fried snack company. Form integrations, and smooth animations. <b>SEO Optimised</b> and accessible website.",
+      "year": "2022",
+      "link": "https://trendybites.in"
+    },
+    "Secure and Efficient Data Transmission": {
+      "subtitle": "",
+      "img": "assets\\img\\Project_images\\SecureandEfficientTransmission.webp",
+      "description": "Secure and Efficient Data Transmission using <b>Compression and Cipher Algorithms.</b> A CLI Based project using C.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/Secure-and-Efficient-Data-Transmission"
+    },
+    "Constraint Satisfaction Problems with RAT": {
+      "subtitle": " ",
+      "img": "assets\\img\\Project_images\\Solving-CSP-using-RAT.webm",
+      "description": "Consists of <b>Sudoku</b> and <b>Rat in a Maze</b> problems, solved using backtracking algorithms, with Python and Tkinter framework.",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/First-Sem-Project-RAT",
+      "video": true
+    },
+    "Personal Portfolio Website": {
+      "subtitle": " ",
+      "img": "assets\\img\\Readme-Image.webp",
+      "description": "Static portfolio website to showcase my work and projects. Developed using <b>HTML, Pure CSS and Vanilla JS</b>, with a clean and minimal UI. Deployed using <b>Github Pages</b>",
+      "year": "2022",
+      "link": "https://github.com/SarthakSKumar/SarthakSKumar.github.io"
+    },
+    "AgriBot 1.0 Prototype": {
+      "subtitle": "Robot Locomotive",
+      "img": "assets\\img\\Project_images\\AgriBot.webp",
+      "description": "It's a locomotive that collects <b>soil readings</b> from different areas in a field and provides information to a farmer regarding crop choice and growth.",
+      "year": "2019",
+      "link": "https://sites.google.com/view/sarthakskumar/agribot-1st-prototype"
+    },
+    "I-City Mangaluru App": {
+      "subtitle": "Smart City App",
+      "img": "assets\\img\\Project_images\\iCityMangaluruApp.webp",
+      "description": "An app based on the theme Smart City. This app basically includes components required for a smooth functioning of an ideal city.",
+      "year": "2019",
+      "link": "https://sites.google.com/view/sarthakskumar/i-city-mangaluru"
+    },
+    "Swachh Bin Prototype 1": {
+      "subtitle": "Portable dustbin",
+      "img": "assets\\img\\Project_images\\Swachh-Bin.webp",
+      "description": "A prototype dustbin that can be kept in a vehicle. It is a unique bin as it can compress waste added to it and make space for more waste to be added.",
+      "year": "2018",
+      "link": "hhttps://sites.google.com/view/sarthakskumar/swachh-bin"
+    },
+    "Mechanium": {
+      "subtitle": "Omni-Directional RC Car",
+      "img": "assets\\img\\Project_images\\Mechanium.webp",
+      "description": "Bluetooth-controlled Omni-Directional car equipped with Mechanum Wheels.",
+      "year": "2017",
+      "link": "https://sites.google.com/view/sarthakskumar/mechanium"
+    },
+    "Ideal Home Security": {
+      "subtitle": "Smart Security System",
+      "img": "assets\\img\\Project_images\\IdealHomeSecurity.webp",
+      "description": "An all-in-one model home security system with phone control and live streaming agility.",
+      "year": "2016",
+      "link": "https://sites.google.com/view/sarthakskumar/ideal-home-security"
+    }
+  }
+}
