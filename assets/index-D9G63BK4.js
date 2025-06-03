@@ -16587,7 +16587,7 @@ const X_ = () => {
                            className: "text-2xl"
                         })
                      }), f.jsx("a", {
-                        href: "shubham.ce@sric.iitr.ac.in",
+                        href: "mailto:shubham.ce@sric.iitr.ac.in",
                         className: "text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors duration-300",
                         "aria-label": "Email",
                         children: f.jsx(rp, {
@@ -16639,16 +16639,16 @@ const X_ = () => {
                                  className: "bg-blue-50 dark:bg-blue-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-blue-600 dark:text-blue-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "FEniCS"
+                                    children: "Metamaterials"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                                    children: "Advanced queries & data modeling"
+                                    children: "Multifunctional"
                                  })]
                               }), f.jsxs("div", {
                                  className: "bg-green-50 dark:bg-green-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-green-600 dark:text-green-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "Ansys"
+                                    children: "Machine learning"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
                                     children: "Interactive dashboards & reports"
@@ -16657,10 +16657,10 @@ const X_ = () => {
                                  className: "bg-yellow-50 dark:bg-yellow-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-yellow-600 dark:text-yellow-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "Python"
+                                    children: "Bridge Engineering"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                                    children: "Data processing & ML models"
+                                    children: "Design and health monitoring"
                                  })]
                               }), f.jsxs("div", {
                                  className: "bg-purple-50 dark:bg-purple-900/30 p-3 rounded-md transition-colors duration-300",
@@ -17040,7 +17040,7 @@ const X_ = () => {
       skills: ["Data cleaning and preparation in Excel", "Exploratory data analysis with pivot tables and formulas", "Data visualization and dashboard creation", "Customer segmentation and business insight generation", "Storytelling through data to support marketing decisions"],
       tools: ["Microsoft Excel (pivot tables, charts, formulas, dashboards)"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Shop%20customer.jpg",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iirshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Shop%20customer.jpg"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Shop%20customer.jpg"
    }, {
       id: 14,
       title: "E-commerce Data Analysis",
@@ -27241,7 +27241,7 @@ const m3 = () => {
                         children: [f.jsx(rp, {
                            className: "mr-2"
                         }), f.jsx("a", {
-                           href: "mailto:zeya.mosharraf@example.com",
+                           href: "mailto:shubham.ce@sric.iitr.ac.in",
                            className: "hover:text-white transition-colors",
                            children: "shubham.ce@sric.iitr.ac.in"
                         })]
