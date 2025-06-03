@@ -16543,9 +16543,9 @@ const X_ = () => {
                   }), f.jsxs(Te.h1, {
                      variants: e,
                      className: "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white transition-colors duration-300",
-                     children: ["Transforming Data into", " ", f.jsx("span", {
+                     children: ["Transforming Simulations into", " ", f.jsx("span", {
                         className: "text-primary",
-                        children: "Actionable Insights"
+                        children: "Structural Solutions"
                      })]
                   }), f.jsx(Te.p, {
                      variants: e,
@@ -27157,7 +27157,7 @@ const m3 = () => {
                      })]
                   }), f.jsx("p", {
                      className: "text-gray-400 dark:text-gray-300 mb-4 max-w-md transition-colors duration-300",
-                     children: "Data analyst turning complex information into clear, actionable insights. Specialized in Python, SQL, and data visualization."
+                     children: "Computational mechanics expert turning complex physical models into clear, actionable engineering insights. Specialized in Python, FEniCS, and finite element analysis."
                   }), f.jsxs("div", {
                      className: "flex space-x-4",
                      children: [f.jsx("a", {
@@ -27179,20 +27179,20 @@ const m3 = () => {
                            className: "text-lg"
                         })
                      }), f.jsx("a", {
-                        href: "https://www.cloudskillsboost.google/public_profiles/6a77b5e7-559f-44eb-b078-954bf5d4e3b0",
+                        href: "https://scholar.google.com/citations?user=-2QHLeQAAAAJ&hl=en",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white transition-colors",
-                        "aria-label": "Google Cloud",
+                        "aria-label": "Google Scholar",
                         children: f.jsx(Q_, {
                            className: "text-lg"
                         })
                      }), f.jsx("a", {
-                        href: "https://www.hackerrank.com/profile/Shubham999",
+                        href: "https://www.researchgate.net/profile/Shubham-24",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white transition-colors",
-                        "aria-label": "HackerRank",
+                        "aria-label": "Researchgate",
                         children: f.jsx($_, {
                            className: "text-lg"
                         })
@@ -27256,7 +27256,7 @@ const m3 = () => {
                         children: [f.jsx(wb, {
                            className: "mr-2"
                         }), f.jsx("span", {
-                           children: "New Delhi, India"
+                           children: "UK, India"
                         })]
                      })]
                   })]
@@ -27270,7 +27270,7 @@ const m3 = () => {
                   className: "text-gray-400 mt-2 md:mt-0 flex items-center",
                   children: ["Built with ", f.jsx(Y_, {
                      className: "text-red-500 mx-1"
-                  }), " using modern web technologies"]
+                  }), " using latest technologies"]
                })]
             })]
          })
