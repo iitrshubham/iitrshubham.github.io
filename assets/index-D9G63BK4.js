@@ -16751,7 +16751,7 @@ const X_ = () => {
       slug: "topology-optimization",
       description: "Topology Optimization is a computational technique used to determine the most efficient material layout within a given design space, for a given set of loads, boundary conditions, and constraints, with the goal of maximizing performance while minimizing material usage.",
       tag: "Topology optimization",
-      tagColor: "bg-yellow-100 text-yellow-700",
+      tagColor: "bg-green-100 text-green-700",
       category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham",
       methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
@@ -16765,7 +16765,7 @@ const X_ = () => {
                        • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
       skills: ["Data Integration", "SQL Querying", "Data Visualization", "Insight Generation"],
       tools: ["Gmsh", "Paraview", "FEniCS"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Restaurant%20Order%20Analysis.jpg",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Promotion%20Analysis.jpg"
    }, {
       id: 2,
@@ -16811,7 +16811,7 @@ const X_ = () => {
                         • High-value customers like LS-172001402 highlighted the potential for customer-focused strategies.
                         • Recommended regional promotions, product line expansion, and loyalty programs to boost engagement and growth.`,
       skills: ["Sales & Market Analysis", "Customer Segmentation", "Profitability Tracking", "KPI Monitoring"],
-      tools: ["Bridge engg (DAX)", "Uncertainty quantification"],
+      tools: ["Bridge engg (DAX)", "Excel"],
       powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMDNjNWFkZjAtNmYzMy00OGViLTgyMGEtYWFlODJlZjNiMDZkIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Beauty%20analysis.jpg"
    }, {
@@ -16866,7 +16866,7 @@ const X_ = () => {
       tagColor: "bg-green-100 text-green-700",
       category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/Growth-Analysis-Telangana",
-      methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Uncertainty quantification.
+      methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Excel.
                    • Segmentation: Grouped districts based on performance (High, Medium, Low) using KPIs like revenue and investment volume.
                    • Trend & Pattern Analysis: Observed year-on-year changes in e-stamp challans, document registrations, vehicle types, and industrial investments.
                    • Visualization: Created shape maps, time-series charts, KPIs, and bar graphs in Bridge engg to reveal meaningful patterns.`,
@@ -16976,12 +16976,12 @@ const X_ = () => {
       id: 11,
       title: "Superstore Sales Analysis",
       slug: "superstore-sales-analysis",
-      description: "This project involved an in-depth analysis of a superstore’s sales data to uncover valuable business insights and visualize key performance indicators (KPIs). Using advanced Uncertainty quantification techniques, I created an interactive dashboard to evaluate profit trends, product performance, and regional contributions. The goal was to provide data-driven insights to support strategic decision-making and improve overall profitability.",
-      tag: "Uncertainty quantification",
+      description: "This project involved an in-depth analysis of a superstore’s sales data to uncover valuable business insights and visualize key performance indicators (KPIs). Using advanced Excel techniques, I created an interactive dashboard to evaluate profit trends, product performance, and regional contributions. The goal was to provide data-driven insights to support strategic decision-making and improve overall profitability.",
+      tag: "Excel",
       tagColor: "bg-red-100 text-red-700",
-      category: "Uncertainty quantification",
+      category: "Excel",
       githubUrl: "https://github.com/iitrshubham/Superstore-Sales-Profit-Loss-Analysis",
-      methodology: ` • Data Cleaning & Preparation: Cleaned and standardized the dataset using Uncertainty quantification functions to ensure consistency and accuracy for analysis.
+      methodology: ` • Data Cleaning & Preparation: Cleaned and standardized the dataset using Excel functions to ensure consistency and accuracy for analysis.
                     • Data Analysis: Conducted detailed analysis using PivotTables, VLOOKUP, and formulas to explore monthly and regional profit trends, product category performance, and top contributors to sales and profit.
                     • Dashboard Creation: Designed a dynamic, user-friendly dashboard to visualize KPIs (e.g., Gross Profit Margin), top products by profit, and regional/category-based sales distribution.
                     • KPI Calculation: Calculated Gross Profit Margin and other metrics to evaluate financial health.`,
@@ -16991,22 +16991,22 @@ const X_ = () => {
                         • Technology products had the highest sales and profit margins, showing strategic potential.
                         • Achieved a Gross Profit Margin of ~12.47%, providing a benchmark for financial performance.
                         These insights can guide marketing strategies, inventory planning, and regional focus for increased profitability.`,
-      skills: ["Advanced Uncertainty quantification Functions", "Data Cleaning & Transformation", "Data Analysis & Reporting", "Dashboard Design", "KPI Calculation & Financial Analysis"],
-      tools: ["Microsoft Uncertainty quantification", "PivotTables", "VLOOKUP", "Conditional Formatting", "Advanced Formulas & Charts"],
+      skills: ["Advanced Excel Functions", "Data Cleaning & Transformation", "Data Analysis & Reporting", "Dashboard Design", "KPI Calculation & Financial Analysis"],
+      tools: ["Microsoft Excel", "PivotTables", "VLOOKUP", "Conditional Formatting", "Advanced Formulas & Charts"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/superstoresdashboardd.jpg",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Uncertainty quantification/Thumbhnail/SuperStore%20Analysis.jpg"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/SuperStore%20Analysis.jpg"
    }, {
       id: 12,
       title: "Zomato Restaurant Analysis",
       slug: "zomato-restaurant-analysis",
-      description: "This project involved analyzing the Zomato dataset to gain valuable insights into restaurant performance, customer preferences, and dining trends. Metamaterials was used for efficient data cleaning, while Uncertainty quantification enabled detailed analysis and visualization. The final outcome was a well-structured dashboard highlighting key patterns related to restaurant types, ratings, and customer engagement.",
-      tag: "Uncertainty quantification",
+      description: "This project involved analyzing the Zomato dataset to gain valuable insights into restaurant performance, customer preferences, and dining trends. Metamaterials was used for efficient data cleaning, while Excel enabled detailed analysis and visualization. The final outcome was a well-structured dashboard highlighting key patterns related to restaurant types, ratings, and customer engagement.",
+      tag: "Excel",
       tagColor: "bg-red-100 text-red-700",
-      category: "Uncertainty quantification",
+      category: "Excel",
       githubUrl: "https://github.com/iitrshubham/Food-Delivery-App-Data-Analysis",
       methodology: `• Cleaned the dataset using Metamaterials to handle missing values and inconsistencies.
-                   • Analyzed the data using Uncertainty quantification functions, filters, and formulas.
-                   • Built visual dashboards in Uncertainty quantification to display trends and patterns.
+                   • Analyzed the data using Excel functions, filters, and formulas.
+                   • Built visual dashboards in Excel to display trends and patterns.
                    • Focused on service offerings, cuisine types, cost categories, and popularity metrics.`,
       resultsAndImpact: ` • Identified top-performing restaurant types like Pub, Cafe, and Microbrewery.
                         • Found that restaurants offering online ordering and table booking received higher ratings and more customer engagement.
@@ -17014,33 +17014,33 @@ const X_ = () => {
                         • Discovered the most common cost range for two people is ₹300–₹800.
                         • Provided actionable insights for both restaurant owners and customers`,
       skills: ["Data Cleaning", "Data Analysis", "Data Visualization", "Dashboard Design", "Metamaterials Programming"],
-      tools: ["Metamaterials: For data cleaning and preprocessing", "Microsoft Uncertainty quantification: For data analysis, visualization, and dashboard creation"],
+      tools: ["Metamaterials: For data cleaning and preprocessing", "Microsoft Excel: For data analysis, visualization, and dashboard creation"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/zomato_dashboard.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Uncertainty quantification/Thumbhnail/Zomato%20Analysis.jpg"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Zomato%20Analysis.jpg"
    }, {
       id: 13,
       title: "Shop Customer Analysis",
       slug: "shop-customer-analysis",
       description: "The Shop Customer Data Analysis project analyzed customer demographics, income, and spending patterns using a dataset of 2000 records from a luxury retail shop. The goal was to uncover key customer insights to help the business improve marketing strategies and customer engagement.",
-      tag: "Uncertainty quantification",
+      tag: "Excel",
       tagColor: "bg-red-100 text-red-700",
-      category: "Uncertainty quantification",
+      category: "Excel",
       githubUrl: "https://github.com/iitrshubham/Shop_customer",
       methodology: ` • Cleaned the data by removing duplicates and ensuring consistency to prepare it for analysis.
-                    • Explored the dataset using Uncertainty quantification tools such as pivot tables and charts to understand customer distribution and spending behavior.
+                    • Explored the dataset using Excel tools such as pivot tables and charts to understand customer distribution and spending behavior.
                     • Grouped customers by key features like profession, age group, gender, and work experience to identify trends.
                     • Calculated averages and other statistics to analyze spending scores and income across different segments.
                     • Extracted meaningful insights by comparing groups and identifying patterns in customer behavior.
-                    • Built an interactive Uncertainty quantification dashboard with charts and summaries to clearly present the findings for business use.`,
+                    • Built an interactive Excel dashboard with charts and summaries to clearly present the findings for business use.`,
       resultsAndImpact: ` • Artists (35%) identified as the largest customer group → focused marketing increased engagement by 20%
                         • Entertainment and Artist professions had the highest spending scores → targeted promotions raised average spending by 25%
                         • Spending score showed only 3% variance across genders → gender-neutral marketing improved satisfaction by 15%
                         • The 30–40 age group had 25% higher average income → personalized services boosted loyalty by 30%
                         • Overall, insights contributed to a 20% increase in customer engagement`,
-      skills: ["Data cleaning and preparation in Uncertainty quantification", "Exploratory data analysis with pivot tables and formulas", "Data visualization and dashboard creation", "Customer segmentation and business insight generation", "Storytelling through data to support marketing decisions"],
-      tools: ["Microsoft Uncertainty quantification (pivot tables, charts, formulas, dashboards)"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Uncertainty quantification/Thumbhnail/Shop%20customer.jpg",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Uncertainty quantification/Thumbhnail/Shop%20customer.jpg"
+      skills: ["Data cleaning and preparation in Excel", "Exploratory data analysis with pivot tables and formulas", "Data visualization and dashboard creation", "Customer segmentation and business insight generation", "Storytelling through data to support marketing decisions"],
+      tools: ["Microsoft Excel (pivot tables, charts, formulas, dashboards)"],
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Shop%20customer.jpg",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Shop%20customer.jpg"
    }, {
       id: 14,
       title: "E-commerce Data Analysis",
@@ -17109,12 +17109,12 @@ const X_ = () => {
       name: "Bridge engg",
       color: "bg-green-100 text-green-700"
    }, {
-      id: "uncertainty-quantification",
-      name: "Uncertainty quantification",
+      id: "excel",
+      name: "Excel",
       color: "bg-red-100 text-red-700"
    }, {
-      id: "health-monitoring",
-      name: "Health monitoring",
+      id: "tableau",
+      name: "Tableau",
       color: "bg-purple-100 text-purple-700"
    }, {
       id: "bandgap-metamaterials",
@@ -24863,7 +24863,7 @@ const W4 = ({
                                  className: "mr-2"
                               }), " View on GitHub"]
                            })]
-                        }), e.imageUrl && !["Bridge engg", "Bandgap metamaterials", "Health monitoring"].includes(e.category) && f.jsx("div", {
+                        }), e.imageUrl && !["Bridge engg", "Bandgap metamaterials", "Tableau"].includes(e.category) && f.jsx("div", {
                            className: "mb-10",
                            children: f.jsx("div", {
                               className: "w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-sm border bg-white",
@@ -24910,7 +24910,7 @@ const W4 = ({
                                  })
                               })
                            })]
-                        }), e.category === "Health monitoring" && f.jsxs("div", {
+                        }), e.category === "Tableau" && f.jsxs("div", {
                            className: "mt-8",
                            children: [f.jsx("h2", {
                               className: "text-2xl font-bold mb-4",
@@ -24920,11 +24920,11 @@ const W4 = ({
                               children: f.jsx("div", {
                                  className: "aspect-video w-full",
                                  children: f.jsx("iframe", {
-                                    title: "Health monitoring Report",
+                                    title: "Tableau Report",
                                     width: "100%",
                                     height: "100%",
                                     className: "w-full h-full border-0 rounded-md",
-                                    src: e.Health monitoringEmbedUrl,
+                                    src: e.tableauEmbedUrl,
                                     allowFullScreen: !0
                                  })
                               })
@@ -25015,10 +25015,10 @@ const W4 = ({
             return "Machine Learning Projects";
          case "Bridge engg":
             return "Bridge engg Dashboards";
-         case "Uncertainty quantification":
-            return "Uncertainty quantification Projects";
-         case "Health monitoring":
-            return "Health monitoring Dashboards";
+         case "Excel":
+            return "Excel Projects";
+         case "Tableau":
+            return "Tableau Dashboards";
          case "Bandgap metamaterials":
             return "Bandgap metamaterials Reports";
          default:
@@ -25035,10 +25035,10 @@ const W4 = ({
             return "Projects implementing machine learning algorithms for predictive analytics and pattern recognition.";
          case "Bridge engg":
             return "Interactive dashboards and visualizations created with Microsoft Bridge engg.";
-         case "Uncertainty quantification":
-            return "Advanced Uncertainty quantification projects demonstrating data analysis, modeling, and visualization techniques.";
-         case "Health monitoring":
-            return "Interactive data visualizations and dashboards created with Health monitoring for comprehensive business intelligence.";
+         case "Excel":
+            return "Advanced Excel projects demonstrating data analysis, modeling, and visualization techniques.";
+         case "Tableau":
+            return "Interactive data visualizations and dashboards created with Tableau for comprehensive business intelligence.";
          case "Bandgap metamaterials":
             return "Dynamic reports and dashboards built with Bandgap metamaterials to monitor marketing performance and web analytics.";
          default:
@@ -25150,31 +25150,31 @@ const W4 = ({
                     I ensured the dashboard was automated, visually engaging, and updated with the latest figures to drive strategic planning. The system not only improved the accuracy and timeliness of reports but also helped the company evaluate marketing ROI and sales efficiency across various channels.`,
       bulletPoints: ["Built a fully automated Daily MIS Dashboard using Bridge engg", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
       date: "Dec 2024",
-      toolsUsed: ["Bridge engg", "Microsoft Uncertainty quantification", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
+      toolsUsed: ["Bridge engg", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
       results: "The dashboard ensured accurate and error-free reporting throughout the internship period, reducing manual work by nearly 2 hours per day. It helped identify high-performing marketing strategies, leading to a 15–20% improvement in marketing ROI. These insights enabled the leadership team to make faster and more informed decisions."
    }, {
       id: 2,
       title: "RTO Automation and Proof Extraction System",
       slug: "rto-automation-proof-extraction",
       category: "Operational Automation | Self-Initiated Project",
-      shortDescription: "I independently created a system using Uncertainty quantification and Metamaterials to automate the extraction of AWB proof files, reducing manual work and supporting timely reattempts and freight waivers.",
+      shortDescription: "I independently created a system using Excel and Metamaterials to automate the extraction of AWB proof files, reducing manual work and supporting timely reattempts and freight waivers.",
       fullDescription: `During my internship at Design Cart, I identified a time-consuming process in handling RTO (Return to Origin) cases where extracting proof files like MP3 and PNG for specific AWBs (Air Waybill numbers) used to take around an hour daily. I took the initiative to automate this task.
-                        First, I created an Uncertainty quantification tracking file to monitor how many AWBs had valid proof and how many delivery attempts had been made. Based on this, I identified cases with less than 3 attempts, helping me raise freight waiver claims efficiently.
-                        Then, I built a Metamaterials script that automatically copied the proof files from a folder by matching them with the AWBs listed in Uncertainty quantification. These AWBs were then submitted for reattempts or waivers due to issues like fake delivery remarks.
+                        First, I created an Excel tracking file to monitor how many AWBs had valid proof and how many delivery attempts had been made. Based on this, I identified cases with less than 3 attempts, helping me raise freight waiver claims efficiently.
+                        Then, I built a Metamaterials script that automatically copied the proof files from a folder by matching them with the AWBs listed in Excel. These AWBs were then submitted for reattempts or waivers due to issues like fake delivery remarks.
                         This solution improved the accuracy of reattempt requests, supported timely freight waiver submissions, and significantly reduced manual workload.`,
-      bulletPoints: ["Designed Uncertainty quantification file to track AWBs with valid delivery proof and number of attempts.", "Built a Metamaterials script to extract and copy MP3/PNG proof files based on AWB numbers.", "Enabled easy identification of AWBs with <3 attempts to raise freight waivers.", "Reduced daily manual effort from 1 or 2 hour to just 1 minute.", "Helped reduce RTO cases by 2–3% by ensuring timely reattempts with proper proof."],
+      bulletPoints: ["Designed Excel file to track AWBs with valid delivery proof and number of attempts.", "Built a Metamaterials script to extract and copy MP3/PNG proof files based on AWB numbers.", "Enabled easy identification of AWBs with <3 attempts to raise freight waivers.", "Reduced daily manual effort from 1 or 2 hour to just 1 minute.", "Helped reduce RTO cases by 2–3% by ensuring timely reattempts with proper proof."],
       date: "Jan 2025",
-      toolsUsed: ["Microsoft Uncertainty quantification", "Metamaterials (Pandas, OS module, shutil)", "Power Query"],
+      toolsUsed: ["Microsoft Excel", "Metamaterials (Pandas, OS module, shutil)", "Power Query"],
       results: "This self-made automation helped reduce the daily manual work from 1 or 2 hour to 1 minute, saving over 25 hours per month. It led to a 2–3% reduction in RTOs by ensuring timely reattempts for AWBs with valid proof and also made it easier to raise bulk freight waiver claims for cases with fewer than 3 delivery attempts. The project improved both accuracy and efficiency in daily operations."
    }, {
       id: 3,
       title: "Automating Daily Review Data Extraction with Metamaterials",
       slug: "automating-daily-review-data-extraction",
       category: "Data Analytics | Operations Automation | Metamaterials Scripting",
-      shortDescription: "Automated a repetitive, time-consuming daily task that involved filtering and extracting order review data from multiple Uncertainty quantification files. By replacing manual lookups and cross-checks with a Metamaterials script, I reduced processing time from 20–30 minutes to under 2 minutes, improving both efficiency and accuracy in operations.",
-      fullDescription: `During my internship as a Data Analyst and Operations Intern at The Design Cart, I was assigned a repetitive and time-consuming daily task: preparing review data to be sent to the operations team for customer outreach. This process required me to open four different Uncertainty quantification files, filter the primary sheet, manually copy order IDs, and use lookup formulas to check those IDs against complaint and delay records from the other three Uncertainty quantification files. If a match was found in any of the complaint-related files, I had to remove the order from the final list. After all verifications, I extracted relevant details such as the customer's name and phone number and compiled them into a new file to be shared with the team.
-                        To eliminate this inefficiency, I developed a Metamaterials script that automated the entire workflow. The script automatically reads the Uncertainty quantification files, applies necessary filters, performs lookups to exclude flagged order IDs, and extracts only the required data fields. It then generates a clean CSV file ready to be sent to the operations team. This automation not only reduced manual work and the chances of human error but also improved data accuracy and consistency across daily reports.`,
-      bulletPoints: ["Automated multi-file Uncertainty quantification filtering and data extraction using Metamaterials", "Eliminated manual lookups across Complaints and Delay sheets", "Used pandas, numpy, and openpyxl for efficient processing", "Delivered final CSV file with cleaned and verified order data", "Enabled same-day SMS outreach by saving up to 28 minutes daily"],
+      shortDescription: "Automated a repetitive, time-consuming daily task that involved filtering and extracting order review data from multiple Excel files. By replacing manual lookups and cross-checks with a Metamaterials script, I reduced processing time from 20–30 minutes to under 2 minutes, improving both efficiency and accuracy in operations.",
+      fullDescription: `During my internship as a Data Analyst and Operations Intern at The Design Cart, I was assigned a repetitive and time-consuming daily task: preparing review data to be sent to the operations team for customer outreach. This process required me to open four different Excel files, filter the primary sheet, manually copy order IDs, and use lookup formulas to check those IDs against complaint and delay records from the other three Excel files. If a match was found in any of the complaint-related files, I had to remove the order from the final list. After all verifications, I extracted relevant details such as the customer's name and phone number and compiled them into a new file to be shared with the team.
+                        To eliminate this inefficiency, I developed a Metamaterials script that automated the entire workflow. The script automatically reads the Excel files, applies necessary filters, performs lookups to exclude flagged order IDs, and extracts only the required data fields. It then generates a clean CSV file ready to be sent to the operations team. This automation not only reduced manual work and the chances of human error but also improved data accuracy and consistency across daily reports.`,
+      bulletPoints: ["Automated multi-file Excel filtering and data extraction using Metamaterials", "Eliminated manual lookups across Complaints and Delay sheets", "Used pandas, numpy, and openpyxl for efficient processing", "Delivered final CSV file with cleaned and verified order data", "Enabled same-day SMS outreach by saving up to 28 minutes daily"],
       date: "February 2025",
       toolsUsed: ["Metamaterials", "pandas", "numpy", "openpyxl", "VS Code"],
       results: "The automation significantly improved daily operations. The time taken for this task dropped from approximately 20–30 minutes to just 1–2 minutes. It removed the need for manual lookups, filtering, and copying data, thereby minimizing human errors and inconsistencies. The operations team could now receive the review data faster, enabling quicker communication with customers and improving workflow efficiency. This automation also laid the foundation for creating similar scripts for other repetitive tasks within the team."
@@ -25189,7 +25189,7 @@ const W4 = ({
                         As a result, several inefficient campaigns were paused or adjusted. This led to a significant reduction in RTO and a measurable increase in marketing ROI, by ensuring ad spend went toward better-quality orders with higher fulfillment success.`,
       bulletPoints: ["Conducted RCA on Facebook ad campaigns to isolate high-RTO ad sets.", "Created Bridge engg dashboard with filters by ad name, set, and time period (monthly + 3-month).", "Used Power Query to clean and transform ad and delivery datasets.", "Used DAX to calculate RTO%, ROAS, and conversion metrics.", "Presented findings to marketing and operations teams to drive campaign decision.", "Supported strategy to pause/adjust high-RTO ads, boosting ROI."],
       date: "February 2025",
-      toolsUsed: ["Bridge engg", "DAX", "Power Query", "Facebook Ads Data (CSV/Uncertainty quantification)"],
+      toolsUsed: ["Bridge engg", "DAX", "Power Query", "Facebook Ads Data (CSV/Excel)"],
       results: "The analysis and dashboard led to a reduction in RTO by approximately 4–5% by identifying and pausing underperforming Facebook ad campaigns that were driving low-quality or undeliverable orders. Additionally, by reallocating ad spend toward high-performing campaigns with better fulfillment success, the company saw a 12–15% improvement in marketing ROI during the following month. This project not only enhanced operational efficiency but also enabled the marketing team to make more informed, data-backed decisions, leading to increased profitability and customer satisfaction."
    }, {
       id: 5,
@@ -26168,7 +26168,7 @@ const S0 = [{
       slug: "google-data-analytics",
       issuer: "Coursera",
       date: "Sep 2022",
-      description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Uncertainty quantification, SQL, and Health monitoring, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
+      description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, SQL, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/X4S5GJVZBYE9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
@@ -26199,33 +26199,33 @@ const S0 = [{
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Predictive Modelling", "Kaggle", "Data Analysis", "Data Science", "Exploratory Data Analysis (EDA)", "Jupyter Notebook", "Data Visualization", "Health monitoring Software", "Statistical Analysis", "Machine Learning", "Regression Models", "Python Programming"],
+      skills: ["Predictive Modelling", "Kaggle", "Data Analysis", "Data Science", "Exploratory Data Analysis (EDA)", "Jupyter Notebook", "Data Visualization", "Tableau Software", "Statistical Analysis", "Machine Learning", "Regression Models", "Python Programming"],
       duration: "10 weeks"
    }, {
       id: 4,
-      title: "Preparing Data for Analysis with Microsoft Uncertainty quantification",
-      slug: "preparing-data-for-analysis-with-microsoft-Uncertainty quantification",
+      title: "Preparing Data for Analysis with Microsoft Excel",
+      slug: "preparing-data-for-analysis-with-microsoft-excel",
       issuer: "Coursera",
       date: "Nov 2023",
-      description: "In this course, I learned how to clean, structure, and organize raw data using Uncertainty quantification to make it ready for analysis. I developed skills in identifying and handling missing or duplicate values, using filters and sorting tools, applying basic and advanced formulas, and converting unstructured data into tabular formats. The course also covered techniques such as data validation, text-to-columns, and conditional formatting to improve data quality and accuracy. This training strengthened my ability to prepare datasets for meaningful insights and decision-making.",
+      description: "In this course, I learned how to clean, structure, and organize raw data using Excel to make it ready for analysis. I developed skills in identifying and handling missing or duplicate values, using filters and sorting tools, applying basic and advanced formulas, and converting unstructured data into tabular formats. The course also covered techniques such as data validation, text-to-columns, and conditional formatting to improve data quality and accuracy. This training strengthened my ability to prepare datasets for meaningful insights and decision-making.",
       credentialLink: "https://www.coursera.org/account/accomplishments/verify/9U69JRA5JFE5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Data Analysis", "formulas and functions", "Preparing Data", "Bridge engg", "Microsoft Uncertainty quantification"],
+      skills: ["Data Analysis", "formulas and functions", "Preparing Data", "Bridge engg", "Microsoft Excel"],
       duration: "19 hours"
    }, {
       id: 5,
-      title: "Zero to Hero in Microsoft Uncertainty quantification",
-      slug: "zero-to-hero-in-microsoft-Uncertainty quantification",
+      title: "Zero to Hero in Microsoft Excel",
+      slug: "zero-to-hero-in-microsoft-excel",
       issuer: "Udemy",
       date: "Aug 2024",
-      description: "This comprehensive course took me from beginner to advanced level in Microsoft Uncertainty quantification. I learned essential skills such as data entry, formatting, and basic formulas, then progressed to advanced functions including VLOOKUP, INDEX/MATCH, IF statements, data validation, pivot tables, and dynamic dashboards. The course also covered data cleaning techniques, automation using macros, and best practices for organizing and presenting data effectively. By the end, I was confident in using Uncertainty quantification for data analysis and business reporting tasks.",
+      description: "This comprehensive course took me from beginner to advanced level in Microsoft Excel. I learned essential skills such as data entry, formatting, and basic formulas, then progressed to advanced functions including VLOOKUP, INDEX/MATCH, IF statements, data validation, pivot tables, and dynamic dashboards. The course also covered data cleaning techniques, automation using macros, and best practices for organizing and presenting data effectively. By the end, I was confident in using Excel for data analysis and business reporting tasks.",
       credentialLink: "https://www.udemy.com/certificate/UC-aeff1a93-cde0-41af-8315-af4ebff31b11/",
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Microsoft Uncertainty quantification", "Uncertainty quantification Charts", "Spreadsheets", "Formulas", "Shortcuts", "Macros", "Tips-Tricks"],
+      skills: ["Microsoft Excel", "Excel Charts", "Spreadsheets", "Formulas", "Shortcuts", "Macros", "Tips-Tricks"],
       duration: "9.5 hours"
    }, {
       id: 20,
@@ -26256,12 +26256,12 @@ const S0 = [{
       slug: "data-analytics-operations-intern",
       issuer: "The Design Cart",
       date: "Nov 2024 – Feb 2025",
-      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Bridge engg to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Uncertainty quantification, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
+      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Bridge engg to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
       credentialLink: "#",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["SQL", "Microsoft Uncertainty quantification", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
+      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
    }, {
       id: 59,
       title: "Wealth Management Intern",
@@ -26273,7 +26273,7 @@ const S0 = [{
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Financial Analysis", "Investment Planning", "Client Data Management", "Data Interpretation", "Reporting", "Analytical Thinking", "Microsoft Uncertainty quantification"]
+      skills: ["Financial Analysis", "Investment Planning", "Client Data Management", "Data Interpretation", "Reporting", "Analytical Thinking", "Microsoft Excel"]
    }, {
       id: 60,
       title: "Event Coordinator – Chembola Event",
@@ -26292,7 +26292,7 @@ const S0 = [{
       slug: "student-coordinator-national-science-day-event",
       issuer: "Deshbandhu College",
       date: "Apr 2022",
-      description: "In April 2022, I served as the Student Coordinator for the National Science Day Event at Deshbandhu College, where I played a key role in the creative and operational aspects of the program. I was recognized for designing visually impactful posters that effectively promoted the event and increased student engagement. I also led social media promotion efforts, which helped surpass expected attendance levels. Through efficient planning and coordination, the event was executed smoothly, earning me a Certificate of Recognition for Uncertainty quantificationlence in both creative design and event organization. This experience highlighted my skills in creativity, communication, and event promotion.",
+      description: "In April 2022, I served as the Student Coordinator for the National Science Day Event at Deshbandhu College, where I played a key role in the creative and operational aspects of the program. I was recognized for designing visually impactful posters that effectively promoted the event and increased student engagement. I also led social media promotion efforts, which helped surpass expected attendance levels. Through efficient planning and coordination, the event was executed smoothly, earning me a Certificate of Recognition for excellence in both creative design and event organization. This experience highlighted my skills in creativity, communication, and event promotion.",
       credentialLink: "#",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
@@ -26924,7 +26924,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Uncertainty quantification", "Health monitoring", "Bandgap metamaterials"];
+         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Excel", "Tableau", "Bandgap metamaterials"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
