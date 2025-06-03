@@ -1,4 +1,4 @@
-# Zeya Mosharraf | Data Analyst Portfolio
+# Shubham | Data Analyst Portfolio
 
 Welcome to my personal portfolio!  
 This site showcases my data analyst journey, real-world projects, dashboards, case studies, certifications, and blogs — all crafted with a focus on performance, design, and accessibility.
@@ -36,10 +36,10 @@ This site showcases my data analyst journey, real-world projects, dashboards, ca
 
 ```bash
 # Clone the repository
-git clone https://github.com/ZeyaMosharraf/zeyamosharraf.github.io.git
+git clone https://github.com/Shubham/Shubham.github.io.git
 
 # Navigate into the project folder
-cd zeyamosharraf.github.io
+cd Shubham.github.io
 
 # Install dependencies
 npm install
