@@ -16884,9 +16884,9 @@ const X_ = () => {
       title: "Restaurant Analysis",
       slug: "restaurant-analysis",
       description: "The Taste of the World Cafe launched a new menu at the beginning of 2023, featuring diverse cuisine options including American, Italian, Mexican, and Asian dishes. As a newly hired Data Analyst, my goal was to evaluate customer response to this new menu by analyzing both the menu data and order history. This analysis aims to identify top-performing dishes, underperforming items, and customer preferences to inform future menu and marketing decisions.",
-      tag: "SQL",
+      tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
-      category: "SQL",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Restaurant-Order-Analysis",
       methodology: ` • Explored the menu_items table containing 32 unique items across 4 cuisines.
                     • Analyzed the order_details table with 5,370 total orders and 12,234 items ordered.
@@ -16908,9 +16908,9 @@ const X_ = () => {
       title: "Medical Analysis",
       slug: "medical-analysis",
       description: "Analyzed multiple healthcare datasets to uncover trends in hospitalization, medical checkups, and patient profiling with the goal of improving healthcare decision-making and resource allocation.",
-      tag: "SQL",
+      tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
-      category: "SQL",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Medical_dataset_analysis",
       methodology: ` • Loaded and cleaned data from three sources: hospitalisation_details, medical_examinations, and names.
                     • Handled null values, standardized column formats, and ensured data consistency using Python.
@@ -16931,9 +16931,9 @@ const X_ = () => {
       title: "Personal Loan Analysis",
       slug: "personal-loan-analysis",
       description: "This project aimed to help a bank's marketing team identify high-potential customers for personal loans using behavioral and demographic data. The focus was on deriving actionable insights that could improve conversion rates and optimize marketing costs through data-driven targeting strategies.",
-      tag: "SQL",
+      tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
-      category: "SQL",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Strategic-Marketing-for-Personal-Loans-using-SQL",
       methodology: ` • Cleaned and preprocessed raw customer data using Python (Pandas) to ensure consistency and accuracy.
                     • Loaded the cleaned dataset into a MySQL database for efficient querying and relational analysis.
@@ -17093,8 +17093,8 @@ const X_ = () => {
       name: "All Projects",
       color: "bg-gray-100 text-gray-800"
    }, {
-      id: "sql",
-      name: "SQL",
+      id: "Topology optimization",
+      name: "Topology optimization",
       color: "bg-yellow-100 text-yellow-700"
    }, {
       id: "python",
@@ -25007,8 +25007,8 @@ const W4 = ({
    },
    H4 = t => {
       switch (t) {
-         case "SQL":
-            return "SQL Projects";
+         case "Topology optimization":
+            return "Topology optimization Projects";
          case "Python":
             return "Python Projects";
          case "Machine Learning":
@@ -25027,7 +25027,7 @@ const W4 = ({
    },
    Q4 = t => {
       switch (t) {
-         case "SQL":
+         case "Topology optimization":
             return "Advanced database projects using SQL to extract, transform, and analyze data for business insights.";
          case "Python":
             return "Python-based data analysis projects using libraries like Pandas, NumPy, and Matplotlib.";
