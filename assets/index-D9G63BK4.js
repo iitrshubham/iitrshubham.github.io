@@ -16747,13 +16747,13 @@ const X_ = () => {
    },
    ro = [{
       id: 1,
-      title: "Promotion Analysis Dashboard",
-      slug: "promotion-analysis-dashboard",
-      description: "Atliq Mart, a leading retail chain with 50+ stores in South India, sought to evaluate the effectiveness of their festive season promotions (Diwali 2023 and Sankranti 2024) for private-label products. Through comprehensive analysis using SQL and Power BI, we identified that cashback and BOGOF (Buy-One-Get-One-Free) promotions drove remarkable results - generating a 211.3% increase in incremental units sold and 110% revenue growth. The analysis revealed Bengaluru and Chennai as top-performing cities, while Grocery & Staples and Home Appliances emerged as the most promotion-responsive categories. These insights enabled data-driven recommendations to optimize future campaigns, including focusing on high-performing promotion types and tailoring strategies by city and product category. The findings directly supported Atliq Mart's goal of maximizing revenue and customer engagement during peak shopping seasons.",
+      title: "Topology optimization",
+      slug: "topology-optimization",
+      description: "Topology Optimization is a computational technique used to determine the most efficient material layout within a given design space, for a given set of loads, boundary conditions, and constraints, with the goal of maximizing performance while minimizing material usage.",
       tag: "Power BI",
       tagColor: "bg-green-100 text-green-700",
       category: "Power BI",
-      githubUrl: "https://github.com/iitrshubham/Promotion-Analysis-for-Atliq-Mart",
+      githubUrl: "https://github.com/iitrshubham",
       methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
                    • Developed interactive Power BI dashboards by integrating multiple datasets, highlighting store performance, promotion impact, and product responsiveness.
                    • Maintained consistent and clean data across platforms to support dependable and data-driven decision-making.
@@ -16764,8 +16764,8 @@ const X_ = () => {
                        • Achieved a 211.3% increase in Incremental Sold Units and 110% increase in Incremental Revenue.
                        • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
       skills: ["Data Integration", "SQL Querying", "Data Visualization", "Insight Generation"],
-      tools: ["MYSQL", "Power BI"],
-      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMjYzODk0MmItNzM3ZC00M2U0LTljYjctYmMyMTRiNjEyOWIyIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=58244039dbcbb3a3e038",
+      tools: ["Gmsh", "Paraview", "FEniCS"],
+      powerBiEmbedUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Promotion%20Analysis.jpg",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Promotion%20Analysis.jpg"
    }, {
       id: 2,
