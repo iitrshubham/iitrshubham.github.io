@@ -1,79 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://sarthakskumar.com</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/about</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/accolades</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/contact</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/dashboard</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/begin-with-c-2021</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/codequiz-2021</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/conit-2024</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/discover-cisco-2023</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/github-constellation</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/hands-on-PCB-2021</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/intro-to-git-2022</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/learn-cpp-2021</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/mathbee-2022</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/open-source-india</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/pesu-io-sme</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/pychamp-2021</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/qubitrix-2023</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/events/shunya-outreach-2023</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/accorto</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/agribot-1.0</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/anuraksha-app</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/anyjob-ui-design</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/capa-for-anemia</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/conit-research</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/constraint-satisfaction</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/craftsman-management-system</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/dash-analytica</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/deal-relay-bot</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/dukaan-store</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/findmycourse</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/freshmandi-app</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/hombale-auditions-cms</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/hombale-films-salaar-army</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/i-city-mangaluru</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/ideal-home-security</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/iimb-research</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/immunodrive-india</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/iot-for-hire</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/mechanium</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/mediwise-app</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/movie-analysis-portal</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/notes-web-app</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/obstacle-avoidance-robot</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/pes-internship-portal</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/pesu-cafe</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/phoenix-vtol</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/plexi-extension</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/portfolio-2.0</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/portfolio-website-2021</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/prototypical-agriculture-system</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/quick-send-app</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/rtmp-ffmpeg</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/secure-data-transmission</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/sheets-mysql-connector</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/shunya-pes</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/smart-home-interface</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/smart-marriage-dapp</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/sominithings-site</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/swachh-bin</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/projects/trendy-bites</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/conventional-commits-readme</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/only-one-parent-element-in-jsx</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/open-graph-protocol</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/react-snippets</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/revisiting-websockets</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/schema-markup</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/secure-shell-ssh-explained</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/set-up-apache-spark-on-ubuntu-22+</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/ts-js-the-syntactical-diff</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/typescript-type-vs-interface</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/understanding-jwt</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
-<url><loc>https://sarthakskumar.com/shorts/vite-js-react-vs-cra</loc><lastmod>2025-06-03T08:07:28.849Z</lastmod><changefreq>daily</changefreq><priority>1</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://Shubham.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/about</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/contact</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/promotion-analysis-dashboard</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/mitron-bank-dashboard</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/beauty-insights</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/hr-dashboard</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/imdb-insight</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/growth-analysis-telangana</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/restaurant-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/medical-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/personal-loan-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/taxi-tip-prediction</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/superstore-sales-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/zomato-restaurant-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/shop-customer-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/ecommerce-data-analysis</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/project/credit-card-fraud-detection</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/blog/future-predictive-analytics</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/blog/interactive-dashboards-power-bi</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/blog/advanced-sql-techniques</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/blog/data-cleaning-pandas</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/google-data-analytics</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/sql</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/google-advanced-data-analytics</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/preparing-data-for-analysis-with-microsoft-excel</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/zero-to-hero-in-microsoft-excel</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/storyteller-badge-recipient-data-dna-april-2024-challenge</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/sql-developer-intern-database-consultant</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/data-analytics-operations-intern</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/wealth-management-intern</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/event-coordinator-chembola-event</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/student-coordinator-national-science-day-event</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/certificate/coordinator-for-chemistry-events</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/case-study/daily-mis-power-bi-dashboard</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/case-study/rto-automation-proof-extraction</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/case-study/automating-daily-review-data-extraction</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/case-study/facebook-ad-campaign-rto-roi-optimization</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/case-study/debugging-optimizing-stored-procedures</loc>
+  </url>
+  <url>
+    <loc>https://Shubham.github.io/case-study/stored-procedure-optimization-business-rule-validation</loc>
+  </url>
 </urlset>
