@@ -26924,7 +26924,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["SQL", "Python", "Machine Learning", "Power BI", "Excel", "Tableau", "Looker Studio"];
+         z = ["Topology optimization", "Python", "Machine Learning", "Power BI", "Excel", "Tableau", "Looker Studio"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
