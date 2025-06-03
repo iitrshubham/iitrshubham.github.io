@@ -16750,12 +16750,12 @@ const X_ = () => {
       title: "Topology optimization",
       slug: "topology-optimization",
       description: "Topology Optimization is a computational technique used to determine the most efficient material layout within a given design space, for a given set of loads, boundary conditions, and constraints, with the goal of maximizing performance while minimizing material usage.",
-      tag: "Power BI",
+      tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
-      category: "Power BI",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham",
       methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
-                   • Developed interactive Power BI dashboards by integrating multiple datasets, highlighting store performance, promotion impact, and product responsiveness.
+                   • Developed interactive Bridge engg dashboards by integrating multiple datasets, highlighting store performance, promotion impact, and product responsiveness.
                    • Maintained consistent and clean data across platforms to support dependable and data-driven decision-making.
                    • Created intuitive visualizations and KPIs to identify high-performing cities, successful promotions, and top-selling products, providing insights into pricing and operational strategies.`,
       resultsAndImpact: `• Bengaluru and Chennai were the top performers in Incremental Sold Units and Revenue, followed by Hyderabad, Coimbatore, and Mysuru.
@@ -16771,16 +16771,16 @@ const X_ = () => {
       id: 2,
       title: "Mitron Bank Dashboard",
       slug: "mitron-bank-dashboard",
-      description: "Mitron Bank, a prominent financial institution, explored launching a new line of credit cards to expand market presence. As part of a pilot project, a dataset of 4,000 customers was analyzed to uncover spending trends, segment behaviors, and city-wise performance. The project aimed to deliver data-driven recommendations for card features and targeted strategies. Using Power BI and DAX, a dynamic dashboard was developed to present the insights, which played a key role in influencing strategic decisions at the bank.",
-      tag: "Power BI",
+      description: "Mitron Bank, a prominent financial institution, explored launching a new line of credit cards to expand market presence. As part of a pilot project, a dataset of 4,000 customers was analyzed to uncover spending trends, segment behaviors, and city-wise performance. The project aimed to deliver data-driven recommendations for card features and targeted strategies. Using Bridge engg and DAX, a dynamic dashboard was developed to present the insights, which played a key role in influencing strategic decisions at the bank.",
+      tag: "Bridge engg",
       tagColor: "bg-green-100 text-green-700",
-      category: "Power BI",
+      category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/Mitron-Bank-Analysis",
       methodology: `• Analyzed demographic, income, and spending data to discover key patterns and behaviors among different customer types.
                    • Identified customer segments using visual analytics and data breakdowns by profession, marital status, and spending category.
-                   • Used DAX formulas in Power BI to calculate income utilization, spending distributions, and KPIs across cities, age groups, and segments.
+                   • Used DAX formulas in Bridge engg to calculate income utilization, spending distributions, and KPIs across cities, age groups, and segments.
                    • Performed city-wise and age-wise comparisons to tailor recommendations for regional and demographic targeting.
-                   • Presented findings in a user-friendly Power BI dashboard and summarized recommendations in a concise presentation for stakeholders.`,
+                   • Presented findings in a user-friendly Bridge engg dashboard and summarized recommendations in a concise presentation for stakeholders.`,
       resultsAndImpact: ` • Identified 4 customer segments: Salaried IT, Other Salaried, Freelancers, and Business Owners.
                         • Mumbai emerged as the most valuable city in terms of engagement and income utilization.
                         • High-spending categories included Bills, Groceries, and Electronics, ideal for targeted credit card rewards.
@@ -16788,17 +16788,17 @@ const X_ = () => {
                         • Recommended features included travel benefits, digital wallet integration, bonus rewards, flexible limits, and security enhancements.
                         • Helped secure the project for AtliQ Data Services by delivering strategic, data-driven insights to Mitron Bank’s leadership.`,
       skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
-      tools: ["Power BI (DAX)", "Microsoft PowerPoint"],
+      tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
       powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMWE0ZDVjODUtYzUzZi00ODljLTk1M2EtZDEyMWU0YzQzMzdhIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=ReportSection312009cc99025113c047",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Mitron%20Bank.jpg"
    }, {
       id: 3,
       title: "Beauty Insights",
       slug: "beauty-insights",
-      description: "This Power BI dashboard transformed decision-making for a global skincare e-store by unlocking hidden growth opportunities. By analyzing 100K+ transactions, I identified key profit drivers that delivered 50.58% YoY sales growth (exceeding targets by 2.5x) and boosted average margins to 19.14%. The interactive dashboard revealed the US market's $1.07M profit potential and uncovered high-value customer segments, enabling targeted campaigns that increased Q3 sales by 12%. My data storytelling turned complex sales data into actionable strategies that stakeholders used to optimize pricing, marketing spend, and regional expansion.",
-      tag: "Power BI",
+      description: "This Bridge engg dashboard transformed decision-making for a global skincare e-store by unlocking hidden growth opportunities. By analyzing 100K+ transactions, I identified key profit drivers that delivered 50.58% YoY sales growth (exceeding targets by 2.5x) and boosted average margins to 19.14%. The interactive dashboard revealed the US market's $1.07M profit potential and uncovered high-value customer segments, enabling targeted campaigns that increased Q3 sales by 12%. My data storytelling turned complex sales data into actionable strategies that stakeholders used to optimize pricing, marketing spend, and regional expansion.",
+      tag: "Bridge engg",
       tagColor: "bg-green-100 text-green-700",
-      category: "Power BI",
+      category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/Beauty_Insights",
       methodology: `• Integrated and cleaned data across customers, markets, products, and discounts.
                    • Segmented data by region, product category, and customer segment.
@@ -16811,7 +16811,7 @@ const X_ = () => {
                         • High-value customers like LS-172001402 highlighted the potential for customer-focused strategies.
                         • Recommended regional promotions, product line expansion, and loyalty programs to boost engagement and growth.`,
       skills: ["Sales & Market Analysis", "Customer Segmentation", "Profitability Tracking", "KPI Monitoring"],
-      tools: ["Power BI (DAX)", "Excel"],
+      tools: ["Bridge engg (DAX)", "Excel"],
       powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMDNjNWFkZjAtNmYzMy00OGViLTgyMGEtYWFlODJlZjNiMDZkIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Beauty%20analysis.jpg"
    }, {
@@ -17046,7 +17046,7 @@ const X_ = () => {
       title: "E-commerce Data Analysis",
       slug: "ecommerce-data-analysis",
       description: "This project analyzes large-scale e-commerce datasets from an international online retailer to extract actionable insights that support data-driven decision-making. The focus is on understanding customer behavior, sales performance, and product trends through systematic data analysis and visualization.",
-      tag: "bandgap-metamaterials",
+      tag: "Bandgap metamaterials",
       tagColor: "bg-indigo-100 text-indigo-700",
       category: "Bandgap metamaterials",
       githubUrl: "https://github.com/iitrshubham/Ecommerce-Business",
