@@ -16747,14 +16747,14 @@ const X_ = () => {
    },
    ro = [{
       id: 1,
-      title: "Promotion Analysis Dashboard",
-      slug: "promotion-analysis-dashboard",
-      description: "Atliq Mart, a leading retail chain with 50+ stores in South India, sought to evaluate the effectiveness of their festive season promotions (Diwali 2023 and Sankranti 2024) for private-label products. Through comprehensive analysis using SQL and Power BI, we identified that cashback and BOGOF (Buy-One-Get-One-Free) promotions drove remarkable results - generating a 211.3% increase in incremental units sold and 110% revenue growth. The analysis revealed Bengaluru and Chennai as top-performing cities, while Grocery & Staples and Home Appliances emerged as the most promotion-responsive categories. These insights enabled data-driven recommendations to optimize future campaigns, including focusing on high-performing promotion types and tailoring strategies by city and product category. The findings directly supported Atliq Mart's goal of maximizing revenue and customer engagement during peak shopping seasons.",
+      title: "Topology optimization",
+      slug: "topology-optimization",
+      description: "Atliq Mart, a leading retail chain with 50+ stores in South India, sought to evaluate the effectiveness of their festive season promotions (Diwali 2023 and Sankranti 2024) for private-label products. Through comprehensive analysis using Topology optimization and Power BI, we identified that cashback and BOGOF (Buy-One-Get-One-Free) promotions drove remarkable results - generating a 211.3% increase in incremental units sold and 110% revenue growth. The analysis revealed Bengaluru and Chennai as top-performing cities, while Grocery & Staples and Home Appliances emerged as the most promotion-responsive categories. These insights enabled data-driven recommendations to optimize future campaigns, including focusing on high-performing promotion types and tailoring strategies by city and product category. The findings directly supported Atliq Mart's goal of maximizing revenue and customer engagement during peak shopping seasons.",
       tag: "Power BI",
       tagColor: "bg-green-100 text-green-700",
       category: "Power BI",
       githubUrl: "https://github.com/iitrshubham/Promotion-Analysis-for-Atliq-Mart",
-      methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
+      methodology: `• Extracted and analyzed business-critical data using advanced Topology optimization queries to ensure accuracy and reliability.
                    • Developed interactive Power BI dashboards by integrating multiple datasets, highlighting store performance, promotion impact, and product responsiveness.
                    • Maintained consistent and clean data across platforms to support dependable and data-driven decision-making.
                    • Created intuitive visualizations and KPIs to identify high-performing cities, successful promotions, and top-selling products, providing insights into pricing and operational strategies.`,
@@ -16763,8 +16763,8 @@ const X_ = () => {
                        • Grocery & Staples and Home Appliances showed the most substantial promotional lift, with standout products like Atliq Waterproof Immersion Red and Atliq High Glo 15W LED Bulb.
                        • Achieved a 211.3% increase in Incremental Sold Units and 110% increase in Incremental Revenue.
                        • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
-      skills: ["Data Integration", "SQL Querying", "Data Visualization", "Insight Generation"],
-      tools: ["MYSQL", "Power BI"],
+      skills: ["Data Integration", "Topology optimization Querying", "Data Visualization", "Insight Generation"],
+      tools: ["MYTopology optimization", "Power BI"],
       powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMjYzODk0MmItNzM3ZC00M2U0LTljYjctYmMyMTRiNjEyOWIyIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=58244039dbcbb3a3e038",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Promotion%20Analysis.jpg"
    }, {
@@ -16884,13 +16884,13 @@ const X_ = () => {
       title: "Restaurant Analysis",
       slug: "restaurant-analysis",
       description: "The Taste of the World Cafe launched a new menu at the beginning of 2023, featuring diverse cuisine options including American, Italian, Mexican, and Asian dishes. As a newly hired Data Analyst, my goal was to evaluate customer response to this new menu by analyzing both the menu data and order history. This analysis aims to identify top-performing dishes, underperforming items, and customer preferences to inform future menu and marketing decisions.",
-      tag: "SQL",
+      tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
-      category: "SQL",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Restaurant-Order-Analysis",
       methodology: ` • Explored the menu_items table containing 32 unique items across 4 cuisines.
                     • Analyzed the order_details table with 5,370 total orders and 12,234 items ordered.
-                    • Used SQL joins to combine both tables for performance insights.
+                    • Used Topology optimization joins to combine both tables for performance insights.
                     • Identified most and least ordered items based on order frequency.
                     • Analyzed the top 5 highest-spend orders and the breakdown of cuisine categories.`,
       resultsAndImpact: ` • Hamburger (American) was the most ordered item with 622 orders.
@@ -16899,55 +16899,55 @@ const X_ = () => {
                         • Top 5 high-spend orders included 26 Italian, 17 Asian, 16 Mexican, and 10 American items.
                         • Italian dishes had the highest average price at $16.75 and were featured most in premium orders.
                         • Helped identify menu strengths and weaknesses to support future promotions and pricing decisions.`,
-      skills: ["SQL (Structured Query Language)", "Data Analysis and Aggregation", "Pattern Recognition", "Business Insight Development", "Query Optimization"],
-      tools: ["SQL (language)", "MySQL Workbench (query execution and analysis)"],
+      skills: ["Topology optimization (Structured Query Language)", "Data Analysis and Aggregation", "Pattern Recognition", "Business Insight Development", "Query Optimization"],
+      tools: ["Topology optimization (language)", "MyTopology optimization Workbench (query execution and analysis)"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Restaurant%20Order%20Analysis.jpg",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Restaurant%20Analysis.jpg"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Topology optimization/Thumbhnail/Restaurant%20Analysis.jpg"
    }, {
       id: 8,
       title: "Medical Analysis",
       slug: "medical-analysis",
       description: "Analyzed multiple healthcare datasets to uncover trends in hospitalization, medical checkups, and patient profiling with the goal of improving healthcare decision-making and resource allocation.",
-      tag: "SQL",
+      tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
-      category: "SQL",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Medical_dataset_analysis",
       methodology: ` • Loaded and cleaned data from three sources: hospitalisation_details, medical_examinations, and names.
                     • Handled null values, standardized column formats, and ensured data consistency using Python.
-                    • Imported cleaned datasets into MySQL for advanced querying.
-                    • Used SQL to analyze hospitalization frequency, common diagnoses, and patient demographics.
+                    • Imported cleaned datasets into MyTopology optimization for advanced querying.
+                    • Used Topology optimization to analyze hospitalization frequency, common diagnoses, and patient demographics.
                     • Combined datasets using joins to derive multi-dimensional insights`,
       resultsAndImpact: ` • Processed and cleaned over 4,000 rows of patient and medical data.
                         • Identified top 5 most common causes of hospitalization.
                         • Found correlation between BMI and length of hospital stay.
                         • Discovered that patients aged 45–60 had the highest hospitalization rate.
                         • Helped derive actionable insights to support hospital resource planning and patient care improvements.`,
-      skills: ["Data Cleaning & Preparation", "SQL Querying & Joins", "Exploratory Data Analysis (EDA)", "Healthcare Analytics", "Insight Communication"],
-      tools: ["Python (Pandas, NumPy)", "MySQL", "MySQL Workbench", "Jupyter Notebook"],
+      skills: ["Data Cleaning & Preparation", "Topology optimization Querying & Joins", "Exploratory Data Analysis (EDA)", "Healthcare Analytics", "Insight Communication"],
+      tools: ["Python (Pandas, NumPy)", "MyTopology optimization", "MyTopology optimization Workbench", "Jupyter Notebook"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Healthcare%20analysis.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Medical%20Analysis.jpg"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Topology optimization/Thumbhnail/Medical%20Analysis.jpg"
    }, {
       id: 9,
       title: "Personal Loan Analysis",
       slug: "personal-loan-analysis",
       description: "This project aimed to help a bank's marketing team identify high-potential customers for personal loans using behavioral and demographic data. The focus was on deriving actionable insights that could improve conversion rates and optimize marketing costs through data-driven targeting strategies.",
-      tag: "SQL",
+      tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
-      category: "SQL",
-      githubUrl: "https://github.com/iitrshubham/Strategic-Marketing-for-Personal-Loans-using-SQL",
+      category: "Topology optimization",
+      githubUrl: "https://github.com/iitrshubham/Strategic-Marketing-for-Personal-Loans-using-Topology optimization",
       methodology: ` • Cleaned and preprocessed raw customer data using Python (Pandas) to ensure consistency and accuracy.
-                    • Loaded the cleaned dataset into a MySQL database for efficient querying and relational analysis.
-                    • Used SQL within Jupyter Notebook to perform deep exploratory analysis on variables such as income, education, family size, credit card usage, mortgage ownership, and personal loan acceptance.
+                    • Loaded the cleaned dataset into a MyTopology optimization database for efficient querying and relational analysis.
+                    • Used Topology optimization within Jupyter Notebook to perform deep exploratory analysis on variables such as income, education, family size, credit card usage, mortgage ownership, and personal loan acceptance.
                     • Segmented customers by financial and demographic traits to identify trends and opportunities for personalized marketing strategies.`,
       resultsAndImpact: ` • Identified customers earning 1.5× above average income, highlighting them as high-conversion potential for personal loans.
                         • Found that above-average credit card spenders were ~4 years older than the general customer base—critical for age-targeted campaigns.
                         • Mapped youngest family members by household size, revealing patterns for family-focused loan products.
                         • Segmented education levels to determine where the highest concentration of customers lies for broad campaign reach.
                         • Delivered a full pipeline—from raw data to actionable business insights—enabling smarter customer targeting and potential uplift of 25–30% in loan conversions through better segmentation.`,
-      skills: ["Data Cleaning", "SQL Querying", "Behavioral Segmentation", "Marketing Analytics"],
-      tools: ["Python", "MySQL", "Jupyter Notebook"],
+      skills: ["Data Cleaning", "Topology optimization Querying", "Behavioral Segmentation", "Marketing Analytics"],
+      tools: ["Python", "MyTopology optimization", "Jupyter Notebook"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Loan%20Analysis.jpg"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Topology optimization/Thumbhnail/Loan%20Analysis.jpg"
    }, {
       id: 10,
       title: "Taxi Tip Prediction",
@@ -17093,8 +17093,8 @@ const X_ = () => {
       name: "All Projects",
       color: "bg-gray-100 text-gray-800"
    }, {
-      id: "sql",
-      name: "SQL",
+      id: "Topology optimization",
+      name: "Topology optimization",
       color: "bg-yellow-100 text-yellow-700"
    }, {
       id: "python",
@@ -25007,8 +25007,8 @@ const W4 = ({
    },
    H4 = t => {
       switch (t) {
-         case "SQL":
-            return "SQL Projects";
+         case "Topology optimization":
+            return "Topology optimization Projects";
          case "Python":
             return "Python Projects";
          case "Machine Learning":
@@ -25027,8 +25027,8 @@ const W4 = ({
    },
    Q4 = t => {
       switch (t) {
-         case "SQL":
-            return "Advanced database projects using SQL to extract, transform, and analyze data for business insights.";
+         case "Topology optimization":
+            return "Advanced database projects using Topology optimization to extract, transform, and analyze data for business insights.";
          case "Python":
             return "Python-based data analysis projects using libraries like Pandas, NumPy, and Matplotlib.";
          case "Machine Learning":
@@ -25195,27 +25195,27 @@ const W4 = ({
       id: 5,
       title: "Debugging & Optimizing Stored Procedures for Real-Time Backend Systems",
       slug: "debugging-optimizing-stored-procedures",
-      category: "Database Development | Backend Optimization | SQL Debugging",
-      shortDescription: "Improved and debugged two MySQL stored procedures that were causing incorrect outputs on the frontend, impacting real-time API workflows for shortage and damage tracking.",
+      category: "Database Development | Backend Optimization | Topology optimization Debugging",
+      shortDescription: "Improved and debugged two MyTopology optimization stored procedures that were causing incorrect outputs on the frontend, impacting real-time API workflows for shortage and damage tracking.",
       fullDescription: `As a Database Developer Intern at Nirjai Technologies, I was responsible for debugging and optimizing two critical stored procedures used in backend operations — one for item shortages and another for storage and damage tracking. These procedures were breaking API outputs on the frontend due to logical errors and inefficient joins.
                         I started by understanding the business logic through team discussions and comparing expected frontend outputs with backend procedure logic. Then, I applied step-by-step debugging using SELECT statements and isolated the faulty sections. I refactored the code by removing unnecessary joins, correcting table relationships, and converting complex IF conditions to cleaner CASE logic.
                         For the storage and damage case, I redesigned the logic using separate UPDATE statements for each scenario, ensuring better accuracy and code clarity. Once the procedures were corrected, I collaborated with the frontend/API team to validate results and test outputs across multiple edge cases.`,
-      bulletPoints: ["Debugged MySQL stored procedures using test-driven SELECT statements.", "Replaced inefficient joins and nested IF conditions with optimized logic.", "Redesigned shortage/damage logic with clean, scalable SQL structure.", "Validated outputs with frontend/API teams through integration testing.", "Ensured real-time data accuracy and reliability across the platform."],
+      bulletPoints: ["Debugged MyTopology optimization stored procedures using test-driven SELECT statements.", "Replaced inefficient joins and nested IF conditions with optimized logic.", "Redesigned shortage/damage logic with clean, scalable Topology optimization structure.", "Validated outputs with frontend/API teams through integration testing.", "Ensured real-time data accuracy and reliability across the platform."],
       date: "April 2025",
-      toolsUsed: ["MySQL Workbench", "Stored Procedures", "SQL Debugging Techniques", "CASE Logic Optimization", "Real-time API Integration", "Developer Collaboration"],
+      toolsUsed: ["MyTopology optimization Workbench", "Stored Procedures", "Topology optimization Debugging Techniques", "CASE Logic Optimization", "Real-time API Integration", "Developer Collaboration"],
       results: "Successfully resolved all frontend/API data errors linked to the procedures, leading to 100% correct output in shortage and damage tracking. The optimizations improved code performance, reduced debugging time, and enhanced the user experience with faster, more accurate data flow."
    }, {
       id: 6,
       title: "Stored Procedure Optimization & Business Rule Validation",
       slug: "stored-procedure-optimization-business-rule-validation",
-      category: "SQL Development | Backend Optimization | Business Logic Enforcement",
+      category: "Topology optimization Development | Backend Optimization | Business Logic Enforcement",
       shortDescription: "Redesigned and optimized backend procedures to enforce business rules, validate dynamic inputs, and improve logic structure — resulting in better performance, cleaner code, and consistent API outputs.",
-      fullDescription: `During my internship as a Database Developer at Nirjai Technologies, I worked on optimizing several stored procedures responsible for backend operations across healthcare and client management systems. The original procedures were producing incorrect outputs on the frontend due to missing business rule checks and inefficient SQL logic. My first step was to understand the expected outputs through discussions with the team and API developers, then map them against the existing backend logic. I identified multiple logic gaps and structural issues that were causing failures.
-                        I improved these procedures by enforcing proper validation rules, such as checking transaction limits, verifying minimum quantity requirements, and preventing invalid entries. I introduced cleaner logic by replacing deeply nested conditions with structured CASE handling and simplified table joins to improve readability and performance. Additionally, I integrated support for structured input data using SQL functions to handle dynamic content — which was crucial for ensuring data accuracy during order creation and transaction processing.
+      fullDescription: `During my internship as a Database Developer at Nirjai Technologies, I worked on optimizing several stored procedures responsible for backend operations across healthcare and client management systems. The original procedures were producing incorrect outputs on the frontend due to missing business rule checks and inefficient Topology optimization logic. My first step was to understand the expected outputs through discussions with the team and API developers, then map them against the existing backend logic. I identified multiple logic gaps and structural issues that were causing failures.
+                        I improved these procedures by enforcing proper validation rules, such as checking transaction limits, verifying minimum quantity requirements, and preventing invalid entries. I introduced cleaner logic by replacing deeply nested conditions with structured CASE handling and simplified table joins to improve readability and performance. Additionally, I integrated support for structured input data using Topology optimization functions to handle dynamic content — which was crucial for ensuring data accuracy during order creation and transaction processing.
                         To ensure correctness, I conducted detailed tests in collaboration with the API and frontend teams. We validated results across various edge cases, confirming that the procedure outputs now aligned with business expectations. This improved both backend reliability and the user experience for the client-facing platform.`,
-      bulletPoints: ["Debugged and optimized over 5 business-critical stored procedures.", "Enforced real-world business rules like transaction caps and quantity validation.", "Integrated dynamic input handling using structured SQL techniques.", "Rewrote complex nested conditions into cleaner, scalable logic.", "Reduced the number of JOIN operations and redundant logic for performance boost.", "Ensured reliable API outputs by collaborating with frontend developers.", "Validated changes across edge cases to ensure consistent behavior.", "Documented all changes for future maintainability and handover."],
+      bulletPoints: ["Debugged and optimized over 5 business-critical stored procedures.", "Enforced real-world business rules like transaction caps and quantity validation.", "Integrated dynamic input handling using structured Topology optimization techniques.", "Rewrote complex nested conditions into cleaner, scalable logic.", "Reduced the number of JOIN operations and redundant logic for performance boost.", "Ensured reliable API outputs by collaborating with frontend developers.", "Validated changes across edge cases to ensure consistent behavior.", "Documented all changes for future maintainability and handover."],
       date: "April 2025",
-      toolsUsed: ["SQL (MySQL 8.0 / MariaDB)", "Stored Procedures", "Conditional Logic (IF, CASE)", "Structured Input Parsing", "API Integration Testing", "Developer Collaboration"],
+      toolsUsed: ["Topology optimization (MyTopology optimization 8.0 / MariaDB)", "Stored Procedures", "Conditional Logic (IF, CASE)", "Structured Input Parsing", "API Integration Testing", "Developer Collaboration"],
       results: "The optimized procedures resolved 100% of the previously reported output issues by aligning backend logic with business expectations. The code became 25–30% shorter and easier to maintain, and query performance improved by 15–20% in test environments due to simplified joins and reduced logic complexity. These changes also enabled the API team to deliver accurate and faster responses to users, strengthening backend stability and reducing manual debugging time across the team."
    }],
    w0 = ({
@@ -25515,15 +25515,15 @@ const W4 = ({
       tags: ["Power BI", "Data Visualization", "Dashboard Design", "Business Intelligence", "Interactive Reporting"]
    }, {
       id: 3,
-      title: "Advanced SQL Techniques for Data Analysis",
-      slug: "advanced-sql-techniques",
-      category: "SQL",
+      title: "Advanced Topology optimization Techniques for Data Analysis",
+      slug: "advanced-Topology optimization-techniques",
+      category: "Topology optimization",
       date: "April 15, 2025",
       author: "Shubham",
-      shortDescription: "Discover advanced SQL techniques like window functions, CTEs, and recursive queries that can transform your data analysis workflow. These methods can help you solve complex analytical problems directly in your database.",
+      shortDescription: "Discover advanced Topology optimization techniques like window functions, CTEs, and recursive queries that can transform your data analysis workflow. These methods can help you solve complex analytical problems directly in your database.",
       fullContent: `
-        <h2>Moving Beyond Basic SQL</h2>
-        <p>While basic SQL queries can get you far, mastering advanced techniques can transform your analytical capabilities. This article introduces powerful SQL features that enable complex analyses directly in your database.</p>
+        <h2>Moving Beyond Basic Topology optimization</h2>
+        <p>While basic Topology optimization queries can get you far, mastering advanced techniques can transform your analytical capabilities. This article introduces powerful Topology optimization features that enable complex analyses directly in your database.</p>
         
         <h2>Window Functions: The Game Changer</h2>
         <p>Window functions allow you to perform calculations across rows related to the current row without collapsing results through aggregation. We'll explore practical applications including running totals, moving averages, and ranking/percentiles.</p>
@@ -25537,7 +25537,7 @@ const W4 = ({
         <h2>Practical Examples</h2>
         <p>Throughout this article, we'll apply these techniques to real-world analytical challenges including cohort analysis, customer journey mapping, and inventory optimization problems.</p>
       `,
-      tags: ["SQL", "Database Analytics", "Window Functions", "Common Table Expressions", "Advanced Joins"]
+      tags: ["Topology optimization", "Database Analytics", "Window Functions", "Common Table Expressions", "Advanced Joins"]
    }, {
       id: 4,
       title: "Streamlining Data Cleaning with Pandas",
@@ -25682,7 +25682,7 @@ const W4 = ({
             const v = {
                "DATA SCIENCE": "from-blue-500 to-indigo-600",
                VISUALIZATION: "from-purple-500 to-pink-600",
-               SQL: "from-green-500 to-emerald-600",
+               Topology optimization: "from-green-500 to-emerald-600",
                PYTHON: "from-amber-500 to-red-600"
             };
             return f.jsxs(f.Fragment, {
@@ -25787,7 +25787,7 @@ const W4 = ({
                   content: "Thoughts, tutorials, and insights on data analysis, visualization, and modern techniques"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "data analysis, blog, data science, visualization, python, SQL"
+                  content: "data analysis, blog, data science, visualization, python, Topology optimization"
                }), f.jsx("meta", {
                   property: "og:title",
                   content: "Data Insights Blog | Shubham"
@@ -26168,25 +26168,25 @@ const S0 = [{
       slug: "google-data-analytics",
       issuer: "Coursera",
       date: "Sep 2022",
-      description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, SQL, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
+      description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, Topology optimization, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/X4S5GJVZBYE9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Spreadsheet Software", "Data Management", "Data Analysis", "Business Communication", "General Statistics", "Business Analysis", "Data Visualization", "SQL"],
+      skills: ["Spreadsheet Software", "Data Management", "Data Analysis", "Business Communication", "General Statistics", "Business Analysis", "Data Visualization", "Topology optimization"],
       duration: "24 weeks"
    }, {
       id: 2,
-      title: "The Structured Query Language (SQL)",
-      slug: "sql",
+      title: "The Structured Query Language (Topology optimization)",
+      slug: "Topology optimization",
       issuer: "Coursera",
       date: "Mar 2023",
-      description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
+      description: "In this course, I learned the core concepts of Topology optimization used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using Topology optimization.",
       credentialLink: "https://coursera.org/share/8012cdaf4bf6f400f250fa35eecd1f95",
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "SQL (Structured Query Language)", "Database (DBMS)"],
+      skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "Topology optimization (Structured Query Language)", "Database (DBMS)"],
       duration: "27 hours"
    }, {
       id: 3,
@@ -26194,7 +26194,7 @@ const S0 = [{
       slug: "google-advanced-data-analytics",
       issuer: "Coursera",
       date: "Apr 2023",
-      description: "This course provided in-depth training on advanced data analysis techniques using real-world tools and datasets. I gained hands-on experience in statistical analysis, data visualization, and machine learning concepts using Python, SQL, and data science libraries like Pandas, Scikit-learn, and Matplotlib. The course emphasized critical thinking, data-driven decision-making, and end-to-end project workflows—from data cleaning and exploration to model evaluation and insight communication. It helped sharpen my ability to solve complex business problems with data.",
+      description: "This course provided in-depth training on advanced data analysis techniques using real-world tools and datasets. I gained hands-on experience in statistical analysis, data visualization, and machine learning concepts using Python, Topology optimization, and data science libraries like Pandas, Scikit-learn, and Matplotlib. The course emphasized critical thinking, data-driven decision-making, and end-to-end project workflows—from data cleaning and exploration to model evaluation and insight communication. It helped sharpen my ability to solve complex business problems with data.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/PPBLPXE83AH8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof",
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
@@ -26240,28 +26240,28 @@ const S0 = [{
       skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Power BI", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
    }, {
       id: 57,
-      title: "SQL Developer Intern / Database Consultant",
-      slug: "sql-developer-intern-database-consultant",
+      title: "Topology optimization Developer Intern / Database Consultant",
+      slug: "Topology optimization-developer-intern-database-consultant",
       issuer: "Nirjai Technologies",
       date: "Mar 2025 - Apr 2025",
-      description: "As an SQL Developer Intern at Nirjai Technologies, I am responsible for managing and optimizing database systems related to pathology lab data workflows. I design robust SQL queries and contribute to solving real-time business problems through efficient database solutions and reporting systems. The internship involves regular participation in daily and weekend planning meetings, allowing me to adapt to the dynamic, fast-paced startup environment. This role has enhanced my ability to deliver under pressure while supporting the company's core data infrastructure.",
+      description: "As an Topology optimization Developer Intern at Nirjai Technologies, I am responsible for managing and optimizing database systems related to pathology lab data workflows. I design robust Topology optimization queries and contribute to solving real-time business problems through efficient database solutions and reporting systems. The internship involves regular participation in daily and weekend planning meetings, allowing me to adapt to the dynamic, fast-paced startup environment. This role has enhanced my ability to deliver under pressure while supporting the company's core data infrastructure.",
       credentialLink: "#",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["SQL", "MySQL", "PostgreSQL", "Database Management", "Problem Solving", "Reporting", "Data Workflow Design", "Startup Adaptability", "Team Collaboration"]
+      skills: ["Topology optimization", "MyTopology optimization", "PostgreTopology optimization", "Database Management", "Problem Solving", "Reporting", "Data Workflow Design", "Startup Adaptability", "Team Collaboration"]
    }, {
       id: 58,
       title: "Data Analytics & Operations Intern",
       slug: "data-analytics-operations-intern",
       issuer: "The Design Cart",
       date: "Nov 2024 – Feb 2025",
-      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Power BI to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
+      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Power BI to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged Topology optimization, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
       credentialLink: "#",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Power BI", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
+      skills: ["Topology optimization", "Microsoft Excel", "Spreadsheets", "Microsoft Power BI", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
    }, {
       id: 59,
       title: "Wealth Management Intern",
@@ -26924,7 +26924,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["SQL", "Python", "Machine Learning", "Power BI", "Excel", "Tableau", "Looker Studio"];
+         z = ["Topology optimization", "Python", "Machine Learning", "Power BI", "Excel", "Tableau", "Looker Studio"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
