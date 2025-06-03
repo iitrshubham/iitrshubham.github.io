@@ -1,9 +1,9 @@
-# Shubham | Data Analyst Portfolio
+# Shubham | Researcher Portfolio
 
 Welcome to my personal portfolio!  
 This site showcases my data analyst journey, real-world projects, dashboards, case studies, certifications, and blogs — all crafted with a focus on performance, design, and accessibility.
 
-![Portfolio Preview](./assets/og-image.png)
+
 
 ## 🚀 Features
 
@@ -36,10 +36,10 @@ This site showcases my data analyst journey, real-world projects, dashboards, ca
 
 ```bash
 # Clone the repository
-git clone https://github.com/Shubham/Shubham.github.io.git
+git clone https://github.com/iitrshubham/iitrshubham.github.io.git
 
 # Navigate into the project folder
-cd Shubham.github.io
+cd iitrshubham.github.io
 
 # Install dependencies
 npm install

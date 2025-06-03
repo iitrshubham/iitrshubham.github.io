@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://Shubham.github.io/sitemap.xml
+Sitemap: https://iitrshubham.github.io/sitemap.xml

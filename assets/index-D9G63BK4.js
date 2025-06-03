@@ -16539,7 +16539,7 @@ const X_ = () => {
                   children: [f.jsx(Te.div, {
                      variants: e,
                      className: "inline-block px-3 py-1 rounded-full bg-blue-100 text-primary text-sm font-medium",
-                     children: "Data Analyst"
+                     children: "Researcher"
                   }), f.jsxs(Te.h1, {
                      variants: e,
                      className: "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white transition-colors duration-300",
@@ -16550,7 +16550,7 @@ const X_ = () => {
                   }), f.jsx(Te.p, {
                      variants: e,
                      className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl transition-colors duration-300",
-                     children: "Hi, I'm Shubham. I help businesses make data-driven decisions through advanced analytics, interactive visualizations, and predictive modeling. With expertise in Python, SQL, Power BI, and other BI tools, I turn complex data into clear strategies that drive business growth."
+                     children: "Hi, I'm Shubham. I help engineering teams and researchers make informed decisions through advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite element methods, I transform complex physical problems into actionable insights that enhance structural performance and design innovation."
                   }), f.jsxs(Te.div, {
                      variants: e,
                      className: "flex flex-wrap gap-4 pt-4",
@@ -16587,7 +16587,7 @@ const X_ = () => {
                            className: "text-2xl"
                         })
                      }), f.jsx("a", {
-                        href: "Shubham999@gmail.com",
+                        href: "shubham.ce@sric.iitr.ac.in",
                         className: "text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors duration-300",
                         "aria-label": "Email",
                         children: f.jsx(rp, {
@@ -16618,7 +16618,7 @@ const X_ = () => {
                         children: [f.jsx("div", {
                            className: "w-40 h-40 rounded-full bg-gradient-to-r from-primary to-blue-400 shadow-md mb-6 flex items-center justify-center text-white text-5xl font-bold overflow-hidden border-4 border-white dark:border-gray-700 transition-colors duration-300",
                            children: f.jsx("img", {
-                              src: "https://raw.githubusercontent.com/Shubham/Shubham.github.io/refs/heads/main/image/profile%20image.png",
+                              src: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/profile_image.png",
                               alt: "Shubham",
                               className: "w-full h-full object-cover rounded-full"
                            })
@@ -16639,7 +16639,7 @@ const X_ = () => {
                                  className: "bg-blue-50 dark:bg-blue-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-blue-600 dark:text-blue-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "SQL & Database"
+                                    children: "FEniCS"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
                                     children: "Advanced queries & data modeling"
@@ -16648,7 +16648,7 @@ const X_ = () => {
                                  className: "bg-green-50 dark:bg-green-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-green-600 dark:text-green-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "Power BI"
+                                    children: "Ansys"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
                                     children: "Interactive dashboards & reports"
@@ -16666,7 +16666,7 @@ const X_ = () => {
                                  className: "bg-purple-50 dark:bg-purple-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-purple-600 dark:text-purple-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "Excel"
+                                    children: "Topology optimization"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
                                     children: "Advanced analytics & forecasting"
@@ -16924,7 +16924,7 @@ const X_ = () => {
                         • Helped derive actionable insights to support hospital resource planning and patient care improvements.`,
       skills: ["Data Cleaning & Preparation", "SQL Querying & Joins", "Exploratory Data Analysis (EDA)", "Healthcare Analytics", "Insight Communication"],
       tools: ["Python (Pandas, NumPy)", "MySQL", "MySQL Workbench", "Jupyter Notebook"],
-      imageUrl: "https://raw.githubusercontent.com/Shubham/Shubham.github.io/refs/heads/main/image/Healthcare%20analysis.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Healthcare%20analysis.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Medical%20Analysis.jpg"
    }, {
       id: 9,
@@ -16946,7 +16946,7 @@ const X_ = () => {
                         • Delivered a full pipeline—from raw data to actionable business insights—enabling smarter customer targeting and potential uplift of 25–30% in loan conversions through better segmentation.`,
       skills: ["Data Cleaning", "SQL Querying", "Behavioral Segmentation", "Marketing Analytics"],
       tools: ["Python", "MySQL", "Jupyter Notebook"],
-      imageUrl: "https://raw.githubusercontent.com/Shubham/Shubham.github.io/refs/heads/main/image/Personal%20loan.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Loan%20Analysis.jpg"
    }, {
       id: 10,
@@ -17015,7 +17015,7 @@ const X_ = () => {
                         • Provided actionable insights for both restaurant owners and customers`,
       skills: ["Data Cleaning", "Data Analysis", "Data Visualization", "Dashboard Design", "Python Programming"],
       tools: ["Python: For data cleaning and preprocessing", "Microsoft Excel: For data analysis, visualization, and dashboard creation"],
-      imageUrl: "https://raw.githubusercontent.com/Shubham/Shubham.github.io/refs/heads/main/image/zomato_dashboard.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/zomato_dashboard.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Zomato%20Analysis.jpg"
    }, {
       id: 13,
@@ -23987,9 +23987,9 @@ const p4 = Fa.object({
                               className: "font-medium text-gray-900 dark:text-white transition-colors duration-300",
                               children: "Email"
                            }), f.jsx("a", {
-                              href: "mailto:Shubham999@gmail.com",
+                              href: "mailto:shubham.ce@sric.iitr.ac.in",
                               className: "text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors duration-300",
-                              children: "Shubham999@gmail.com"
+                              children: "shubham.ce@sric.iitr.ac.in"
                            })]
                         })]
                      }), f.jsxs("div", {
@@ -24031,7 +24031,7 @@ const p4 = Fa.object({
                      }), f.jsxs("div", {
                         className: "flex space-x-4",
                         children: [f.jsx("a", {
-                           href: "https://www.linkedin.com/in/zeya-mosharraf/",
+                           href: "https://www.linkedin.com/in/iitrshubham/",
                            target: "_blank",
                            rel: "noopener noreferrer",
                            className: "h-12 w-12 rounded-full bg-[#0077B5] flex items-center justify-center text-white hover:bg-opacity-90 transition-opacity",
@@ -26928,15 +26928,15 @@ const m3 = () => {
                className: "flex items-center",
                children: [f.jsx("div", {
                   className: "w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center text-xl font-bold mr-2",
-                  children: "ZM"
+                  children: "S"
                }), f.jsxs("span", {
                   className: "text-2xl font-bold",
                   children: [f.jsx("span", {
                      className: "text-primary dark:text-primary",
-                     children: "Zeya"
+                     children: "Shu"
                   }), f.jsx("span", {
                      className: "text-gray-800 dark:text-gray-200",
-                     children: "Mosharraf"
+                     children: "bham"
                   })]
                })]
             }), f.jsxs("div", {
@@ -27144,10 +27144,10 @@ const m3 = () => {
                      className: "text-2xl font-bold mb-4",
                      children: [f.jsx("span", {
                         className: "text-white",
-                        children: "Zeya"
+                        children: "Shu"
                      }), f.jsx("span", {
                         className: "text-primary",
-                        children: "Mosharraf"
+                        children: "bham"
                      })]
                   }), f.jsx("p", {
                      className: "text-gray-400 dark:text-gray-300 mb-4 max-w-md transition-colors duration-300",
@@ -27164,7 +27164,7 @@ const m3 = () => {
                            className: "text-lg"
                         })
                      }), f.jsx("a", {
-                        href: "https://www.linkedin.com/in/zeya-mosharraf/",
+                        href: "https://www.linkedin.com/in/iitrshubham/",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         className: "text-gray-400 hover:text-white dark:text-gray-300 dark:hover:text-white transition-colors duration-300",
@@ -27243,7 +27243,7 @@ const m3 = () => {
                         }), f.jsx("a", {
                            href: "mailto:zeya.mosharraf@example.com",
                            className: "hover:text-white transition-colors",
-                           children: "Shubham999@gmail.com"
+                           children: "shubham.ce@sric.iitr.ac.in"
                         })]
                      }), f.jsxs("li", {
                         className: "flex items-center text-gray-400",
