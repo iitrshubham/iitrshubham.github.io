@@ -16765,7 +16765,7 @@ const X_ = () => {
                        • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
       skills: ["Data Integration", "SQL Querying", "Data Visualization", "Insight Generation"],
       tools: ["Gmsh", "Paraview", "FEniCS"],
-      powerBiEmbedUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Promotion%20Analysis.jpg"
    }, {
       id: 2,
@@ -17046,7 +17046,7 @@ const X_ = () => {
       title: "E-commerce Data Analysis",
       slug: "ecommerce-data-analysis",
       description: "This project analyzes large-scale e-commerce datasets from an international online retailer to extract actionable insights that support data-driven decision-making. The focus is on understanding customer behavior, sales performance, and product trends through systematic data analysis and visualization.",
-      tag: "Bandgap metamaterials",
+      tag: "bandgap-metamaterials",
       tagColor: "bg-indigo-100 text-indigo-700",
       category: "Bandgap metamaterials",
       githubUrl: "https://github.com/iitrshubham/Ecommerce-Business",
@@ -17117,7 +17117,7 @@ const X_ = () => {
       name: "Tableau",
       color: "bg-purple-100 text-purple-700"
    }, {
-      id: "Bandgap-metamaterials",
+      id: "bandgap-metamaterials",
       name: "Bandgap metamaterials",
       color: "bg-indigo-100 text-indigo-700"
    }],
