@@ -16627,7 +16627,7 @@ const X_ = () => {
                            children: "Shubham"
                         }), f.jsx("p", {
                            className: "text-primary font-medium mb-4",
-                           children: "Data Analyst & BI Specialist"
+                           children: "FEM and Bridge Specialist"
                         }), f.jsxs("div", {
                            className: "w-full mt-4 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg transition-colors duration-300",
                            children: [f.jsx("h4", {
@@ -17235,32 +17235,38 @@ const X_ = () => {
       })
    },
    J_ = [{
-      name: "Python (Pandas, NumPy, Scikit-learn)",
-      percentage: 70
-   }, {
-      name: "SQL",
-      percentage: 85
-   }, {
-      name: "Excel (Advanced)",
+      name: "FEniCS",
       percentage: 95
    }, {
-      name: "Spread Sheet",
+      name: "Python (Pandas, NumPy, Scikit-learn)",
+      percentage: 95
+   }, {
+      name: "Ansys",
+      percentage: 95
+   }, {
+      name: "Midas Civil",
+      percentage: 95
+   }, {
+      name: "Comsol",
       percentage: 70
    }],
    eN = [{
-      name: "Power BI",
+      name: "Affinity Designer",
       percentage: 95
    }, {
-      name: "Tableau",
+      name: "Veusz",
       percentage: 90
    }, {
-      name: "Looker Studio",
+      name: "Latex",
       percentage: 85
    }, {
-      name: "Matplotlib/Seaborn",
+      name: "Paraview",
+      percentage: 85
+   }, {
+      name: "Gmsh",
       percentage: 80
    }],
-   tN = ["Power BI Dashboard Development", "Tableau Data Visualization", "Google Data Studio Reporting", "Data Storytelling", "Statistical Analysis", "Machine Learning", "Data Cleaning", "ETL Processes", "Database Management", "Data Modeling", "A/B Testing", "Regression Analysis", "Git/Version Control"],
+   tN = ["FEniCS Simulation", "Finite Element Analysis", "Computational Mechanics", "Structural Analysis", "Fracture Mechanics", "Topology Optimization", "Modal Analysis", "Phase-Field Modeling", "Metamaterials Design", "Functionally Graded Materials", "High-Performance Computing", "Uncertainty Quantification", "Python Programming", "MATLAB Scripting", "Mesh Generation", "Data Visualization", "Statistical Analysis", "Load-Displacement Analysis", "XDMF/HDF5 Data Handling", "Eigenvalue Analysis", "Git/Version Control", "Bridge Engineering", "Structural Dynamics", "Homogenization Techniques", "Predictive Modeling", "Scientific Computing"],
    nN = () => {
       const t = mb();
       b.useEffect(() => {
@@ -17327,7 +17333,7 @@ const X_ = () => {
                   variants: r,
                   children: [f.jsx("h3", {
                      className: "text-xl font-bold mb-6 text-gray-900 dark:text-white transition-colors duration-300",
-                     children: "Data Analysis & Programming"
+                     children: "Programming and analysis softwares"
                   }), f.jsx("div", {
                      className: "space-y-4",
                      children: J_.map(i => f.jsx(Zv, {
@@ -17343,7 +17349,7 @@ const X_ = () => {
                   variants: r,
                   children: [f.jsx("h3", {
                      className: "text-xl font-bold mb-6 text-gray-900 dark:text-white transition-colors duration-300",
-                     children: "Data Visualization & BI Tools"
+                     children: "Data visualization & Project management Tools"
                   }), f.jsx("div", {
                      className: "space-y-4",
                      children: eN.map(i => f.jsx(Zv, {
@@ -17517,13 +17523,13 @@ const X_ = () => {
                      children: "About Me"
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I'm a passionate Data Analyst with hands-on experience in SQL, Python, Power BI, and data visualization. I specialize in transforming raw data into meaningful insights that help businesses make smarter decisions."
+                     children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, fracture mechanics, topology optimization, and data-driven simulations for solving real-world engineering problems."
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I've worked on real-world projects across healthcare and retail domains, including analyzing pathology lab data and optimizing sales campaigns. I enjoy solving business problems through data exploration, trend analysis, and building interactive dashboards that drive impact."
+                     children: "I’ve led and contributed to multiple simulation-based projects across civil and mechanical engineering domains—ranging from fracture prediction in steel components and bridge modal analysis to the design of metamaterials for impact resistance. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "Currently, I'm focused on sharpening my database development and advanced SQL skills while preparing for full-time opportunities in data analytics and business intelligence."
+                     children: "Currently, I’m enhancing my capabilities in high-performance computing, stochastic modeling, and structural health monitoring, while actively pursuing opportunities in R&D, simulation engineering, and applied computational mechanics."
                   }), f.jsxs("div", {
                      className: "space-y-6 pt-4",
                      children: [f.jsxs("div", {
@@ -17566,10 +17572,10 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "SQL Developer / Database Consultant Intern"
+                                    children: "Senior Research Fellow"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "Nirjai Technologies, March 2025 - May 2025"
+                                    children: "DRDO-DRDL Hyderabad, August 2022 - July 2023"
                                  })]
                               })]
                            }), f.jsxs("div", {
@@ -17581,10 +17587,10 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Data Analytics & Operations Intern"
+                                    children: "Junior Research Fellow"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "The Design Cart, Nov 2024 - Feb 2025"
+                                    children: "DRDO-DRDL Hyderabad, August 2020 - August 2022"
                                  })]
                               })]
                            })]
@@ -23801,7 +23807,7 @@ const p4 = Fa.object({
          mutate: r,
          isPending: i
       } = h4({
-         mutationFn: async l => (await fetch("https://formspree.io/f/movdjglr", {
+         mutationFn: async l => (await fetch("https://formspree.io/f/xyzjyvqv", {
             method: "POST",
             headers: {
                "Content-Type": "application/json"
