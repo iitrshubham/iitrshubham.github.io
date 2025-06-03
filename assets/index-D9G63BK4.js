@@ -16819,9 +16819,9 @@ const X_ = () => {
       title: "HR Dashboard",
       slug: "hr-dashboard",
       description: "This project focused on analyzing human resource data to gain actionable insights into employee distribution, compensation, turnover, retention, and departmental trends. The goal was to help HR leadership make data-driven decisions regarding employee management and workforce planning.",
-      tag: "Power BI",
+      tag: "Bridge engg",
       tagColor: "bg-green-100 text-green-700",
-      category: "Power BI",
+      category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/Human_resources",
       methodology: `• Collected and explored structured HR data related to employee demographics, salary, bonuses, and departmental roles.
                    • Cleaned and transformed data to ensure consistency and usability for visualization.
@@ -16833,7 +16833,7 @@ const X_ = () => {
                         • Business units like Speciality Products had higher retention (93.21%), aiding in targeted employee engagement strategies.
                         • Created a dynamic HR dashboard to allow stakeholders to filter insights by year, department, gender, and more—empowering the HR team to make informed, strategic decisions.`,
       skills: ["Data Cleaning", "Data Analysis", "Dashboard Development", "KPI Tracking", "Insight Generation"],
-      tools: ["Microsoft Power BI", "Data Modeling", "DAX"],
+      tools: ["Microsoft Bridge engg", "Data Modeling", "DAX"],
       powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiYTQwOWJhOWItYjA2NC00YzZiLTk5NjktNmRlZTIxMzVjY2EyIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=ReportSection0d436829096ca5dc282e",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Hr%20Analysis.jpg"
    }, {
@@ -16841,11 +16841,11 @@ const X_ = () => {
       title: "IMDB Insight",
       slug: "imdb-insight",
       description: "This project focused on analyzing a comprehensive dataset from IMDB to uncover insights related to movie genres, revenue, budget trends, popularity, and production house performance. The goal was to create an interactive dashboard that supports data-driven decisions in the entertainment industry.",
-      tag: "Power BI",
+      tag: "Bridge engg",
       tagColor: "bg-green-100 text-green-700",
-      category: "Power BI",
+      category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/IMDB_Insight",
-      methodology: ` • Conducted data cleaning and transformation using Power Query in Power BI to handle inconsistencies, null values, and prepare data for analysis.
+      methodology: ` • Conducted data cleaning and transformation using Power Query in Bridge engg to handle inconsistencies, null values, and prepare data for analysis.
                     • Performed data modeling to define relationships between key fields such as year, genre, production house, and financial metrics.
                     • Created interactive visualizations to analyze trends in revenue and budget over time, genre popularity, and vote count distributions.
                     • Enabled drill-through capabilities to examine top-performing movies and studios over various time periods.`,
@@ -16862,21 +16862,21 @@ const X_ = () => {
       title: "Growth Analysis Telangana",
       slug: "growth-analysis-telangana",
       description: "This project analyzes Telangana’s economic and industrial growth by combining datasets from three government departments: Stamp Registration, Transportation, and TS-iPASS (Industrial Project Approvals). It focuses on trends in revenue, vehicle registrations, and sector-wise investments across districts between 2019 and 2022.",
-      tag: "Power BI",
+      tag: "Bridge engg",
       tagColor: "bg-green-100 text-green-700",
-      category: "Power BI",
+      category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/Growth-Analysis-Telangana",
       methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Excel.
                    • Segmentation: Grouped districts based on performance (High, Medium, Low) using KPIs like revenue and investment volume.
                    • Trend & Pattern Analysis: Observed year-on-year changes in e-stamp challans, document registrations, vehicle types, and industrial investments.
-                   • Visualization: Created shape maps, time-series charts, KPIs, and bar graphs in Power BI to reveal meaningful patterns.`,
+                   • Visualization: Created shape maps, time-series charts, KPIs, and bar graphs in Bridge engg to reveal meaningful patterns.`,
       resultsAndImpact: ` • High-performing districts: Hyderabad, Rangareddy, and Sangareddy showed strong growth in industrial approvals and vehicle registrations.
                         • E-Stamp usage increased by 60%, indicating improved digital adoption and governance.
                         • Vehicle trends: Petrol and diesel vehicles dominated sales, especially during autumn; electric vehicle interest peaked in spring.
                         • Top Investment Sectors: Plastic, Pharmaceuticals, and Renewable Energy attracted the highest approvals.
                         • District Categorization helped highlight regions needing more development focus, guiding policy-level decisions.`,
       skills: ["Data wrangling", "Trend & pattern analysis", "Data visualization & storytelling", "Dashboard design and layout planning"],
-      tools: ["Power BI: Dashboard creation, DAX, KPIs, custom visuals, and shape maps", "Power Query: Data transformation and shaping", "PowerPoint: Presentation of insights"],
+      tools: ["Bridge engg: Dashboard creation, DAX, KPIs, custom visuals, and shape maps", "Power Query: Data transformation and shaping", "PowerPoint: Presentation of insights"],
       powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMzRlOTQxYzAtNDIyOS00YzFkLWE5ZmMtYjI2M2UyODUwMTU5IiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Telangana%20Analysis.jpg"
    }, {
@@ -17105,8 +17105,8 @@ const X_ = () => {
       name: "Machine Learning",
       color: "bg-purple-100 text-purple-700"
    }, {
-      id: "power-bi",
-      name: "Power BI",
+      id: "bridge-engg",
+      name: "Bridge engg",
       color: "bg-green-100 text-green-700"
    }, {
       id: "excel",
@@ -24863,7 +24863,7 @@ const W4 = ({
                                  className: "mr-2"
                               }), " View on GitHub"]
                            })]
-                        }), e.imageUrl && !["Power BI", "Bandgap metamaterials", "Tableau"].includes(e.category) && f.jsx("div", {
+                        }), e.imageUrl && !["Bridge engg", "Bandgap metamaterials", "Tableau"].includes(e.category) && f.jsx("div", {
                            className: "mb-10",
                            children: f.jsx("div", {
                               className: "w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-sm border bg-white",
@@ -24873,7 +24873,7 @@ const W4 = ({
                                  className: "w-full object-cover aspect-[16/9]"
                               })
                            })
-                        }), e.category === "Power BI" && f.jsxs("div", {
+                        }), e.category === "Bridge engg" && f.jsxs("div", {
                            className: "mt-8",
                            children: [f.jsx("h2", {
                               className: "text-2xl font-bold mb-4",
@@ -24883,7 +24883,7 @@ const W4 = ({
                               children: f.jsx("div", {
                                  className: "aspect-video w-full",
                                  children: f.jsx("iframe", {
-                                    title: "Power BI Report",
+                                    title: "Bridge engg Report",
                                     width: "100%",
                                     height: "100%",
                                     className: "w-full h-full border-0 rounded-md",
@@ -25013,8 +25013,8 @@ const W4 = ({
             return "Python Projects";
          case "Machine Learning":
             return "Machine Learning Projects";
-         case "Power BI":
-            return "Power BI Dashboards";
+         case "Bridge engg":
+            return "Bridge engg Dashboards";
          case "Excel":
             return "Excel Projects";
          case "Tableau":
@@ -25033,8 +25033,8 @@ const W4 = ({
             return "Python-based data analysis projects using libraries like Pandas, NumPy, and Matplotlib.";
          case "Machine Learning":
             return "Projects implementing machine learning algorithms for predictive analytics and pattern recognition.";
-         case "Power BI":
-            return "Interactive dashboards and visualizations created with Microsoft Power BI.";
+         case "Bridge engg":
+            return "Interactive dashboards and visualizations created with Microsoft Bridge engg.";
          case "Excel":
             return "Advanced Excel projects demonstrating data analysis, modeling, and visualization techniques.";
          case "Tableau":
@@ -25142,15 +25142,15 @@ const W4 = ({
    },
    x0 = [{
       id: 1,
-      title: "Daily MIS & Power BI Dashboard for Marketing & Sales Insights",
+      title: "Daily MIS & Bridge engg Dashboard for Marketing & Sales Insights",
       slug: "daily-mis-power-bi-dashboard",
       category: "Data Analytics | Operations | Business Intelligence",
-      shortDescription: "Developed a Daily MIS and Power BI Dashboard to monitor sales, marketing, and revenue performance, enabling leadership to make fast, data-driven decisions.",
-      fullDescription: `During my internship at The Design Cart as a Data Analyst and Operations Intern, I was responsible for building a Daily MIS & Power BI Dashboard to deliver real-time insights on company performance. My task involved consolidating data from multiple sources—such as sales reports, marketing platforms, and revenue trackers—into a single dashboard that would be reviewed by leadership on a daily basis.
+      shortDescription: "Developed a Daily MIS and Bridge engg Dashboard to monitor sales, marketing, and revenue performance, enabling leadership to make fast, data-driven decisions.",
+      fullDescription: `During my internship at The Design Cart as a Data Analyst and Operations Intern, I was responsible for building a Daily MIS & Bridge engg Dashboard to deliver real-time insights on company performance. My task involved consolidating data from multiple sources—such as sales reports, marketing platforms, and revenue trackers—into a single dashboard that would be reviewed by leadership on a daily basis.
                     I ensured the dashboard was automated, visually engaging, and updated with the latest figures to drive strategic planning. The system not only improved the accuracy and timeliness of reports but also helped the company evaluate marketing ROI and sales efficiency across various channels.`,
-      bulletPoints: ["Built a fully automated Daily MIS Dashboard using Power BI", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
+      bulletPoints: ["Built a fully automated Daily MIS Dashboard using Bridge engg", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
       date: "Dec 2024",
-      toolsUsed: ["Power BI", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
+      toolsUsed: ["Bridge engg", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
       results: "The dashboard ensured accurate and error-free reporting throughout the internship period, reducing manual work by nearly 2 hours per day. It helped identify high-performing marketing strategies, leading to a 15–20% improvement in marketing ROI. These insights enabled the leadership team to make faster and more informed decisions."
    }, {
       id: 2,
@@ -25185,11 +25185,11 @@ const W4 = ({
       category: "Marketing Analytics | Root Cause Analysis | Ad Performance Optimization",
       shortDescription: "Analyzed Facebook ad campaigns to identify and eliminate high RTO contributors, resulting in reduced logistics costs and improved return on ad spend (ROAS) and overall marketing ROI.",
       fullDescription: `During my internship at The Design Cart, I conducted a Root Cause Analysis (RCA) of Facebook ad performance to identify which campaigns, ad sets, and ad names were driving the highest Return-to-Origin (RTO) rates. High RTOs led to increased logistics costs and poor delivery efficiency.
-                        I used Power BI to build an interactive dashboard with monthly and 3-month comparisons, enabling the team to identify underperforming campaigns. Using Power Query for transformation and DAX for metric calculations, I provided clear visuals and KPIs that allowed the marketing and operations teams to take immediate action.
+                        I used Bridge engg to build an interactive dashboard with monthly and 3-month comparisons, enabling the team to identify underperforming campaigns. Using Power Query for transformation and DAX for metric calculations, I provided clear visuals and KPIs that allowed the marketing and operations teams to take immediate action.
                         As a result, several inefficient campaigns were paused or adjusted. This led to a significant reduction in RTO and a measurable increase in marketing ROI, by ensuring ad spend went toward better-quality orders with higher fulfillment success.`,
-      bulletPoints: ["Conducted RCA on Facebook ad campaigns to isolate high-RTO ad sets.", "Created Power BI dashboard with filters by ad name, set, and time period (monthly + 3-month).", "Used Power Query to clean and transform ad and delivery datasets.", "Used DAX to calculate RTO%, ROAS, and conversion metrics.", "Presented findings to marketing and operations teams to drive campaign decision.", "Supported strategy to pause/adjust high-RTO ads, boosting ROI."],
+      bulletPoints: ["Conducted RCA on Facebook ad campaigns to isolate high-RTO ad sets.", "Created Bridge engg dashboard with filters by ad name, set, and time period (monthly + 3-month).", "Used Power Query to clean and transform ad and delivery datasets.", "Used DAX to calculate RTO%, ROAS, and conversion metrics.", "Presented findings to marketing and operations teams to drive campaign decision.", "Supported strategy to pause/adjust high-RTO ads, boosting ROI."],
       date: "February 2025",
-      toolsUsed: ["Power BI", "DAX", "Power Query", "Facebook Ads Data (CSV/Excel)"],
+      toolsUsed: ["Bridge engg", "DAX", "Power Query", "Facebook Ads Data (CSV/Excel)"],
       results: "The analysis and dashboard led to a reduction in RTO by approximately 4–5% by identifying and pausing underperforming Facebook ad campaigns that were driving low-quality or undeliverable orders. Additionally, by reallocating ad spend toward high-performing campaigns with better fulfillment success, the company saw a 12–15% improvement in marketing ROI during the following month. This project not only enhanced operational efficiency but also enabled the marketing team to make more informed, data-backed decisions, leading to increased profitability and customer satisfaction."
    }, {
       id: 5,
@@ -25490,29 +25490,29 @@ const W4 = ({
       tags: ["Predictive Analytics", "Machine Learning", "AutoML", "Explainable AI", "Real-time Analytics"]
    }, {
       id: 2,
-      title: "Creating Interactive Dashboards with Power BI",
+      title: "Creating Interactive Dashboards with Bridge engg",
       slug: "interactive-dashboards-power-bi",
       category: "VISUALIZATION",
       date: "April 22, 2025",
       author: "Shubham",
-      shortDescription: "A comprehensive guide to building effective and visually appealing dashboards in Power BI. Learn how to create interactive visualizations that communicate complex data insights clearly to stakeholders.",
+      shortDescription: "A comprehensive guide to building effective and visually appealing dashboards in Bridge engg. Learn how to create interactive visualizations that communicate complex data insights clearly to stakeholders.",
       fullContent: `
         <h2>The Art and Science of Dashboard Design</h2>
         <p>Effective dashboards strike a careful balance between aesthetic appeal and functional clarity. This article explores the principles of dashboard design that ensure your visualizations not only look professional but also communicate insights effectively.</p>
         
         <h2>Beyond Basic Visualizations</h2>
-        <p>While Power BI offers an impressive array of built-in visualizations, the most compelling dashboards often leverage custom visuals, thoughtful color schemes, and careful attention to layout. We'll explore techniques for moving beyond the defaults to create truly distinctive reporting experiences.</p>
+        <p>While Bridge engg offers an impressive array of built-in visualizations, the most compelling dashboards often leverage custom visuals, thoughtful color schemes, and careful attention to layout. We'll explore techniques for moving beyond the defaults to create truly distinctive reporting experiences.</p>
         
         <h2>Interactive Filtering and Drill-downs</h2>
-        <p>The real power of Power BI emerges when users can explore data dynamically. This section covers advanced techniques for creating intuitive filtering experiences, implementing bookmarks, and designing effective drill-down hierarchies.</p>
+        <p>The real power of Bridge engg emerges when users can explore data dynamically. This section covers advanced techniques for creating intuitive filtering experiences, implementing bookmarks, and designing effective drill-down hierarchies.</p>
         
         <h2>Performance Optimization</h2>
         <p>As dashboards grow in complexity, performance can become a challenge. Learn essential techniques for optimizing your data models, DAX calculations, and visual interactions to ensure responsive performance even with large datasets.</p>
         
         <h2>Embedding and Sharing</h2>
-        <p>The ultimate value of dashboards comes from getting insights into the hands of decision-makers. We'll cover strategies for effectively sharing and embedding Power BI content to maximize its organizational impact.</p>
+        <p>The ultimate value of dashboards comes from getting insights into the hands of decision-makers. We'll cover strategies for effectively sharing and embedding Bridge engg content to maximize its organizational impact.</p>
       `,
-      tags: ["Power BI", "Data Visualization", "Dashboard Design", "Business Intelligence", "Interactive Reporting"]
+      tags: ["Bridge engg", "Data Visualization", "Dashboard Design", "Business Intelligence", "Interactive Reporting"]
    }, {
       id: 3,
       title: "Advanced SQL Techniques for Data Analysis",
@@ -26212,7 +26212,7 @@ const S0 = [{
       category: "course",
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Data Analysis", "formulas and functions", "Preparing Data", "power bi", "Microsoft Excel"],
+      skills: ["Data Analysis", "formulas and functions", "Preparing Data", "Bridge engg", "Microsoft Excel"],
       duration: "19 hours"
    }, {
       id: 5,
@@ -26233,11 +26233,11 @@ const S0 = [{
       slug: "storyteller-badge-recipient-data-dna-april-2024-challenge",
       issuer: "OnyxData",
       date: "Apr 2024",
-      description: "In April 2024, I was awarded the Storyteller Badge by OnyxData in the DataDNA Challenge for my IMDB Movie Analytics project. This recognition highlights my ability to communicate complex data insights effectively through compelling storytelling and visual design. The project involved analyzing a dataset of over 246,000 movies to uncover trends in genres, revenue, budget, and production house performance. Using Power BI, I conducted data cleaning with Power Query, built a strong data model, and created an interactive dashboard with drill-through features to help users explore trends by year, genre, and production company. The final dashboard revealed insights such as the dominance of Drama and Comedy genres, $728B in revenue across the dataset, and top-performing studios like Walt Disney and Warner Bros. This project not only showcased my technical skills in Power BI, DAX, and data modeling but also demonstrated my strength in data storytelling—a key reason for receiving the badge.",
+      description: "In April 2024, I was awarded the Storyteller Badge by OnyxData in the DataDNA Challenge for my IMDB Movie Analytics project. This recognition highlights my ability to communicate complex data insights effectively through compelling storytelling and visual design. The project involved analyzing a dataset of over 246,000 movies to uncover trends in genres, revenue, budget, and production house performance. Using Bridge engg, I conducted data cleaning with Power Query, built a strong data model, and created an interactive dashboard with drill-through features to help users explore trends by year, genre, and production company. The final dashboard revealed insights such as the dominance of Drama and Comedy genres, $728B in revenue across the dataset, and top-performing studios like Walt Disney and Warner Bros. This project not only showcased my technical skills in Bridge engg, DAX, and data modeling but also demonstrated my strength in data storytelling—a key reason for receiving the badge.",
       credentialLink: "#",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Power BI", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
    }, {
       id: 57,
       title: "SQL Developer Intern / Database Consultant",
@@ -26256,12 +26256,12 @@ const S0 = [{
       slug: "data-analytics-operations-intern",
       issuer: "The Design Cart",
       date: "Nov 2024 – Feb 2025",
-      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Power BI to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
+      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Bridge engg to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
       credentialLink: "#",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Power BI", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
+      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
    }, {
       id: 59,
       title: "Wealth Management Intern",
@@ -26924,7 +26924,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["Topology optimization", "Python", "Machine Learning", "Power BI", "Excel", "Tableau", "Bandgap metamaterials"];
+         z = ["Topology optimization", "Python", "Machine Learning", "Bridge engg", "Excel", "Tableau", "Bandgap metamaterials"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
