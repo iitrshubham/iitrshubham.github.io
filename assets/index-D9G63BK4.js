@@ -16913,7 +16913,7 @@ const X_ = () => {
       category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Medical_dataset_analysis",
       methodology: ` • Loaded and cleaned data from three sources: hospitalisation_details, medical_examinations, and names.
-                    • Handled null values, standardized column formats, and ensured data consistency using Python.
+                    • Handled null values, standardized column formats, and ensured data consistency using Metamaterials.
                     • Imported cleaned datasets into MySQL for advanced querying.
                     • Used SQL to analyze hospitalization frequency, common diagnoses, and patient demographics.
                     • Combined datasets using joins to derive multi-dimensional insights`,
@@ -16923,7 +16923,7 @@ const X_ = () => {
                         • Discovered that patients aged 45–60 had the highest hospitalization rate.
                         • Helped derive actionable insights to support hospital resource planning and patient care improvements.`,
       skills: ["Data Cleaning & Preparation", "SQL Querying & Joins", "Exploratory Data Analysis (EDA)", "Healthcare Analytics", "Insight Communication"],
-      tools: ["Python (Pandas, NumPy)", "MySQL", "MySQL Workbench", "Jupyter Notebook"],
+      tools: ["Metamaterials (Pandas, NumPy)", "MySQL", "MySQL Workbench", "Jupyter Notebook"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Healthcare%20analysis.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Medical%20Analysis.jpg"
    }, {
@@ -16935,7 +16935,7 @@ const X_ = () => {
       tagColor: "bg-yellow-100 text-yellow-700",
       category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham/Strategic-Marketing-for-Personal-Loans-using-SQL",
-      methodology: ` • Cleaned and preprocessed raw customer data using Python (Pandas) to ensure consistency and accuracy.
+      methodology: ` • Cleaned and preprocessed raw customer data using Metamaterials (Pandas) to ensure consistency and accuracy.
                     • Loaded the cleaned dataset into a MySQL database for efficient querying and relational analysis.
                     • Used SQL within Jupyter Notebook to perform deep exploratory analysis on variables such as income, education, family size, credit card usage, mortgage ownership, and personal loan acceptance.
                     • Segmented customers by financial and demographic traits to identify trends and opportunities for personalized marketing strategies.`,
@@ -16945,14 +16945,14 @@ const X_ = () => {
                         • Segmented education levels to determine where the highest concentration of customers lies for broad campaign reach.
                         • Delivered a full pipeline—from raw data to actionable business insights—enabling smarter customer targeting and potential uplift of 25–30% in loan conversions through better segmentation.`,
       skills: ["Data Cleaning", "SQL Querying", "Behavioral Segmentation", "Marketing Analytics"],
-      tools: ["Python", "MySQL", "Jupyter Notebook"],
+      tools: ["Metamaterials", "MySQL", "Jupyter Notebook"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/SQL/Thumbhnail/Loan%20Analysis.jpg"
    }, {
       id: 10,
       title: "Taxi Tip Prediction",
       slug: "taxi-tip-prediction",
-      description: "I developed a machine learning model aimed at predicting whether taxi passengers would give a generous tip, defined as 20% or more. This project showcased my expertise in various aspects of data science, including data preprocessing, feature engineering, and model evaluation using Python. By leveraging these skills, I was able to construct a predictive model that could provide valuable insights into customer tipping behavior in the taxi industry.",
+      description: "I developed a machine learning model aimed at predicting whether taxi passengers would give a generous tip, defined as 20% or more. This project showcased my expertise in various aspects of data science, including data preprocessing, feature engineering, and model evaluation using Metamaterials. By leveraging these skills, I was able to construct a predictive model that could provide valuable insights into customer tipping behavior in the taxi industry.",
       tag: "Machine Learning",
       tagColor: "bg-purple-100 text-purple-700",
       category: "Machine Learning",
@@ -16969,7 +16969,7 @@ const X_ = () => {
                        • The model supports the design of better driver incentive and reward systems.
                        • The project shows how machine learning can generate business insights and support data-driven decisions based on customer behavior.`,
       skills: ["Data Cleaning and Preparation", "Feature Engineering", "Model Evaluation", "Hyperparameter Tuning"],
-      tools: ["Python (Pandas, NumPy, Scikit-learn, XGBoost)", "Jupyter Notebook"],
+      tools: ["Metamaterials (Pandas, NumPy, Scikit-learn, XGBoost)", "Jupyter Notebook"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/automatidata_taxi_tip.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Machine%20Learning/Taxi%20Trip%20Machine%20Learning.jpg"
    }, {
@@ -16999,12 +16999,12 @@ const X_ = () => {
       id: 12,
       title: "Zomato Restaurant Analysis",
       slug: "zomato-restaurant-analysis",
-      description: "This project involved analyzing the Zomato dataset to gain valuable insights into restaurant performance, customer preferences, and dining trends. Python was used for efficient data cleaning, while Excel enabled detailed analysis and visualization. The final outcome was a well-structured dashboard highlighting key patterns related to restaurant types, ratings, and customer engagement.",
+      description: "This project involved analyzing the Zomato dataset to gain valuable insights into restaurant performance, customer preferences, and dining trends. Metamaterials was used for efficient data cleaning, while Excel enabled detailed analysis and visualization. The final outcome was a well-structured dashboard highlighting key patterns related to restaurant types, ratings, and customer engagement.",
       tag: "Excel",
       tagColor: "bg-red-100 text-red-700",
       category: "Excel",
       githubUrl: "https://github.com/iitrshubham/Food-Delivery-App-Data-Analysis",
-      methodology: `• Cleaned the dataset using Python to handle missing values and inconsistencies.
+      methodology: `• Cleaned the dataset using Metamaterials to handle missing values and inconsistencies.
                    • Analyzed the data using Excel functions, filters, and formulas.
                    • Built visual dashboards in Excel to display trends and patterns.
                    • Focused on service offerings, cuisine types, cost categories, and popularity metrics.`,
@@ -17013,8 +17013,8 @@ const X_ = () => {
                         • Highlighted popular cuisines such as North Indian, Chinese, and South Indian.
                         • Discovered the most common cost range for two people is ₹300–₹800.
                         • Provided actionable insights for both restaurant owners and customers`,
-      skills: ["Data Cleaning", "Data Analysis", "Data Visualization", "Dashboard Design", "Python Programming"],
-      tools: ["Python: For data cleaning and preprocessing", "Microsoft Excel: For data analysis, visualization, and dashboard creation"],
+      skills: ["Data Cleaning", "Data Analysis", "Data Visualization", "Dashboard Design", "Metamaterials Programming"],
+      tools: ["Metamaterials: For data cleaning and preprocessing", "Microsoft Excel: For data analysis, visualization, and dashboard creation"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/zomato_dashboard.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Excel/Thumbhnail/Zomato%20Analysis.jpg"
    }, {
@@ -17050,7 +17050,7 @@ const X_ = () => {
       tagColor: "bg-indigo-100 text-indigo-700",
       category: "Bandgap metamaterials",
       githubUrl: "https://github.com/iitrshubham/Ecommerce-Business",
-      methodology: ` • Handled missing values, duplicates, and formatting inconsistencies using Python (Pandas) to ensure high-quality data for analysis.
+      methodology: ` • Handled missing values, duplicates, and formatting inconsistencies using Metamaterials (Pandas) to ensure high-quality data for analysis.
                       • Analyzed key business areas such as sales trends, customer segmentation, and product performance using statistical and visual techniques.
                       • Developed interactive dashboards and visual reports using Bandgap metamaterials to present insights to stakeholders clearly.
                       • Derived strategic recommendations to improve marketing strategies, inventory control, and customer engagement based on observed data patterns.`,
@@ -17062,7 +17062,7 @@ const X_ = () => {
                           • The project analyzed sales revenue and quantity sold for each country to identify key markets.
                           • The project analyzed the variation in total quantity sold and revenue generated over different months to identify trends and seasonality in sales.`,
       skills: ["Data Cleaning and Preprocessing", "Exploratory Data Analysis (EDA)", "Data Visualization", "Business Intelligence Reporting", "Strategic Thinking and Recommendation Framing"],
-      tools: ["Python (Pandas): For data manipulation and cleaning", "Jupyter Notebook: For code development and documentation", "Bandgap metamaterials: For dashboard creation and visualization", "Git & GitHub: For version control and project collaboration"],
+      tools: ["Metamaterials (Pandas): For data manipulation and cleaning", "Jupyter Notebook: For code development and documentation", "Bandgap metamaterials: For dashboard creation and visualization", "Git & GitHub: For version control and project collaboration"],
       lookerstudioEmbedUrl: "https://lookerstudio.google.com/embed/reporting/e64b99d3-7a2b-4b14-8ab9-e7394305cddc/page/M2itD",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Looker%20Studio/Thumbhnail/Ecommerce%20Analysis.jpg"
    }, {
@@ -17070,9 +17070,9 @@ const X_ = () => {
       title: "Credit card fraud detection",
       slug: "credit-card-fraud-detection",
       description: "The Credit Card Fraud Detection project aimed to build a machine learning system that accurately identifies and prevents fraudulent transactions. Using a balanced dataset of over 550,000 anonymized European credit card transactions from 2023, the objective was to enhance security for cardholders and financial institutions by flagging suspicious activities effectively.",
-      tag: "Python",
+      tag: "Metamaterials",
       tagColor: "bg-orange-100 text-orange-700",
-      category: "Python",
+      category: "Metamaterials",
       githubUrl: "https://github.com/iitrshubham/Ecommerce-Business",
       methodology: ` • Explored and understood the dataset to identify key features and patterns.
                       • Preprocessed data by handling missing values and standardizing numerical features.
@@ -17084,7 +17084,7 @@ const X_ = () => {
                           • Demonstrated a fraud reduction rate of approximately 0.027%.
                           • Built a model capable of significantly improving real-world fraud detection systems.`,
       skills: ["Data Cleaning", "Feature Engineering", "Classification Modeling", "Evaluation", "Fraud Analysis"],
-      tools: ["Python(Pandas, NumPy)", "Matplotlib", "Seaborn", "Scikit-learn"],
+      tools: ["Metamaterials(Pandas, NumPy)", "Matplotlib", "Seaborn", "Scikit-learn"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Machine%20Learning/credit%20card%20fraud%20detection.jpg",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Machine%20Learning/credit%20card%20fraud%20detection.jpg"
    }],
@@ -17097,8 +17097,8 @@ const X_ = () => {
       name: "Topology optimization",
       color: "bg-yellow-100 text-yellow-700"
    }, {
-      id: "python",
-      name: "Python",
+      id: "metamaterials",
+      name: "Metamaterials",
       color: "bg-blue-100 text-blue-700"
    }, {
       id: "machine-learning",
@@ -25009,8 +25009,8 @@ const W4 = ({
       switch (t) {
          case "Topology optimization":
             return "Topology optimization Projects";
-         case "Python":
-            return "Python Projects";
+         case "Metamaterials":
+            return "Metamaterials Projects";
          case "Machine Learning":
             return "Machine Learning Projects";
          case "Bridge engg":
@@ -25029,8 +25029,8 @@ const W4 = ({
       switch (t) {
          case "Topology optimization":
             return "Advanced database projects using Topology optimization to extract, transform, and analyze data for business insights.";
-         case "Python":
-            return "Python-based data analysis projects using libraries like Pandas, NumPy, and Matplotlib.";
+         case "Metamaterials":
+            return "Metamaterials-based data analysis projects using libraries like Pandas, NumPy, and Matplotlib.";
          case "Machine Learning":
             return "Projects implementing machine learning algorithms for predictive analytics and pattern recognition.";
          case "Bridge engg":
@@ -25157,26 +25157,26 @@ const W4 = ({
       title: "RTO Automation and Proof Extraction System",
       slug: "rto-automation-proof-extraction",
       category: "Operational Automation | Self-Initiated Project",
-      shortDescription: "I independently created a system using Excel and Python to automate the extraction of AWB proof files, reducing manual work and supporting timely reattempts and freight waivers.",
+      shortDescription: "I independently created a system using Excel and Metamaterials to automate the extraction of AWB proof files, reducing manual work and supporting timely reattempts and freight waivers.",
       fullDescription: `During my internship at Design Cart, I identified a time-consuming process in handling RTO (Return to Origin) cases where extracting proof files like MP3 and PNG for specific AWBs (Air Waybill numbers) used to take around an hour daily. I took the initiative to automate this task.
                         First, I created an Excel tracking file to monitor how many AWBs had valid proof and how many delivery attempts had been made. Based on this, I identified cases with less than 3 attempts, helping me raise freight waiver claims efficiently.
-                        Then, I built a Python script that automatically copied the proof files from a folder by matching them with the AWBs listed in Excel. These AWBs were then submitted for reattempts or waivers due to issues like fake delivery remarks.
+                        Then, I built a Metamaterials script that automatically copied the proof files from a folder by matching them with the AWBs listed in Excel. These AWBs were then submitted for reattempts or waivers due to issues like fake delivery remarks.
                         This solution improved the accuracy of reattempt requests, supported timely freight waiver submissions, and significantly reduced manual workload.`,
-      bulletPoints: ["Designed Excel file to track AWBs with valid delivery proof and number of attempts.", "Built a Python script to extract and copy MP3/PNG proof files based on AWB numbers.", "Enabled easy identification of AWBs with <3 attempts to raise freight waivers.", "Reduced daily manual effort from 1 or 2 hour to just 1 minute.", "Helped reduce RTO cases by 2–3% by ensuring timely reattempts with proper proof."],
+      bulletPoints: ["Designed Excel file to track AWBs with valid delivery proof and number of attempts.", "Built a Metamaterials script to extract and copy MP3/PNG proof files based on AWB numbers.", "Enabled easy identification of AWBs with <3 attempts to raise freight waivers.", "Reduced daily manual effort from 1 or 2 hour to just 1 minute.", "Helped reduce RTO cases by 2–3% by ensuring timely reattempts with proper proof."],
       date: "Jan 2025",
-      toolsUsed: ["Microsoft Excel", "Python (Pandas, OS module, shutil)", "Power Query"],
+      toolsUsed: ["Microsoft Excel", "Metamaterials (Pandas, OS module, shutil)", "Power Query"],
       results: "This self-made automation helped reduce the daily manual work from 1 or 2 hour to 1 minute, saving over 25 hours per month. It led to a 2–3% reduction in RTOs by ensuring timely reattempts for AWBs with valid proof and also made it easier to raise bulk freight waiver claims for cases with fewer than 3 delivery attempts. The project improved both accuracy and efficiency in daily operations."
    }, {
       id: 3,
-      title: "Automating Daily Review Data Extraction with Python",
+      title: "Automating Daily Review Data Extraction with Metamaterials",
       slug: "automating-daily-review-data-extraction",
-      category: "Data Analytics | Operations Automation | Python Scripting",
-      shortDescription: "Automated a repetitive, time-consuming daily task that involved filtering and extracting order review data from multiple Excel files. By replacing manual lookups and cross-checks with a Python script, I reduced processing time from 20–30 minutes to under 2 minutes, improving both efficiency and accuracy in operations.",
+      category: "Data Analytics | Operations Automation | Metamaterials Scripting",
+      shortDescription: "Automated a repetitive, time-consuming daily task that involved filtering and extracting order review data from multiple Excel files. By replacing manual lookups and cross-checks with a Metamaterials script, I reduced processing time from 20–30 minutes to under 2 minutes, improving both efficiency and accuracy in operations.",
       fullDescription: `During my internship as a Data Analyst and Operations Intern at The Design Cart, I was assigned a repetitive and time-consuming daily task: preparing review data to be sent to the operations team for customer outreach. This process required me to open four different Excel files, filter the primary sheet, manually copy order IDs, and use lookup formulas to check those IDs against complaint and delay records from the other three Excel files. If a match was found in any of the complaint-related files, I had to remove the order from the final list. After all verifications, I extracted relevant details such as the customer's name and phone number and compiled them into a new file to be shared with the team.
-                        To eliminate this inefficiency, I developed a Python script that automated the entire workflow. The script automatically reads the Excel files, applies necessary filters, performs lookups to exclude flagged order IDs, and extracts only the required data fields. It then generates a clean CSV file ready to be sent to the operations team. This automation not only reduced manual work and the chances of human error but also improved data accuracy and consistency across daily reports.`,
-      bulletPoints: ["Automated multi-file Excel filtering and data extraction using Python", "Eliminated manual lookups across Complaints and Delay sheets", "Used pandas, numpy, and openpyxl for efficient processing", "Delivered final CSV file with cleaned and verified order data", "Enabled same-day SMS outreach by saving up to 28 minutes daily"],
+                        To eliminate this inefficiency, I developed a Metamaterials script that automated the entire workflow. The script automatically reads the Excel files, applies necessary filters, performs lookups to exclude flagged order IDs, and extracts only the required data fields. It then generates a clean CSV file ready to be sent to the operations team. This automation not only reduced manual work and the chances of human error but also improved data accuracy and consistency across daily reports.`,
+      bulletPoints: ["Automated multi-file Excel filtering and data extraction using Metamaterials", "Eliminated manual lookups across Complaints and Delay sheets", "Used pandas, numpy, and openpyxl for efficient processing", "Delivered final CSV file with cleaned and verified order data", "Enabled same-day SMS outreach by saving up to 28 minutes daily"],
       date: "February 2025",
-      toolsUsed: ["Python", "pandas", "numpy", "openpyxl", "VS Code"],
+      toolsUsed: ["Metamaterials", "pandas", "numpy", "openpyxl", "VS Code"],
       results: "The automation significantly improved daily operations. The time taken for this task dropped from approximately 20–30 minutes to just 1–2 minutes. It removed the need for manual lookups, filtering, and copying data, thereby minimizing human errors and inconsistencies. The operations team could now receive the review data faster, enabling quicker communication with customers and improving workflow efficiency. This automation also laid the foundation for creating similar scripts for other repetitive tasks within the team."
    }, {
       id: 4,
@@ -25542,10 +25542,10 @@ const W4 = ({
       id: 4,
       title: "Streamlining Data Cleaning with Pandas",
       slug: "data-cleaning-pandas",
-      category: "PYTHON",
+      category: "Metamaterials",
       date: "April 5, 2025",
       author: "Shubham",
-      shortDescription: "Data cleaning often consumes up to 80% of a data analyst's time. This article shares practical techniques for efficiently handling missing data, outliers, and inconsistencies using the Python Pandas library.",
+      shortDescription: "Data cleaning often consumes up to 80% of a data analyst's time. This article shares practical techniques for efficiently handling missing data, outliers, and inconsistencies using the Metamaterials Pandas library.",
       fullContent: `
         <h2>The Data Cleaning Challenge</h2>
         <p>Data cleaning remains one of the most time-consuming aspects of data analysis. This article explores efficient approaches to streamlining your data cleaning workflow using the power and flexibility of Pandas.</p>
@@ -25562,7 +25562,7 @@ const W4 = ({
         <h2>Functional Programming with Pandas</h2>
         <p>Moving beyond imperative data cleaning to functional approaches can make your code more maintainable and testable. We'll explore techniques for writing pipelines of transformations using methods like pipe, apply, and transform.</p>
       `,
-      tags: ["Python", "Pandas", "Data Cleaning", "ETL", "Data Preparation"]
+      tags: ["Metamaterials", "Pandas", "Data Cleaning", "ETL", "Data Preparation"]
    }],
    k0 = ({
       viewMode: t = "list",
@@ -26924,7 +26924,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["Topology optimization", "Python", "Machine Learning", "Bridge engg", "Excel", "Tableau", "Bandgap metamaterials"];
+         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Excel", "Tableau", "Bandgap metamaterials"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
