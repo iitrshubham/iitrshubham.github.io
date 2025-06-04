@@ -16769,25 +16769,28 @@ const X_ = () => {
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_schematic.png"
    }, {
       id: 2,
-      title: "Metamaterials",
-      slug: "metamaterials",
-      description: "Metamaterials are artificially engineered materials designed to have properties not found in naturally occurring materials. Their unique behavior arises from their structure rather than their composition. Typically, they are made from repeating units (often called "unit cells") that are smaller than the wavelength of the phenomena they are designed to influence (such as electromagnetic waves, sound, or mechanical vibrations).",
-      tag: "Metamaterials",
-      tagColor: "bg-orange-100 text-orange-700",
-      category: "Metamaterials",
+      title: "Mitron Bank Dashboard",
+      slug: "mitron-bank-dashboard",
+      description: "Mitron Bank, a prominent financial institution, explored launching a new line of credit cards to expand market presence. As part of a pilot project, a dataset of 4,000 customers was analyzed to uncover spending trends, segment behaviors, and city-wise performance. The project aimed to deliver data-driven recommendations for card features and targeted strategies. Using Bridge engg and DAX, a dynamic dashboard was developed to present the insights, which played a key role in influencing strategic decisions at the bank.",
+      tag: "Bridge engg",
+      tagColor: "bg-green-100 text-green-700",
+      category: "Bridge engg",
       githubUrl: "https://github.com/iitrshubham/Mitron-Bank-Analysis",
-      methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
-                   • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
+      methodology: `• Analyzed demographic, income, and spending data to discover key patterns and behaviors among different customer types.
+                   • Identified customer segments using visual analytics and data breakdowns by profession, marital status, and spending category.
                    • Used DAX formulas in Bridge engg to calculate income utilization, spending distributions, and KPIs across cities, age groups, and segments.
-                   • Multiphysical response: They can be designed for electromagnetic, acoustic, thermal, or mechanical responses—or combinations thereof.`,
-      resultsAndImpact: ` • Electromagnetic metamaterials (e.g., for invisibility cloaks, antennas)
-                        • Acoustic metamaterials (e.g., sound insulation, wave redirection)
-                        • Mechanical/metastructures (e.g., auxetic lattices, impact absorbers)
-                        • Thermal metamaterials (e.g., thermal cloaking, heat guiding)`,
+                   • Performed city-wise and age-wise comparisons to tailor recommendations for regional and demographic targeting.
+                   • Presented findings in a user-friendly Bridge engg dashboard and summarized recommendations in a concise presentation for stakeholders.`,
+      resultsAndImpact: ` • Identified 4 customer segments: Salaried IT, Other Salaried, Freelancers, and Business Owners.
+                        • Mumbai emerged as the most valuable city in terms of engagement and income utilization.
+                        • High-spending categories included Bills, Groceries, and Electronics, ideal for targeted credit card rewards.
+                        • Married individuals and the 25–34 age group showed the highest engagement, ideal for family-focused offerings.
+                        • Recommended features included travel benefits, digital wallet integration, bonus rewards, flexible limits, and security enhancements.
+                        • Helped secure the project for AtliQ Data Services by delivering strategic, data-driven insights to Mitron Bank’s leadership.`,
       skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
       tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/metamaterial_hsub_schematic.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_hsub_schematic.png"
+      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMWE0ZDVjODUtYzUzZi00ODljLTk1M2EtZDEyMWU0YzQzMzdhIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=ReportSection312009cc99025113c047",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Mitron%20Bank.jpg"
    }, {
       id: 3,
       title: "Beauty Insights",
