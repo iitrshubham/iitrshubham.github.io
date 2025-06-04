@@ -27104,13 +27104,13 @@ const m3 = () => {
             }), f.jsxs("button", {
                onClick: () => F("/case-studies"),
                className: `flex items-center w-full text-left py-2 ${r==="case-studies"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
-               children: [f.jsx(Sy, {
+               children: [f.jsx(by, {
                   className: `h-4 w-4 mr-2 ${r==="case-studies"?"text-primary dark:text-primary":""}`
                }), "Case Studies"]
             }), f.jsxs("button", {
                onClick: () => F("/blog"),
                className: `flex items-center w-full text-left py-2 ${r==="blog"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
-               children: [f.jsx(by, {
+               children: [f.jsx(Sy, {
                   className: `h-4 w-4 mr-2 ${r==="blog"?"text-primary dark:text-primary":""}`
                }), "Blog"]
             }), f.jsxs("div", {
