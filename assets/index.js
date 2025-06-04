@@ -16932,7 +16932,7 @@ const X_ = () => {
                   children: "Featured Projects"
                }), f.jsx("p", {
                   className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8 transition-colors duration-300",
-                  children: "A collection of data analysis projects showcasing my skills in visualization, statistical analysis, and business intelligence."
+                  children: "A collection of projects showcasing my skills."
                }), f.jsx("div", {
                   className: "flex flex-wrap justify-center gap-2 mt-6",
                   children: gf.map(m => f.jsxs("button", {
@@ -25974,7 +25974,7 @@ const S0 = [{
       slug: "i-t-s",
       issuer: "Anusandhan National Research Foundation (ANRF), Science & Engineering Research Board (SERB), Govt. of India",
       date: "2024",
-      description: "Financial grant awarded for support to present work at ICCS27 conference, Italy.",
+      description: "Financial grant awarded to present work at ICCS27 conference, Italy.",
       credentialLink: "#",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
@@ -26837,7 +26837,7 @@ const m3 = () => {
                }), f.jsxs("button", {
                   onClick: () => F("/case-studies"),
                   className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "case-studies" ? "text-primary dark:text-primary" : ""),
-                  children: [f.jsx(Sy, {
+                  children: [f.jsx(by, {
                      className: `h-4 w-4 mr-1 ${r==="case-studies"?"text-primary":""}`
                   }), "Case Studies", f.jsx("span", {
                      className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "case-studies" ? "w-full" : "w-0")
@@ -26845,7 +26845,7 @@ const m3 = () => {
                }), f.jsxs("button", {
                   onClick: () => F("/blog"),
                   className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "blog" ? "text-primary dark:text-primary" : ""),
-                  children: [f.jsx(by, {
+                  children: [f.jsx(Sy, {
                      className: `h-4 w-4 mr-1 ${r==="blog"?"text-primary":""}`
                   }), "Blog", f.jsx("span", {
                      className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "blog" ? "w-full" : "w-0")
