@@ -17054,7 +17054,7 @@ const X_ = () => {
       name: "Gmsh",
       percentage: 80
    }],
-   tN = ["FEniCS", "Finite-Element analysis", "Computational mechanics", "Structural analysis", "Topology optimization", "Modal analysis", "Metamaterials design", "Functionally graded materials", "High-performance Computing", "Uncertainty quantification", "Python", "MATLAB", "Meshing", "Data visualization", "Statistical analysis", "XDMF/HDF5 data handling", "Eigenvalue analysis", "Git/Version control", "Bridge engineering", "Structural dynamics", "Homogenization", "Predictive modeling", "Scientific computing"],
+   tN = ["FEniCS", "Finite-Element analysis", "Computational mechanics", "Structural analysis", "Adaptive mesh refinement", "Topology optimization", "Modal analysis", "Metamaterials design", "Functionally graded materials", "High-performance Computing", "Uncertainty quantification", "Python", "MATLAB", "Meshing", "Data visualization", "Statistical analysis", "XDMF/HDF5 data handling", "Eigenvalue analysis", "Git/Version control", "Bridge engineering", "Structural dynamics", "Homogenization", "Predictive modeling", "Scientific computing"],
    nN = () => {
       const t = mb();
       b.useEffect(() => {
@@ -26113,9 +26113,9 @@ const S0 = [{
       id: 16,
       title: "Reviewer",
       slug: "reviewer",
-      issuer: "Applied Mathematical Modelling journal",
+      issuer: "Applied Mathematical Modelling ",
       date: "Apr 2022-",
-      description: "In April 2023, I served as the Coordinator for Chemistry Events at Deshbandhu College, where I led the planning and execution of departmental activities. This role allowed me to apply and strengthen my project management, team collaboration, and problem-solving skills. Working closely with peers and faculty, I ensured that events ran smoothly, addressing challenges as they arose with quick thinking and adaptability. The experience enhanced my ability to communicate effectively, manage multiple responsibilities, and contribute meaningfully to a team—skills that are valuable both in academic and professional environments.",
+      description: "Q1-SCI indexed journal.",
       credentialLink: "#",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
@@ -26152,6 +26152,18 @@ const S0 = [{
       issuer: "CSIR-Central Road Research Institute, New Delhi",
       date: "2024",
       description: "Quality Assurance, Health Assessment, and Rehabilitation of Bridges.",
+      credentialLink: "#",
+      category: "extracurricular",
+      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      pdfUrl: "#",
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+   }, {
+      id: 20,
+      title: "Country visited outside India",
+      slug: "foreign-visits",
+      issuer: "UK, Italy and Switzerland",
+      date: "2023 and 2024",
+      description: "For presenting research work.",
       credentialLink: "#",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
