@@ -16977,9 +16977,9 @@ const X_ = () => {
       title: "Superstore Sales Analysis",
       slug: "superstore-sales-analysis",
       description: "This project involved an in-depth analysis of a superstore’s sales data to uncover valuable business insights and visualize key performance indicators (KPIs). Using advanced Excel techniques, I created an interactive dashboard to evaluate profit trends, product performance, and regional contributions. The goal was to provide data-driven insights to support strategic decision-making and improve overall profitability.",
-      tag: "Excel",
+      tag: "Health monitoring",
       tagColor: "bg-red-100 text-red-700",
-      category: "Excel",
+      category: "Health monitoring",
       githubUrl: "https://github.com/iitrshubham/Superstore-Sales-Profit-Loss-Analysis",
       methodology: ` • Data Cleaning & Preparation: Cleaned and standardized the dataset using Excel functions to ensure consistency and accuracy for analysis.
                     • Data Analysis: Conducted detailed analysis using PivotTables, VLOOKUP, and formulas to explore monthly and regional profit trends, product category performance, and top contributors to sales and profit.
@@ -17000,9 +17000,9 @@ const X_ = () => {
       title: "Zomato Restaurant Analysis",
       slug: "zomato-restaurant-analysis",
       description: "This project involved analyzing the Zomato dataset to gain valuable insights into restaurant performance, customer preferences, and dining trends. Metamaterials was used for efficient data cleaning, while Excel enabled detailed analysis and visualization. The final outcome was a well-structured dashboard highlighting key patterns related to restaurant types, ratings, and customer engagement.",
-      tag: "Excel",
+      tag: "Health monitoring",
       tagColor: "bg-red-100 text-red-700",
-      category: "Excel",
+      category: "Health monitoring",
       githubUrl: "https://github.com/iitrshubham/Food-Delivery-App-Data-Analysis",
       methodology: `• Cleaned the dataset using Metamaterials to handle missing values and inconsistencies.
                    • Analyzed the data using Excel functions, filters, and formulas.
@@ -17022,9 +17022,9 @@ const X_ = () => {
       title: "Shop Customer Analysis",
       slug: "shop-customer-analysis",
       description: "The Shop Customer Data Analysis project analyzed customer demographics, income, and spending patterns using a dataset of 2000 records from a luxury retail shop. The goal was to uncover key customer insights to help the business improve marketing strategies and customer engagement.",
-      tag: "Excel",
+      tag: "Health monitoring",
       tagColor: "bg-red-100 text-red-700",
-      category: "Excel",
+      category: "Health monitoring",
       githubUrl: "https://github.com/iitrshubham/Shop_customer",
       methodology: ` • Cleaned the data by removing duplicates and ensuring consistency to prepare it for analysis.
                     • Explored the dataset using Excel tools such as pivot tables and charts to understand customer distribution and spending behavior.
@@ -17109,8 +17109,8 @@ const X_ = () => {
       name: "Bridge engg",
       color: "bg-green-100 text-green-700"
    }, {
-      id: "excel",
-      name: "Excel",
+      id: "health-monitoring",
+      name: "Health monitoring",
       color: "bg-red-100 text-red-700"
    }, {
       id: "tableau",
@@ -24040,7 +24040,7 @@ const p4 = Fa.object({
                               children: "Location"
                            }), f.jsx("p", {
                               className: "text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                              children: "New Delhi, India"
+                              children: "UK, India"
                            })]
                         })]
                      }), f.jsxs("div", {
@@ -24055,7 +24055,7 @@ const p4 = Fa.object({
                               children: "Working Hours"
                            }), f.jsx("p", {
                               className: "text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                              children: "Monday - Friday, 9AM - 5PM IST"
+                              children: "Monday - Friday, 10AM - 5PM IST"
                            })]
                         })]
                      })]
@@ -25045,8 +25045,8 @@ const W4 = ({
             return "Machine Learning Projects";
          case "Bridge engg":
             return "Bridge engg Dashboards";
-         case "Excel":
-            return "Excel Projects";
+         case "Health monitoring":
+            return "Health monitoring Projects";
          case "Tableau":
             return "Tableau Dashboards";
          case "Bandgap metamaterials":
@@ -25065,8 +25065,8 @@ const W4 = ({
             return "Projects implementing machine learning algorithms for predictive analytics and pattern recognition.";
          case "Bridge engg":
             return "Interactive dashboards and visualizations created with Microsoft Bridge engg.";
-         case "Excel":
-            return "Advanced Excel projects demonstrating data analysis, modeling, and visualization techniques.";
+         case "Health monitoring":
+            return "Advanced Health monitoring projects demonstrating data analysis, modeling, and visualization techniques.";
          case "Tableau":
             return "Interactive data visualizations and dashboards created with Tableau for comprehensive business intelligence.";
          case "Bandgap metamaterials":
@@ -26954,7 +26954,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Excel", "Tableau", "Bandgap metamaterials"];
+         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Health monitoring", "Tableau", "Bandgap metamaterials"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
