@@ -16769,8 +16769,8 @@ const X_ = () => {
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_schematic.png"
    }, {
       id: 2,
-      title: "Mitron Bank Dashboard",
-      slug: "mitron-bank-dashboard",
+      title: "Metamaterials",
+      slug: "metamaterials",
       description: "Mitron Bank, a prominent financial institution, explored launching a new line of credit cards to expand market presence. As part of a pilot project, a dataset of 4,000 customers was analyzed to uncover spending trends, segment behaviors, and city-wise performance. The project aimed to deliver data-driven recommendations for card features and targeted strategies. Using Bridge engg and DAX, a dynamic dashboard was developed to present the insights, which played a key role in influencing strategic decisions at the bank.",
       tag: "Bridge engg",
       tagColor: "bg-green-100 text-green-700",
@@ -16789,8 +16789,8 @@ const X_ = () => {
                         • Helped secure the project for AtliQ Data Services by delivering strategic, data-driven insights to Mitron Bank’s leadership.`,
       skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
       tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
-      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMWE0ZDVjODUtYzUzZi00ODljLTk1M2EtZDEyMWU0YzQzMzdhIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=ReportSection312009cc99025113c047",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Mitron%20Bank.jpg"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/metamaterial_hsub_schematic.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_hsub_schematic.png"
    }, {
       id: 3,
       title: "Beauty Insights",
