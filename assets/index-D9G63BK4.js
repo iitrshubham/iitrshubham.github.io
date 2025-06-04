@@ -16765,8 +16765,8 @@ const X_ = () => {
                        • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
       skills: ["Coding", "Geometry modelling"],
       tools: ["Gmsh", "Paraview", "FEniCS"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/metamaterial_schematic.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_schematic.png"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project1.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project1.png"
    }, {
       id: 2,
       title: "Metamaterials",
@@ -16775,7 +16775,7 @@ const X_ = () => {
       tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
       category: "Metamaterials",
-      githubUrl: "https://github.com/iitrshubham/Mitron-Bank-Analysis",
+      githubUrl: "https://github.com/iitrshubham",
       methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
                    • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
                    • Multiphysical response: They can be designed for electromagnetic, acoustic, thermal, or mechanical responses—or combinations thereof.`,
@@ -16785,17 +16785,17 @@ const X_ = () => {
                         • Thermal metamaterials (e.g., thermal cloaking, heat guiding).`,
       skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
       tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/metamaterial_hsub_schematic.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_hsub_schematic.png"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png"
    }, {
       id: 3,
-      title: "Beauty Insights",
-      slug: "beauty-insights",
+      title: "Bandgap metamaterials",
+      slug: "bandgap-metamaterials",
       description: "This Bridge engg dashboard transformed decision-making for a global skincare e-store by unlocking hidden growth opportunities. By analyzing 100K+ transactions, I identified key profit drivers that delivered 50.58% YoY sales growth (exceeding targets by 2.5x) and boosted average margins to 19.14%. The interactive dashboard revealed the US market's $1.07M profit potential and uncovered high-value customer segments, enabling targeted campaigns that increased Q3 sales by 12%. My data storytelling turned complex sales data into actionable strategies that stakeholders used to optimize pricing, marketing spend, and regional expansion.",
-      tag: "Bridge engg",
+      tag: "Bandgap metamaterials",
       tagColor: "bg-green-100 text-green-700",
-      category: "Bridge engg",
-      githubUrl: "https://github.com/iitrshubham/Beauty_Insights",
+      category: "Bandgap metamaterials",
+      githubUrl: "https://github.com/iitrshubham",
       methodology: `• Integrated and cleaned data across customers, markets, products, and discounts.
                    • Segmented data by region, product category, and customer segment.
                    • Used DAX for computing YOY growth, profit margins, and discount impact.
@@ -16808,17 +16808,17 @@ const X_ = () => {
                         • Recommended regional promotions, product line expansion, and loyalty programs to boost engagement and growth.`,
       skills: ["Sales & Market Analysis", "Customer Segmentation", "Profitability Tracking", "KPI Monitoring"],
       tools: ["Bridge engg (DAX)", "Excel"],
-      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMDNjNWFkZjAtNmYzMy00OGViLTgyMGEtYWFlODJlZjNiMDZkIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Beauty%20analysis.jpg"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png"
    }, {
       id: 4,
-      title: "HR Dashboard",
-      slug: "hr-dashboard",
+      title: "Robust topology optimization",
+      slug: "robust-topology-optimization",
       description: "This project focused on analyzing human resource data to gain actionable insights into employee distribution, compensation, turnover, retention, and departmental trends. The goal was to help HR leadership make data-driven decisions regarding employee management and workforce planning.",
-      tag: "Bridge engg",
+      tag: "Uncertainty",
       tagColor: "bg-green-100 text-green-700",
-      category: "Bridge engg",
-      githubUrl: "https://github.com/iitrshubham/Human_resources",
+      category: "Uncertainty",
+      githubUrl: "https://github.com/iitrshubham",
       methodology: `• Collected and explored structured HR data related to employee demographics, salary, bonuses, and departmental roles.
                    • Cleaned and transformed data to ensure consistency and usability for visualization.
                    • Built interactive dashboards to track KPIs such as total employees, salary trends, bonus distribution, retention/turnover rates, and gender-wise employee ratios.
@@ -16830,17 +16830,17 @@ const X_ = () => {
                         • Created a dynamic HR dashboard to allow stakeholders to filter insights by year, department, gender, and more—empowering the HR team to make informed, strategic decisions.`,
       skills: ["Data Cleaning", "Data Analysis", "Dashboard Development", "KPI Tracking", "Insight Generation"],
       tools: ["Microsoft Bridge engg", "Data Modeling", "DAX"],
-      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiYTQwOWJhOWItYjA2NC00YzZiLTk5NjktNmRlZTIxMzVjY2EyIiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9&pageName=ReportSection0d436829096ca5dc282e",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Hr%20Analysis.jpg"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project4.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project4.png"
    }, {
       id: 5,
-      title: "IMDB Insight",
-      slug: "imdb-insight",
+      title: "Ellipsoid convex model",
+      slug: "ellipsoid-convex-model",
       description: "This project focused on analyzing a comprehensive dataset from IMDB to uncover insights related to movie genres, revenue, budget trends, popularity, and production house performance. The goal was to create an interactive dashboard that supports data-driven decisions in the entertainment industry.",
-      tag: "Bridge engg",
+      tag: "Uncertainty",
       tagColor: "bg-green-100 text-green-700",
-      category: "Bridge engg",
-      githubUrl: "https://github.com/iitrshubham/IMDB_Insight",
+      category: "Uncertainty",
+      githubUrl: "https://github.com/iitrshubham",
       methodology: ` • Conducted data cleaning and transformation using Power Query in Bridge engg to handle inconsistencies, null values, and prepare data for analysis.
                     • Performed data modeling to define relationships between key fields such as year, genre, production house, and financial metrics.
                     • Created interactive visualizations to analyze trends in revenue and budget over time, genre popularity, and vote count distributions.
@@ -16851,17 +16851,17 @@ const X_ = () => {
                         • Delivered a user-friendly dashboard that empowers users to explore trends by year, genre, and production company with just a few clicks.`,
       skills: ["Data Cleaning (Power Query)", "Data Modeling", "DAX, Dashboard Design", "Trend Analysis"],
       tools: ["Power Query", "Data Model", "DAX", "Visualization"],
-      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiYTFkZTRlM2QtZjcyZS00OTAwLWFlMmQtNmU2ZGUwYTE3MzI5IiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/IMDB%20Analysis.jpg"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project5.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project5.png"
    }, {
       id: 6,
-      title: "Growth Analysis Telangana",
-      slug: "growth-analysis-telangana",
+      title: "Extreme metamaterials design by topology optimization",
+      slug: "extreme-metamaterials-design-by-topology-optimization",
       description: "This project analyzes Telangana’s economic and industrial growth by combining datasets from three government departments: Stamp Registration, Transportation, and TS-iPASS (Industrial Project Approvals). It focuses on trends in revenue, vehicle registrations, and sector-wise investments across districts between 2019 and 2022.",
-      tag: "Bridge engg",
+      tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
-      category: "Bridge engg",
-      githubUrl: "https://github.com/iitrshubham/Growth-Analysis-Telangana",
+      category: "Metamaterails",
+      githubUrl: "https://github.com/iitrshubham",
       methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Excel.
                    • Segmentation: Grouped districts based on performance (High, Medium, Low) using KPIs like revenue and investment volume.
                    • Trend & Pattern Analysis: Observed year-on-year changes in e-stamp challans, document registrations, vehicle types, and industrial investments.
@@ -16873,8 +16873,8 @@ const X_ = () => {
                         • District Categorization helped highlight regions needing more development focus, guiding policy-level decisions.`,
       skills: ["Data wrangling", "Trend & pattern analysis", "Data visualization & storytelling", "Dashboard design and layout planning"],
       tools: ["Bridge engg: Dashboard creation, DAX, KPIs, custom visuals, and shape maps", "Power Query: Data transformation and shaping", "PowerPoint: Presentation of insights"],
-      powerBiEmbedUrl: "https://app.powerbi.com/view?r=eyJrIjoiMzRlOTQxYzAtNDIyOS00YzFkLWE5ZmMtYjI2M2UyODUwMTU5IiwidCI6ImJhZTllNjhmLWIzZWQtNGQzZC05NjViLTJjMGE5Y2RjZWJjZCJ9",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Telangana%20Analysis.jpg"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project6.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project6.png"
    }],
    gf = [{
       id: "all",
