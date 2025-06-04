@@ -16751,7 +16751,7 @@ const X_ = () => {
       slug: "topology-optimization",
       description: "Topology Optimization is a computational technique used to determine the most efficient material layout within a given design space, for a given set of loads, boundary conditions, and constraints, with the goal of maximizing performance while minimizing material usage.",
       tag: "Topology optimization",
-      tagColor: "bg-green-100 text-green-700",
+      tagColor: "bg-yellow-100 text-yellow-700",
       category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham",
       methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
@@ -16763,10 +16763,10 @@ const X_ = () => {
                        • Grocery & Staples and Home Appliances showed the most substantial promotional lift, with standout products like Atliq Waterproof Immersion Red and Atliq High Glo 15W LED Bulb.
                        • Achieved a 211.3% increase in Incremental Sold Units and 110% increase in Incremental Revenue.
                        • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
-      skills: ["Data Integration", "SQL Querying", "Data Visualization", "Insight Generation"],
+      skills: ["Coding", "Geometry modelling"],
       tools: ["Gmsh", "Paraview", "FEniCS"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Personal%20loan.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/Promotion%20Analysis.jpg"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/metamaterial_schematic.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/Images/Power%20BI/Thumbnail/metamaterial_schematic.png"
    }, {
       id: 2,
       title: "Mitron Bank Dashboard",
@@ -17552,7 +17552,7 @@ const X_ = () => {
                                     children: "PhD in Structural Engineering"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "IIT Roorkee, 2020 - 2025"
+                                    children: "Indian Institute of Technology Roorkee, 2020 - 2025"
                                  })]
                               })]
                            })]
