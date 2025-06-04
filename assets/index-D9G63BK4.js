@@ -17113,8 +17113,8 @@ const X_ = () => {
       name: "Health monitoring",
       color: "bg-red-100 text-red-700"
    }, {
-      id: "tableau",
-      name: "Tableau",
+      id: "uncertainty",
+      name: "Uncertainty",
       color: "bg-purple-100 text-purple-700"
    }, {
       id: "bandgap-metamaterials",
@@ -25047,8 +25047,8 @@ const W4 = ({
             return "Bridge engg Dashboards";
          case "Health monitoring":
             return "Health monitoring Projects";
-         case "Tableau":
-            return "Tableau Dashboards";
+         case "Uncertainty":
+            return "Uncertainty Dashboards";
          case "Bandgap metamaterials":
             return "Bandgap metamaterials Reports";
          default:
@@ -25067,8 +25067,8 @@ const W4 = ({
             return "Interactive dashboards and visualizations created with Microsoft Bridge engg.";
          case "Health monitoring":
             return "Advanced Health monitoring projects demonstrating data analysis, modeling, and visualization techniques.";
-         case "Tableau":
-            return "Interactive data visualizations and dashboards created with Tableau for comprehensive business intelligence.";
+         case "Uncertainty":
+            return "Interactive data visualizations and dashboards created with Uncertainty for comprehensive business intelligence.";
          case "Bandgap metamaterials":
             return "Dynamic reports and dashboards built with Bandgap metamaterials to monitor marketing performance and web analytics.";
          default:
@@ -26954,7 +26954,7 @@ const m3 = () => {
                className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === U ? "w-full" : "w-0")
             })]
          }),
-         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Health monitoring", "Tableau", "Bandgap metamaterials"];
+         z = ["Topology optimization", "Metamaterials", "Machine Learning", "Bridge engg", "Health monitoring", "Uncertainty", "Bandgap metamaterials"];
       return f.jsxs("header", {
          className: "bg-white dark:bg-gray-900 shadow-sm fixed w-full top-0 z-50 transition-colors duration-300",
          children: [f.jsxs("nav", {
