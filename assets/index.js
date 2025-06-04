@@ -25932,12 +25932,12 @@ Ya.displayName = F1.displayName;
 const S0 = [{
       id: 1,
       title: "PhD in Structural Engineering",
-      slug: "phd-qualification",
+      slug: "phd-qualifications",
       issuer: "Indian Institute of Technology Roorkee",
       date: "2020 - 2025",
       description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, SQL, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/X4S5GJVZBYE9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
-      category: "qualification",
+      category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
       skills: ["Spreadsheet Software", "Data Management", "Data Analysis", "Business Communication", "General Statistics", "Business Analysis", "Data Visualization", "SQL"],
@@ -25945,12 +25945,12 @@ const S0 = [{
    }, {
       id: 2,
       title: "M.Tech in Structural Engineering",
-      slug: "mtech-qualification",
+      slug: "mtech-qualifications",
       issuer: "National Institute of Technology Hamirpur",
       date: "2018 - 2020",
       description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
       credentialLink: "https://coursera.org/share/8012cdaf4bf6f400f250fa35eecd1f95",
-      category: "qualification",
+      category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
       skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "SQL (Structured Query Language)", "Database (DBMS)"],
@@ -26187,7 +26187,7 @@ const S0 = [{
             v(_ || null)
          } else d && m(d)
       }, [t, i == null ? void 0 : i.slug, d]);
-      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualification" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
+      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualifications" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
          T = {
             hidden: {
                opacity: 0
@@ -26225,7 +26225,7 @@ const S0 = [{
             });
             const D = (() => {
                   switch (y.category) {
-                     case "qualification":
+                     case "qualifications":
                         return "primary";
                      case "achievement":
                         return "amber";
@@ -26269,7 +26269,7 @@ const S0 = [{
                            className: "p-6 text-white",
                            children: [f.jsx("span", {
                               className: `px-3 py-1 text-xs font-medium rounded-full mb-2 inline-block bg-${D}-500`,
-                              children: y.category === "qualification" ? "Qualification" : y.category === "achievement" ? "Achievement" : "Experience"
+                              children: y.category === "qualifications" ? "Qualifications" : y.category === "achievement" ? "Achievement" : "Experience"
                            }), f.jsx("h1", {
                               className: "text-3xl font-bold",
                               children: y.title
@@ -26281,7 +26281,7 @@ const S0 = [{
                      children: [!y.imageUrl && f.jsxs(f.Fragment, {
                         children: [f.jsx("div", {
                            className: `text-xs font-semibold ${F.text} tracking-wider mb-2`,
-                           children: y.category === "qualification" ? "Qualification" : y.category === "achievement" ? "Achievement" : "Experience"
+                           children: y.category === "qualifications" ? "Qualifications" : y.category === "achievement" ? "Achievement" : "Experience"
                         }), f.jsx("h1", {
                            className: "text-3xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300",
                            children: y.title
@@ -26388,7 +26388,7 @@ const S0 = [{
                   children: [f.jsxs(V1, {
                      className: "grid w-full grid-cols-4 mb-8",
                      children: [f.jsx(Ga, {
-                        value: "qualification",
+                        value: "qualifications",
                         children: "Qualifications"
                      }), f.jsx(Ga, {
                         value: "achievements",
