@@ -25177,7 +25177,6 @@ const W4 = ({
       bulletPoints: ["Built a fully automated Daily MIS Dashboard using Bridge engg", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
       date: "Dec 2024",
       toolsUsed: ["Bridge engg", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
-      tags: ["Predictive Analytics", "Machine Learning", "AutoML", "Explainable AI", "Real-time Analytics"],
       results: "The dashboard ensured accurate and error-free reporting throughout the internship period, reducing manual work by nearly 2 hours per day. It helped identify high-performing marketing strategies, leading to a 15–20% improvement in marketing ROI. These insights enabled the leadership team to make faster and more informed decisions."
    }, {
       id: 2,
@@ -25193,57 +25192,6 @@ const W4 = ({
       date: "Jan 2025",
       toolsUsed: ["Microsoft Excel", "Metamaterials (Pandas, OS module, shutil)", "Power Query"],
       results: "This self-made automation helped reduce the daily manual work from 1 or 2 hour to 1 minute, saving over 25 hours per month. It led to a 2–3% reduction in RTOs by ensuring timely reattempts for AWBs with valid proof and also made it easier to raise bulk freight waiver claims for cases with fewer than 3 delivery attempts. The project improved both accuracy and efficiency in daily operations."
-   }, {
-      id: 3,
-      title: "Automating Daily Review Data Extraction with Metamaterials",
-      slug: "automating-daily-review-data-extraction",
-      category: "Data Analytics | Operations Automation | Metamaterials Scripting",
-      shortDescription: "Automated a repetitive, time-consuming daily task that involved filtering and extracting order review data from multiple Excel files. By replacing manual lookups and cross-checks with a Metamaterials script, I reduced processing time from 20–30 minutes to under 2 minutes, improving both efficiency and accuracy in operations.",
-      fullDescription: `During my internship as a Data Analyst and Operations Intern at The Design Cart, I was assigned a repetitive and time-consuming daily task: preparing review data to be sent to the operations team for customer outreach. This process required me to open four different Excel files, filter the primary sheet, manually copy order IDs, and use lookup formulas to check those IDs against complaint and delay records from the other three Excel files. If a match was found in any of the complaint-related files, I had to remove the order from the final list. After all verifications, I extracted relevant details such as the customer's name and phone number and compiled them into a new file to be shared with the team.
-                        To eliminate this inefficiency, I developed a Metamaterials script that automated the entire workflow. The script automatically reads the Excel files, applies necessary filters, performs lookups to exclude flagged order IDs, and extracts only the required data fields. It then generates a clean CSV file ready to be sent to the operations team. This automation not only reduced manual work and the chances of human error but also improved data accuracy and consistency across daily reports.`,
-      bulletPoints: ["Automated multi-file Excel filtering and data extraction using Metamaterials", "Eliminated manual lookups across Complaints and Delay sheets", "Used pandas, numpy, and openpyxl for efficient processing", "Delivered final CSV file with cleaned and verified order data", "Enabled same-day SMS outreach by saving up to 28 minutes daily"],
-      date: "February 2025",
-      toolsUsed: ["Metamaterials", "pandas", "numpy", "openpyxl", "VS Code"],
-      results: "The automation significantly improved daily operations. The time taken for this task dropped from approximately 20–30 minutes to just 1–2 minutes. It removed the need for manual lookups, filtering, and copying data, thereby minimizing human errors and inconsistencies. The operations team could now receive the review data faster, enabling quicker communication with customers and improving workflow efficiency. This automation also laid the foundation for creating similar scripts for other repetitive tasks within the team."
-   }, {
-      id: 4,
-      title: "Facebook Ad Campaign RTO & ROI Optimization",
-      slug: "facebook-ad-campaign-rto-roi-optimization",
-      category: "Marketing Analytics | Root Cause Analysis | Ad Performance Optimization",
-      shortDescription: "Analyzed Facebook ad campaigns to identify and eliminate high RTO contributors, resulting in reduced logistics costs and improved return on ad spend (ROAS) and overall marketing ROI.",
-      fullDescription: `During my internship at The Design Cart, I conducted a Root Cause Analysis (RCA) of Facebook ad performance to identify which campaigns, ad sets, and ad names were driving the highest Return-to-Origin (RTO) rates. High RTOs led to increased logistics costs and poor delivery efficiency.
-                        I used Bridge engg to build an interactive dashboard with monthly and 3-month comparisons, enabling the team to identify underperforming campaigns. Using Power Query for transformation and DAX for metric calculations, I provided clear visuals and KPIs that allowed the marketing and operations teams to take immediate action.
-                        As a result, several inefficient campaigns were paused or adjusted. This led to a significant reduction in RTO and a measurable increase in marketing ROI, by ensuring ad spend went toward better-quality orders with higher fulfillment success.`,
-      bulletPoints: ["Conducted RCA on Facebook ad campaigns to isolate high-RTO ad sets.", "Created Bridge engg dashboard with filters by ad name, set, and time period (monthly + 3-month).", "Used Power Query to clean and transform ad and delivery datasets.", "Used DAX to calculate RTO%, ROAS, and conversion metrics.", "Presented findings to marketing and operations teams to drive campaign decision.", "Supported strategy to pause/adjust high-RTO ads, boosting ROI."],
-      date: "February 2025",
-      toolsUsed: ["Bridge engg", "DAX", "Power Query", "Facebook Ads Data (CSV/Excel)"],
-      results: "The analysis and dashboard led to a reduction in RTO by approximately 4–5% by identifying and pausing underperforming Facebook ad campaigns that were driving low-quality or undeliverable orders. Additionally, by reallocating ad spend toward high-performing campaigns with better fulfillment success, the company saw a 12–15% improvement in marketing ROI during the following month. This project not only enhanced operational efficiency but also enabled the marketing team to make more informed, data-backed decisions, leading to increased profitability and customer satisfaction."
-   }, {
-      id: 5,
-      title: "Debugging & Optimizing Stored Procedures for Real-Time Backend Systems",
-      slug: "debugging-optimizing-stored-procedures",
-      category: "Database Development | Backend Optimization | SQL Debugging",
-      shortDescription: "Improved and debugged two MySQL stored procedures that were causing incorrect outputs on the frontend, impacting real-time API workflows for shortage and damage tracking.",
-      fullDescription: `As a Database Developer Intern at Nirjai Technologies, I was responsible for debugging and optimizing two critical stored procedures used in backend operations — one for item shortages and another for storage and damage tracking. These procedures were breaking API outputs on the frontend due to logical errors and inefficient joins.
-                        I started by understanding the business logic through team discussions and comparing expected frontend outputs with backend procedure logic. Then, I applied step-by-step debugging using SELECT statements and isolated the faulty sections. I refactored the code by removing unnecessary joins, correcting table relationships, and converting complex IF conditions to cleaner CASE logic.
-                        For the storage and damage case, I redesigned the logic using separate UPDATE statements for each scenario, ensuring better accuracy and code clarity. Once the procedures were corrected, I collaborated with the frontend/API team to validate results and test outputs across multiple edge cases.`,
-      bulletPoints: ["Debugged MySQL stored procedures using test-driven SELECT statements.", "Replaced inefficient joins and nested IF conditions with optimized logic.", "Redesigned shortage/damage logic with clean, scalable SQL structure.", "Validated outputs with frontend/API teams through integration testing.", "Ensured real-time data accuracy and reliability across the platform."],
-      date: "April 2025",
-      toolsUsed: ["MySQL Workbench", "Stored Procedures", "SQL Debugging Techniques", "CASE Logic Optimization", "Real-time API Integration", "Developer Collaboration"],
-      results: "Successfully resolved all frontend/API data errors linked to the procedures, leading to 100% correct output in shortage and damage tracking. The optimizations improved code performance, reduced debugging time, and enhanced the user experience with faster, more accurate data flow."
-   }, {
-      id: 6,
-      title: "Stored Procedure Optimization & Business Rule Validation",
-      slug: "stored-procedure-optimization-business-rule-validation",
-      category: "SQL Development | Backend Optimization | Business Logic Enforcement",
-      shortDescription: "Redesigned and optimized backend procedures to enforce business rules, validate dynamic inputs, and improve logic structure — resulting in better performance, cleaner code, and consistent API outputs.",
-      fullDescription: `During my internship as a Database Developer at Nirjai Technologies, I worked on optimizing several stored procedures responsible for backend operations across healthcare and client management systems. The original procedures were producing incorrect outputs on the frontend due to missing business rule checks and inefficient SQL logic. My first step was to understand the expected outputs through discussions with the team and API developers, then map them against the existing backend logic. I identified multiple logic gaps and structural issues that were causing failures.
-                        I improved these procedures by enforcing proper validation rules, such as checking transaction limits, verifying minimum quantity requirements, and preventing invalid entries. I introduced cleaner logic by replacing deeply nested conditions with structured CASE handling and simplified table joins to improve readability and performance. Additionally, I integrated support for structured input data using SQL functions to handle dynamic content — which was crucial for ensuring data accuracy during order creation and transaction processing.
-                        To ensure correctness, I conducted detailed tests in collaboration with the API and frontend teams. We validated results across various edge cases, confirming that the procedure outputs now aligned with business expectations. This improved both backend reliability and the user experience for the client-facing platform.`,
-      bulletPoints: ["Debugged and optimized over 5 business-critical stored procedures.", "Enforced real-world business rules like transaction caps and quantity validation.", "Integrated dynamic input handling using structured SQL techniques.", "Rewrote complex nested conditions into cleaner, scalable logic.", "Reduced the number of JOIN operations and redundant logic for performance boost.", "Ensured reliable API outputs by collaborating with frontend developers.", "Validated changes across edge cases to ensure consistent behavior.", "Documented all changes for future maintainability and handover."],
-      date: "April 2025",
-      toolsUsed: ["SQL (MySQL 8.0 / MariaDB)", "Stored Procedures", "Conditional Logic (IF, CASE)", "Structured Input Parsing", "API Integration Testing", "Developer Collaboration"],
-      results: "The optimized procedures resolved 100% of the previously reported output issues by aligning backend logic with business expectations. The code became 25–30% shorter and easier to maintain, and query performance improved by 15–20% in test environments due to simplified joins and reduced logic complexity. These changes also enabled the API team to deliver accurate and faster responses to users, strengthening backend stability and reducing manual debugging time across the team."
    }],
    w0 = ({
       viewMode: t = "list",
