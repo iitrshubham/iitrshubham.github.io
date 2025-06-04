@@ -16627,7 +16627,7 @@ const X_ = () => {
                            children: "Shubham"
                         }), f.jsx("p", {
                            className: "text-primary font-medium mb-4",
-                           children: "FEM and Bridge Specialist"
+                           children: "Using programming across different research domains"
                         }), f.jsxs("div", {
                            className: "w-full mt-4 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg transition-colors duration-300",
                            children: [f.jsx("h4", {
@@ -16648,10 +16648,10 @@ const X_ = () => {
                                  className: "bg-green-50 dark:bg-green-900/30 p-3 rounded-md transition-colors duration-300",
                                  children: [f.jsx("div", {
                                     className: "text-green-600 dark:text-green-400 font-medium mb-1 transition-colors duration-300",
-                                    children: "Machine learning"
+                                    children: "Health monitoring"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                                    children: "Interactive dashboards & reports"
+                                    children: "Vibration and Impedance-based"
                                  })]
                               }), f.jsxs("div", {
                                  className: "bg-yellow-50 dark:bg-yellow-900/30 p-3 rounded-md transition-colors duration-300",
@@ -16660,7 +16660,7 @@ const X_ = () => {
                                     children: "Bridge Engineering"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                                    children: "Design and health monitoring"
+                                    children: "Design using TO and IRC specifications"
                                  })]
                               }), f.jsxs("div", {
                                  className: "bg-purple-50 dark:bg-purple-900/30 p-3 rounded-md transition-colors duration-300",
@@ -16808,7 +16808,7 @@ const X_ = () => {
                         • Recommended regional promotions, product line expansion, and loyalty programs to boost engagement and growth.`,
       skills: ["Sales & Market Analysis", "Customer Segmentation", "Profitability Tracking", "KPI Monitoring"],
       tools: ["Bridge engg (DAX)", "Excel"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png"
    }, {
       id: 4,
