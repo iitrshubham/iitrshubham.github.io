@@ -25947,7 +25947,7 @@ const S0 = [{
       title: "M.Tech in Structural Engineering",
       slug: "mtech-qualification",
       issuer: "National Institute of Technology Hamirpur",
-      date: "2018 2020",
+      date: "2018 - 2020",
       description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
       credentialLink: "https://coursera.org/share/8012cdaf4bf6f400f250fa35eecd1f95",
       category: "qualifications",
@@ -26113,9 +26113,45 @@ const S0 = [{
       id: 16,
       title: "Reviewer",
       slug: "reviewer",
-      issuer: "Applied Mathematical Modelling journal.",
+      issuer: "Applied Mathematical Modelling journal",
       date: "Apr 2022-",
       description: "In April 2023, I served as the Coordinator for Chemistry Events at Deshbandhu College, where I led the planning and execution of departmental activities. This role allowed me to apply and strengthen my project management, team collaboration, and problem-solving skills. Working closely with peers and faculty, I ensured that events ran smoothly, addressing challenges as they arose with quick thinking and adaptability. The experience enhanced my ability to communicate effectively, manage multiple responsibilities, and contribute meaningfully to a team—skills that are valuable both in academic and professional environments.",
+      credentialLink: "#",
+      category: "extracurricular",
+      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      pdfUrl: "#",
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+   }, {
+      id: 17,
+      title: "Guest lecture delivered",
+      slug: "guest-lecture",
+      issuer: "Government Engineering College, Arwal",
+      date: "2023",
+      description: "Bridge health assessment through instrumentation.",
+      credentialLink: "#",
+      category: "extracurricular",
+      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      pdfUrl: "#",
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+   }, {
+      id: 18,
+      title: "Training program attended",
+      slug: "training-1",
+      issuer: "CSIR-Central Road Research Institute, New Delhi",
+      date: "2024",
+      description: "Design of bridge structure and foundation.",
+      credentialLink: "#",
+      category: "extracurricular",
+      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      pdfUrl: "#",
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+   }, {
+      id: 19,
+      title: "Training program attended",
+      slug: "training-2",
+      issuer: "CSIR-Central Road Research Institute, New Delhi",
+      date: "2024",
+      description: "Quality Assurance, Health Assessment, and Rehabilitation of Bridges.",
       credentialLink: "#",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
@@ -26139,7 +26175,7 @@ const S0 = [{
             v(_ || null)
          } else d && m(d)
       }, [t, i == null ? void 0 : i.slug, d]);
-      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualifications" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
+      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualification" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
          T = {
             hidden: {
                opacity: 0
