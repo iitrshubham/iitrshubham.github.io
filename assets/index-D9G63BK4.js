@@ -17552,7 +17552,7 @@ const X_ = () => {
                                     children: "PhD in Structural Engineering"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "IIT Roorkee 2020 - 2025"
+                                    children: "IIT Roorkee, 2020 - 2025"
                                  })]
                               })]
                            })]
@@ -17593,13 +17593,28 @@ const X_ = () => {
                                     children: "DRDO-DRDL Hyderabad, August 2020 - August 2022"
                                  })]
                               })]
+                           }), f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Guest lecturer"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "Pusa and GB Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                 })]
+                              })]
                            })]
                         })]
                      })]
                   }), f.jsx("div", {
                      className: "pt-4",
                      children: f.jsxs("a", {
-                        href: "https://drive.google.com/uc?export=download&id=1Mon66Yw1K6FgRXC6NYJbUZopdefqNRqH",
+                        href: "https://drive.google.com/file/d/1LkMgZTUcQAe4wfwXcLRSzYm7GPWaxq8r/view?usp=sharing",
                         className: "inline-flex items-center text-primary hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors duration-300",
                         children: ["Download Resume ", f.jsx(q_, {
                            className: "ml-2"
