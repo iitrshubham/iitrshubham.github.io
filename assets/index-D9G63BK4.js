@@ -26347,7 +26347,7 @@ const S0 = [{
          [, a] = ls(),
          l = fS(),
          d = new URLSearchParams(l).get("tab"),
-         [p, m] = b.useState(d || "courses"),
+         [p, m] = b.useState(d || "qualifications"),
          [y, v] = b.useState(null);
       b.useEffect(() => {
          if (window.scrollTo(0, 0), t === "detail" && (i != null && i.slug)) {
@@ -26355,7 +26355,7 @@ const S0 = [{
             v(_ || null)
          } else d && m(d)
       }, [t, i == null ? void 0 : i.slug, d]);
-      const w = S0.filter(_ => p === "courses" ? _.category === "course" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
+      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualification" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
          T = {
             hidden: {
                opacity: 0
@@ -26393,7 +26393,7 @@ const S0 = [{
             });
             const D = (() => {
                   switch (y.category) {
-                     case "course":
+                     case "qualification":
                         return "primary";
                      case "achievement":
                         return "amber";
@@ -26417,7 +26417,7 @@ const S0 = [{
                },
                className: "max-w-4xl mx-auto",
                children: [f.jsxs(Sr, {
-                  onClick: () => a(`/certificates?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="extracurricular"?"extracurricular":"courses"}`),
+                  onClick: () => a(`/certificates?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="extracurricular"?"extracurricular":"qualifications"}`),
                   variant: "ghost",
                   className: "mb-6 hover:bg-gray-100",
                   children: [f.jsx(Li, {
@@ -26437,7 +26437,7 @@ const S0 = [{
                            className: "p-6 text-white",
                            children: [f.jsx("span", {
                               className: `px-3 py-1 text-xs font-medium rounded-full mb-2 inline-block bg-${D}-500`,
-                              children: y.category === "course" ? "Course" : y.category === "achievement" ? "Achievement" : "Experience"
+                              children: y.category === "qualification" ? "Qualification" : y.category === "achievement" ? "Achievement" : "Experience"
                            }), f.jsx("h1", {
                               className: "text-3xl font-bold",
                               children: y.title
@@ -26449,7 +26449,7 @@ const S0 = [{
                      children: [!y.imageUrl && f.jsxs(f.Fragment, {
                         children: [f.jsx("div", {
                            className: `text-xs font-semibold ${F.text} tracking-wider mb-2`,
-                           children: y.category === "course" ? "Course" : y.category === "achievement" ? "Achievement" : "Experience"
+                           children: y.category === "qualification" ? "Qualification" : y.category === "achievement" ? "Achievement" : "Experience"
                         }), f.jsx("h1", {
                            className: "text-3xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300",
                            children: y.title
@@ -26556,8 +26556,8 @@ const S0 = [{
                   children: [f.jsxs(V1, {
                      className: "grid w-full grid-cols-4 mb-8",
                      children: [f.jsx(Ga, {
-                        value: "courses",
-                        children: "Courses"
+                        value: "qualifications",
+                        children: "Qualifications"
                      }), f.jsx(Ga, {
                         value: "achievements",
                         children: "Achievements"
@@ -26569,7 +26569,7 @@ const S0 = [{
                         children: "Extracurricular"
                      })]
                   }), f.jsx(Ya, {
-                     value: "courses",
+                     value: "qualifications",
                      className: "mt-0",
                      children: f.jsx(Te.div, {
                         variants: T,
@@ -26816,7 +26816,7 @@ const S0 = [{
                   content: "Qualifications, achievements, and professional experience in data analysis and related fields"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "certificates, credentials, courses, achievements, qualifications, data analysis"
+                  content: "certificates, credentials, qualifications, achievements, qualifications, data analysis"
                }), f.jsx("meta", {
                   property: "og:title",
                   content: "Certificates & Credentials | Shubham"
@@ -27040,9 +27040,9 @@ const m3 = () => {
                      }), f.jsx("div", {
                         className: "h-px bg-gray-200 dark:bg-gray-700 my-1"
                      }), f.jsx("button", {
-                        onClick: () => D("courses"),
+                        onClick: () => D("qualifications"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
-                        children: "Courses"
+                        children: "Qualifications"
                      }), f.jsx("button", {
                         onClick: () => D("achievements"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
