@@ -26197,7 +26197,7 @@ const S0 = [{
       date: "Sep 2022",
       description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, SQL, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/X4S5GJVZBYE9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
-      category: "qualification",
+      category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
       skills: ["Spreadsheet Software", "Data Management", "Data Analysis", "Business Communication", "General Statistics", "Business Analysis", "Data Visualization", "SQL"],
@@ -26355,7 +26355,7 @@ const S0 = [{
             v(_ || null)
          } else d && m(d)
       }, [t, i == null ? void 0 : i.slug, d]);
-      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualification" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
+      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualifications" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
          T = {
             hidden: {
                opacity: 0
@@ -26556,7 +26556,7 @@ const S0 = [{
                   children: [f.jsxs(V1, {
                      className: "grid w-full grid-cols-4 mb-8",
                      children: [f.jsx(Ga, {
-                        value: "qualifications",
+                        value: "qualification",
                         children: "Qualifications"
                      }), f.jsx(Ga, {
                         value: "achievements",
@@ -27122,7 +27122,7 @@ const m3 = () => {
                      className: `h-4 w-4 mr-2 ${r==="certificates"?"text-primary dark:text-primary":""}`
                   }), "Certificates"]
                }), f.jsx("button", {
-                  onClick: () => D("qualification"),
+                  onClick: () => D("qualifications"),
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
                   children: "Qualifications"
                }), f.jsx("button", {
