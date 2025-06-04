@@ -16543,9 +16543,9 @@ const X_ = () => {
                   }), f.jsxs(Te.h1, {
                      variants: e,
                      className: "text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 dark:text-white transition-colors duration-300",
-                     children: ["Transforming Simulations into", " ", f.jsx("span", {
+                     children: ["Transforming simulations into", " ", f.jsx("span", {
                         className: "text-primary",
-                        children: "Structural Solutions"
+                        children: "structural solutions"
                      })]
                   }), f.jsx(Te.p, {
                      variants: e,
@@ -17054,7 +17054,7 @@ const X_ = () => {
       name: "Gmsh",
       percentage: 80
    }],
-   tN = ["FEniCS Simulation", "Finite Element Analysis", "Computational Mechanics", "Structural Analysis", "Fracture Mechanics", "Topology Optimization", "Modal Analysis", "Phase-Field Modeling", "Metamaterials Design", "Functionally Graded Materials", "High-Performance Computing", "Uncertainty Quantification", "Python Programming", "MATLAB Scripting", "Mesh Generation", "Data Visualization", "Statistical Analysis", "Load-Displacement Analysis", "XDMF/HDF5 Data Handling", "Eigenvalue Analysis", "Git/Version Control", "Bridge Engineering", "Structural Dynamics", "Homogenization Techniques", "Predictive Modeling", "Scientific Computing"],
+   tN = ["FEniCS Simulation", "Finite Element Analysis", "Computational Mechanics", "Structural Analysis", "Topology Optimization", "Modal Analysis", "Phase-Field Modeling", "Metamaterials Design", "Functionally Graded Materials", "High-Performance Computing", "Uncertainty Quantification", "Python Programming", "MATLAB Scripting", "Mesh Generation", "Data Visualization", "Statistical Analysis", "Load-Displacement Analysis", "XDMF/HDF5 Data Handling", "Eigenvalue Analysis", "Git/Version Control", "Bridge Engineering", "Structural Dynamics", "Homogenization Techniques", "Predictive Modeling", "Scientific Computing"],
    nN = () => {
       const t = mb();
       b.useEffect(() => {
@@ -17311,10 +17311,10 @@ const X_ = () => {
                      children: "About Me"
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, fracture mechanics, topology optimization, and data-driven simulations for solving real-world engineering problems."
+                     children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, metamaterials, topology optimization, and data-driven simulations for solving real-world engineering problems."
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I’ve led and contributed to multiple simulation-based projects across civil and mechanical engineering domains—ranging from fracture prediction in steel components and bridge modal analysis to the design of metamaterials for impact resistance. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
+                     children: "I’ve led and contributed to multiple simulation-based projects instersection of civil and mechanical engineering domains. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
                      children: "Currently, I’m enhancing my capabilities in high-performance computing, stochastic modeling, and structural health monitoring, while actively pursuing opportunities in R&D, simulation engineering, and applied computational mechanics."
@@ -25956,7 +25956,7 @@ const S0 = [{
       skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "SQL (Structured Query Language)", "Database (DBMS)"],
       duration: "27 hours"
    }, {
-      id: 5,
+      id: 3,
       title: "Young Scientist Award",
       slug: "young-scientist",
       issuer: "Indian Society of Theoretical and Applied Mechanics (ISTAM)",
@@ -25969,7 +25969,7 @@ const S0 = [{
       skills: ["Microsoft Excel", "Excel Charts", "Spreadsheets", "Formulas", "Shortcuts", "Macros", "Tips-Tricks"],
       duration: "9.5 hours"
    }, {
-      id: 20,
+      id: 4,
       title: "International Travel Scheme (ITS)",
       slug: "i-t-s",
       issuer: "Anusandhan National Research Foundation (ANRF), Science & Engineering Research Board (SERB), Govt. of India",
@@ -25980,7 +25980,77 @@ const S0 = [{
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
    }, {
-      id: 57,
+      id: 5,
+      title: "Good international conference support",
+      slug: "dce-grant",
+      issuer: "Department of Civil Engineering, IIT Roorkee",
+      date: "2025",
+      description: "Financial grant of 1.5 Lakhs awarded by Department of Civil Engineering, IIT Roorkee to present work in international conference on account for publishing two Q1-research papers as a first author.",
+      credentialLink: "#",
+      category: "achievement",
+      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+   }, {
+      id: 6,
+      title: "Partial support to attend good international conference",
+      slug: "dora-grant",
+      issuer: "Dean of Resources and Alumni Affairs (DORA), IIT Roorkee",
+      date: "2024",
+      description: "Financial grant of Rs. 75000 awarded by Dean of Resources and Alumni Affairs (DORA), IIT Roorkee to present work in an international conference on account for publishing Q1-research papers in reputed journals as a first author.",
+      credentialLink: "https://www.udemy.com/certificate/UC-aeff1a93-cde0-41af-8315-af4ebff31b11/",
+      category: "achievement",
+      imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      pdfUrl: "#",
+      skills: ["Microsoft Excel", "Excel Charts", "Spreadsheets", "Formulas", "Shortcuts", "Macros", "Tips-Tricks"],
+      duration: "9.5 hours"
+   }, {
+      id: 7,
+      title: "Ministry of Education fellowship",
+      slug: "mhrd-phd",
+      issuer: "IIT Roorkee",
+      date: "2023",
+      description: "Awarded for pursuing Ph.D at IIT Roorkee.",
+      credentialLink: "#",
+      category: "achievement",
+      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+   }, {
+      id: 8,
+      title: "Ministry of Education fellowship",
+      slug: "mhrd-mtech",
+      issuer: "NIT Hamirpur",
+      date: "2018",
+      description: "Awarded for pursuing M.Tech at NIT Hamirpur.",
+      credentialLink: "#",
+      category: "achievement",
+      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+   }, {
+      id: 9,
+      title: "Senior Research Fellowship",
+      slug: "senior-research-fellowship",
+      issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
+      date: "August 2022 - July 2023",
+      description: "Awarded for pursuing research at IIT Roorkee for CARS project sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad.",
+      credentialLink: "#",
+      category: "achievement",
+      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      pdfUrl: "#",
+      skills: ["SQL", "MySQL", "PostgreSQL", "Database Management", "Problem Solving", "Reporting", "Data Workflow Design", "Startup Adaptability", "Team Collaboration"]
+   }, {
+      id: 10,
+      title: "Junior Research Fellowship",
+      slug: "junior-research-fellowship",
+      issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
+      date: "August 2020 - August 2022",
+      description: "Awarded for pursuing research at IIT Roorkee for CARS project sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad.",
+      credentialLink: "#",
+      category: "achievement",
+      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      pdfUrl: "#",
+      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
+   }, {
+      id: 11,
       title: "Senior Research Fellow",
       slug: "senior-research-fellow",
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
@@ -25992,7 +26062,7 @@ const S0 = [{
       pdfUrl: "#",
       skills: ["SQL", "MySQL", "PostgreSQL", "Database Management", "Problem Solving", "Reporting", "Data Workflow Design", "Startup Adaptability", "Team Collaboration"]
    }, {
-      id: 58,
+      id: 12,
       title: "Junior Research Fellow",
       slug: "junior-research-fellow",
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
@@ -26004,7 +26074,7 @@ const S0 = [{
       pdfUrl: "#",
       skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
    }, {
-      id: 59,
+      id: 13,
       title: "Guest lecturer",
       slug: "guest-lecturer-1",
       issuer: "Pusa Institute of Technology (Govt. of NCT)",
@@ -26016,7 +26086,7 @@ const S0 = [{
       pdfUrl: "#",
       skills: ["Financial Analysis", "Investment Planning", "Client Data Management", "Data Interpretation", "Reporting", "Analytical Thinking", "Microsoft Excel"]
    }, {
-      id: 60,
+      id: 14,
       title: "Guest lecturer",
       slug: "guest-lecturer-2",
       issuer: "GB Pant Institute of Technology (Govt. of NCT)",
@@ -26028,7 +26098,7 @@ const S0 = [{
       pdfUrl: "#",
       skills: ["Event Coordination", "Team Collaboration", "Time Management", "Communication Skills", "Organizational Skills", "Volunteer Experience"]
    }, {
-      id: 61,
+      id: 15,
       title: "Intern",
       slug: "intern",
       issuer: "CSIR-Central Road Research Institute, New Delhi",
@@ -26040,11 +26110,11 @@ const S0 = [{
       pdfUrl: "#",
       skills: ["Poster Design", "Event Coordination", "Creativity", "Communication Skills", "Social Media Promotion", "Team Collaboration", "Planning", "Marketing"]
    }, {
-      id: 62,
-      title: "Coordinator for Chemistry Events",
-      slug: "coordinator-for-chemistry-events",
-      issuer: "Deshbandhu College",
-      date: "Apr 2023",
+      id: 16,
+      title: "Reviewer",
+      slug: "reviewer",
+      issuer: "Applied Mathematical Modelling journal.",
+      date: "Apr 2022-",
       description: "In April 2023, I served as the Coordinator for Chemistry Events at Deshbandhu College, where I led the planning and execution of departmental activities. This role allowed me to apply and strengthen my project management, team collaboration, and problem-solving skills. Working closely with peers and faculty, I ensured that events ran smoothly, addressing challenges as they arose with quick thinking and adaptability. The experience enhanced my ability to communicate effectively, manage multiple responsibilities, and contribute meaningfully to a team—skills that are valuable both in academic and professional environments.",
       credentialLink: "#",
       category: "extracurricular",
