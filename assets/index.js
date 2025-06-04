@@ -16550,7 +16550,7 @@ const X_ = () => {
                   }), f.jsx(Te.p, {
                      variants: e,
                      className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl transition-colors duration-300",
-                     children: "Hi, I'm Shubham. I help engineering teams and researchers make informed decisions through advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite element methods, I transform complex physical problems into actionable insights that enhance structural performance and design innovation."
+                     children: "Hi, I'm Shubham. My interests are informed decisions through advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite-element methods, I aim to transform complex physical problems into actionable insights that enhance structural performance and design innovation."
                   }), f.jsxs(Te.div, {
                      variants: e,
                      className: "flex flex-wrap gap-4 pt-4",
@@ -17030,13 +17030,13 @@ const X_ = () => {
       percentage: 95
    }, {
       name: "Ansys",
-      percentage: 95
+      percentage: 90
    }, {
       name: "Midas Civil",
-      percentage: 95
+      percentage: 70
    }, {
       name: "Comsol",
-      percentage: 70
+      percentage: 85
    }],
    eN = [{
       name: "Affinity Designer",
@@ -17046,7 +17046,7 @@ const X_ = () => {
       percentage: 90
    }, {
       name: "Latex",
-      percentage: 85
+      percentage: 99
    }, {
       name: "Paraview",
       percentage: 85
@@ -17054,7 +17054,7 @@ const X_ = () => {
       name: "Gmsh",
       percentage: 80
    }],
-   tN = ["FEniCS Simulation", "Finite Element Analysis", "Computational Mechanics", "Structural Analysis", "Topology Optimization", "Modal Analysis", "Phase-Field Modeling", "Metamaterials Design", "Functionally Graded Materials", "High-Performance Computing", "Uncertainty Quantification", "Python Programming", "MATLAB Scripting", "Mesh Generation", "Data Visualization", "Statistical Analysis", "Load-Displacement Analysis", "XDMF/HDF5 Data Handling", "Eigenvalue Analysis", "Git/Version Control", "Bridge Engineering", "Structural Dynamics", "Homogenization Techniques", "Predictive Modeling", "Scientific Computing"],
+   tN = ["FEniCS", "Finite-Element analysis", "Computational mechanics", "Structural analysis", "Topology optimization", "Modal analysis", "Metamaterials design", "Functionally graded materials", "High-performance Computing", "Uncertainty quantification", "Python", "MATLAB", "Meshing", "Data visualization", "Statistical analysis", "XDMF/HDF5 data handling", "Eigenvalue analysis", "Git/Version control", "Bridge engineering", "Structural dynamics", "Homogenization", "Predictive modeling", "Scientific computing"],
    nN = () => {
       const t = mb();
       b.useEffect(() => {
@@ -17363,7 +17363,7 @@ const X_ = () => {
                                     children: "Senior Research Fellow"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "DRDO-DRDL Hyderabad, August 2022 - July 2023"
+                                    children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2022 - July 2023"
                                  })]
                               })]
                            }), f.jsxs("div", {
@@ -17378,7 +17378,7 @@ const X_ = () => {
                                     children: "Junior Research Fellow"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "DRDO-DRDL Hyderabad, August 2020 - August 2022"
+                                    children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2020 - August 2022"
                                  })]
                               })]
                            }), f.jsxs("div", {
