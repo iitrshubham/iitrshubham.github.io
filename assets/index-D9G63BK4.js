@@ -17605,7 +17605,22 @@ const X_ = () => {
                                     children: "Guest lecturer"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "Pusa and GB Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                    children: "Pusa Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                 })]
+                              })]
+                           }), f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Guest lecturer"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "GB Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
                                  })]
                               })]
                            })]
