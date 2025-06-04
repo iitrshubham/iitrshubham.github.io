@@ -25177,6 +25177,7 @@ const W4 = ({
       bulletPoints: ["Built a fully automated Daily MIS Dashboard using Bridge engg", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
       date: "Dec 2024",
       toolsUsed: ["Bridge engg", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
+      tags: ["Predictive Analytics", "Machine Learning", "AutoML", "Explainable AI", "Real-time Analytics"],
       results: "The dashboard ensured accurate and error-free reporting throughout the internship period, reducing manual work by nearly 2 hours per day. It helped identify high-performing marketing strategies, leading to a 15–20% improvement in marketing ROI. These insights enabled the leadership team to make faster and more informed decisions."
    }, {
       id: 2,
