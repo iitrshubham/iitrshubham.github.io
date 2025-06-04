@@ -26191,10 +26191,10 @@ const Ya = b.forwardRef(({
 Ya.displayName = F1.displayName;
 const S0 = [{
       id: 1,
-      title: "Google Data Analytics",
-      slug: "google-data-analytics",
-      issuer: "Coursera",
-      date: "Sep 2022",
+      title: "PhD in Structural Engineering",
+      slug: "phd-qualification",
+      issuer: "Indian Institute of Technology Roorkee",
+      date: "2020 - 2025",
       description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, SQL, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/X4S5GJVZBYE9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
       category: "qualifications",
@@ -26210,7 +26210,7 @@ const S0 = [{
       date: "Mar 2023",
       description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
       credentialLink: "https://coursera.org/share/8012cdaf4bf6f400f250fa35eecd1f95",
-      category: "qualification",
+      category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
       skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "SQL (Structured Query Language)", "Database (DBMS)"],
@@ -26223,7 +26223,7 @@ const S0 = [{
       date: "Apr 2023",
       description: "This course provided in-depth training on advanced data analysis techniques using real-world tools and datasets. I gained hands-on experience in statistical analysis, data visualization, and machine learning concepts using Python, SQL, and data science libraries like Pandas, Scikit-learn, and Matplotlib. The course emphasized critical thinking, data-driven decision-making, and end-to-end project workflows—from data cleaning and exploration to model evaluation and insight communication. It helped sharpen my ability to solve complex business problems with data.",
       credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/PPBLPXE83AH8?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof",
-      category: "qualification",
+      category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
       skills: ["Predictive Modelling", "Kaggle", "Data Analysis", "Data Science", "Exploratory Data Analysis (EDA)", "Jupyter Notebook", "Data Visualization", "Tableau Software", "Statistical Analysis", "Machine Learning", "Regression Models", "Python Programming"],
@@ -26236,7 +26236,7 @@ const S0 = [{
       date: "Nov 2023",
       description: "In this course, I learned how to clean, structure, and organize raw data using Excel to make it ready for analysis. I developed skills in identifying and handling missing or duplicate values, using filters and sorting tools, applying basic and advanced formulas, and converting unstructured data into tabular formats. The course also covered techniques such as data validation, text-to-columns, and conditional formatting to improve data quality and accuracy. This training strengthened my ability to prepare datasets for meaningful insights and decision-making.",
       credentialLink: "https://www.coursera.org/account/accomplishments/verify/9U69JRA5JFE5?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course",
-      category: "qualification",
+      category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
       skills: ["Data Analysis", "formulas and functions", "Preparing Data", "Bridge engg", "Microsoft Excel"],
@@ -26714,7 +26714,7 @@ const S0 = [{
                                     target: "_blank",
                                     rel: "noreferrer",
                                     className: "text-green-600 font-medium hover:underline inline-flex items-center",
-                                    children: ["View Letter ", f.jsx("span", {
+                                    children: ["Read more", f.jsx("span", {
                                        className: "ml-1",
                                        children: "→"
                                     })]
