@@ -26015,13 +26015,14 @@ const S0 = [{
       slug: "mtech-qualifications",
       issuer: "National Institute of Technology Hamirpur",
       date: "2018 - 2020",
-      description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
+      description: "• Worked on computational health monitoring of structures.\n• Applied finite element model updating techniques for health monitoring of 3D structural systems.\n• Investigated classical damage detection techniques for structural health assessment of 3D structures.",
       credentialLink: "https://nith.ac.in/",
       category: "qualifications",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/nit_hamirpur.png",
       pdfUrl: "#",
-      skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "SQL (Structured Query Language)", "Database (DBMS)"],
-      duration: "27 hours"
+      skills: ["Structural Health Monitoring", "Finite Element Model Updating", "Damage Detection", "Computational Mechanics", "Structural Engineering"],
+      duration: "2 years"
+
    }, {
       id: 3,
       title: "Young Scientist Award",
@@ -26033,8 +26034,7 @@ const S0 = [{
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Microsoft Excel", "Excel Charts", "Spreadsheets", "Formulas", "Shortcuts", "Macros", "Tips-Tricks"],
-      duration: "9.5 hours"
+      skills: ["Applied Mechanics", "Scientific Research", "Conference Presentation", "Technical Writing", "Innovation Recognition"]
    }, {
       id: 4,
       title: "International Travel Scheme (ITS)",
@@ -26045,7 +26045,7 @@ const S0 = [{
       credentialLink: "https://anrfonline.in/ANRF/its",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+      skills: ["Conference Presentation", "Research Communication", "Travel Grant Proposal Writing", "International Networking", "Scientific Outreach"]
    }, {
       id: 5,
       title: "Good international conference support",
@@ -26056,7 +26056,7 @@ const S0 = [{
       credentialLink: "https://civil.iitr.ac.in/",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+      skills: ["Q1 Journal Publication", "International Presentation", "Academic Grant Writing", "Research Excellence", "Technical Communication"]
    }, {
       id: 6,
       title: "Partial support to attend good international conference",
@@ -26068,7 +26068,7 @@ const S0 = [{
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Microsoft Excel", "Excel Charts", "Spreadsheets", "Formulas", "Shortcuts", "Macros", "Tips-Tricks"],
+      skills: ["Q1 Journal Publication", "International Conference", "Research Funding", "Scientific Presentation", "Academic Communication"],
       duration: "9.5 hours"
    }, {
       id: 7,
@@ -26080,7 +26080,7 @@ const S0 = [{
       credentialLink: "https://www.education.gov.in/",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+      skills: ["M.Tech Research", "Graduate Studies", "Structural Mechanics", "Civil Engineering", "Engineering Fundamentals", "Research Excellence"],
    }, {
       id: 8,
       title: "Ministry of Education fellowship",
