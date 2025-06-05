@@ -16669,7 +16669,7 @@ const X_ = () => {
                                     children: "Topology optimization"
                                  }), f.jsx("div", {
                                     className: "text-sm text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                                    children: "Advanced analytics & forecasting"
+                                    children: "Static and dynamic loading"
                                  })]
                               })]
                            })]
@@ -16792,9 +16792,9 @@ const X_ = () => {
       title: "Bandgap metamaterials",
       slug: "bandgap-metamaterials",
       description: "Metamaterials are artificially engineered materials designed to have properties not found in naturally occurring materials. Their unique behavior arises from their structure rather than their composition. Typically, they are made from repeating units (often called unit cells) that are smaller than the wavelength of the phenomena they are designed to influence (such as electromagnetic waves, sound, or mechanical vibrations).",
-      tag: "Bandgap metamaterials",
+      tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
-      category: "Bandgap metamaterials",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham",
       methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
                    • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
@@ -25933,7 +25933,7 @@ const S0 = [{
       issuer: "Indian Institute of Technology Roorkee",
       date: "2020 - 2025",
       description: "This course introduced me to the fundamentals of data analytics, including data collection, cleaning, analysis, and visualization. I learned how to work with tools such as Excel, SQL, and Tableau, and developed a strong understanding of the data analysis process using the Ask, Prepare, Process, Analyze, Share, and Act framework. Through hands-on projects, I practiced transforming raw data into actionable insights and creating dashboards to support data-driven decision-making. This course laid a strong foundation for my journey in data analytics.",
-      credentialLink: "https://www.coursera.org/account/accomplishments/professional-cert/X4S5GJVZBYE9?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
+      credentialLink: "https://iitr.ac.in/",
       category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -25946,7 +25946,7 @@ const S0 = [{
       issuer: "National Institute of Technology Hamirpur",
       date: "2018 - 2020",
       description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
-      credentialLink: "https://coursera.org/share/8012cdaf4bf6f400f250fa35eecd1f95",
+      credentialLink: "https://nith.ac.in/",
       category: "qualifications",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -25959,7 +25959,7 @@ const S0 = [{
       issuer: "Indian Society of Theoretical and Applied Mechanics (ISTAM)",
       date: "2023",
       description: "A society constituted by IIT Kharagpur in 1955.",
-      credentialLink: "https://www.udemy.com/certificate/UC-aeff1a93-cde0-41af-8315-af4ebff31b11/",
+      credentialLink: "https://istam.iitkgp.ac.in/",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -25972,7 +25972,7 @@ const S0 = [{
       issuer: "Anusandhan National Research Foundation (ANRF), Science & Engineering Research Board (SERB), Govt. of India",
       date: "2024",
       description: "Financial grant awarded to present work at ICCS27 conference, Italy.",
-      credentialLink: "#",
+      credentialLink: "https://anrfonline.in/ANRF/its",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
@@ -25983,7 +25983,7 @@ const S0 = [{
       issuer: "Department of Civil Engineering, IIT Roorkee",
       date: "2025",
       description: "Financial grant of 1.5 Lakhs awarded by Department of Civil Engineering, IIT Roorkee to present work in international conference on account for publishing two Q1-research papers as a first author.",
-      credentialLink: "#",
+      credentialLink: "https://civil.iitr.ac.in/",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
@@ -25994,7 +25994,7 @@ const S0 = [{
       issuer: "Dean of Resources and Alumni Affairs (DORA), IIT Roorkee",
       date: "2024",
       description: "Financial grant of Rs. 75000 awarded by Dean of Resources and Alumni Affairs (DORA), IIT Roorkee to present work in an international conference on account for publishing Q1-research papers in reputed journals as a first author.",
-      credentialLink: "https://www.udemy.com/certificate/UC-aeff1a93-cde0-41af-8315-af4ebff31b11/",
+      credentialLink: "https://alumni.iitr.ac.in/travel/forstudents/conference",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -26007,7 +26007,7 @@ const S0 = [{
       issuer: "IIT Roorkee",
       date: "2023",
       description: "Awarded for pursuing Ph.D at IIT Roorkee.",
-      credentialLink: "#",
+      credentialLink: "https://www.education.gov.in/",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
@@ -26018,7 +26018,7 @@ const S0 = [{
       issuer: "NIT Hamirpur",
       date: "2018",
       description: "Awarded for pursuing M.Tech at NIT Hamirpur.",
-      credentialLink: "#",
+      credentialLink: "https://www.education.gov.in/",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
@@ -26029,7 +26029,7 @@ const S0 = [{
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
       date: "August 2022 - July 2023",
       description: "Awarded for pursuing research at IIT Roorkee for CARS project sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad.",
-      credentialLink: "#",
+      credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -26041,7 +26041,7 @@ const S0 = [{
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
       date: "August 2020 - August 2022",
       description: "Awarded for pursuing research at IIT Roorkee for CARS project sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad.",
-      credentialLink: "#",
+      credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -26053,7 +26053,7 @@ const S0 = [{
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
       date: "August 2022 - July 2023",
       description: "As an SQL Developer Intern at Nirjai Technologies, I am responsible for managing and optimizing database systems related to pathology lab data workflows. I design robust SQL queries and contribute to solving real-time business problems through efficient database solutions and reporting systems. The internship involves regular participation in daily and weekend planning meetings, allowing me to adapt to the dynamic, fast-paced startup environment. This role has enhanced my ability to deliver under pressure while supporting the company's core data infrastructure.",
-      credentialLink: "#",
+      credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -26065,7 +26065,7 @@ const S0 = [{
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
       date: "August 2020 - August 2022",
       description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Bridge engg to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
-      credentialLink: "#",
+      credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -26077,7 +26077,7 @@ const S0 = [{
       issuer: "Pusa Institute of Technology (Govt. of NCT)",
       date: "August 2017 - June 2018",
       description: "During my internship at Wise Wealth Management, I gained practical exposure to financial analysis and strategic wealth management. I collaborated with senior financial advisors on projects related to investment planning, client portfolio reviews, and financial reporting. This experience allowed me to apply analytical thinking to real-world data, understand market trends, and contribute to optimizing investment strategies. Working in a professional environment also strengthened my communication and client-handling skills, providing a strong foundation for data-driven decision-making in finance.",
-      credentialLink: "#",
+      credentialLink: "https://dseu.ac.in/pusa/index.html",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
@@ -26089,7 +26089,7 @@ const S0 = [{
       issuer: "GB Pant Institute of Technology (Govt. of NCT)",
       date: "August 2017 - June 2018",
       description: "In April 2021, I contributed as a volunteer event coordinator for Chembola, an event organized by the Chemical Society of Deshbandhu College. My responsibilities included supporting the planning, logistics, and on-ground coordination on the day of the event. This hands-on experience enabled me to work as part of a team, handle responsibilities under time constraints, and ensure a successful and engaging experience for all participants. It was a valuable opportunity to build my teamwork, communication, and organizational skills in a real-world event setting.",
-      credentialLink: "#",
+      credentialLink: "https://dseu.edu.in/campus/gb-pant-dseu-campus",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
@@ -26101,7 +26101,7 @@ const S0 = [{
       issuer: "CSIR-Central Road Research Institute, New Delhi",
       date: "April 2015 - September 2015",
       description: "In April 2022, I served as the Student Coordinator for the National Science Day Event at Deshbandhu College, where I played a key role in the creative and operational aspects of the program. I was recognized for designing visually impactful posters that effectively promoted the event and increased student engagement. I also led social media promotion efforts, which helped surpass expected attendance levels. Through efficient planning and coordination, the event was executed smoothly, earning me a Certificate of Recognition for excellence in both creative design and event organization. This experience highlighted my skills in creativity, communication, and event promotion.",
-      credentialLink: "#",
+      credentialLink: "https://www.csir.res.in/",
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
@@ -26113,11 +26113,11 @@ const S0 = [{
       issuer: "Applied Mathematical Modelling ",
       date: "Apr 2022-",
       description: "Q1-SCI indexed journal.",
-      credentialLink: "#",
+      credentialLink: "https://www.sciencedirect.com/journal/applied-mathematical-modelling",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+      skills: ["Project Management",  "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
    }, {
       id: 17,
       title: "Guest lecture delivered",
@@ -26125,11 +26125,11 @@ const S0 = [{
       issuer: "Government Engineering College, Arwal",
       date: "2023",
       description: "Bridge health assessment through instrumentation.",
-      credentialLink: "#",
+      credentialLink: "https://www.gecarwal.ac.in/",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+      skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"]
    }, {
       id: 18,
       title: "Training program attended",
@@ -26137,11 +26137,11 @@ const S0 = [{
       issuer: "CSIR-Central Road Research Institute, New Delhi",
       date: "2024",
       description: "Design of bridge structure and foundation.",
-      credentialLink: "#",
+      credentialLink: "https://www.csir.res.in/",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"]
    }, {
       id: 19,
       title: "Training program attended",
@@ -26149,11 +26149,11 @@ const S0 = [{
       issuer: "CSIR-Central Road Research Institute, New Delhi",
       date: "2024",
       description: "Quality Assurance, Health Assessment, and Rehabilitation of Bridges.",
-      credentialLink: "#",
+      credentialLink: "https://www.csir.res.in/",
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"]
    }, {
       id: 20,
       title: "Country visited outside India",
@@ -26165,7 +26165,7 @@ const S0 = [{
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+      skills: ["Presentations", "Communication Skills", "Leadership"]
    }],
    T0 = ({
       viewMode: t = "list",
