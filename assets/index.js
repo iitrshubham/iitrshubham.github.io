@@ -24742,7 +24742,7 @@ const W4 = ({
                                     width: "100%",
                                     height: "100%",
                                     className: "w-full h-full border-0 rounded-md",
-                                    src: e.tableauEmbedUrl,
+                                    src: e.uncertaintyUrl,
                                     allowFullScreen: !0
                                  })
                               })
@@ -26376,7 +26376,7 @@ const S0 = [{
                   children: "Certificates & Credentials"
                }), f.jsx("p", {
                   className: "text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300",
-                  children: "Qualifications, achievements, and professional experience"
+                  children: "Qualifications, professional experience and achievements"
                })]
             }), f.jsx("div", {
                className: "max-w-4xl mx-auto",
