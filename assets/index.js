@@ -16959,7 +16959,7 @@ const X_ = () => {
                   target: "_blank",
                   rel: "noopener noreferrer",
                   className: "inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 rounded-md hover:border-primary hover:text-primary dark:hover:text-primary transition-colors duration-300 font-medium",
-                  children: ["View all works on Google scholar", f.jsx(qi, {
+                  children: ["View all works on Google scholar", f.jsx(si, {
                      className: "ml-2"
                   })]
                }), t !== "all" && f.jsxs("button", {
