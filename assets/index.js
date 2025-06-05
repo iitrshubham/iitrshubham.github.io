@@ -25006,46 +25006,45 @@ const W4 = ({
       results: "Generated structures with up to 40% material savings while maintaining mechanical performance. Enhances design efficiency and supports sustainability goals through optimized engineering layouts."
 
    }, {
-  id: 2,
-  title: "Modal analysis of structural components for natural frequencies and mode shapes",
-  slug: "modal-analysis-natural-frequencies-mode-shapes",
-  category: "Structural Mechanics | Finite Element Analysis | Vibration Analysis",
-  shortDescription: "Modal analysis performed to compute natural frequencies and mode shapes of structural components, aiding in resonance avoidance and dynamic design refinement.",
-  fullDescription: `Modal analysis involves solving the eigenvalue problem for structures to identify natural frequencies and associated mode shapes. These parameters are essential in understanding the dynamic behavior of components under operational or environmental vibrations.
-                    The process includes meshing the geometry, applying boundary conditions, and performing eigenfrequency extraction using FEM-based solvers. Mode shapes are visualized to assess deformation patterns and identify critical vibration modes. Results assist in ensuring structural integrity and in modifying designs to avoid resonance, especially in bridges, frames, and mechanical systems.`,
-  bulletPoints: [
-    "Computation of natural frequencies and corresponding mode shapes using FEM",
-    "Assessment of structural response to dynamic loads and vibration sources",
-    "Identification of critical resonance modes and safe operating ranges",
-    "Application of realistic boundary conditions to simulate true support conditions",
-    "Visualization of deformation patterns for different modes",
-    "Mesh refinement used to ensure eigenvalue accuracy",
-    "Supports design decisions in aerospace, automotive, and civil engineering domains"
-  ],
-  date: "Jan 2025",
-  toolsUsed: ["FEniCS", "MATLAB", "Python", "Eigenvalue Solvers", "Structural Dynamics Concepts"],
-  results: "Modal characteristics determined with high accuracy, aiding in avoidance of resonance-related failures and enabling improvements in dynamic design performance and structural safety."
+      id: 2,
+      title: "Modal analysis of structural components for natural frequencies and mode shapes",
+      slug: "modal-analysis-natural-frequencies-mode-shapes",
+      category: "Structural Mechanics | Finite Element Analysis | Vibration Analysis",
+      shortDescription: "Modal analysis performed to compute natural frequencies and mode shapes of structural components, aiding in resonance avoidance and dynamic design refinement.",
+      fullDescription: `Modal analysis involves solving the eigenvalue problem for structures to identify natural frequencies and associated mode shapes. These parameters are essential in understanding the dynamic behavior of components under operational or environmental vibrations.
+                        The process includes meshing the geometry, applying boundary conditions, and performing eigenfrequency extraction using FEM-based solvers. Mode shapes are visualized to assess deformation patterns and identify critical vibration modes. Results assist in ensuring structural integrity and in modifying designs to avoid resonance, especially in bridges, frames, and mechanical systems.`,
+      bulletPoints: [
+         "Computation of natural frequencies and corresponding mode shapes using FEM",
+         "Assessment of structural response to dynamic loads and vibration sources",
+         "Identification of critical resonance modes and safe operating ranges",
+         "Application of realistic boundary conditions to simulate true support conditions",
+         "Visualization of deformation patterns for different modes",
+         "Mesh refinement used to ensure eigenvalue accuracy",
+         "Supports design decisions in aerospace, automotive, and civil engineering domains"
+      ],
+      date: "Jan 2025",
+      toolsUsed: ["FEniCS", "MATLAB", "Python", "Eigenvalue Solvers", "Structural Dynamics Concepts"],
+      results: "Modal characteristics determined with high accuracy, aiding in avoidance of resonance-related failures and enabling improvements in dynamic design performance and structural safety."
    }, {
-  id: 3,
-  title: "Mechanical metamaterials for auxeticity and energy absorption",
-  slug: "metamaterials-mechanical-properties",
-  category: "Computational Mechanics | Metamaterials | Structural Materials",
-  shortDescription: "Study of mechanical metamaterials engineered to achieve unconventional properties like negative Poisson’s ratio and high energy absorption through structural design.",
-  fullDescription: `Mechanical metamaterials are artificially structured materials designed to exhibit extraordinary mechanical properties derived from geometry rather than composition. These include negative Poisson’s ratio (auxetic behavior), high specific stiffness, and tunable anisotropy.
-                    Unit cell architectures are optimized to control deformation patterns and energy absorption. Numerical simulations are performed using finite element methods to evaluate stress distribution, strain localization, and effective moduli. Homogenization techniques are used to extract macroscopic behavior from periodic unit cells. These materials are relevant for impact protection, vibration control, and biomedical applications.`,
-  bulletPoints: [
-    "Engineered periodic structures exhibiting auxeticity and tailored stiffness",
-    "Negative Poisson’s ratio achieved through re-entrant or rotating geometries",
-    "Homogenization used to evaluate effective material properties from unit cells",
-    "Finite element simulations conducted for static and dynamic loading cases",
-    "Stress distribution and energy absorption capabilities evaluated numerically",
-    "Designs optimized for directional stiffness and mechanical anisotropy",
-    "Applications include aerospace skins, biomedical devices, and protective gear"
-  ],
-  date: "Mar 2025",
-  toolsUsed: ["FEniCS", "Python", "MATLAB", "STL File Generation", "Homogenization", "Finite Element Analysis"],
-  results: "Demonstrated significant improvements in mechanical efficiency and energy absorption compared to conventional materials. Enabled function-specific material behavior through geometry-driven design."
-}
+      id: 3,
+      title: "Mechanical metamaterials for auxeticity and energy absorption",
+      slug: "metamaterials-mechanical-properties",
+      category: "Computational Mechanics | Metamaterials | Structural Materials",
+      shortDescription: "Study of mechanical metamaterials engineered to achieve unconventional properties like negative Poisson’s ratio and high energy absorption through structural design.",
+      fullDescription: `Mechanical metamaterials are artificially structured materials designed to exhibit extraordinary mechanical properties derived from geometry rather than composition. These include negative Poisson’s ratio (auxetic behavior), high specific stiffness, and tunable anisotropy.
+                        Unit cell architectures are optimized to control deformation patterns and energy absorption. Numerical simulations are performed using finite element methods to evaluate stress distribution, strain localization, and effective moduli. Homogenization techniques are used to extract macroscopic behavior from periodic unit cells. These materials are relevant for impact protection, vibration control, and biomedical applications.`,
+      bulletPoints: [
+         "Engineered periodic structures exhibiting auxeticity and tailored stiffness",
+         "Negative Poisson’s ratio achieved through re-entrant or rotating geometries",
+         "Homogenization used to evaluate effective material properties from unit cells",
+         "Finite element simulations conducted for static and dynamic loading cases",
+         "Stress distribution and energy absorption capabilities evaluated numerically",
+         "Designs optimized for directional stiffness and mechanical anisotropy",
+         "Applications include aerospace skins, biomedical devices, and protective gear"
+      ],
+      date: "Mar 2025",
+      toolsUsed: ["FEniCS", "Python", "MATLAB", "STL File Generation", "Homogenization", "Finite Element Analysis"],
+      results: "Demonstrated significant improvements in mechanical efficiency and energy absorption compared to conventional materials. Enabled function-specific material behavior through geometry-driven design."
    }],
    w0 = ({
       viewMode: t = "list",
