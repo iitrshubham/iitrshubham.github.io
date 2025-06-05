@@ -25293,29 +25293,14 @@ const W4 = ({
    },
    b0 = [{
       id: 1,
-      title: "The Future of Predictive Analytics in 2025",
-      slug: "future-predictive-analytics",
-      category: "DATA SCIENCE",
-      date: "May 1, 2025",
+      title: "Printing Patterns in Python: A Comprehensive Guide",
+      slug: "printing-patterns-python",
+      category: "PYTHON",
+      date: "June 5, 2025",
       author: "Shubham",
-      shortDescription: "Predictive analytics is rapidly evolving, with new algorithms and approaches emerging to handle increasingly complex datasets. This article explores the latest trends and how they're reshaping industries from healthcare to finance.",
-      fullContent: `
-        <h2>Introduction to Modern Predictive Analytics</h2>
-        <p>Hi, Predictive analytics has evolved significantly over the past decade, transforming from a niche technical field into a fundamental business capability. As we move deeper into 2025, several key trends are reshaping how organizations approach prediction and decision-making.</p>
-        <img src="https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/Restaurant%20Order%20Analysis.jpg" alt="Predictive Analytics Chart" style="max-width:100%; height:auto; margin:20px 0;" />
-        <h2>The Rise of Automated Machine Learning</h2>
-        <p>One of the most significant developments has been the maturation of AutoML platforms. These tools now enable domain experts with limited data science expertise to build sophisticated predictive models. The democratization of ML capabilities has accelerated adoption across sectors from retail to healthcare.</p>
-        
-        <h2>Explainable AI: Moving Beyond Black Box Models</h2>
-        <p>As predictive models increasingly influence critical decisions, the demand for transparency and explainability has grown. New techniques for interpreting complex models are making it possible to understand predictions that were previously opaque, addressing both regulatory requirements and building user trust.</p>
-        
-        <h2>Real-time Prediction at Scale</h2>
-        <p>The infrastructure for deploying predictive models has matured significantly, enabling true real-time prediction capabilities even with complex models. This has opened new applications in fraud detection, personalization, and operational optimization that weren't previously feasible.</p>
-        
-        <h2>Conclusion</h2>
-        <p>Predictive analytics continues to transform how organizations operate, with capabilities that were cutting-edge research just a few years ago now becoming standard practice. Organizations that effectively integrate these capabilities into their workflows are gaining significant competitive advantages through better decision-making and more efficient operations.</p>
-      `,
-      tags: ["Predictive Analytics", "Machine Learning", "AutoML", "Explainable AI", "Real-time Analytics"]
+      shortDescription: "Learn how to print various patterns in Python using nested for loops. This guide covers the fundamentals of controlling rows and columns to create star, number, and alphabet patterns, along with practical examples.",
+      fullContent: "<h2>Introduction to Pattern Printing in Python</h2>\n<p>Patterns can be printed in Python using simple for loops. The <strong>outer loop</strong> is used to handle the <strong>number of rows</strong>, and the <strong>Inner nested loop</strong> is used to handle the <strong>number of columns</strong>. By manipulating the print statements, you can create different number patterns, alphabet patterns, or star patterns. Printing various patterns is an excellent way to build a solid understanding of loops in Python. After reading this article, you'll be able to create many types of patterns.</p>\n\n<h2>Steps to Print Patterns in Python</h2>\n<p>Use the below steps to print patterns in Python:</p>\n\n<ol>\n  <li>\n    <p><strong>Decide the number of rows and columns</strong></p>\n    <p>There's a typical structure to print any pattern, which involves defining the number of rows and columns. We need to use two loops—nested loops—to print any pattern. The outer loop determines the number of rows, and the inner loop defines the columns needed to print the pattern. You can accept the number of rows from a user using the <code>input()</code> function to decide the size of a pattern.</p>\n  </li>\n  <li>\n    <p><strong>Iterate rows</strong></p>\n    <p>Next, write an outer loop to iterate through the number of rows using a for loop and the <code>range()</code> function.</p>\n  </li>\n  <li>\n    <p><strong>Iterate columns</strong></p>\n    <p>After that, write the inner loop or nested loop to handle the number of columns. The internal loop's iteration depends on the values of the outer loop.</p>\n  </li>\n  <li>\n    <p><strong>Print star or number</strong></p>\n    <p>Use the <code>print()</code> function in each iteration of the nested <code>for</code> loop to display the symbol or number of a pattern (like a star (asterisk <code>*</code>) or a number).</p>\n  </li>\n  <li>\n    <p><strong>Add new line after each iteration of the outer loop</strong></p>\n    <p>Add a new line using the <code>print()</code> function after each iteration of the outer loop so that the pattern displays appropriately.</p>\n  </li>\n</ol>\n<p>Some of the patterns are shown below for better understanding. Let's start with the easiest of all.</p>\n\n<h3>Right Half-Pyramid Pattern Program</h3>\n<pre><code>* \n* * \n* * * \n* * * * \n* * * * * </code></pre>\n<h4>Code</h4>\n<pre><code class=\"language-python\"># Function to demonstrate printing pattern\ndef righthalf(n):\n    \n    # outer loop to handle number of rows\n    # n in this case\n    for i in range(0, n):\n    \n        # inner loop to handle number of columns\n        # values changing acc. to outer loop\n        for j in range(0, i+1):\n        \n            # printing stars\n            print(\"* \",end=\"\")\n    \n        # ending line after each row\n        print(\"\\r\")\n\n# Driver Code\nn = 5\nrighthalf(n)</code></pre>\n<p>Let's look at another example.</p>\n\n<h3>Left Half-Pyramid Pattern Program</h3>\n<pre><code>        * \n      * * \n    * * * \n  * * * * \n* * * * * </code></pre>\n<h4>Code</h4>\n<pre><code class=\"language-python\"># Function to demonstrate printing pattern\ndef lefthalf(n):\n    \n    # number of spaces\n    k = 2*n - 2\n\n    # outer loop to handle number of rows\n    for i in range(0, n):\n    \n        # inner loop to handle number spaces\n        # values changing acc. to requirement\n        for j in range(0, k):\n            print(end=\" \")\n    \n        # decrementing k after each loop\n        k = k - 2\n    \n        # inner loop to handle number of columns\n        # values changing acc. to outer loop\n        for j in range(0, i+1):\n        \n            # printing stars\n            print(\"* \", end=\"\")\n    \n        # ending line after each row\n        print(\"\\r\")\n\n# Driver Code\nn = 5\nlefthalf(n)</code></pre>\n<p>Now, by combining both patterns, we can create a full pyramid star pattern.</p>\n\n<h3>Full Pyramid Star Pattern</h3>\n<pre><code>   * \n  * * \n * * * \n* * * * \n</code></pre>\n<h4>Code</h4>\n<pre><code class=\"language-python\"># Function to demonstrate printing pattern triangle\ndef pyramid(n):\n    \n    # number of spaces\n    k = n - 1\n\n    # outer loop to handle number of rows\n    for i in range(0, n):\n    \n        # inner loop to handle number spaces\n        # values changing acc. to requirement\n        for j in range(0, k):\n            print(end=\" \")\n    \n        # decrementing k after each loop\n        k = k - 1\n    \n        # inner loop to handle number of columns\n        # values changing acc. to outer loop\n        for j in range(0, i+1):\n        \n            # printing stars\n            print(\"* \", end=\"\")\n    \n        # ending line after each row\n        print(\"\\r\")\n\n# Driver Code\nn = 5\npyramid(n)</code></pre>\n<h3>Exercise problems</h3>\n<p>A problem sheet for practicing loops in Python can be downloaded from <a href=\"https://drive.google.com/file/d/1f-CkvIHurtLtCqTFkO1SxrcjAIUdYjfg/view?usp=sharing\">here</a>.</p>\n",
+      tags: ["Python", "Patterns", "Loops", "Programming", "Star Patterns"]
    }, {
       id: 2,
       title: "Creating Interactive Dashboards with Bridge engg",
@@ -26034,7 +26019,7 @@ const S0 = [{
       category: "achievement",
       imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Applied Mechanics", "Scientific Research", "Conference Presentation", "Technical Writing", "Innovation Recognition"]
+      skills: ["Applied Mechanics", "Scientific Research", "Conference Presentation", "Innovation Recognition"],
    }, {
       id: 4,
       title: "International Travel Scheme (ITS)",
@@ -26044,8 +26029,8 @@ const S0 = [{
       description: "Financial grant awarded to present work at ICCS27 conference, Italy.",
       credentialLink: "https://anrfonline.in/ANRF/its",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Conference Presentation", "Research Communication", "Travel Grant Proposal Writing", "International Networking", "Scientific Outreach"]
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/dst_serb.png",
+      skills: ["Conference Presentation", "Research Communication", "Travel Grant Proposal Writing", "International Networking", "Scientific Outreach"],
    }, {
       id: 5,
       title: "Good international conference support",
@@ -26055,8 +26040,8 @@ const S0 = [{
       description: "Financial grant of 1.5 Lakhs awarded by Department of Civil Engineering, IIT Roorkee to present work in international conference on account for publishing two Q1-research papers as a first author.",
       credentialLink: "https://civil.iitr.ac.in/",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Q1 Journal Publication", "International Presentation", "Academic Grant Writing", "Research Excellence", "Technical Communication"]
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
+      skills: ["Q1 Journal Publication", "International Presentation", "Academic Grant Writing", "Research Excellence", "Technical Communication"],
    }, {
       id: 6,
       title: "Partial support to attend good international conference",
@@ -26066,10 +26051,9 @@ const S0 = [{
       description: "Financial grant of Rs. 75000 awarded by Dean of Resources and Alumni Affairs (DORA), IIT Roorkee to present work in an international conference on account for publishing Q1-research papers in reputed journals as a first author.",
       credentialLink: "https://alumni.iitr.ac.in/travel/forstudents/conference",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       pdfUrl: "#",
       skills: ["Q1 Journal Publication", "International Conference", "Research Funding", "Scientific Presentation", "Academic Communication"],
-      duration: "9.5 hours"
    }, {
       id: 7,
       title: "Ministry of Education fellowship",
@@ -26079,8 +26063,8 @@ const S0 = [{
       description: "Awarded for pursuing Ph.D at IIT Roorkee.",
       credentialLink: "https://www.education.gov.in/",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["M.Tech Research", "Graduate Studies", "Structural Mechanics", "Civil Engineering", "Engineering Fundamentals", "Research Excellence"],
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
+      skills: ["PhD Research", "Structural Mechanics", "Civil Engineering", "Engineering Fundamentals", "Research Excellence"],
    }, {
       id: 8,
       title: "Ministry of Education fellowship",
@@ -26090,8 +26074,8 @@ const S0 = [{
       description: "Awarded for pursuing M.Tech at NIT Hamirpur.",
       credentialLink: "https://www.education.gov.in/",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1546707012-c46675f12716?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
-      skills: ["Power Query", "Data Cleaning", "Data Transformation", "Data Modeling", "DAX", "Dashboard Design", "Trend Analysis", "Feature Engineering", "Visualization", "Bridge engg", "Revenue Analysis", "Budget Trends", "Storytelling with Data", "Interactive Dashboards", "Drill-Through Features"]
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/nit_hamirpur.png",
+      skills: ["M.Tech Research", "Structural Mechanics", "Civil Engineering", "Engineering Fundamentals", "Research Excellence"],
    }, {
       id: 9,
       title: "Senior Research Fellowship",
@@ -26101,9 +26085,9 @@ const S0 = [{
       description: "Awarded for pursuing research at IIT Roorkee for CARS project sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad.",
       credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       pdfUrl: "#",
-      skills: ["SQL", "MySQL", "PostgreSQL", "Database Management", "Problem Solving", "Reporting", "Data Workflow Design", "Startup Adaptability", "Team Collaboration"]
+      skills: ["Structural Modeling", "Computational Mechanics", "Finite Element Analysis", "DRDO Projects", "Scientific Programming"],
    }, {
       id: 10,
       title: "Junior Research Fellowship",
@@ -26113,9 +26097,9 @@ const S0 = [{
       description: "Awarded for pursuing research at IIT Roorkee for CARS project sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad.",
       credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       pdfUrl: "#",
-      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
+      skills: ["Structural Modeling", "Computational Mechanics", "Finite Element Analysis", "DRDO Projects", "Scientific Programming"],
    }, {
       id: 11,
       title: "Senior Research Fellow",
@@ -26125,9 +26109,9 @@ const S0 = [{
       description: "As an SQL Developer Intern at Nirjai Technologies, I am responsible for managing and optimizing database systems related to pathology lab data workflows. I design robust SQL queries and contribute to solving real-time business problems through efficient database solutions and reporting systems. The internship involves regular participation in daily and weekend planning meetings, allowing me to adapt to the dynamic, fast-paced startup environment. This role has enhanced my ability to deliver under pressure while supporting the company's core data infrastructure.",
       credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "experience",
-      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       pdfUrl: "#",
-      skills: ["SQL", "MySQL", "PostgreSQL", "Database Management", "Problem Solving", "Reporting", "Data Workflow Design", "Startup Adaptability", "Team Collaboration"]
+      skills: ["Structural Modeling", "Computational Mechanics", "Finite Element Analysis", "DRDO Projects", "Scientific Programming"],
    }, {
       id: 12,
       title: "Junior Research Fellow",
@@ -26137,9 +26121,9 @@ const S0 = [{
       description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Bridge engg to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
       credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "experience",
-      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       pdfUrl: "#",
-      skills: ["SQL", "Microsoft Excel", "Spreadsheets", "Microsoft Bridge engg", "Python", "Data Workflow Optimization", "Marketing Performance Analysis", "Financial Analysis", "Operational Efficiency", "Cross-functional Collaboration", "Report Automation"]
+      skills: ["Structural Modeling", "Computational Mechanics", "Finite Element Analysis", "DRDO Projects", "Scientific Programming"],
    }, {
       id: 13,
       title: "Guest lecturer",
@@ -26151,7 +26135,7 @@ const S0 = [{
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
       pdfUrl: "#",
-      skills: ["Financial Analysis", "Investment Planning", "Client Data Management", "Data Interpretation", "Reporting", "Analytical Thinking", "Microsoft Excel"]
+      skills: ["Teaching", "Civil Engineering", "Structural Analysis", "Academic Delivery", "Curriculum Design", "Public Speaking"],
    }, {
       id: 14,
       title: "Guest lecturer",
@@ -26163,7 +26147,7 @@ const S0 = [{
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Event Coordination", "Team Collaboration", "Time Management", "Communication Skills", "Organizational Skills", "Volunteer Experience"]
+      skills: ["Teaching", "Civil Engineering", "Structural Analysis", "Academic Delivery", "Curriculum Design", "Public Speaking"],
    }, {
       id: 15,
       title: "Intern",
@@ -26175,7 +26159,7 @@ const S0 = [{
       category: "experience",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Poster Design", "Event Coordination", "Creativity", "Communication Skills", "Social Media Promotion", "Team Collaboration", "Planning", "Marketing"]
+      skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"],
    }, {
       id: 16,
       title: "Reviewer",
@@ -26187,7 +26171,7 @@ const S0 = [{
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management",  "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"]
+      skills: ["Project Management",  "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"],
    }, {
       id: 17,
       title: "Guest lecture delivered",
@@ -26199,7 +26183,7 @@ const S0 = [{
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"]
+      skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"],
    }, {
       id: 18,
       title: "Training program attended",
@@ -26211,7 +26195,7 @@ const S0 = [{
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"]
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
    }, {
       id: 19,
       title: "Training program attended",
@@ -26223,7 +26207,7 @@ const S0 = [{
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"]
+      skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
    }, {
       id: 20,
       title: "Country visited outside India",
@@ -26235,7 +26219,7 @@ const S0 = [{
       category: "extracurricular",
       imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
       pdfUrl: "#",
-      skills: ["Presentations", "Communication Skills", "Leadership"]
+      skills: ["Presentations", "Communication Skills", "Leadership"],
    }],
    T0 = ({
       viewMode: t = "list",
