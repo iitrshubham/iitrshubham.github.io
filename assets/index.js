@@ -17324,10 +17324,7 @@ const X_ = () => {
                      children: "About Me"
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, metamaterials, topology optimization, and data-driven simulations for solving real-world engineering problems."
-                  }), f.jsx("p", {
-                     className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I’ve led and contributed to multiple simulation-based projects instersection of civil and mechanical engineering domains. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
+                     children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, metamaterials, topology optimization, and data-driven simulations for solving real-world engineering problems. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
                      children: "Currently, I’m enhancing my capabilities in high-performance computing, stochastic modeling, and structural health monitoring, while actively pursuing opportunities in R&D, simulation engineering, and applied computational mechanics."
@@ -25042,12 +25039,12 @@ const W4 = ({
             },
             className: "max-w-4xl mx-auto",
             children: [f.jsxs(Sr, {
-               onClick: () => a("/case-studies"),
+               onClick: () => a("/notes"),
                variant: "ghost",
                className: "mb-6 hover:bg-gray-100",
                children: [f.jsx(Li, {
                   className: "mr-2 h-4 w-4"
-               }), " Back to Case Studies"]
+               }), " Back to Notes"]
             }), f.jsx("div", {
                className: "bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden",
                children: f.jsxs("div", {
@@ -25120,13 +25117,13 @@ const W4 = ({
             className: "text-center py-12",
             children: [f.jsx("h2", {
                className: "text-2xl font-bold text-gray-800",
-               children: "Case study not found"
+               children: "Notes not found"
             }), f.jsxs(Sr, {
-               onClick: () => a("/case-studies"),
+               onClick: () => a("/notes"),
                className: "mt-4",
                children: [f.jsx(Li, {
                   className: "mr-2 h-4 w-4"
-               }), " Back to Case Studies"]
+               }), " Back to Notes"]
             })]
          }),
          y = () => f.jsxs(f.Fragment, {
@@ -25145,7 +25142,7 @@ const W4 = ({
                className: "text-center mb-12",
                children: [f.jsx("h1", {
                   className: "text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300",
-                  children: "Case Studies"
+                  children: "Notes"
                }), f.jsx("p", {
                   className: "text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300",
                   children: "Detailed analyses of real-world data challenges and their solutions"
@@ -25175,9 +25172,9 @@ const W4 = ({
                            className: "text-sm text-gray-500",
                            children: v.date
                         }), f.jsxs("button", {
-                           onClick: () => a(`/case-study/${v.slug}`),
+                           onClick: () => a(`/notes/${v.slug}`),
                            className: "text-primary font-medium hover:underline flex items-center",
-                           children: ["Read Case Study ", f.jsx("span", {
+                           children: ["Read Notes ", f.jsx("span", {
                               className: "ml-1",
                               children: "→"
                            })]
@@ -25191,16 +25188,16 @@ const W4 = ({
          children: [f.jsx(Xc, {
             children: t === "detail" && l ? f.jsxs(f.Fragment, {
                children: [f.jsxs("title", {
-                  children: [l.title, " | Case Study | Shubham"]
+                  children: [l.title, " | Notes | Shubham"]
                }), f.jsx("meta", {
                   name: "description",
                   content: l.shortDescription
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: `case study, ${l.category}, ${l.toolsUsed.join(", ")}`
+                  content: `notes, ${l.category}, ${l.toolsUsed.join(", ")}`
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: `${l.title} | Case Study`
+                  content: `${l.title} | Notes`
                }), f.jsx("meta", {
                   property: "og:description",
                   content: l.shortDescription
@@ -25213,16 +25210,16 @@ const W4 = ({
                })]
             }) : f.jsxs(f.Fragment, {
                children: [f.jsx("title", {
-                  children: "Case Studies | Shubham"
+                  children: "Notes | Shubham"
                }), f.jsx("meta", {
                   name: "description",
                   content: "Detailed analyses of real-world data challenges and their solutions"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "case studies, data analysis, projects, portfolio"
+                  content: "notes, data analysis, projects, portfolio"
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: "Case Studies | Shubham"
+                  content: "Notes | Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
                   content: "Detailed analyses of real-world data challenges and their solutions"
@@ -26763,7 +26760,7 @@ const m3 = () => {
          };
          return document.addEventListener("mousedown", U), () => document.removeEventListener("mousedown", U)
       }, []), b.useEffect(() => {
-         if (p.startsWith("/case-stud")) i("case-studies");
+         if (p.startsWith("/notes")) i("notes");
          else if (p.startsWith("/blog")) i("blog");
          else if (p.startsWith("/certificate")) i("certificates");
          else if (p.startsWith("/project") || p.startsWith("/category")) i("projects");
@@ -26848,12 +26845,12 @@ const m3 = () => {
                      }, U))]
                   })]
                }), f.jsxs("button", {
-                  onClick: () => F("/case-studies"),
-                  className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "case-studies" ? "text-primary dark:text-primary" : ""),
+                  onClick: () => F("/notes"),
+                  className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "notes" ? "text-primary dark:text-primary" : ""),
                   children: [f.jsx(Sy, {
-                     className: `h-4 w-4 mr-1 ${r==="case-studies"?"text-primary":""}`
-                  }), "Case Studies", f.jsx("span", {
-                     className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "case-studies" ? "w-full" : "w-0")
+                     className: `h-4 w-4 mr-1 ${r==="notes"?"text-primary":""}`
+                  }), "Notes", f.jsx("span", {
+                     className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "notes" ? "w-full" : "w-0")
                   })]
                }), f.jsxs("button", {
                   onClick: () => F("/blog"),
@@ -26947,11 +26944,11 @@ const m3 = () => {
                   children: U
                }, U))]
             }), f.jsxs("button", {
-               onClick: () => F("/case-studies"),
-               className: `flex items-center w-full text-left py-2 ${r==="case-studies"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
+               onClick: () => F("/notes"),
+               className: `flex items-center w-full text-left py-2 ${r==="notes"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
                children: [f.jsx(Sy, {
-                  className: `h-4 w-4 mr-2 ${r==="case-studies"?"text-primary dark:text-primary":""}`
-               }), "Case Studies"]
+                  className: `h-4 w-4 mr-2 ${r==="notes"?"text-primary dark:text-primary":""}`
+               }), "Notes"]
             }), f.jsxs("button", {
                onClick: () => F("/blog"),
                className: `flex items-center w-full text-left py-2 ${r==="blog"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
@@ -27183,10 +27180,10 @@ function y3() {
                path: "/category/:category",
                component: q4
             }), f.jsx(Pn, {
-               path: "/case-studies",
+               path: "/notes",
                children: () => f.jsx(w0, {})
             }), f.jsx(Pn, {
-               path: "/case-study/:slug",
+               path: "/notes/:slug",
                children: i => f.jsx(w0, {
                   viewMode: "detail",
                   params: i
