@@ -17443,7 +17443,7 @@ const X_ = () => {
                      }), f.jsxs("div", {
                         children: [f.jsx("h3", {
                            className: "text-xl font-bold mb-3 text-gray-900 dark:text-white transition-colors duration-300",
-                           children: "Experience"
+                           children: "Acclodates"
                         }), f.jsxs("div", {
                            className: "space-y-3",
                            children: [f.jsxs("div", {
@@ -17455,10 +17455,10 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Senior Research Fellow"
+                                    children: "ITS"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2022 - July 2023"
+                                    children: "SERB, August 2022 - July 2023"
                                  })]
                               })]
                            }), f.jsxs("div", {
@@ -17470,7 +17470,7 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Junior Research Fellow"
+                                    children: "Good international"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
                                     children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2020 - August 2022"
