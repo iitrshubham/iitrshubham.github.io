@@ -16294,6 +16294,22 @@ function rg_(t) {
    })(t)
 }
 
+function ug_(t) {
+   return Wt({
+      attr: {
+         viewBox: "0 0 496 512"
+      },
+      child: [{
+         tag: "path",
+         attr: {
+            d: "M219.3 .5c3.1-.6 6.3-.6 9.4 0l200 40C439.9 42.7 448 52.6 448 64s-8.1 21.3-19.3 23.5L352 102.9l0 57.1c0 70.7-57.3 128-128 128s-128-57.3-128-128l0-57.1L48 93.3l0 65.1 15.7 78.4c.9 4.7-.3 9.6-3.3 13.3s-7.6 5.9-12.4 5.9l-32 0c-4.8 0-9.3-2.1-12.4-5.9s-4.3-8.6-3.3-13.3L16 158.4l0-71.8C6.5 83.3 0 74.3 0 64C0 52.6 8.1 42.7 19.3 40.5l200-40zM111.9 327.7c10.5-3.4 21.8 .4 29.4 8.5l71 75.5c6.3 6.7 17 6.7 23.3 0l71-75.5c7.6-8.1 18.9-11.9 29.4-8.5C401 348.6 448 409.4 448 481.3c0 17-13.8 30.7-30.7 30.7L30.7 512C13.8 512 0 498.2 0 481.3c0-71.9 47-132.7 111.9-153.6z"
+         },
+         child: []
+      }]
+   })(t)
+}
+
+
 
 function $_(t) {
    return Wt({
@@ -17342,7 +17358,7 @@ const X_ = () => {
                               className: "flex",
                               children: [f.jsx("div", {
                                  className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
-                                 children: f.jsx(G_, {})
+                                 children: f.jsx(ug_, {})
                               }), f.jsxs("div", {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
@@ -24977,11 +24993,30 @@ const W4 = ({
       fullDescription: `During my internship at The Design Cart as a Data Analyst and Operations Intern, I was responsible for building a Daily MIS & Bridge engg Dashboard to deliver real-time insights on company performance. My task involved consolidating data from multiple sources—such as sales reports, marketing platforms, and revenue trackers—into a single dashboard that would be reviewed by leadership on a daily basis.
                     I ensured the dashboard was automated, visually engaging, and updated with the latest figures to drive strategic planning. The system not only improved the accuracy and timeliness of reports but also helped the company evaluate marketing ROI and sales efficiency across various channels.`,
       bulletPoints: ["Built a fully automated Daily MIS Dashboard using Bridge engg", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
-      date: "Dec 2024",
+      date: "June 2025",
       toolsUsed: ["Bridge engg", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
       results: "The dashboard ensured accurate and error-free reporting throughout the internship period, reducing manual work by nearly 2 hours per day. It helped identify high-performing marketing strategies, leading to a 15–20% improvement in marketing ROI. These insights enabled the leadership team to make faster and more informed decisions."
    }, {
       id: 2,
+      title: "Modal Analysis of Structural Components for Natural Frequencies and Mode Shapes",
+      slug: "modal-analysis-natural-frequencies-mode-shapes",
+      category: "Structural Mechanics | Finite Element Analysis | Vibration Analysis",
+      shortDescription: "Performed modal analysis to compute natural frequencies and corresponding mode shapes of structural components, aiding in design optimization and resonance avoidance.",
+      fullDescription: `As part of my academic research and simulations in structural dynamics, I conducted a detailed modal analysis to evaluate the natural frequencies and mode shapes of various structural components including beams, frames, and bridge piers. The objective was to identify critical modes of vibration and ensure that operating conditions avoid resonance.
+                        Using finite element tools, I discretized the geometry, applied appropriate boundary conditions, and solved the eigenvalue problem to extract frequency data. The results were visualized to understand deformation patterns associated with each mode shape. This study played a crucial role in optimizing structural design, improving dynamic performance, and validating simulation techniques for real-world applications.`,
+      bulletPoints: [
+         "Conducted modal analysis to extract natural frequencies and mode shapes",
+         "Used finite element simulation to solve structural eigenvalue problems",
+         "Visualized mode shapes to interpret deformation behavior under vibration",
+         "Assessed dynamic performance for resonance risk mitigation",
+         "Validated models through mesh refinement and comparison with theoretical results",
+         "Applied boundary conditions relevant to real-world structural systems",
+         "Contributed to dynamic design optimization of civil engineering components"],
+      date: "June 2025",
+      toolsUsed: ["FEniCS", "MATLAB", "Python", "Modal Analysis Concepts", "Structural Dynamics Theory"],
+      results: "The analysis helped in identifying critical vibration modes, ensuring that the structure operates safely away from resonant frequencies. The study also improved understanding of dynamic characteristics, guiding further design refinements and contributing to the development of robust structural systems."
+   }, {
+      id: 3,
       title: "RTO Automation and Proof Extraction System",
       slug: "rto-automation-proof-extraction",
       category: "Operational Automation | Self-Initiated Project",
@@ -24991,7 +25026,7 @@ const W4 = ({
                         Then, I built a Metamaterials script that automatically copied the proof files from a folder by matching them with the AWBs listed in Excel. These AWBs were then submitted for reattempts or waivers due to issues like fake delivery remarks.
                         This solution improved the accuracy of reattempt requests, supported timely freight waiver submissions, and significantly reduced manual workload.`,
       bulletPoints: ["Designed Excel file to track AWBs with valid delivery proof and number of attempts.", "Built a Metamaterials script to extract and copy MP3/PNG proof files based on AWB numbers.", "Enabled easy identification of AWBs with <3 attempts to raise freight waivers.", "Reduced daily manual effort from 1 or 2 hour to just 1 minute.", "Helped reduce RTO cases by 2–3% by ensuring timely reattempts with proper proof."],
-      date: "Jan 2025",
+      date: "Jun 2025",
       toolsUsed: ["Microsoft Excel", "Metamaterials (Pandas, OS module, shutil)", "Power Query"],
       results: "This self-made automation helped reduce the daily manual work from 1 or 2 hour to 1 minute, saving over 25 hours per month. It led to a 2–3% reduction in RTOs by ensuring timely reattempts for AWBs with valid proof and also made it easier to raise bulk freight waiver claims for cases with fewer than 3 delivery attempts. The project improved both accuracy and efficiency in daily operations."
    }],
