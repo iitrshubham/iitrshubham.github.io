@@ -26004,6 +26004,19 @@ const S0 = [{
       skills: ["Spreadsheet Software", "Data Management", "Data Analysis", "Business Communication", "General Statistics", "Business Analysis", "Data Visualization", "SQL"],
       duration: "24 weeks"
    }, {
+      id: 125,
+      title: "PhD in Structural Engineering",
+      slug: "phd-qualifications",
+      issuer: "Indian Institute of Technology Roorkee",
+      date: "2020 - 2025",
+      description: "• Developed multiple open-source software packages for robust topology optimization addressing uncertainties in load positions, materials, and dynamic responses.\n• Implemented adaptive mesh refinement schemes to enhance computational efficiency and accuracy in structural optimization.\n• Designed topology-optimized metamaterials exhibiting extreme mechanical properties such as negative Poisson's ratio, and enhanced bulk, shear, and elastic moduli.\n• Created solutions for robust transient topology optimization to minimize dynamic responses under time-dependent loading.\n• Engineered auxetic metamaterial designs optimized for impact resistance with applications including bird strike scenarios on aerospace structures.\n• Developed robust 3D topology optimization frameworks for complex bridge structures considering uncertainty.\n• Applied artificial neural networks to accurately predict homogenized properties of metamaterials, improving computational speed and design capabilities.",
+      credentialLink: "https://iitr.ac.in/",
+      category: "qualifications",
+      imageUrl: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      pdfUrl: "#",
+      skills: ["Topology Optimization", "Uncertainty Quantification", "Adaptive Mesh Refinement", "Metamaterial Design", "Computational Mechanics", "Dynamic Structural Analysis", "Artificial Neural Networks", "Numerical Methods", "Open-Source Software Development"],
+      duration: "5 years"
+   }, {
       id: 2,
       title: "M.Tech in Structural Engineering",
       slug: "mtech-qualifications",
