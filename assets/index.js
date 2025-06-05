@@ -16889,7 +16889,7 @@ const X_ = () => {
       description: "This project analyzes Telangana’s economic and industrial growth by combining datasets from three government departments: Stamp Registration, Transportation, and TS-iPASS (Industrial Project Approvals). It focuses on trends in revenue, vehicle registrations, and sector-wise investments across districts between 2019 and 2022.",
       tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
-      category: "Metamaterails",
+      category: "Metamaterials",
       githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
       methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Excel.
                    • Segmentation: Grouped districts based on performance (High, Medium, Low) using KPIs like revenue and investment volume.
@@ -25354,7 +25354,7 @@ const W4 = ({
       id: 4,
       title: "Streamlining Data Cleaning with Pandas",
       slug: "data-cleaning-pandas",
-      category: "Metamaterials",
+      category: "MATHEMATICS",
       date: "April 5, 2025",
       author: "Shubham",
       shortDescription: "Data cleaning often consumes up to 80% of a data analyst's time. This article shares practical techniques for efficiently handling missing data, outliers, and inconsistencies using the Metamaterials Pandas library.",
@@ -25492,9 +25492,9 @@ const W4 = ({
          }),
          y = () => {
             const v = {
-               "DATA SCIENCE": "from-blue-500 to-indigo-600",
+               MECHANICS: "from-blue-500 to-indigo-600",
                VISUALIZATION: "from-purple-500 to-pink-600",
-               SQL: "from-green-500 to-emerald-600",
+               MATHEMATICS: "from-green-500 to-emerald-600",
                PYTHON: "from-amber-500 to-red-600"
             };
             return f.jsxs(f.Fragment, {
@@ -25513,10 +25513,10 @@ const W4 = ({
                   className: "text-center mb-12",
                   children: [f.jsx("h1", {
                      className: "text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300",
-                     children: "Data Insights Blog"
+                     children: "Blogs"
                   }), f.jsx("p", {
                      className: "text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300",
-                     children: "Thoughts, tutorials, and insights on data analysis, visualization, and modern techniques"
+                     children: "Thoughts, tutorials, and insights on programming, visualization, and modern techniques"
                   })]
                }), f.jsx("div", {
                   className: "max-w-5xl mx-auto",
