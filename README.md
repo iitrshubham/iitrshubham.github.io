@@ -1,7 +1,7 @@
 # Shubham | Researcher Portfolio
 
 Welcome to my personal portfolio!  
-This site showcases my data analyst journey, real-world projects, dashboards, case studies, certifications, and blogs — all crafted with a focus on performance, design, and accessibility.
+
 
 
 
@@ -13,7 +13,7 @@ This site showcases my data analyst journey, real-world projects, dashboards, ca
 - **SEO Optimized** – Helmet integration and Open Graph tags.
 - **Sitemap Generator** – Automatically creates sitemap.xml.
 - **Dynamic Routing** – Projects, Blogs, Case Studies, Certificates.
-- **Responsive Design** – Mobile, Tablet, Desktop ready.
+
 
 ## 📂 Project Structure
 
@@ -30,24 +30,4 @@ This site showcases my data analyst journey, real-world projects, dashboards, ca
 - ├── index.html
 - ├── seo.tsx
 - └── generate-sitemap.ts
-
-
-## 🔧 Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/iitrshubham/iitrshubham.github.io.git
-
-# Navigate into the project folder
-cd iitrshubham.github.io
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-
-## 🛠 Build for Production
-
-npm run build
 
