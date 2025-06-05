@@ -16759,7 +16759,7 @@ const X_ = () => {
                      i.stopPropagation(), r()
                   },
                   className: "text-primary hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium flex items-center transition-colors duration-300",
-                  children: ["View Project ", f.jsx(Sy, {
+                  children: ["View Project ", f.jsx(W_, {
                      className: "ml-1 text-sm"
                   })]
                }), f.jsx("a", {
@@ -16769,7 +16769,7 @@ const X_ = () => {
                   className: "text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors duration-300",
                   "aria-label": "GitHub repository",
                   onClick: i => i.stopPropagation(),
-                  children: f.jsx(qi, {
+                  children: f.jsx(Sy, {
                      className: "text-xl"
                   })
                })]
