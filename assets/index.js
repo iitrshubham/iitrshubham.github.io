@@ -24607,7 +24607,7 @@ const W4 = ({
                content: ((l = e.skills) == null ? void 0 : l.join(", ")) || ""
             }), f.jsx("link", {
                rel: "canonical",
-               href: `https://Shubham.github.io/project/${e.slug}`
+               href: `https://iitrshubham.github.io/project/${e.slug}`
             }), f.jsx("meta", {
                property: "og:title",
                content: `${e.title} | Data Analysis Project`
@@ -24619,7 +24619,7 @@ const W4 = ({
                content: "article"
             }), f.jsx("meta", {
                property: "og:url",
-               content: `https://Shubham.github.io/project/${e.slug}`
+               content: `https://iitrshubham.github.io/project/${e.slug}`
             }), e.imageUrl && f.jsx("meta", {
                property: "og:image",
                content: e.thumbhnailUrl
@@ -24681,7 +24681,7 @@ const W4 = ({
                                  className: "mr-2"
                               }), " View on GitHub"]
                            })]
-                        }), e.imageUrl && !["Bridge engg", "Bandgap metamaterials", "Tableau"].includes(e.category) && f.jsx("div", {
+                        }), e.imageUrl && !["Bridge engg", "Bandgap metamaterials", "Uncertainty"].includes(e.category) && f.jsx("div", {
                            className: "mb-10",
                            children: f.jsx("div", {
                               className: "w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-sm border bg-white",
@@ -24728,7 +24728,7 @@ const W4 = ({
                                  })
                               })
                            })]
-                        }), e.category === "Tableau" && f.jsxs("div", {
+                        }), e.category === "Uncertainty" && f.jsxs("div", {
                            className: "mt-8",
                            children: [f.jsx("h2", {
                               className: "text-2xl font-bold mb-4",
@@ -26837,7 +26837,7 @@ const m3 = () => {
                }), f.jsxs("button", {
                   onClick: () => F("/case-studies"),
                   className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "case-studies" ? "text-primary dark:text-primary" : ""),
-                  children: [f.jsx(by, {
+                  children: [f.jsx(Sy, {
                      className: `h-4 w-4 mr-1 ${r==="case-studies"?"text-primary":""}`
                   }), "Case Studies", f.jsx("span", {
                      className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "case-studies" ? "w-full" : "w-0")
@@ -26845,7 +26845,7 @@ const m3 = () => {
                }), f.jsxs("button", {
                   onClick: () => F("/blog"),
                   className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "blog" ? "text-primary dark:text-primary" : ""),
-                  children: [f.jsx(Sy, {
+                  children: [f.jsx(by, {
                      className: `h-4 w-4 mr-1 ${r==="blog"?"text-primary":""}`
                   }), "Blog", f.jsx("span", {
                      className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "blog" ? "w-full" : "w-0")
@@ -26936,13 +26936,13 @@ const m3 = () => {
             }), f.jsxs("button", {
                onClick: () => F("/case-studies"),
                className: `flex items-center w-full text-left py-2 ${r==="case-studies"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
-               children: [f.jsx(by, {
+               children: [f.jsx(Sy, {
                   className: `h-4 w-4 mr-2 ${r==="case-studies"?"text-primary dark:text-primary":""}`
                }), "Case Studies"]
             }), f.jsxs("button", {
                onClick: () => F("/blog"),
                className: `flex items-center w-full text-left py-2 ${r==="blog"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors`,
-               children: [f.jsx(Sy, {
+               children: [f.jsx(by, {
                   className: `h-4 w-4 mr-2 ${r==="blog"?"text-primary dark:text-primary":""}`
                }), "Blog"]
             }), f.jsxs("div", {
