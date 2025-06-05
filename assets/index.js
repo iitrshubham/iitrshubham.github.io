@@ -26437,7 +26437,7 @@ const S0 = [{
                                     target: "_blank",
                                     rel: "noreferrer",
                                     className: "text-primary font-medium hover:underline inline-flex items-center",
-                                    children: ["View Credential ", f.jsx("span", {
+                                    children: ["View more ", f.jsx("span", {
                                        className: "ml-1",
                                        children: "→"
                                     })]
@@ -26596,7 +26596,7 @@ const S0 = [{
                                     target: "_blank",
                                     rel: "noreferrer",
                                     className: "text-red-600 font-medium hover:underline inline-flex items-center",
-                                    children: ["View Certificate ", f.jsx("span", {
+                                    children: ["View details ", f.jsx("span", {
                                        className: "ml-1",
                                        children: "→"
                                     })]
