@@ -25996,7 +25996,13 @@ const S0 = [{
       slug: "phd-qualifications",
       issuer: "Indian Institute of Technology Roorkee",
       date: "2020 - 2025",
-      description: "• Developed multiple open-source software packages for robust topology optimization addressing uncertainties in load positions, materials, and dynamic responses.\n• Implemented adaptive mesh refinement schemes to enhance computational efficiency and accuracy in structural optimization.\n• Designed topology-optimized metamaterials exhibiting extreme mechanical properties such as negative Poisson's ratio, and enhanced bulk, shear, and elastic moduli.\n• Created solutions for robust transient topology optimization to minimize dynamic responses under time-dependent loading.\n• Engineered auxetic metamaterial designs optimized for impact resistance with applications including bird strike scenarios on aerospace structures.\n• Developed robust 3D topology optimization frameworks for complex bridge structures considering uncertainty.\n• Applied artificial neural networks to accurately predict homogenized properties of metamaterials, improving computational speed and design capabilities.",
+      description: [
+                  "• Developed robust topology optimization packages under load, material, and dynamic uncertainties.",
+                  "• Implemented adaptive mesh refinement schemes.",
+                  "• Designed metamaterials with extreme properties (negative Poisson’s ratio, high shear/bulk modulus).",
+                  "• Created auxetic metamaterials for bird strike resistance.",
+                  "• Developed ANN models to predict homogenized properties."
+                  ].join("\n"),
       credentialLink: "https://iitr.ac.in/",
       category: "qualifications",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
@@ -26012,7 +26018,7 @@ const S0 = [{
       description: "In this course, I learned the core concepts of SQL used to manage and analyze data stored in relational databases. I practiced writing queries to retrieve, filter, sort, and aggregate data using commands like SELECT, WHERE, JOIN, GROUP BY, and ORDER BY. The course also covered subqueries, data manipulation with INSERT, UPDATE, and DELETE, as well as database design principles. This training strengthened my ability to work with large datasets and extract meaningful insights using SQL.",
       credentialLink: "https://nith.ac.in/",
       category: "qualifications",
-      imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/nit_hamirpur.png",
       pdfUrl: "#",
       skills: ["Databases", "Critical Thinking", "Data Analysis", "Data Management", "Data Science", "SQL (Structured Query Language)", "Database (DBMS)"],
       duration: "27 hours"
