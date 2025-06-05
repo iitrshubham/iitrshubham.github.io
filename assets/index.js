@@ -26737,13 +26737,13 @@ const S0 = [{
 function p3({
    className: t
 }) {
-   const [e, r] = b.useState(!1);
+   const [e, r] = b.useState(true);  // start state as true for dark mode
 
+   // We don't need to set dark mode here because inline script did it already,
+   // but keep this to handle toggling and updating localStorage on button click.
    b.useEffect(() => {
-      // Always start in dark mode on initial load
-      r(true);
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
+      // Sync state with current class on html element
+      r(document.documentElement.classList.contains('dark'));
    }, []);
 
    const i = () => {
@@ -26767,6 +26767,7 @@ function p3({
       })
    });
 }
+
 
 const m3 = () => {
       const [t, e] = b.useState(!1), [r, i] = b.useState("home"), [a, l] = b.useState(!1), [u, d] = b.useState(!1), [p, m] = ls(), y = b.useRef(null), v = b.useRef(null), w = () => {
