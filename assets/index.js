@@ -16791,25 +16791,22 @@ const X_ = () => {
       id: 3,
       title: "Bandgap metamaterials",
       slug: "bandgap-metamaterials",
-      description: "This Bridge engg dashboard transformed decision-making for a global skincare e-store by unlocking hidden growth opportunities. By analyzing 100K+ transactions, I identified key profit drivers that delivered 50.58% YoY sales growth (exceeding targets by 2.5x) and boosted average margins to 19.14%. The interactive dashboard revealed the US market's $1.07M profit potential and uncovered high-value customer segments, enabling targeted campaigns that increased Q3 sales by 12%. My data storytelling turned complex sales data into actionable strategies that stakeholders used to optimize pricing, marketing spend, and regional expansion.",
+      description: "Metamaterials are artificially engineered materials designed to have properties not found in naturally occurring materials. Their unique behavior arises from their structure rather than their composition. Typically, they are made from repeating units (often called unit cells) that are smaller than the wavelength of the phenomena they are designed to influence (such as electromagnetic waves, sound, or mechanical vibrations).",
       tag: "Bandgap metamaterials",
       tagColor: "bg-green-100 text-green-700",
       category: "Bandgap metamaterials",
       githubUrl: "https://github.com/iitrshubham",
-      methodology: `• Integrated and cleaned data across customers, markets, products, and discounts.
-                   • Segmented data by region, product category, and customer segment.
-                   • Used DAX for computing YOY growth, profit margins, and discount impact.
-                   • Built interactive dashboards with filters and slicers to explore KPIs, sales trends, and customer behavior.
-                   • Enabled real-time tracking and actionable decision-making insights for business stakeholders.`,
-      resultsAndImpact: ` • Achieved 50.58% YOY sales growth and 19.14% average profit margin, exceeding the target of 15%.
-                        • United States generated $1.07M in profit; Germany and China also performed strongly.
-                        • Consumer segment accounted for 52.93% of total sales; Corporate segment contributed 31.06% of total profit.
-                        • High-value customers like LS-172001402 highlighted the potential for customer-focused strategies.
-                        • Recommended regional promotions, product line expansion, and loyalty programs to boost engagement and growth.`,
-      skills: ["Sales & Market Analysis", "Customer Segmentation", "Profitability Tracking", "KPI Monitoring"],
-      tools: ["Bridge engg (DAX)", "Excel"],
+      methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
+                   • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
+                   • Multiphysical response: They can be designed for electromagnetic, acoustic, thermal, or mechanical responses—or combinations thereof.`,
+      resultsAndImpact: ` • Electromagnetic metamaterials (e.g., for invisibility cloaks, antennas)
+                        • Acoustic metamaterials (e.g., sound insulation, wave redirection)
+                        • Mechanical/metastructures (e.g., auxetic lattices, impact absorbers)
+                        • Thermal metamaterials (e.g., thermal cloaking, heat guiding).`,
+      skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
+      tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png"
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png"
    }, {
       id: 4,
       title: "Robust topology optimization",
