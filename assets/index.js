@@ -16753,7 +16753,7 @@ const X_ = () => {
       tag: "Topology optimization",
       tagColor: "bg-yellow-100 text-yellow-700",
       category: "Topology optimization",
-      githubUrl: "https://github.com/iitrshubham",
+      githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
       methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
                    • Developed interactive Bridge engg dashboards by integrating multiple datasets, highlighting store performance, promotion impact, and product responsiveness.
                    • Maintained consistent and clean data across platforms to support dependable and data-driven decision-making.
@@ -16775,7 +16775,7 @@ const X_ = () => {
       tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
       category: "Metamaterials",
-      githubUrl: "https://github.com/iitrshubham",
+      githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
       methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
                    • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
                    • Multiphysical response: They can be designed for electromagnetic, acoustic, thermal, or mechanical responses—or combinations thereof.`,
@@ -16795,7 +16795,7 @@ const X_ = () => {
       tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
       category: "Topology optimization",
-      githubUrl: "https://github.com/iitrshubham",
+      githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
       methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
                    • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
                    • Multiphysical response: They can be designed for electromagnetic, acoustic, thermal, or mechanical responses—or combinations thereof.`,
@@ -16815,7 +16815,7 @@ const X_ = () => {
       tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
       category: "Topology optimization",
-      githubUrl: "https://github.com/iitrshubham",
+      githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
       methodology: `• Collected and explored structured HR data related to employee demographics, salary, bonuses, and departmental roles.
                    • Cleaned and transformed data to ensure consistency and usability for visualization.
                    • Built interactive dashboards to track KPIs such as total employees, salary trends, bonus distribution, retention/turnover rates, and gender-wise employee ratios.
@@ -16837,7 +16837,7 @@ const X_ = () => {
       tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
       category: "Topology optimization",
-      githubUrl: "https://github.com/iitrshubham",
+      githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
       methodology: ` • Conducted data cleaning and transformation using Power Query in Bridge engg to handle inconsistencies, null values, and prepare data for analysis.
                     • Performed data modeling to define relationships between key fields such as year, genre, production house, and financial metrics.
                     • Created interactive visualizations to analyze trends in revenue and budget over time, genre popularity, and vote count distributions.
@@ -16858,7 +16858,7 @@ const X_ = () => {
       tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
       category: "Metamaterails",
-      githubUrl: "https://github.com/iitrshubham",
+      githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
       methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Excel.
                    • Segmentation: Grouped districts based on performance (High, Medium, Low) using KPIs like revenue and investment volume.
                    • Trend & Pattern Analysis: Observed year-on-year changes in e-stamp challans, document registrations, vehicle types, and industrial investments.
@@ -24676,7 +24676,7 @@ const W4 = ({
                               className: "px-4 py-2 border border-gray-300 rounded-md hover:border-primary hover:text-primary transition-colors flex items-center",
                               children: [f.jsx(qi, {
                                  className: "mr-2"
-                              }), " View on GitHub"]
+                              }), " View publication"]
                            })]
                         }), e.imageUrl && !["Bridge engg", "Bandgap metamaterials", "Uncertainty"].includes(e.category) && f.jsx("div", {
                            className: "mb-10",
