@@ -16805,16 +16805,16 @@ const X_ = () => {
                         • Thermal metamaterials (e.g., thermal cloaking, heat guiding).`,
       skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
       tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png",
-      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png"
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png",
+      thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png"
    }, {
       id: 4,
       title: "Robust topology optimization",
       slug: "robust-topology-optimization",
       description: "This project focused on analyzing human resource data to gain actionable insights into employee distribution, compensation, turnover, retention, and departmental trends. The goal was to help HR leadership make data-driven decisions regarding employee management and workforce planning.",
-      tag: "Uncertainty",
+      tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
-      category: "Uncertainty",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham",
       methodology: `• Collected and explored structured HR data related to employee demographics, salary, bonuses, and departmental roles.
                    • Cleaned and transformed data to ensure consistency and usability for visualization.
@@ -16834,9 +16834,9 @@ const X_ = () => {
       title: "Ellipsoid convex model",
       slug: "ellipsoid-convex-model",
       description: "This project focused on analyzing a comprehensive dataset from IMDB to uncover insights related to movie genres, revenue, budget trends, popularity, and production house performance. The goal was to create an interactive dashboard that supports data-driven decisions in the entertainment industry.",
-      tag: "Uncertainty",
+      tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
-      category: "Uncertainty",
+      category: "Topology optimization",
       githubUrl: "https://github.com/iitrshubham",
       methodology: ` • Conducted data cleaning and transformation using Power Query in Bridge engg to handle inconsistencies, null values, and prepare data for analysis.
                     • Performed data modeling to define relationships between key fields such as year, genre, production house, and financial metrics.
@@ -26339,7 +26339,7 @@ const S0 = [{
                            className: `inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-${D}-600 hover:bg-${D}-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-${D}-500`,
                            children: [f.jsx(pT, {
                               className: "h-4 w-4 mr-2"
-                           }), "View Credential"]
+                           }), "View more"]
                         }), y.pdfUrl && y.pdfUrl !== "#" && f.jsxs("a", {
                            href: y.pdfUrl,
                            target: "_blank",
