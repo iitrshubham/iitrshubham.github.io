@@ -16792,9 +16792,9 @@ const X_ = () => {
       title: "Bandgap metamaterials",
       slug: "bandgap-metamaterials",
       description: "Metamaterials are artificially engineered materials designed to have properties not found in naturally occurring materials. Their unique behavior arises from their structure rather than their composition. Typically, they are made from repeating units (often called unit cells) that are smaller than the wavelength of the phenomena they are designed to influence (such as electromagnetic waves, sound, or mechanical vibrations).",
-      tag: "Topology optimization",
+      tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
-      category: "Topology optimization",
+      category: "Metamaterials",
       githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
       methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
                    • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
@@ -24754,13 +24754,13 @@ const W4 = ({
                               children: e.description
                            }), f.jsx("h2", {
                               className: "text-2xl font-bold mb-4 text-gray-900 dark:text-white",
-                              children: "Methodology"
+                              children: "Formulation"
                            }), f.jsx("p", {
                               className: "text-gray-700 dark:text-gray-300 mb-6 whitespace-pre-line",
                               children: e.methodology
                            }), f.jsx("h2", {
                               className: "text-2xl font-bold mb-4 text-gray-900 dark:text-white",
-                              children: "Results & Impact"
+                              children: "Conclusion"
                            }), f.jsx("div", {
                               className: "text-gray-700 dark:text-gray-300 mb-6 whitespace-pre-line",
                               children: f.jsx("p", {
