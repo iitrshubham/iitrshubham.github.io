@@ -16955,11 +16955,11 @@ const X_ = () => {
             }), f.jsxs("div", {
                className: "text-center mt-12 flex flex-wrap justify-center gap-4",
                children: [f.jsxs("a", {
-                  href: "https://github.com/iitrshubham",
+                  href: "https://scholar.google.com/citations?user=-2QHLeQAAAAJ&hl=en",
                   target: "_blank",
                   rel: "noopener noreferrer",
                   className: "inline-flex items-center px-6 py-3 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 rounded-md hover:border-primary hover:text-primary dark:hover:text-primary transition-colors duration-300 font-medium",
-                  children: ["View All Projects on GitHub ", f.jsx(qi, {
+                  children: ["View all works on Google scholar", f.jsx(qi, {
                      className: "ml-2"
                   })]
                }), t !== "all" && f.jsxs("button", {
