@@ -16759,7 +16759,7 @@ const X_ = () => {
                      i.stopPropagation(), r()
                   },
                   className: "text-primary hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium flex items-center transition-colors duration-300",
-                  children: ["View Project ", f.jsx(W_, {
+                  children: ["View Project ", f.jsx(Sy, {
                      className: "ml-1 text-sm"
                   })]
                }), f.jsx("a", {
@@ -16823,18 +16823,17 @@ const X_ = () => {
       id: 3,
       title: "Bandgap metamaterials",
       slug: "bandgap-metamaterials",
-      description: "Metamaterials are artificially engineered materials designed to have properties not found in naturally occurring materials. Their unique behavior arises from their structure rather than their composition. Typically, they are made from repeating units (often called unit cells) that are smaller than the wavelength of the phenomena they are designed to influence (such as electromagnetic waves, sound, or mechanical vibrations).",
+      description: "The objective of this project is to design and analyze bandgap metamaterials for the purpose of vibration attenuation in structural systems. Metamaterials with tailored periodic architectures can exhibit phononic bandgaps, frequency ranges where wave propagation is prohibited. These bandgaps are instrumental in mitigating unwanted vibrations in mechanical structures, machinery, and civil engineering components like bridges and buildings.",
       tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
       category: "Metamaterials",
       githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
-      methodology: `• Tailored properties: Metamaterials can be designed to exhibit negative refractive index, cloaking, superlensing, or unusual mechanical properties like negative Poisson’s ratio (auxetics).
-                   • Structure-driven behavior: Unlike conventional materials, the effective behavior of metamaterials is governed by their micro- or nano-scale geometry, not just their material composition.
-                   • Multiphysical response: They can be designed for electromagnetic, acoustic, thermal, or mechanical responses—or combinations thereof.`,
-      resultsAndImpact: ` • Electromagnetic metamaterials (e.g., for invisibility cloaks, antennas)
-                        • Acoustic metamaterials (e.g., sound insulation, wave redirection)
-                        • Mechanical/metastructures (e.g., auxetic lattices, impact absorbers)
-                        • Thermal metamaterials (e.g., thermal cloaking, heat guiding).`,
+      methodology: `• Unit Cell Modeling: A periodic unit cell is designed with tailored geometry and embedded resonators to induce bandgaps through Bragg scattering and/or local resonance mechanisms.
+                   • Governing Equations: The system is described using the elastodynamic equation.
+                   • Periodic Boundary Conditions: Bloch-Floquet theory is applied to model wave propagation in periodic structures by enforcing phase-shifted boundary conditions`,
+      resultsAndImpact: ` • Bandgaps were observed in both Bragg scattering and locally resonant configurations.
+                        • The position and width of the bandgaps can be tuned by modifying the unit cell geometry, material properties, and resonator mass-stiffness ratio.
+                        • Finite structure simulations confirmed that metamaterials can significantly reduce vibration amplitudes within the bandgap range.`,
       skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
       tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png",
@@ -17083,7 +17082,7 @@ const X_ = () => {
       name: "Gmsh",
       percentage: 80
    }],
-   tN = ["FEniCS", "Finite-Element analysis", "Computational mechanics", "Structural analysis", "Adaptive mesh refinement", "Topology optimization", "Modal analysis", "Metamaterials design", "Functionally graded materials", "High-performance Computing", "Uncertainty quantification", "Python", "MATLAB", "Meshing", "Data visualization", "Statistical analysis", "XDMF/HDF5 data handling", "Eigenvalue analysis", "Git/Version control", "Bridge engineering", "Structural dynamics", "Homogenization", "Predictive modeling", "Scientific computing"],
+   tN = ["Finite-Element analysis", "Computational mechanics", "Structural analysis", "Adaptive mesh refinement", "Topology optimization", "Modal analysis", "Metamaterials design", "Functionally graded materials", "High-performance Computing", "Uncertainty quantification", "Abaqus", "MATLAB", "Meshing", "Data visualization", "Statistical analysis", "XDMF/HDF5 data handling", "Eigenvalue analysis", "Git/Version control", "Bridge engineering", "Structural dynamics", "Homogenization", "Predictive modeling", "Scientific computing"],
    nN = () => {
       const t = mb();
       b.useEffect(() => {
@@ -23884,7 +23883,7 @@ const p4 = Fa.object({
                            href: "https://www.linkedin.com/in/iitrshubham/",
                            target: "_blank",
                            rel: "noopener noreferrer",
-                           className: "h-12 w-12 rounded-full bg-[#0077B5] flex items-center justify-center text-white hover:bg-opacity-90 transition-opacity",
+                           className: "h-12 w-12 rounded-full bg-[#333] flex items-center justify-center text-white hover:bg-opacity-90 transition-opacity",
                            "aria-label": "LinkedIn",
                            children: f.jsx(Z_, {
                               className: "text-lg"
