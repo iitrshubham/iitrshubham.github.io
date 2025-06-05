@@ -25293,7 +25293,17 @@ const W4 = ({
    },
    b0 = [{
       id: 1,
-      title: "Printing Patterns in Python: A Comprehensive Guide",
+      title: "Understanding Boundary Conditions in FEniCS",
+      slug: "boundary-conditions-fenics",
+      category: "SIMULATION",
+      date: "June 5, 2025",
+      author: "Shubham",
+      shortDescription: "Explore the crucial role of boundary conditions in solving boundary value problems within FEniCS. This guide explains different methods for applying BCs to both built-in and imported geometries, with practical examples and code snippets.",
+      fullContent: "<h2>Introduction to Boundary Conditions</h2>\n<p><strong>Boundary conditions (B.C.)</strong> are constraints necessary for the solution of a boundary value problem. A boundary value problem is a differential equation (or system of differential equations) to be solved in a domain where conditions are known on its boundary. Boundary value problems are extremely important as they model a vast array of phenomena and applications, from solid mechanics to heat transfer, and from fluid mechanics to acoustic diffusion. They arise naturally in every problem based on a differential equation to be solved in space, while initial value problems usually refer to problems to be solved in time. Each point in space can translate in 3 directions and rotate around 3 axes. We can then restrain movement in any of those directions, based on how your model behaves in reality.</p>\n<p>In this blog, our main intention is to understand how boundary conditions can be applied in FEniCS. It may be specified in a number of ways.</p>\n<p>The simplest approach is to specify the boundary by a <code>SubDomain</code> object, using the <code>inside()</code> function to specify on which facets the boundary conditions should be applied. The boundary facets will then be searched for and marked <em>only</em> on the first call to apply. This means that the mesh could be moved after the first application and the boundary markers would still remain intact.</p>\n<p>Alternatively, the boundary may be specified by a <code>MeshFunction</code> over facets labeling all mesh facets together with a number that specifies which facets should be included in the boundary.</p>\n<p>Following are two ways to define Boundary conditions in FEniCS:</p>\n\n<ol>\n  <li>\n    <h3>Defining BC for Built-in Geometry in FEniCS</h3>\n    <pre><code class=\"language-python\">DirichletBC(V, g, sub_domain, method=”topological”, check_midpoint=true)</code></pre>\n    <p>Create boundary condition for subdomain.</p>\n    <h4>Arguments</h4>\n    <blockquote>\n      <p><strong>V</strong> (<code>FunctionSpace</code>): The function space.</p>\n      <p><strong>g</strong> (<code>GenericFunction</code>): The value.</p>\n      <p><strong>sub_domain</strong> (<code>SubDomain</code>): The subdomain.</p>\n      <p><strong>method</strong> (<code>str</code>): Method used for applying boundary conditions (Optional argument: A string specifying the method to identify DOFs).</p>\n    </blockquote>\n  </li>\n  <li>\n    <h3>Defining BC for Imported Geometry in FEniCS</h3>\n    <pre><code class=\"language-python\">DirichletBC(V, g, markers, method=”topological”)</code></pre>\n    <p>Create boundary condition for subdomain by boundary markers (cells, local facet numbers).</p>\n    <h4>Arguments</h4>\n    <blockquote>\n      <p><strong>V</strong> (<code>FunctionSpace</code>): The function space.</p>\n      <p><strong>g</strong> (<code>GenericFunction</code>): The value.</p>\n      <p><strong>markers</strong> (<code>numpy.array(int)</code>): Subdomain markers (facet index local to process).</p>\n      <p><strong>method</strong> (<code>str</code>): Method used for applying boundary conditions (Optional argument: A string specifying the method to identify DOFs).</p>\n    </blockquote>\n  </li>\n</ol>\n<p>The <code>method</code> variable may be used to specify the type of method used to identify degrees of freedom on the boundary. Available methods are the <strong>topological approach</strong> (default), <strong>geometric approach</strong>, and <strong>pointwise approach</strong>. The topological approach is faster but will only identify degrees of freedom that are located on a facet that is entirely on the boundary. In particular, the topological approach will not identify degrees of freedom for discontinuous elements (which are all internal to the cell). A remedy for this is to use the geometric approach. In the geometric approach, each DOF on each facet that matches the boundary condition will be checked. To apply pointwise boundary conditions, e.g., point loads, one will have to use the pointwise approach.</p>\n<p>Some examples for implementing the above two ways of BC are presented below.</p>\n\n<h2>Examples for Built-in Geometry</h2>\n\n<h3>1. Cantilever Beam with Inbuilt Geometry in FEniCS</h3>",
+      tags: ["FEniCS", "Boundary Conditions", "Finite Element Method", "Computational Mechanics", "Simulation"]
+   }, {
+      id: 2,
+      title: "Printing patterns in python: A comprehensive guide",
       slug: "printing-patterns-python",
       category: "PYTHON",
       date: "June 5, 2025",
@@ -25493,9 +25503,9 @@ const W4 = ({
          }),
          y = () => {
             const v = {
-               "DATA SCIENCE": "from-blue-500 to-indigo-600",
+               DATA SCIENCE: "from-blue-500 to-indigo-600",
                VISUALIZATION: "from-purple-500 to-pink-600",
-               SQL: "from-green-500 to-emerald-600",
+               SIMULATION: "from-green-500 to-emerald-600",
                PYTHON: "from-amber-500 to-red-600"
             };
             return f.jsxs(f.Fragment, {
@@ -25600,7 +25610,7 @@ const W4 = ({
                   content: "Thoughts, tutorials, and insights on data analysis, visualization, and modern techniques"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "data analysis, blog, data science, visualization, python, SQL"
+                  content: "data analysis, blog, data science, visualization, python, simulation"
                }), f.jsx("meta", {
                   property: "og:title",
                   content: "Data Insights Blog | Shubham"
