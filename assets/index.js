@@ -26737,23 +26737,19 @@ const S0 = [{
 function p3({
    className: t
 }) {
-   const [e, r] = b.useState(true);  // start state as true for dark mode
-
-   // We don't need to set dark mode here because inline script did it already,
-   // but keep this to handle toggling and updating localStorage on button click.
+   const [e, r] = b.useState(!1);
    b.useEffect(() => {
-      // Sync state with current class on html element
-      r(document.documentElement.classList.contains('dark'));
+      const a = localStorage.getItem("theme");
+      if (a) r(a === "dark"), document.documentElement.classList.toggle("dark", a === "dark");
+      else {
+         const l = window.matchMedia("(prefers-color-scheme: dark)").matches;
+         r(l), document.documentElement.classList.toggle("dark", l)
+      }
    }, []);
-
    const i = () => {
       const a = !e;
-      r(a);
-      document.documentElement.classList.toggle("dark", a);
-      localStorage.setItem("theme", a ? "dark" : "light");
-      console.log("Theme toggled to:", a ? "dark" : "light");
+      r(a), document.documentElement.classList.toggle("dark", a), localStorage.setItem("theme", a ? "dark" : "light"), console.log("Theme toggled to:", a ? "dark" : "light")
    };
-
    return f.jsx(Sr, {
       variant: "ghost",
       size: "icon",
@@ -26765,7 +26761,7 @@ function p3({
       }) : f.jsx(vT, {
          className: "h-[1.2rem] w-[1.2rem]"
       })
-   });
+   })
 }
 
 
