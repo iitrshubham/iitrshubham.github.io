@@ -16961,7 +16961,7 @@ const X_ = () => {
                   children: "Featured Projects"
                }), f.jsx("p", {
                   className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8 transition-colors duration-300",
-                  children: "A collection of projects showcasing my skills."
+                  children: "A collection of projects showcasing my works."
                }), f.jsx("div", {
                   className: "flex flex-wrap justify-center gap-2 mt-6",
                   children: gf.map(m => f.jsxs("button", {
@@ -26738,18 +26738,22 @@ function p3({
    className: t
 }) {
    const [e, r] = b.useState(!1);
+
    b.useEffect(() => {
-      const a = localStorage.getItem("theme");
-      if (a) r(a === "dark"), document.documentElement.classList.toggle("dark", a === "dark");
-      else {
-         const l = window.matchMedia("(prefers-color-scheme: dark)").matches;
-         r(l), document.documentElement.classList.toggle("dark", l)
-      }
+      // Always start in dark mode on initial load
+      r(true);
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
    }, []);
+
    const i = () => {
       const a = !e;
-      r(a), document.documentElement.classList.toggle("dark", a), localStorage.setItem("theme", a ? "dark" : "light"), console.log("Theme toggled to:", a ? "dark" : "light")
+      r(a);
+      document.documentElement.classList.toggle("dark", a);
+      localStorage.setItem("theme", a ? "dark" : "light");
+      console.log("Theme toggled to:", a ? "dark" : "light");
    };
+
    return f.jsx(Sr, {
       variant: "ghost",
       size: "icon",
@@ -26761,8 +26765,9 @@ function p3({
       }) : f.jsx(vT, {
          className: "h-[1.2rem] w-[1.2rem]"
       })
-   })
+   });
 }
+
 const m3 = () => {
       const [t, e] = b.useState(!1), [r, i] = b.useState("home"), [a, l] = b.useState(!1), [u, d] = b.useState(!1), [p, m] = ls(), y = b.useRef(null), v = b.useRef(null), w = () => {
          e(!t)
