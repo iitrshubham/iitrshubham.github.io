@@ -24986,49 +24986,66 @@ const W4 = ({
    },
    x0 = [{
       id: 1,
-      title: "Daily MIS & Bridge engg Dashboard for Marketing & Sales Insights",
-      slug: "daily-mis-power-bi-dashboard",
-      category: "Data Analytics | Operations | Business Intelligence",
-      shortDescription: "Developed a Daily MIS and Bridge engg Dashboard to monitor sales, marketing, and revenue performance, enabling leadership to make fast, data-driven decisions.",
-      fullDescription: `During my internship at The Design Cart as a Data Analyst and Operations Intern, I was responsible for building a Daily MIS & Bridge engg Dashboard to deliver real-time insights on company performance. My task involved consolidating data from multiple sources—such as sales reports, marketing platforms, and revenue trackers—into a single dashboard that would be reviewed by leadership on a daily basis.
-                    I ensured the dashboard was automated, visually engaging, and updated with the latest figures to drive strategic planning. The system not only improved the accuracy and timeliness of reports but also helped the company evaluate marketing ROI and sales efficiency across various channels.`,
-      bulletPoints: ["Built a fully automated Daily MIS Dashboard using Bridge engg", "Consolidated data from sales reports, marketing analytics, and revenue tracking", "Delivered real-time, structured insights for daily executive decision-making", "Improved reporting accuracy to 100%, boosting confidence in data", "Enabled performance tracking of key metrics like conversion rates and ad effectiveness", "Supported the CEO with daily performance reviews for faster strategic planning", "Helped identify high-performing marketing strategies, improving ROI"],
-      date: "June 2025",
-      toolsUsed: ["Bridge engg", "Microsoft Excel", "Sales Reports", "Marketing Analytics", "Business Intelligence Concepts"],
-      results: "The dashboard ensured accurate and error-free reporting throughout the internship period, reducing manual work by nearly 2 hours per day. It helped identify high-performing marketing strategies, leading to a 15–20% improvement in marketing ROI. These insights enabled the leadership team to make faster and more informed decisions."
-   }, {
-      id: 2,
-      title: "Modal Analysis of Structural Components for Natural Frequencies and Mode Shapes",
-      slug: "modal-analysis-natural-frequencies-mode-shapes",
-      category: "Structural Mechanics | Finite Element Analysis | Vibration Analysis",
-      shortDescription: "Performed modal analysis to compute natural frequencies and corresponding mode shapes of structural components, aiding in design optimization and resonance avoidance.",
-      fullDescription: `As part of my academic research and simulations in structural dynamics, I conducted a detailed modal analysis to evaluate the natural frequencies and mode shapes of various structural components including beams, frames, and bridge piers. The objective was to identify critical modes of vibration and ensure that operating conditions avoid resonance.
-                        Using finite element tools, I discretized the geometry, applied appropriate boundary conditions, and solved the eigenvalue problem to extract frequency data. The results were visualized to understand deformation patterns associated with each mode shape. This study played a crucial role in optimizing structural design, improving dynamic performance, and validating simulation techniques for real-world applications.`,
+      title: "Topology optimization of structures",
+      slug: "topology-optimization-structural-design",
+      category: "Computational Mechanics | Structural Optimization | Finite Element Analysis",
+      shortDescription: "Topology optimization applied to develop lightweight, high-performance structural layouts by distributing material efficiently within design domains.",
+      fullDescription: `Topology optimization is a computational technique used to determine optimal material distribution within a given design space, subject to mechanical constraints and performance criteria.
+                        Methods such as SIMP (Solid Isotropic Material with Penalization) are employed to iteratively remove inefficient material while preserving structural integrity. Finite element simulations are used to evaluate compliance, stress, and stability of evolving designs. Constraints may include volume fraction, symmetry, and manufacturing limitations. Optimized geometries are applicable to lightweight design in aerospace, civil, and mechanical systems.`,
       bulletPoints: [
-         "Conducted modal analysis to extract natural frequencies and mode shapes",
-         "Used finite element simulation to solve structural eigenvalue problems",
-         "Visualized mode shapes to interpret deformation behavior under vibration",
-         "Assessed dynamic performance for resonance risk mitigation",
-         "Validated models through mesh refinement and comparison with theoretical results",
-         "Applied boundary conditions relevant to real-world structural systems",
-         "Contributed to dynamic design optimization of civil engineering components"],
-      date: "June 2025",
-      toolsUsed: ["FEniCS", "MATLAB", "Python", "Modal Analysis Concepts", "Structural Dynamics Theory"],
-      results: "The analysis helped in identifying critical vibration modes, ensuring that the structure operates safely away from resonant frequencies. The study also improved understanding of dynamic characteristics, guiding further design refinements and contributing to the development of robust structural systems."
+         "Material distribution optimized using SIMP-based topology optimization",
+         "Achieves maximum stiffness for a given volume constraint",
+         "Solves PDE-constrained optimization problems using FEM tools",
+         "Incorporates manufacturing constraints and symmetry conditions",
+         "Post-processed designs suitable for additive manufacturing and CNC",
+         "Validated through compliance analysis and structural verification",
+         "Supports efficient material use in performance-critical components"
+      ],
+      date: "May 2025",
+      toolsUsed: ["FEniCS", "MATLAB", "Python", "Topology Optimization Algorithms", "Finite Element Analysis (FEA)"],
+      results: "Generated structures with up to 40% material savings while maintaining mechanical performance. Enhances design efficiency and supports sustainability goals through optimized engineering layouts."
+
    }, {
-      id: 3,
-      title: "RTO Automation and Proof Extraction System",
-      slug: "rto-automation-proof-extraction",
-      category: "Operational Automation | Self-Initiated Project",
-      shortDescription: "I independently created a system using Excel and Metamaterials to automate the extraction of AWB proof files, reducing manual work and supporting timely reattempts and freight waivers.",
-      fullDescription: `During my internship at Design Cart, I identified a time-consuming process in handling RTO (Return to Origin) cases where extracting proof files like MP3 and PNG for specific AWBs (Air Waybill numbers) used to take around an hour daily. I took the initiative to automate this task.
-                        First, I created an Excel tracking file to monitor how many AWBs had valid proof and how many delivery attempts had been made. Based on this, I identified cases with less than 3 attempts, helping me raise freight waiver claims efficiently.
-                        Then, I built a Metamaterials script that automatically copied the proof files from a folder by matching them with the AWBs listed in Excel. These AWBs were then submitted for reattempts or waivers due to issues like fake delivery remarks.
-                        This solution improved the accuracy of reattempt requests, supported timely freight waiver submissions, and significantly reduced manual workload.`,
-      bulletPoints: ["Designed Excel file to track AWBs with valid delivery proof and number of attempts.", "Built a Metamaterials script to extract and copy MP3/PNG proof files based on AWB numbers.", "Enabled easy identification of AWBs with <3 attempts to raise freight waivers.", "Reduced daily manual effort from 1 or 2 hour to just 1 minute.", "Helped reduce RTO cases by 2–3% by ensuring timely reattempts with proper proof."],
-      date: "Jun 2025",
-      toolsUsed: ["Microsoft Excel", "Metamaterials (Pandas, OS module, shutil)", "Power Query"],
-      results: "This self-made automation helped reduce the daily manual work from 1 or 2 hour to 1 minute, saving over 25 hours per month. It led to a 2–3% reduction in RTOs by ensuring timely reattempts for AWBs with valid proof and also made it easier to raise bulk freight waiver claims for cases with fewer than 3 delivery attempts. The project improved both accuracy and efficiency in daily operations."
+  id: 2,
+  title: "Modal analysis of structural components for natural frequencies and mode shapes",
+  slug: "modal-analysis-natural-frequencies-mode-shapes",
+  category: "Structural Mechanics | Finite Element Analysis | Vibration Analysis",
+  shortDescription: "Modal analysis performed to compute natural frequencies and mode shapes of structural components, aiding in resonance avoidance and dynamic design refinement.",
+  fullDescription: `Modal analysis involves solving the eigenvalue problem for structures to identify natural frequencies and associated mode shapes. These parameters are essential in understanding the dynamic behavior of components under operational or environmental vibrations.
+                    The process includes meshing the geometry, applying boundary conditions, and performing eigenfrequency extraction using FEM-based solvers. Mode shapes are visualized to assess deformation patterns and identify critical vibration modes. Results assist in ensuring structural integrity and in modifying designs to avoid resonance, especially in bridges, frames, and mechanical systems.`,
+  bulletPoints: [
+    "Computation of natural frequencies and corresponding mode shapes using FEM",
+    "Assessment of structural response to dynamic loads and vibration sources",
+    "Identification of critical resonance modes and safe operating ranges",
+    "Application of realistic boundary conditions to simulate true support conditions",
+    "Visualization of deformation patterns for different modes",
+    "Mesh refinement used to ensure eigenvalue accuracy",
+    "Supports design decisions in aerospace, automotive, and civil engineering domains"
+  ],
+  date: "Jan 2025",
+  toolsUsed: ["FEniCS", "MATLAB", "Python", "Eigenvalue Solvers", "Structural Dynamics Concepts"],
+  results: "Modal characteristics determined with high accuracy, aiding in avoidance of resonance-related failures and enabling improvements in dynamic design performance and structural safety."
+   }, {
+  id: 3,
+  title: "Mechanical metamaterials for auxeticity and energy absorption",
+  slug: "metamaterials-mechanical-properties",
+  category: "Computational Mechanics | Metamaterials | Structural Materials",
+  shortDescription: "Study of mechanical metamaterials engineered to achieve unconventional properties like negative Poisson’s ratio and high energy absorption through structural design.",
+  fullDescription: `Mechanical metamaterials are artificially structured materials designed to exhibit extraordinary mechanical properties derived from geometry rather than composition. These include negative Poisson’s ratio (auxetic behavior), high specific stiffness, and tunable anisotropy.
+                    Unit cell architectures are optimized to control deformation patterns and energy absorption. Numerical simulations are performed using finite element methods to evaluate stress distribution, strain localization, and effective moduli. Homogenization techniques are used to extract macroscopic behavior from periodic unit cells. These materials are relevant for impact protection, vibration control, and biomedical applications.`,
+  bulletPoints: [
+    "Engineered periodic structures exhibiting auxeticity and tailored stiffness",
+    "Negative Poisson’s ratio achieved through re-entrant or rotating geometries",
+    "Homogenization used to evaluate effective material properties from unit cells",
+    "Finite element simulations conducted for static and dynamic loading cases",
+    "Stress distribution and energy absorption capabilities evaluated numerically",
+    "Designs optimized for directional stiffness and mechanical anisotropy",
+    "Applications include aerospace skins, biomedical devices, and protective gear"
+  ],
+  date: "Mar 2025",
+  toolsUsed: ["FEniCS", "Python", "MATLAB", "STL File Generation", "Homogenization", "Finite Element Analysis"],
+  results: "Demonstrated significant improvements in mechanical efficiency and energy absorption compared to conventional materials. Enabled function-specific material behavior through geometry-driven design."
+}
    }],
    w0 = ({
       viewMode: t = "list",
