@@ -26009,9 +26009,9 @@ const S0 = [{
       issuer: "Indian Society of Theoretical and Applied Mechanics (ISTAM)",
       date: "2023",
       description: "A society constituted by IIT Kharagpur in 1955.",
-      credentialLink: "https://istam.iitkgp.ac.in/",
+      credentialLink: "https://www.iitkgp.ac.in/",
       category: "achievement",
-      imageUrl: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/istam.png",
       pdfUrl: "#",
       skills: ["Applied Mechanics", "Scientific Research", "Conference Presentation", "Innovation Recognition"],
    }, {
@@ -26023,7 +26023,7 @@ const S0 = [{
       description: "Financial grant awarded to present work at ICCS27 conference, Italy.",
       credentialLink: "https://anrfonline.in/ANRF/its",
       category: "achievement",
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/dst_serb.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/serb.png",
       skills: ["Conference Presentation", "Research Communication", "Travel Grant Proposal Writing", "International Networking", "Scientific Outreach"],
    }, {
       id: 5,
@@ -26127,7 +26127,7 @@ const S0 = [{
       description: "During my internship at Wise Wealth Management, I gained practical exposure to financial analysis and strategic wealth management. I collaborated with senior financial advisors on projects related to investment planning, client portfolio reviews, and financial reporting. This experience allowed me to apply analytical thinking to real-world data, understand market trends, and contribute to optimizing investment strategies. Working in a professional environment also strengthened my communication and client-handling skills, providing a strong foundation for data-driven decision-making in finance.",
       credentialLink: "https://dseu.ac.in/pusa/index.html",
       category: "experience",
-      imageUrl: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/dseu.png",
       pdfUrl: "#",
       skills: ["Teaching", "Civil Engineering", "Structural Analysis", "Academic Delivery", "Curriculum Design", "Public Speaking"],
    }, {
@@ -26139,7 +26139,7 @@ const S0 = [{
       description: "In April 2021, I contributed as a volunteer event coordinator for Chembola, an event organized by the Chemical Society of Deshbandhu College. My responsibilities included supporting the planning, logistics, and on-ground coordination on the day of the event. This hands-on experience enabled me to work as part of a team, handle responsibilities under time constraints, and ensure a successful and engaging experience for all participants. It was a valuable opportunity to build my teamwork, communication, and organizational skills in a real-world event setting.",
       credentialLink: "https://dseu.edu.in/campus/gb-pant-dseu-campus",
       category: "experience",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/dseu.png",
       pdfUrl: "#",
       skills: ["Teaching", "Civil Engineering", "Structural Analysis", "Academic Delivery", "Curriculum Design", "Public Speaking"],
    }, {
@@ -26151,7 +26151,7 @@ const S0 = [{
       description: "In April 2022, I served as the Student Coordinator for the National Science Day Event at Deshbandhu College, where I played a key role in the creative and operational aspects of the program. I was recognized for designing visually impactful posters that effectively promoted the event and increased student engagement. I also led social media promotion efforts, which helped surpass expected attendance levels. Through efficient planning and coordination, the event was executed smoothly, earning me a Certificate of Recognition for excellence in both creative design and event organization. This experience highlighted my skills in creativity, communication, and event promotion.",
       credentialLink: "https://www.csir.res.in/",
       category: "experience",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"],
    }, {
@@ -26163,7 +26163,7 @@ const S0 = [{
       description: "Q1-SCI indexed journal.",
       credentialLink: "https://www.sciencedirect.com/journal/applied-mathematical-modelling",
       category: "extracurricular",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/amm.png",
       pdfUrl: "#",
       skills: ["Project Management",  "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"],
    }, {
@@ -26175,7 +26175,7 @@ const S0 = [{
       description: "Bridge health assessment through instrumentation.",
       credentialLink: "https://www.gecarwal.ac.in/",
       category: "extracurricular",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/gec_arwal.png",
       pdfUrl: "#",
       skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"],
    }, {
@@ -26187,7 +26187,7 @@ const S0 = [{
       description: "Design of bridge structure and foundation.",
       credentialLink: "https://www.csir.res.in/",
       category: "extracurricular",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "hhttps://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
    }, {
@@ -26199,7 +26199,7 @@ const S0 = [{
       description: "Quality Assurance, Health Assessment, and Rehabilitation of Bridges.",
       credentialLink: "https://www.csir.res.in/",
       category: "extracurricular",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
    }, {
@@ -26211,7 +26211,7 @@ const S0 = [{
       description: "For presenting research work.",
       credentialLink: "#",
       category: "extracurricular",
-      imageUrl: "https://images.unsplash.com/photo-1581093588401-05c1e117f709",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/country.png",
       pdfUrl: "#",
       skills: ["Presentations", "Communication Skills", "Leadership"],
    }],
