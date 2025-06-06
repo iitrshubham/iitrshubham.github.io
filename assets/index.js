@@ -26720,56 +26720,34 @@ const S0 = [{
       })
    };
 
-// Before your component, make sure you have 'useState' and 'useEffect' from React.
-// In your minified code, this is 'b.useState' and 'b.useEffect'.
-import { useState, useEffect } from 'react'; 
-body {
-  background-color: hsl(var(--background));
-  color: hsl(var(--foreground));
-}
-// Corrected and simplified theme toggle component
 function p3({
-    className: t
+   className: t
 }) {
-    // 1. Initialize state directly from the DOM.
-    // The inline script already set the correct class, so we just read it.
-    // This makes sure the icon (Sun/Moon) is correct on the first render.
-    const [isDark, setIsDark] = useState(() => 
-        document.documentElement.classList.contains('dark')
-    );
-
-    // 2. The toggle function now handles all logic when the user clicks.
-    const toggleTheme = () => {
-        // Determine the new theme state
-        const newIsDark = !isDark;
-
-        // Update the React state to change the icon
-        setIsDark(newIsDark);
-
-        // Update localStorage to remember the choice for the next visit
-        localStorage.setItem('theme', newIsDark ? 'dark' : 'light');
-
-        // Update the <html> class to change the CSS variables
-        document.documentElement.classList.toggle('dark', newIsDark);
-    };
-
-    // We no longer need a complex useEffect for initialization.
-    // The useState initialization handles it.
-
-    // Your JSX remains the same, but using our clearer variable names.
-    // Note: 'i' is now 'toggleTheme' and 'e' is now 'isDark'
-    return f.jsx(Sr, {
-        variant: "ghost",
-        size: "icon",
-        onClick: toggleTheme, // Use the updated toggle function
-        className: t,
-        "aria-label": "Toggle dark mode",
-        children: isDark ? f.jsx(wT, { // Show Sun icon when dark
-            className: "h-[1.2rem] w-[1.2rem]"
-        }) : f.jsx(vT, { // Show Moon icon when light
-            className: "h-[1.2rem] w-[1.2rem]"
-        })
-    });
+   const [e, r] = b.useState(!1);
+   b.useEffect(() => {
+      const a = localStorage.getItem("theme");
+      if (a) r(a === "dark"), document.documentElement.classList.toggle("dark", a === "dark");
+      else {
+         const l = window.matchMedia("(prefers-color-scheme: dark)").matches;
+         r(l), document.documentElement.classList.toggle("dark", l)
+      }
+   }, []);
+   const i = () => {
+      const a = !e;
+      r(a), document.documentElement.classList.toggle("dark", a), localStorage.setItem("theme", a ? "dark" : "light"), console.log("Theme toggled to:", a ? "dark" : "light")
+   };
+   return f.jsx(Sr, {
+      variant: "ghost",
+      size: "icon",
+      onClick: i,
+      className: t,
+      "aria-label": "Toggle dark mode",
+      children: e ? f.jsx(wT, {
+         className: "h-[1.2rem] w-[1.2rem]"
+      }) : f.jsx(vT, {
+         className: "h-[1.2rem] w-[1.2rem]"
+      })
+   })
 }
 
 const m3 = () => {
