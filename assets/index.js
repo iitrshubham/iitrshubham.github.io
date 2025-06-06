@@ -16786,15 +16786,16 @@ const X_ = () => {
       tagColor: "bg-yellow-100 text-yellow-700",
       category: "Topology optimization",
       githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
-      methodology: `• Extracted and analyzed business-critical data using advanced SQL queries to ensure accuracy and reliability.
-                   • Developed interactive Bridge engg dashboards by integrating multiple datasets, highlighting store performance, promotion impact, and product responsiveness.
-                   • Maintained consistent and clean data across platforms to support dependable and data-driven decision-making.
-                   • Created intuitive visualizations and KPIs to identify high-performing cities, successful promotions, and top-selling products, providing insights into pricing and operational strategies.`,
-      resultsAndImpact: `• Bengaluru and Chennai were the top performers in Incremental Sold Units and Revenue, followed by Hyderabad, Coimbatore, and Mysuru.
-                       • BOGOF (Buy One Get One Free) and 500 cashback promotions significantly outperformed discount-based offers in driving sales.
-                       • Grocery & Staples and Home Appliances showed the most substantial promotional lift, with standout products like Atliq Waterproof Immersion Red and Atliq High Glo 15W LED Bulb.
-                       • Achieved a 211.3% increase in Incremental Sold Units and 110% increase in Incremental Revenue.
-                       • Insights supported city-specific strategies, product-level prioritization, and promotion refinement, benefiting Atliq Mart’s 50+ store operations.`,
+      methodology: `• Objective Function: Minimize compliance (maximize stiffness) of the structure under prescribed loads and boundary conditions.
+                   • Material Interpolation: Use the SIMP (Solid Isotropic Material with Penalization) method to interpolate material properties.
+                   • Equilibrium Constraint: Enforce linear elasticity equations to relate stress, strain, and displacement.
+                   • Volume Constraint: Limit the total material usage to a target volume fraction.
+                   • Filtering Techniques: Apply density filtering or projection methods to ensure mesh-independence and eliminate numerical instabilities like checkerboarding.`,
+      resultsAndImpact: `• Topology optimization provides an automated approach to generate structurally efficient designs tailored to specific loading and boundary conditions.
+                       • The method promotes material economy by reducing unnecessary usage while maintaining or improving structural performance.
+                       • Designs obtained through this method are often lightweight, stiff, and innovative, especially suitable for advanced manufacturing techniques like 3D printing.
+                       • The framework is extendable to multi-physics problems (thermal, fluid, acoustic), making it versatile across engineering disciplines.
+                       • It is a key enabler for next-generation engineering design, particularly in fields demanding performance and resource efficiency.`,
       skills: ["Coding", "Geometry modelling"],
       tools: ["Gmsh", "Paraview", "FEniCS"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project1.png",
@@ -26187,7 +26188,7 @@ const S0 = [{
       description: "Design of bridge structure and foundation.",
       credentialLink: "https://www.csir.res.in/",
       category: "extracurricular",
-      imageUrl: "hhttps://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
+      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
    }, {
