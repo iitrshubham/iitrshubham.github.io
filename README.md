@@ -20,7 +20,7 @@ Welcome to my personal portfolio!
 - client/
 - ├── src/
 - │ ├── components/
-- │ ├── data/ # Projects, Blogs, Certificates, Case Studies
+- │ ├── data/ # Projects, Blogs, Certificates, Notes
 - │ ├── pages/
 - │ ├── hooks/
 - │ ├── lib/
