@@ -17430,7 +17430,7 @@ const X_ = () => {
                                     children: "Guest lecturer"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "GB Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                    children: "G B Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
                                  })]
                               })]
                            })]
@@ -17439,7 +17439,7 @@ const X_ = () => {
                   }), f.jsx("div", {
                      className: "pt-4",
                      children: f.jsxs("a", {
-                        href: "https://drive.google.com/file/d/1LkMgZTUcQAe4wfwXcLRSzYm7GPWaxq8r/view?usp=sharing",
+                        href: "https://drive.google.com/file/d/1Zm4vzuvrET12PrFBDZ7hb1n0NESs0XfP/view?usp=sharing",
                         className: "inline-flex items-center text-primary hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors duration-300",
                         children: ["Download Resume ", f.jsx(q_, {
                            className: "ml-2"
