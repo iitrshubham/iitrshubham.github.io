@@ -26721,35 +26721,45 @@ const S0 = [{
    };
 
 function p3({
-   className: t
+    className: t
 }) {
-   const [e, r] = b.useState(!1);
-   b.useEffect(() => {
-      const a = localStorage.getItem("theme");
-      if (a) r(a === "dark"), document.documentElement.classList.toggle("dark", a === "dark");
-      else {
-         const l = window.matchMedia("(prefers-color-scheme: dark)").matches;
-         r(l), document.documentElement.classList.toggle("dark", l)
-      }
-   }, []);
-   const i = () => {
-      const a = !e;
-      r(a), document.documentElement.classList.toggle("dark", a), localStorage.setItem("theme", a ? "dark" : "light"), console.log("Theme toggled to:", a ? "dark" : "light")
-   };
-   return f.jsx(Sr, {
-      variant: "ghost",
-      size: "icon",
-      onClick: i,
-      className: t,
-      "aria-label": "Toggle dark mode",
-      children: e ? f.jsx(wT, {
-         className: "h-[1.2rem] w-[1.2rem]"
-      }) : f.jsx(vT, {
-         className: "h-[1.2rem] w-[1.2rem]"
-      })
-   })
-}
+    const [e, r] = b.useState(false); // It's good practice to initialize with a default
 
+    b.useEffect(() => {
+        const a = localStorage.getItem("theme");
+        if (a) {
+            // If a theme is saved in localStorage, use it
+            const isDark = a === "dark";
+            r(isDark);
+            document.documentElement.classList.toggle("dark", isDark);
+        } else {
+            // If no theme is in localStorage, default to dark mode
+            r(true); // Set state to dark
+            document.documentElement.classList.toggle("dark", true); // Apply dark class
+        }
+    }, []); // Empty dependency array ensures this runs only once on mount
+
+    const i = () => {
+        const a = !e;
+        r(a);
+        document.documentElement.classList.toggle("dark", a);
+        localStorage.setItem("theme", a ? "dark" : "light");
+        console.log("Theme toggled to:", a ? "dark" : "light");
+    };
+
+    return f.jsx(Sr, {
+        variant: "ghost",
+        size: "icon",
+        onClick: i,
+        className: t,
+        "aria-label": "Toggle dark mode",
+        children: e ? f.jsx(wT, {
+            className: "h-[1.2rem] w-[1.2rem]"
+        }) : f.jsx(vT, {
+            className: "h-[1.2rem] w-[1.2rem]"
+        })
+    });
+}
 
 const m3 = () => {
       const [t, e] = b.useState(!1), [r, i] = b.useState("home"), [a, l] = b.useState(!1), [u, d] = b.useState(!1), [p, m] = ls(), y = b.useRef(null), v = b.useRef(null), w = () => {
