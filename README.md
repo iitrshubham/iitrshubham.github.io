@@ -1,4 +1,4 @@
-# Shubham | Researcher Portfolio
+# Shubham | Portfolio
 
 Welcome to my personal portfolio!  
 
