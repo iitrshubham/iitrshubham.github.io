@@ -26723,7 +26723,10 @@ const S0 = [{
 // Before your component, make sure you have 'useState' and 'useEffect' from React.
 // In your minified code, this is 'b.useState' and 'b.useEffect'.
 import { useState, useEffect } from 'react'; 
-
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
 // Corrected and simplified theme toggle component
 function p3({
     className: t
