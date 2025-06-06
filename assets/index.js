@@ -16815,8 +16815,8 @@ const X_ = () => {
                         • Acoustic metamaterials (e.g., sound insulation, wave redirection)
                         • Mechanical/metastructures (e.g., auxetic lattices, impact absorbers)
                         • Thermal metamaterials (e.g., thermal cloaking, heat guiding).`,
-      skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
-      tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
+      skills: ["Coding", "Mathematics"],
+      tools: ["FEniCS", "Python"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project2.png"
    }, {
@@ -16834,73 +16834,69 @@ const X_ = () => {
       resultsAndImpact: ` • Bandgaps were observed in both Bragg scattering and locally resonant configurations.
                         • The position and width of the bandgaps can be tuned by modifying the unit cell geometry, material properties, and resonator mass-stiffness ratio.
                         • Finite structure simulations confirmed that metamaterials can significantly reduce vibration amplitudes within the bandgap range.`,
-      skills: ["Customer Segmentation", "Dashboard Design", "Insight Generation", "Presentation & Reporting"],
-      tools: ["Bridge engg (DAX)", "Microsoft PowerPoint"],
+      skills: ["Coding", "Mathematics"],
+      tools: ["FEniCS", "Python"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project3.png"
    }, {
       id: 4,
       title: "Robust topology optimization",
       slug: "robust-topology-optimization",
-      description: "This project focused on analyzing human resource data to gain actionable insights into employee distribution, compensation, turnover, retention, and departmental trends. The goal was to help HR leadership make data-driven decisions regarding employee management and workforce planning.",
+      description: "The robust formulation addresses this by optimizing the design not just for the nominal conditions but also accounting for the worst-case scenario or statistical variations. This leads to structures with enhanced reliability, manufacturability, and durability.",
       tag: "Topology optimization",
-      tagColor: "bg-green-100 text-green-700",
+      tagColor: "bg-yellow-100 text-yellow-700",
       category: "Topology optimization",
       githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
-      methodology: `• Collected and explored structured HR data related to employee demographics, salary, bonuses, and departmental roles.
-                   • Cleaned and transformed data to ensure consistency and usability for visualization.
-                   • Built interactive dashboards to track KPIs such as total employees, salary trends, bonus distribution, retention/turnover rates, and gender-wise employee ratios.
-                   • Performed segmented analysis by business unit, year, department, and job title to derive deeper insights.`,
-      resultsAndImpact: ` • Identified that the average salary across departments was $113K, with the highest being in Marketing and Vice President roles.
-                        • Highlighted bonus trends, with Corporate receiving the highest average bonus ($19K).
-                        • Turnover rates were slightly higher for male employees (9.5%) compared to females (7.5%).
-                        • Business units like Speciality Products had higher retention (93.21%), aiding in targeted employee engagement strategies.
-                        • Created a dynamic HR dashboard to allow stakeholders to filter insights by year, department, gender, and more—empowering the HR team to make informed, strategic decisions.`,
-      skills: ["Data Cleaning", "Data Analysis", "Dashboard Development", "KPI Tracking", "Insight Generation"],
-      tools: ["Microsoft Bridge engg", "Data Modeling", "DAX"],
+      methodology: `• Input uncertainties (e.g., loads, boundary conditions, material properties) are modeled using bounded sets (e.g., ellipsoidal sets) or probabilistic distributions, enabling worst-case or expected-value analysis.
+                   • A robust objective function is defined, commonly minimizing the expected compliance or the worst-case compliance over all possible realizations of the uncertainty.
+                   • The design is subject to physical constraints, such as a volume fraction limit, and possibly robust manufacturing constraints (e.g., minimum feature size, symmetry, filter radius).
+                   • The optimization problem is solved iteratively using methods like the Method of Moving Asymptotes (MMA), level-set methods, or gradient-based algorithms, with finite element analysis performed at each iteration to evaluate the objective and sensitivities under uncertainty.`,
+      resultsAndImpact: ` • Improved structural reliability under uncertain or fluctuating conditions.
+                        • Smooth and manufacturable designs with better real-world performance.
+                        • The ability to trade off performance vs. robustness, depending on application needs.`,
+      skills: ["Coding", "Mathematics"],
+      tools: ["FEniCS", "Python"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project4.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project4.png"
    }, {
       id: 5,
       title: "Ellipsoid convex model",
       slug: "ellipsoid-convex-model",
-      description: "This project focused on analyzing a comprehensive dataset from IMDB to uncover insights related to movie genres, revenue, budget trends, popularity, and production house performance. The goal was to create an interactive dashboard that supports data-driven decisions in the entertainment industry.",
+      description: "Ellipsoidal convex regions are favored for modeling uncertainty over simple rectangles or squares due to their ability to represent varying levels of uncertainty in different directions, better approximation of real-world uncertainty shapes, convexity for mathematical tractability, simplicity in mathematical descriptions, and their widespread acceptance in various fields.",
       tag: "Topology optimization",
       tagColor: "bg-green-100 text-green-700",
       category: "Topology optimization",
       githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
-      methodology: ` • Conducted data cleaning and transformation using Power Query in Bridge engg to handle inconsistencies, null values, and prepare data for analysis.
-                    • Performed data modeling to define relationships between key fields such as year, genre, production house, and financial metrics.
-                    • Created interactive visualizations to analyze trends in revenue and budget over time, genre popularity, and vote count distributions.
-                    • Enabled drill-through capabilities to examine top-performing movies and studios over various time periods.`,
-      resultsAndImpact: ` • Analyzed a total of 246K movies, revealing $728B in revenue and $283B in budgets across the dataset.
-                        • Identified Drama and Comedy as the most prevalent genres, while highlighting the top 10 trending movies by popularity and votes.
-                        • Discovered that companies like Walt Disney, Universal Pictures, and Warner Bros. consistently produced high-grossing content.
-                        • Delivered a user-friendly dashboard that empowers users to explore trends by year, genre, and production company with just a few clicks.`,
-      skills: ["Data Cleaning (Power Query)", "Data Modeling", "DAX, Dashboard Design", "Trend Analysis"],
-      tools: ["Power Query", "Data Model", "DAX", "Visualization"],
+      methodology: ` • The uncertainty region is modeled as an inclined ellipsoid with semi-major axis , semi-minor axis , and orientation angles from the x-axis. The eigenvector matrix  represents the directions of the axes, while the diagonal matrix  represents scaling via inverse square of axis lengths.
+                    • The ellipsoidal transformation matrix W is constructed using the eigenvalue decomposition.
+                    • A set of uncertain load vectors is enclosed within the ellipsoidal set.
+                    • Using inverse transformation, loads in physical space can be reconstructed. ​This enables sampling or evaluating load cases within the bounded uncertainty region for analysis or optimization.`,
+      resultsAndImpact: ` • The ellipsoidal convex model offers a mathematically elegant and physically meaningful way to model uncertain loads.
+                        • It captures direction-dependent variability, enables compact representations of high-dimensional uncertainty, and is compatible with robust optimization frameworks. 
+                        • Through eigenvalue decomposition, this model translates between normalized and physical domains, facilitating simulation, sampling, and design under uncertainty. 
+                        • This formulation supports more reliable structural analysis and resilient design strategies, especially in systems sensitive to multi-directional perturbations.`,
+      skills: ["Coding", "Mathematics"],
+      tools: ["FEniCS", "Python"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project5.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project5.png"
    }, {
       id: 6,
       title: "Extreme metamaterials design by topology optimization",
       slug: "extreme-metamaterials-design-by-topology-optimization",
-      description: "This project analyzes Telangana’s economic and industrial growth by combining datasets from three government departments: Stamp Registration, Transportation, and TS-iPASS (Industrial Project Approvals). It focuses on trends in revenue, vehicle registrations, and sector-wise investments across districts between 2019 and 2022.",
+      description: "The project focuses on the topology optimization of mechanical metamaterials to achieve extremely high bulk modulus, a measure of resistance to uniform compression. Such materials are valuable in impact protection, vibration isolation, and high-stiffness structural components. By employing topology optimization techniques, the internal geometry of periodic unit cells is iteratively designed to attain superior stiffness characteristics under volume and manufacturing constraints. The resulting structures often exhibit exotic properties not found in natural materials, earning the label extreme metamaterials.",
       tag: "Metamaterials",
       tagColor: "bg-green-100 text-green-700",
       category: "Metamaterials",
       githubUrl: "https://doi.org/10.1016/j.compstruct.2023.117611",
-      methodology: `• Data Cleaning & Preparation: Cleaned and structured raw data using Power Query and Excel.
-                   • Segmentation: Grouped districts based on performance (High, Medium, Low) using KPIs like revenue and investment volume.
-                   • Trend & Pattern Analysis: Observed year-on-year changes in e-stamp challans, document registrations, vehicle types, and industrial investments.
-                   • Visualization: Created shape maps, time-series charts, KPIs, and bar graphs in Bridge engg to reveal meaningful patterns.`,
-      resultsAndImpact: ` • High-performing districts: Hyderabad, Rangareddy, and Sangareddy showed strong growth in industrial approvals and vehicle registrations.
-                        • E-Stamp usage increased by 60%, indicating improved digital adoption and governance.
-                        • Vehicle trends: Petrol and diesel vehicles dominated sales, especially during autumn; electric vehicle interest peaked in spring.
-                        • Top Investment Sectors: Plastic, Pharmaceuticals, and Renewable Energy attracted the highest approvals.
-                        • District Categorization helped highlight regions needing more development focus, guiding policy-level decisions.`,
-      skills: ["Data wrangling", "Trend & pattern analysis", "Data visualization & storytelling", "Dashboard design and layout planning"],
-      tools: ["Bridge engg: Dashboard creation, DAX, KPIs, custom visuals, and shape maps", "Power Query: Data transformation and shaping", "PowerPoint: Presentation of insights"],
+      methodology: `• The goal is to maximize the bulk modulus 𝐾 of a unit cell subjected to uniform compression.
+                   • The design domain is a periodic unit cell, typically square (2D). To ensure mechanical consistency across repeating cells, periodic boundary conditions are imposed during the finite element analysis.
+                   • The bulk modulus of the microstructure is computed using homogenization theory, which involves solving cell problems for uniform macroscopic strain.
+                   • Material distribution is interpolated using the SIMP (Solid Isotropic Material with Penalization) method`,
+      resultsAndImpact: ` • This study demonstrates the potential of topology optimization to design extreme bulk modulus metamaterials.
+                        •  The optimized structures exhibit tailored internal architectures capable of resisting volumetric deformations significantly better than conventional materials. The approach leverages homogenization theory, periodic boundary conditions, and advanced optimization techniques to navigate the complex design space. 
+                        • The resulting metamaterials can be applied in diverse engineering applications requiring high compressive stiffness, such as protective layers, and aerospace panels.`,
+      skills: ["Coding", "Mathematics"],
+      tools: ["FEniCS", "Python"],
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project6.png",
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project6.png"
    }],
