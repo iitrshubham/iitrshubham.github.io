@@ -16589,13 +16589,13 @@ const X_ = () => {
                      children: [f.jsxs("button", {
                         onClick: () => r("projects"),
                         className: "px-6 py-3 bg-primary text-white rounded-md hover:bg-blue-600 transition-colors font-medium flex items-center",
-                        children: ["View My Work ", f.jsx(uT, {
+                        children: ["View my work ", f.jsx(uT, {
                            className: "ml-2 h-4 w-4"
                         })]
                      }), f.jsx("button", {
                         onClick: () => r("contact"),
                         className: "px-6 py-3 border border-gray-300 dark:border-gray-700 text-gray-800 dark:text-gray-200 rounded-md hover:border-primary hover:text-primary dark:hover:text-primary transition-colors font-medium",
-                        children: "Contact Me"
+                        children: "Contact me"
                      })]
                   }), f.jsxs(Te.div, {
                      variants: e,
@@ -17162,7 +17162,7 @@ const X_ = () => {
                   variants: r,
                   children: [f.jsx("h3", {
                      className: "text-xl font-bold mb-6 text-gray-900 dark:text-white transition-colors duration-300",
-                     children: "Data visualization & Project management Tools"
+                     children: "Project management & data visualization tools"
                   }), f.jsx("div", {
                      className: "space-y-4",
                      children: eN.map(i => f.jsx(Zv, {
@@ -17333,7 +17333,7 @@ const X_ = () => {
                   variants: e,
                   children: [f.jsx("h2", {
                      className: "text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white transition-colors duration-300",
-                     children: "About Me"
+                     children: "About me"
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
                      children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, metamaterials, topology optimization, and data-driven simulations for solving real-world engineering problems. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
@@ -23804,7 +23804,7 @@ const p4 = Fa.object({
                variants: e,
                children: [f.jsx("h2", {
                   className: "text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white transition-colors duration-300",
-                  children: "Get In Touch"
+                  children: "Get in touch"
                }), f.jsx("p", {
                   className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto transition-colors duration-300",
                   children: "Have a project in mind or interested in working together? Feel free to reach out through the form below or connect with me directly."
@@ -23822,7 +23822,7 @@ const p4 = Fa.object({
                      className: "space-y-6",
                      children: [f.jsx("h3", {
                         className: "text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300",
-                        children: "Contact Information"
+                        children: "Contact information"
                      }), f.jsxs("div", {
                         className: "flex items-start",
                         children: [f.jsx("div", {
@@ -23874,7 +23874,7 @@ const p4 = Fa.object({
                      className: "space-y-4",
                      children: [f.jsx("h3", {
                         className: "text-xl font-bold text-gray-900 dark:text-white transition-colors duration-300",
-                        children: "Connect With Me"
+                        children: "Connect with me"
                      }), f.jsxs("div", {
                         className: "flex space-x-4",
                         children: [f.jsx("a", {
@@ -26102,7 +26102,7 @@ const S0 = [{
       slug: "senior-research-fellow",
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
       date: "August 2022 - July 2023",
-      description: "As an SQL Developer Intern at Nirjai Technologies, I am responsible for managing and optimizing database systems related to pathology lab data workflows. I design robust SQL queries and contribute to solving real-time business problems through efficient database solutions and reporting systems. The internship involves regular participation in daily and weekend planning meetings, allowing me to adapt to the dynamic, fast-paced startup environment. This role has enhanced my ability to deliver under pressure while supporting the company's core data infrastructure.",
+      description: "Worked on a project titled- “Topology Optimization of Large-Scale Engineering Structures: Numerical Simulations and Experimental Investigations” sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad. The work involved the development of topology optimization frameworks for static and dynamic compliance, as well as maximizing the fundamental natural frequency. The framework accounts for engineering features like fillets, extrusions, etc. used in industrial engineering structures. All the developed FE static, modal, random vibrations and topology optimization packages are parallelized for solving large-scale engineering structures and scalable to run on High-performance computing systems. The work also included a machine-learning approach to designing structures using topology optimization.",
       credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "experience",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
@@ -26114,7 +26114,7 @@ const S0 = [{
       slug: "junior-research-fellow",
       issuer: "Defence Research and Development Laboratory (DRDO) Hyderabad",
       date: "August 2020 - August 2022",
-      description: "Led data-driven initiatives to improve operational efficiency and business insights. Utilized Bridge engg to develop interactive dashboards tracking real-time KPIs. Automated daily reporting tasks using Python, significantly reducing manual effort. Leveraged SQL, Excel, and Google Sheets to clean, analyze, and visualize large datasets from platforms like Shopify, Facebook Ads, and Google Ads, enabling informed marketing and business decisions. Collaborated across departments to streamline Return-to-Origin (RTO) processes and identified cost-saving opportunities through financial and operational analysis.",
+      description: "Worked on a project titled- “Topology Optimization of Large-Scale Engineering Structures: Numerical Simulations and Experimental Investigations” sponsored by Defence Research and Development Laboratory (DRDO) Hyderabad. The work dealt with developing open-source industry-standard Finite Element packages for static, modal and base excitation random vibration analysis with and without point mass for large-scale engineering structures. All the analyses are validated with industry standard commercial packages. The work also involved developing a module for converting topology-optimized designs to additive and freeform manufacturing processes.",
       credentialLink: "https://www.drdo.gov.in/drdo/labs-and-establishments/defence-research-development-laboratory-drdl",
       category: "experience",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
@@ -26126,7 +26126,7 @@ const S0 = [{
       slug: "guest-lecturer-1",
       issuer: "Pusa Institute of Technology (Govt. of NCT)",
       date: "August 2017 - June 2018",
-      description: "During my internship at Wise Wealth Management, I gained practical exposure to financial analysis and strategic wealth management. I collaborated with senior financial advisors on projects related to investment planning, client portfolio reviews, and financial reporting. This experience allowed me to apply analytical thinking to real-world data, understand market trends, and contribute to optimizing investment strategies. Working in a professional environment also strengthened my communication and client-handling skills, providing a strong foundation for data-driven decision-making in finance.",
+      description: "Taught diploma of civil engineering students for two semesters in Govt of NCT of Delhi’s institute.",
       credentialLink: "https://dseu.ac.in/pusa/index.html",
       category: "experience",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/dseu.png",
@@ -26138,7 +26138,7 @@ const S0 = [{
       slug: "guest-lecturer-2",
       issuer: "GB Pant Institute of Technology (Govt. of NCT)",
       date: "August 2017 - June 2018",
-      description: "In April 2021, I contributed as a volunteer event coordinator for Chembola, an event organized by the Chemical Society of Deshbandhu College. My responsibilities included supporting the planning, logistics, and on-ground coordination on the day of the event. This hands-on experience enabled me to work as part of a team, handle responsibilities under time constraints, and ensure a successful and engaging experience for all participants. It was a valuable opportunity to build my teamwork, communication, and organizational skills in a real-world event setting.",
+      description: "Taught B.Voc (Construction Technology) students for two semesters in Govt of NCT of Delhi’s institute.",
       credentialLink: "https://dseu.edu.in/campus/gb-pant-dseu-campus",
       category: "experience",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/dseu.png",
@@ -26150,7 +26150,7 @@ const S0 = [{
       slug: "intern",
       issuer: "CSIR-Central Road Research Institute, New Delhi",
       date: "April 2015 - September 2015",
-      description: "In April 2022, I served as the Student Coordinator for the National Science Day Event at Deshbandhu College, where I played a key role in the creative and operational aspects of the program. I was recognized for designing visually impactful posters that effectively promoted the event and increased student engagement. I also led social media promotion efforts, which helped surpass expected attendance levels. Through efficient planning and coordination, the event was executed smoothly, earning me a Certificate of Recognition for excellence in both creative design and event organization. This experience highlighted my skills in creativity, communication, and event promotion.",
+      description: "Worked on performance monitoring of bridges through instrumentation.",
       credentialLink: "https://www.csir.res.in/",
       category: "experience",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
