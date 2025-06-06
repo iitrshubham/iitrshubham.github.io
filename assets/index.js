@@ -25326,7 +25326,7 @@ const W4 = ({
       id: 3,
       title: "Advanced SQL Techniques for Data Analysis",
       slug: "advanced-sql-techniques",
-      category: "SQL",
+      category: "MECHANICS",
       date: "April 15, 2025",
       author: "Shubham",
       shortDescription: "Discover advanced SQL techniques like window functions, CTEs, and recursive queries that can transform your data analysis workflow. These methods can help you solve complex analytical problems directly in your database.",
@@ -25590,19 +25590,19 @@ const W4 = ({
                })]
             }) : f.jsxs(f.Fragment, {
                children: [f.jsx("title", {
-                  children: "Data Insights Blog | Shubham"
+                  children: "Blogs | Shubham"
                }), f.jsx("meta", {
                   name: "description",
-                  content: "Thoughts, tutorials, and insights on data analysis, visualization, and modern techniques"
+                  content: "Thoughts, tutorials, and insights on programming, visualization, and modern techniques"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "data analysis, blog, data science, visualization, python, SQL"
+                  content: "mechanics, blog, visualization, python, FEniCS"
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: "Data Insights Blog | Shubham"
+                  content: "Blogs | Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
-                  content: "Thoughts, tutorials, and insights on data analysis, visualization, and modern techniques"
+                  content: "Thoughts, tutorials, and insights on programming, visualization, and modern techniques"
                }), f.jsx("meta", {
                   property: "og:type",
                   content: "website"
