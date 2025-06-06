@@ -16861,11 +16861,11 @@ const X_ = () => {
       thumbhnailUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/project4.png"
    }, {
       id: 5,
-      title: "Ellipsoid convex model",
-      slug: "ellipsoid-convex-model",
+      title: "Ellipsoidal convex model",
+      slug: "ellipsoidal-convex-model",
       description: "Ellipsoidal convex regions are favored for modeling uncertainty over simple rectangles or squares due to their ability to represent varying levels of uncertainty in different directions, better approximation of real-world uncertainty shapes, convexity for mathematical tractability, simplicity in mathematical descriptions, and their widespread acceptance in various fields.",
       tag: "Topology optimization",
-      tagColor: "bg-green-100 text-green-700",
+      tagColor: "bg-yellow-100 text-yellow-700",
       category: "Topology optimization",
       githubUrl: "https://doi.org/10.1016/j.cma.2024.117009",
       methodology: ` • The uncertainty region is modeled as an inclined ellipsoid with semi-major axis , semi-minor axis , and orientation angles from the x-axis. The eigenvector matrix  represents the directions of the axes, while the diagonal matrix  represents scaling via inverse square of axis lengths.
