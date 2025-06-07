@@ -17513,7 +17513,7 @@ const X_ = () => {
                                     children: "Good international conference support"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "Department of Civil Engineering, IIT Roorkee, 2025"
+                                    children: "Indian Institute of Technology Roorkee, 2025"
                                  })]
                               })]
                            })]
@@ -26289,9 +26289,9 @@ const S0 = [{
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
    }, {
       id: 20,
-      title: "Country visited outside India",
+      title: "Countries visited outside India",
       slug: "foreign-visits",
-      issuer: "UK, Italy and Switzerland",
+      issuer: "United Kingdom, Italy and Switzerland",
       date: "2023 and 2024",
       description: "For presenting research work.",
       credentialLink: "#",
