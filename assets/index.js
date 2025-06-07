@@ -26560,32 +26560,27 @@ const S0 = [{
                                        children: _.date
                                     })
                                  })]
-                              f.jsx("p", {
+                              }), f.jsx("p", {
                                  className: "text-gray-600 mt-4",
                                  children: _.description
-                              }),
-                              f.jsxs("div", {
+                              }), f.jsxs("div", {
                                  className: "mt-4 flex justify-between items-center",
-                                 children: [
-                                    // Now "View more" navigates internally
-                                    f.jsxs("button", {
-                                       onClick: () => a(`/academic-background/${_.slug}`),
-                                       className: "text-primary font-medium hover:underline inline-flex items-center",
-                                       children: ["View more ", f.jsx("span", {
-                                          className: "ml-1",
-                                          children: "→"
-                                       })]
-                                    }),
-                                    // Now "Details" opens the external credential link
-                                    f.jsxs("a", {
-                                       href: _.credentialLink,
-                                       target: "_blank",
-                                       rel: "noreferrer",
-                                       className: "text-gray-600 hover:text-primary transition-colors",
-                                       children: "Details"
-                                    })
-                                 ]
-                              })
+                                 children: [f.jsxs("a", {
+                                    href: _.credentialLink,
+                                    target: "_blank",
+                                    rel: "noreferrer",
+                                    className: "text-primary font-medium hover:underline inline-flex items-center",
+                                    children: ["View more ", f.jsx("span", {
+                                       className: "ml-1",
+                                       children: "→"
+                                    })]
+                                 }), f.jsx("button", {
+                                    onClick: () => a(`/academic-background/${_.slug}`),
+                                    className: "text-gray-600 hover:text-primary transition-colors",
+                                    children: "Details"
+                                 })]
+                              })]
+                           })
                         }, _.slug))
                      })
                   }), f.jsx(Ya, {
