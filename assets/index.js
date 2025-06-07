@@ -17438,7 +17438,7 @@ const X_ = () => {
                      }), f.jsxs("div", {
                         children: [f.jsx("h3", {
                            className: "text-xl font-bold mb-3 text-gray-900 dark:text-white transition-colors duration-300",
-                           children: "Awards"
+                           children: "Accolades"
                         }), f.jsxs("div", {
                            className: "space-y-3",
                            children: [f.jsxs("div", {
@@ -17450,7 +17450,7 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Senior Research Fellow"
+                                    children: "Senior Research Fellowship"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
                                     children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2022 - July 2023"
@@ -17465,7 +17465,7 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Junior Research Fellow"
+                                    children: "Junior Research Fellowship"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
                                     children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2020 - August 2022"
@@ -17480,10 +17480,10 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Guest lecturer"
+                                    children: "Young Scientist Award"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "Pusa Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                    children: "Indian Society of Theoretical and Applied Mechanics (ISTAM), IIT Kharagpur, 2023"
                                  })]
                               })]
                            }), f.jsxs("div", {
@@ -17495,10 +17495,25 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Guest lecturer"
+                                    children: "International Travel Scheme (ITS)"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-                                    children: "G B Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                    children: "Anusandhan National Research Foundation (ANRF), Govt. of India, 2024"
+                                 })]
+                              })]
+                           }), f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Good international conference support"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "Department of Civil Engineering, IIT Roorkee, 2025"
                                  })]
                               })]
                            })]
