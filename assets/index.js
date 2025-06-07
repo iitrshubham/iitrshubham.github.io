@@ -26344,13 +26344,13 @@ const S0 = [{
                className: "text-center py-12",
                children: [f.jsx("h2", {
                   className: "text-2xl font-bold text-gray-800",
-                  children: "Certificate not found"
+                  children: "Academic background not found"
                }), f.jsxs(Sr, {
-                  onClick: () => a("/certificates"),
+                  onClick: () => a("/academic-background"),
                   className: "mt-4",
                   children: [f.jsx(Li, {
                      className: "mr-2 h-4 w-4"
-                  }), " Back to Certificates"]
+                  }), " Back to Academic background"]
                })]
             });
             const D = (() => {
@@ -26379,12 +26379,12 @@ const S0 = [{
                },
                className: "max-w-4xl mx-auto",
                children: [f.jsxs(Sr, {
-                  onClick: () => a(`/certificates?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="extracurricular"?"extracurricular":"qualifications"}`),
+                  onClick: () => a(`/academic-background?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="extracurricular"?"extracurricular":"qualifications"}`),
                   variant: "ghost",
                   className: "mb-6 hover:bg-gray-100",
                   children: [f.jsx(Li, {
                      className: "mr-2 h-4 w-4"
-                  }), " Back to Certificates"]
+                  }), " Back to Academic background"]
                }), f.jsxs("div", {
                   className: "bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden",
                   children: [y.imageUrl && f.jsxs("div", {
@@ -26503,7 +26503,7 @@ const S0 = [{
                className: "text-center mb-12",
                children: [f.jsx("h1", {
                   className: "text-4xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300",
-                  children: "Certificates & Credentials"
+                  children: "Academic background"
                }), f.jsx("p", {
                   className: "text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300",
                   children: "Qualifications, professional experience and achievements"
@@ -26575,7 +26575,7 @@ const S0 = [{
                                        children: "→"
                                     })]
                                  }), f.jsx("button", {
-                                    onClick: () => a(`/certificate/${_.slug}`),
+                                    onClick: () => a(`/academic-background/${_.slug}`),
                                     className: "text-gray-600 hover:text-primary transition-colors",
                                     children: "Details"
                                  })]
@@ -26628,7 +26628,7 @@ const S0 = [{
                                        children: "→"
                                     })]
                                  }), f.jsx("button", {
-                                    onClick: () => a(`/certificate/${_.slug}`),
+                                    onClick: () => a(`/academic-background/${_.slug}`),
                                     className: "text-gray-600 hover:text-amber-600 transition-colors",
                                     children: "Details"
                                  })]
@@ -26681,7 +26681,7 @@ const S0 = [{
                                        children: "→"
                                     })]
                                  }), f.jsx("button", {
-                                    onClick: () => a(`/certificate/${_.slug}`),
+                                    onClick: () => a(`/academic-background/${_.slug}`),
                                     className: "text-gray-600 hover:text-green-600 transition-colors",
                                     children: "Details"
                                  })]
@@ -26734,7 +26734,7 @@ const S0 = [{
                                        children: "→"
                                     })]
                                  }), f.jsx("button", {
-                                    onClick: () => a(`/certificate/${_.slug}`),
+                                    onClick: () => a(`/academic-background/${_.slug}`),
                                     className: "text-gray-600 hover:text-red-600 transition-colors",
                                     children: "Details"
                                  })]
@@ -26750,13 +26750,13 @@ const S0 = [{
          children: [f.jsx(Xc, {
             children: t === "detail" && y ? f.jsxs(f.Fragment, {
                children: [f.jsxs("title", {
-                  children: [y.title, " | Certificate | Shubham"]
+                  children: [y.title, " | Academic background | Shubham"]
                }), f.jsx("meta", {
                   name: "description",
                   content: y.description
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: `certificate, ${y.category}, ${y.issuer}, ${y.skills.join(", ")}`
+                  content: `academic-background, ${y.category}, ${y.issuer}, ${y.skills.join(", ")}`
                }), f.jsx("meta", {
                   property: "og:title",
                   content: `${y.title} | ${y.issuer}`
@@ -26772,16 +26772,16 @@ const S0 = [{
                })]
             }) : f.jsxs(f.Fragment, {
                children: [f.jsx("title", {
-                  children: "Certificates & Credentials | Shubham"
+                  children: "Academic background | Shubham"
                }), f.jsx("meta", {
                   name: "description",
                   content: "Qualifications, achievements, and professional experience in data analysis and related fields"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "certificates, credentials, qualifications, achievements, qualifications, data analysis"
+                  content: "Academic background, credentials, qualifications, achievements, qualifications, data analysis"
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: "Certificates & Credentials | Shubham"
+                  content: "Academic background | Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
                   content: "Qualifications, achievements, and professional experience in data analysis and related fields"
@@ -26872,7 +26872,7 @@ const m3 = () => {
       }, _ = U => {
          l(!1), T(), m(`/category/${U.toLowerCase().replace(" ","-")}`)
       }, D = U => {
-         d(!1), T(), m(`/certificates?tab=${U.toLowerCase()}`)
+         d(!1), T(), m(`/academic-background?tab=${U.toLowerCase()}`)
       }, F = U => {
          T(), m(U)
       };
@@ -26884,7 +26884,7 @@ const m3 = () => {
       }, []), b.useEffect(() => {
          if (p.startsWith("/notes")) i("notes");
          else if (p.startsWith("/blog")) i("blog");
-         else if (p.startsWith("/certificate")) i("certificates");
+         else if (p.startsWith("/academic-background")) i("academic-background");
          else if (p.startsWith("/project") || p.startsWith("/category")) i("projects");
          else if (p === "/") {
             const U = () => {
@@ -26987,20 +26987,20 @@ const m3 = () => {
                   ref: v,
                   children: [f.jsxs("button", {
                      onClick: () => d(!u),
-                     className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "certificates" ? "text-primary dark:text-primary" : ""),
+                     className: Ze("relative nav-item text-gray-800 dark:text-gray-200 hover:text-primary dark:hover:text-primary transition-colors px-1 py-2 flex items-center", r === "academic-background" ? "text-primary dark:text-primary" : ""),
                      children: [f.jsx(mc, {
-                        className: `h-4 w-4 mr-1 ${r==="certificates"?"text-primary":""}`
-                     }), "Certificates", f.jsx(ky, {
+                        className: `h-4 w-4 mr-1 ${r==="academic-background"?"text-primary":""}`
+                     }), "Academic background", f.jsx(ky, {
                         className: `ml-1 h-4 w-4 transition-transform ${u?"rotate-180":""}`
                      }), f.jsx("span", {
-                        className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "certificates" ? "w-full" : "w-0")
+                        className: Ze("absolute left-0 bottom-0 h-0.5 bg-primary transition-all duration-300", r === "academic-background" ? "w-full" : "w-0")
                      })]
                   }), u && f.jsxs("div", {
                      className: "absolute left-0 mt-2 w-48 bg-white dark:bg-gray-800 rounded-md shadow-lg py-1 z-50 transition-colors duration-300",
                      children: [f.jsx("button", {
-                        onClick: () => F("/certificates"),
+                        onClick: () => F("/academic-background"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
-                        children: "All Certificates"
+                        children: "All Academic background"
                      }), f.jsx("div", {
                         className: "h-px bg-gray-200 dark:bg-gray-700 my-1"
                      }), f.jsx("button", {
@@ -27080,11 +27080,11 @@ const m3 = () => {
             }), f.jsxs("div", {
                className: "py-2",
                children: [f.jsxs("button", {
-                  onClick: () => F("/certificates"),
-                  className: `flex items-center w-full text-left py-2 ${r==="certificates"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors font-medium`,
+                  onClick: () => F("/academic-background"),
+                  className: `flex items-center w-full text-left py-2 ${r==="academic-background"?"text-primary dark:text-primary":"text-gray-800 dark:text-gray-200"} hover:text-primary dark:hover:text-primary transition-colors font-medium`,
                   children: [f.jsx(mc, {
-                     className: `h-4 w-4 mr-2 ${r==="certificates"?"text-primary dark:text-primary":""}`
-                  }), "Certificates"]
+                     className: `h-4 w-4 mr-2 ${r==="academic-background"?"text-primary dark:text-primary":""}`
+                  }), "Academic background"]
                }), f.jsx("button", {
                   onClick: () => D("qualifications"),
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
@@ -27320,10 +27320,10 @@ function y3() {
                   params: i
                })
             }), f.jsx(Pn, {
-               path: "/certificates",
+               path: "/academic-background",
                children: () => f.jsx(T0, {})
             }), f.jsx(Pn, {
-               path: "/certificate/:slug",
+               path: "/academic-background/:slug",
                children: i => f.jsx(T0, {
                   viewMode: "detail",
                   params: i
