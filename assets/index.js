@@ -26247,7 +26247,7 @@ const S0 = [{
       date: "Apr 2022-",
       description: "Q1-SCI indexed journal.",
       credentialLink: "https://www.sciencedirect.com/journal/applied-mathematical-modelling",
-      category: "extracurricular",
+      category: "professional-activitiesrricular",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/amm.png",
       pdfUrl: "#",
       skills: ["Project Management",  "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"],
@@ -26259,7 +26259,7 @@ const S0 = [{
       date: "2023",
       description: "Bridge health assessment through instrumentation.",
       credentialLink: "https://www.gecarwal.ac.in/",
-      category: "extracurricular",
+      category: "professional-activitiesrricular",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/gec_arwal.png",
       pdfUrl: "#",
       skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"],
@@ -26271,7 +26271,7 @@ const S0 = [{
       date: "2024",
       description: "Design of bridge structure and foundation.",
       credentialLink: "https://www.csir.res.in/",
-      category: "extracurricular",
+      category: "professional-activitiesrricular",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
@@ -26283,7 +26283,7 @@ const S0 = [{
       date: "2024",
       description: "Quality Assurance, Health Assessment, and Rehabilitation of Bridges.",
       credentialLink: "https://www.csir.res.in/",
-      category: "extracurricular",
+      category: "professional-activitiesrricular",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
@@ -26295,7 +26295,7 @@ const S0 = [{
       date: "2023 and 2024",
       description: "For presenting research work.",
       credentialLink: "#",
-      category: "extracurricular",
+      category: "professional-activitiesrricular",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/country.png",
       pdfUrl: "#",
       skills: ["Presentations", "Communication Skills", "Leadership"],
@@ -26317,7 +26317,7 @@ const S0 = [{
             v(_ || null)
          } else d && m(d)
       }, [t, i == null ? void 0 : i.slug, d]);
-      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualifications" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "extracurricular" ? _.category === "extracurricular" : !0),
+      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualifications" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "professional-activitiesrricular" ? _.category === "professional-activitiesrricular" : !0),
          T = {
             hidden: {
                opacity: 0
@@ -26361,7 +26361,7 @@ const S0 = [{
                         return "amber";
                      case "experience":
                         return "green";
-                     case "extracurricular":
+                     case "professional-activitiesrricular":
                         return "red";
                      default:
                         return "primary"
@@ -26379,7 +26379,7 @@ const S0 = [{
                },
                className: "max-w-4xl mx-auto",
                children: [f.jsxs(Sr, {
-                  onClick: () => a(`/academic-background?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="extracurricular"?"extracurricular":"qualifications"}`),
+                  onClick: () => a(`/academic-background?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="professional-activitiesrricular"?"professional-activitiesrricular":"qualifications"}`),
                   variant: "ghost",
                   className: "mb-6 hover:bg-gray-100",
                   children: [f.jsx(Li, {
@@ -26527,8 +26527,8 @@ const S0 = [{
                         value: "experience",
                         children: "Experience"
                      }), f.jsx(Ga, {
-                        value: "extracurricular",
-                        children: "Extracurricular"
+                        value: "professional-activitiesrricular",
+                        children: "Professional activities"
                      })]
                   }), f.jsx(Ya, {
                      value: "qualifications",
@@ -26690,7 +26690,7 @@ const S0 = [{
                         }, _.slug))
                      })
                   }), f.jsx(Ya, {
-                     value: "extracurricular",
+                     value: "professional-activitiesrricular",
                      className: "mt-0",
                      children: f.jsx(Te.div, {
                         variants: T,
@@ -27016,9 +27016,9 @@ const m3 = () => {
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
                         children: "Experience"
                      }), f.jsx("button", {
-                        onClick: () => D("extracurricular"),
+                        onClick: () => D("professional-activitiesrricular"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
-                        children: "Extracurricular"
+                        children: "Professional activities"
                      })]
                   })]
                }), f.jsx($, {
@@ -27098,9 +27098,9 @@ const m3 = () => {
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
                   children: "Experience"
                }), f.jsx("button", {
-                  onClick: () => D("extracurricular"),
+                  onClick: () => D("professional-activitiesrricular"),
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
-                  children: "Extracurricular"
+                  children: "Professional activities"
                })]
             }), f.jsx("button", {
                onClick: () => C("skills"),
