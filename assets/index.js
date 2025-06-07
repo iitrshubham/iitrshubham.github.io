@@ -25121,7 +25121,7 @@ const W4 = ({
                      className: "mb-8",
                      children: [f.jsx("h2", {
                         className: "text-xl font-bold mb-4 text-gray-900 dark:text-white",
-                        children: "Key Activities"
+                        children: "Key points"
                      }), f.jsx("ul", {
                         className: "space-y-2",
                         children: l.bulletPoints.map((v, w) => f.jsxs("li", {
