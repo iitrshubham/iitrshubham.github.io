@@ -26720,20 +26720,22 @@ const S0 = [{
       })
    };
 
-function p3({ className: t }) {
-   const [e, r] = b.useState(true); // true = dark mode by default
-
+function p3({
+   className: t
+}) {
+   const [e, r] = b.useState(!1);
    b.useEffect(() => {
-      document.documentElement.classList.add("dark"); // Always apply dark mode
+      const a = localStorage.getItem("theme");
+      if (a) r(a === "dark"), document.documentElement.classList.toggle("dark", a === "dark");
+      else {
+         const l = window.matchMedia("(prefers-color-scheme: dark)").matches;
+         r(l), document.documentElement.classList.toggle("dark", l)
+      }
    }, []);
-
    const i = () => {
       const a = !e;
-      r(a);
-      document.documentElement.classList.toggle("dark", a);
-      console.log("Theme toggled to:", a ? "dark" : "light");
+      r(a), document.documentElement.classList.toggle("dark", a), localStorage.setItem("theme", a ? "dark" : "light"), console.log("Theme toggled to:", a ? "dark" : "light")
    };
-
    return f.jsx(Sr, {
       variant: "ghost",
       size: "icon",
@@ -26745,7 +26747,7 @@ function p3({ className: t }) {
       }) : f.jsx(vT, {
          className: "h-[1.2rem] w-[1.2rem]"
       })
-   });
+   })
 }
 
 
