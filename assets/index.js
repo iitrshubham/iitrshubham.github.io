@@ -17435,6 +17435,74 @@ const X_ = () => {
                               })]
                            })]
                         })]
+                     }), f.jsxs("div", {
+                        children: [f.jsx("h3", {
+                           className: "text-xl font-bold mb-3 text-gray-900 dark:text-white transition-colors duration-300",
+                           children: "Awards"
+                        }), f.jsxs("div", {
+                           className: "space-y-3",
+                           children: [f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Senior Research Fellow"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2022 - July 2023"
+                                 })]
+                              })]
+                           }), f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Junior Research Fellow"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "DRDO-Defence Research & Development Laboratory Hyderabad, August 2020 - August 2022"
+                                 })]
+                              })]
+                           }), f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Guest lecturer"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "Pusa Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                 })]
+                              })]
+                           }), f.jsxs("div", {
+                              className: "flex",
+                              children: [f.jsx("div", {
+                                 className: "flex-shrink-0 h-5 w-5 text-primary mt-1",
+                                 children: f.jsx($v, {})
+                              }), f.jsxs("div", {
+                                 className: "ml-3",
+                                 children: [f.jsx("p", {
+                                    className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
+                                    children: "Guest lecturer"
+                                 }), f.jsx("p", {
+                                    className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                                    children: "G B Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
+                                 })]
+                              })]
+                           })]
+                        })]
                      })]
                   }), f.jsx("div", {
                      className: "pt-4",
@@ -17442,7 +17510,7 @@ const X_ = () => {
                         href: "https://drive.google.com/file/d/1Zm4vzuvrET12PrFBDZ7hb1n0NESs0XfP/view?usp=sharing",
                         target: "_blank", // <-- Open in new tab
                         className: "inline-flex items-center text-primary hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors duration-300",
-                        children: ["Download Resume ", f.jsx(q_, {
+                        children: ["Download CV ", f.jsx(q_, {
                            className: "ml-2"
                         })]
                      })
