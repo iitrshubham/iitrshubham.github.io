@@ -16999,7 +16999,7 @@ const X_ = () => {
          })
       })
    },
-   Zv = ({
+   const Zv = ({
       name: t,
       percentage: e,
       color: r,
@@ -17007,11 +17007,12 @@ const X_ = () => {
       controls: a
    }) => {
       const l = b.useRef(null),
-         u = R_(l, {
-            once: !0,
-            amount: .5
-         }),
-         d = mb();
+            u = R_(l, {
+               once: !0,
+               amount: .5
+            }),
+            d = mb();
+
       return b.useEffect(() => {
          u && (a || d).start({
             width: `${e}%`,
@@ -17019,34 +17020,42 @@ const X_ = () => {
                duration: 1,
                delay: .2
             }
-         })
+         });
       }, [u, e, a, d]), f.jsxs("div", {
          ref: l,
-         children: [f.jsxs("div", {
-            className: "flex justify-between mb-1",
-            children: [f.jsx("span", {
-               className: "font-medium text-gray-900 dark:text-white transition-colors duration-300",
-               children: t
-            }), f.jsxs("span", {
-               className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
-               children: [e, "%"]
-            })]
-         }), f.jsx("div", {
-            className: "w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 transition-colors duration-300",
-            children: f.jsx(Te.div, {
-               className: `h-2.5 rounded-full ${r==="primary"?"bg-primary":"bg-blue-400"}`,
-               initial: {
-                  width: "0%"
-               },
-               animate: a || d,
-               custom: i,
-               style: {
-                  width: "0%"
-               }
+         children: [
+            f.jsxs("div", {
+               className: "flex justify-between mb-1",
+               children: [
+                  f.jsx("span", {
+                     className: "font-medium text-gray-900 dark:text-white transition-colors duration-300",
+                     children: t
+                  }),
+                  f.jsxs("span", {
+                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
+                     children: [e, "%"]
+                  })
+               ]
+            }),
+            f.jsx("div", {
+               className: "w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5 transition-colors duration-300",
+               children: f.jsx(Te.div, {
+                  className: `h-2.5 rounded-full ${r === "primary" ? "bg-primary" : "bg-blue-400"}`,
+                  initial: {
+                     width: "0%"
+                  },
+                  animate: {
+                     width: `${e}%`,
+                     transition: {
+                        duration: 1,
+                        delay: 0.2
+                     }
+                  }
+               })
             })
-         })]
-      })
-   },
+         ]
+      });
+   };
    J_ = [{
       name: "FEniCS",
       percentage: 95
