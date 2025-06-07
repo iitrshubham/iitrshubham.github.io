@@ -17134,10 +17134,10 @@ const X_ = () => {
                variants: r,
                children: [f.jsx("h2", {
                   className: "text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white transition-colors duration-300",
-                  children: "Technical Skills"
+                  children: "Technical skills"
                }), f.jsx("p", {
                   className: "text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300",
-                  children: "My professional toolkit includes programming languages, data analysis tools, and visualization platforms."
+                  children: "My professional toolkit includes programming languages, project management tools, and visualization platforms."
                })]
             }), f.jsxs("div", {
                className: "grid grid-cols-1 md:grid-cols-2 gap-12",
@@ -17412,7 +17412,7 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Guest lecturer"
+                                    children: "Guest Lecturer"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
                                     children: "Pusa Institute of Technology (Govt. of NCT), August 2017 - June 2018"
@@ -17427,7 +17427,7 @@ const X_ = () => {
                                  className: "ml-3",
                                  children: [f.jsx("p", {
                                     className: "font-medium text-gray-800 dark:text-gray-200 transition-colors duration-300",
-                                    children: "Guest lecturer"
+                                    children: "Guest Lecturer"
                                  }), f.jsx("p", {
                                     className: "text-gray-600 dark:text-gray-400 transition-colors duration-300",
                                     children: "G B Pant Institute of Technology (Govt. of NCT), August 2017 - June 2018"
@@ -26057,7 +26057,7 @@ Ya.displayName = F1.displayName;
 const S0 = [{
       id: 125,
       title: "PhD in Structural Engineering",
-      slug: "phd-qualifications",
+      slug: "phd-education",
       issuer: "Indian Institute of Technology Roorkee",
       date: "2020 - 2025",
       description: [
@@ -26068,7 +26068,7 @@ const S0 = [{
                   "• Developed ANN models to predict homogenized properties."
                   ].join("\n"),
       credentialLink: "https://iitr.ac.in/",
-      category: "qualifications",
+      category: "education",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       pdfUrl: "#",
       skills: ["Topology Optimization", "Uncertainty Quantification", "Adaptive Mesh Refinement", "Metamaterial Design", "Computational Mechanics", "Dynamic Structural Analysis", "Artificial Neural Networks", "Numerical Methods", "Open-Source Software Development"],
@@ -26076,12 +26076,12 @@ const S0 = [{
    }, {
       id: 2,
       title: "M.Tech in Structural Engineering",
-      slug: "mtech-qualifications",
+      slug: "mtech-education",
       issuer: "National Institute of Technology Hamirpur",
       date: "2018 - 2020",
       description: "• Worked on computational health monitoring of structures.\n• Applied finite element model updating techniques for health monitoring of 3D structural systems.\n• Investigated classical damage detection techniques for structural health assessment of 3D structures.",
       credentialLink: "https://nith.ac.in/",
-      category: "qualifications",
+      category: "education",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/nit_hamirpur.png",
       pdfUrl: "#",
       skills: ["Structural Health Monitoring", "Finite Element Model Updating", "Damage Detection", "Computational Mechanics", "Structural Engineering"],
@@ -26205,7 +26205,7 @@ const S0 = [{
       skills: ["Structural Modeling", "Computational Mechanics", "Finite Element Analysis", "DRDO Projects", "Scientific Programming"],
    }, {
       id: 13,
-      title: "Guest lecturer",
+      title: "Guest Lecturer",
       slug: "guest-lecturer-1",
       issuer: "Pusa Institute of Technology (Govt. of NCT)",
       date: "August 2017 - June 2018",
@@ -26217,7 +26217,7 @@ const S0 = [{
       skills: ["Teaching", "Civil Engineering", "Structural Analysis", "Academic Delivery", "Curriculum Design", "Public Speaking"],
    }, {
       id: 14,
-      title: "Guest lecturer",
+      title: "Guest Lecturer",
       slug: "guest-lecturer-2",
       issuer: "GB Pant Institute of Technology (Govt. of NCT)",
       date: "August 2017 - June 2018",
@@ -26247,7 +26247,7 @@ const S0 = [{
       date: "Apr 2022-",
       description: "Q1-SCI indexed journal.",
       credentialLink: "https://www.sciencedirect.com/journal/applied-mathematical-modelling",
-      category: "professional-activitiesrricular",
+      category: "professional-activities",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/amm.png",
       pdfUrl: "#",
       skills: ["Project Management",  "Problem Solving", "Event Coordination", "Communication Skills", "Adaptability", "Time Management", "Leadership"],
@@ -26259,7 +26259,7 @@ const S0 = [{
       date: "2023",
       description: "Bridge health assessment through instrumentation.",
       credentialLink: "https://www.gecarwal.ac.in/",
-      category: "professional-activitiesrricular",
+      category: "professional-activities",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/gec_arwal.png",
       pdfUrl: "#",
       skills: ["Project Management", "Problem Solving", "Event Coordination", "Communication Skills", "Leadership"],
@@ -26271,7 +26271,7 @@ const S0 = [{
       date: "2024",
       description: "Design of bridge structure and foundation.",
       credentialLink: "https://www.csir.res.in/",
-      category: "professional-activitiesrricular",
+      category: "professional-activities",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
@@ -26283,7 +26283,7 @@ const S0 = [{
       date: "2024",
       description: "Quality Assurance, Health Assessment, and Rehabilitation of Bridges.",
       credentialLink: "https://www.csir.res.in/",
-      category: "professional-activitiesrricular",
+      category: "professional-activities",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/csir.png",
       pdfUrl: "#",
       skills: ["Project Management", "Team Collaboration", "Problem Solving", "Communication Skills", "Leadership"],
@@ -26295,7 +26295,7 @@ const S0 = [{
       date: "2023 and 2024",
       description: "For presenting research work.",
       credentialLink: "#",
-      category: "professional-activitiesrricular",
+      category: "professional-activities",
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/country.png",
       pdfUrl: "#",
       skills: ["Presentations", "Communication Skills", "Leadership"],
@@ -26309,7 +26309,7 @@ const S0 = [{
          [, a] = ls(),
          l = fS(),
          d = new URLSearchParams(l).get("tab"),
-         [p, m] = b.useState(d || "qualifications"),
+         [p, m] = b.useState(d || "education"),
          [y, v] = b.useState(null);
       b.useEffect(() => {
          if (window.scrollTo(0, 0), t === "detail" && (i != null && i.slug)) {
@@ -26317,7 +26317,7 @@ const S0 = [{
             v(_ || null)
          } else d && m(d)
       }, [t, i == null ? void 0 : i.slug, d]);
-      const w = S0.filter(_ => p === "qualifications" ? _.category === "qualifications" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "professional-activitiesrricular" ? _.category === "professional-activitiesrricular" : !0),
+      const w = S0.filter(_ => p === "education" ? _.category === "education" : p === "achievements" ? _.category === "achievement" : p === "experience" ? _.category === "experience" : p === "professional-activities" ? _.category === "professional-activities" : !0),
          T = {
             hidden: {
                opacity: 0
@@ -26355,13 +26355,13 @@ const S0 = [{
             });
             const D = (() => {
                   switch (y.category) {
-                     case "qualifications":
+                     case "education":
                         return "primary";
                      case "achievement":
                         return "amber";
                      case "experience":
                         return "green";
-                     case "professional-activitiesrricular":
+                     case "professional-activities":
                         return "red";
                      default:
                         return "primary"
@@ -26379,7 +26379,7 @@ const S0 = [{
                },
                className: "max-w-4xl mx-auto",
                children: [f.jsxs(Sr, {
-                  onClick: () => a(`/academic-background?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="professional-activitiesrricular"?"professional-activitiesrricular":"qualifications"}`),
+                  onClick: () => a(`/academic-background?tab=${y.category==="experience"?"experience":y.category==="achievement"?"achievements":y.category==="professional-activities"?"professional-activities":"education"}`),
                   variant: "ghost",
                   className: "mb-6 hover:bg-gray-100",
                   children: [f.jsx(Li, {
@@ -26399,7 +26399,7 @@ const S0 = [{
                            className: "p-6 text-white",
                            children: [f.jsx("span", {
                               className: `px-3 py-1 text-xs font-medium rounded-full mb-2 inline-block bg-${D}-500`,
-                              children: y.category === "qualifications" ? "Qualifications" : y.category === "achievement" ? "Achievement" : "Experience"
+                              children: y.category === "education" ? "Education" : y.category === "achievement" ? "Achievement" : "Experience"
                            }), f.jsx("h1", {
                               className: "text-3xl font-bold",
                               children: y.title
@@ -26411,7 +26411,7 @@ const S0 = [{
                      children: [!y.imageUrl && f.jsxs(f.Fragment, {
                         children: [f.jsx("div", {
                            className: `text-xs font-semibold ${F.text} tracking-wider mb-2`,
-                           children: y.category === "qualifications" ? "Qualifications" : y.category === "achievement" ? "Achievement" : "Experience"
+                           children: y.category === "education" ? "Education" : y.category === "achievement" ? "Achievement" : "Experience"
                         }), f.jsx("h1", {
                            className: "text-3xl font-bold text-gray-900 dark:text-white mb-4 transition-colors duration-300",
                            children: y.title
@@ -26506,7 +26506,7 @@ const S0 = [{
                   children: "Academic background"
                }), f.jsx("p", {
                   className: "text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto transition-colors duration-300",
-                  children: "Qualifications, professional experience and achievements"
+                  children: "Educational qualifications, professional experience and achievements"
                })]
             }), f.jsx("div", {
                className: "max-w-4xl mx-auto",
@@ -26518,8 +26518,8 @@ const S0 = [{
                   children: [f.jsxs(V1, {
                      className: "grid w-full grid-cols-4 mb-8",
                      children: [f.jsx(Ga, {
-                        value: "qualifications",
-                        children: "Qualifications"
+                        value: "education",
+                        children: "Education"
                      }), f.jsx(Ga, {
                         value: "achievements",
                         children: "Achievements"
@@ -26527,11 +26527,11 @@ const S0 = [{
                         value: "experience",
                         children: "Experience"
                      }), f.jsx(Ga, {
-                        value: "professional-activitiesrricular",
+                        value: "professional-activities",
                         children: "Professional activities"
                      })]
                   }), f.jsx(Ya, {
-                     value: "qualifications",
+                     value: "education",
                      className: "mt-0",
                      children: f.jsx(Te.div, {
                         variants: T,
@@ -26690,7 +26690,7 @@ const S0 = [{
                         }, _.slug))
                      })
                   }), f.jsx(Ya, {
-                     value: "professional-activitiesrricular",
+                     value: "professional-activities",
                      className: "mt-0",
                      children: f.jsx(Te.div, {
                         variants: T,
@@ -26775,16 +26775,16 @@ const S0 = [{
                   children: "Academic background | Shubham"
                }), f.jsx("meta", {
                   name: "description",
-                  content: "Qualifications, achievements, and professional experience in data analysis and related fields"
+                  content: "Educational qualifications, achievements, and professional experience"
                }), f.jsx("meta", {
                   name: "keywords",
-                  content: "Academic background, credentials, qualifications, achievements, qualifications, data analysis"
+                  content: "Academic background, credentials, Educational qualifications, qualifications, achievements"
                }), f.jsx("meta", {
                   property: "og:title",
                   content: "Academic background | Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
-                  content: "Qualifications, achievements, and professional experience in data analysis and related fields"
+                  content: "Educational qualifications, achievements, and professional experience"
                }), f.jsx("meta", {
                   property: "og:type",
                   content: "website"
@@ -27004,9 +27004,9 @@ const m3 = () => {
                      }), f.jsx("div", {
                         className: "h-px bg-gray-200 dark:bg-gray-700 my-1"
                      }), f.jsx("button", {
-                        onClick: () => D("qualifications"),
+                        onClick: () => D("education"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
-                        children: "Qualifications"
+                        children: "Education"
                      }), f.jsx("button", {
                         onClick: () => D("achievements"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
@@ -27016,7 +27016,7 @@ const m3 = () => {
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
                         children: "Experience"
                      }), f.jsx("button", {
-                        onClick: () => D("professional-activitiesrricular"),
+                        onClick: () => D("professional-activities"),
                         className: "block w-full text-left px-4 py-2 text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200",
                         children: "Professional activities"
                      })]
@@ -27086,9 +27086,9 @@ const m3 = () => {
                      className: `h-4 w-4 mr-2 ${r==="academic-background"?"text-primary dark:text-primary":""}`
                   }), "Academic background"]
                }), f.jsx("button", {
-                  onClick: () => D("qualifications"),
+                  onClick: () => D("education"),
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
-                  children: "Qualifications"
+                  children: "Education"
                }), f.jsx("button", {
                   onClick: () => D("achievements"),
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
@@ -27098,7 +27098,7 @@ const m3 = () => {
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
                   children: "Experience"
                }), f.jsx("button", {
-                  onClick: () => D("professional-activitiesrricular"),
+                  onClick: () => D("professional-activities"),
                   className: "block w-full text-left py-2 pl-8 text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors",
                   children: "Professional activities"
                })]
