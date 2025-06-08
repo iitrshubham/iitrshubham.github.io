@@ -25407,29 +25407,26 @@ const W4 = ({
       tags: ["FEniCS", "Boundary Conditions", "Finite Element Method", "Computational Mechanics", "Simulation"]
    }, {
       id: 3,
-      title: "Advanced SQL Techniques for Data Analysis",
-      slug: "advanced-sql-techniques",
-      category: "MECHANICS",
-      date: "April 15, 2025",
+      title: "Make a perfect semi-circle using the pen tool",
+      slug: "make-perfect-semi-circle",
+      category: "DESIGN",
+      date: "June 8, 2025",
       author: "Shubham",
-      shortDescription: "Discover advanced SQL techniques like window functions, CTEs, and recursive queries that can transform your data analysis workflow. These methods can help you solve complex analytical problems directly in your database.",
+      shortDescription: "Easily create a perfect semi-circle using the pen tool and curve editing. Quick, clean, and ideal for vector-based design work.",
       fullContent: `
-        <h2>Moving Beyond Basic SQL</h2>
-        <p>While basic SQL queries can get you far, mastering advanced techniques can transform your analytical capabilities. This article introduces powerful SQL features that enable complex analyses directly in your database.</p>
-        
-        <h2>Window Functions: The Game Changer</h2>
-        <p>Window functions allow you to perform calculations across rows related to the current row without collapsing results through aggregation. We'll explore practical applications including running totals, moving averages, and ranking/percentiles.</p>
-        
-        <h2>Common Table Expressions (CTEs)</h2>
-        <p>CTEs make complex queries more readable and maintainable by breaking them into logical components. Learn how to use CTEs to simplify complex joins, create recursive queries, and improve query organization.</p>
-        
-        <h2>Advanced Joining Techniques</h2>
-        <p>Beyond basic joins lie techniques like self-joins, lateral joins, and cross applies. These approaches unlock powerful analytical capabilities for hierarchical data, time-series analysis, and complex filtering scenarios.</p>
-        
-        <h2>Practical Examples</h2>
-        <p>Throughout this article, we'll apply these techniques to real-world analytical challenges including cohort analysis, customer journey mapping, and inventory optimization problems.</p>
+         <h2>Steps to Make a Perfect Semi-Circle</h2>
+         <ol>
+            <li>Use the pie tool to draw a half-circle (enable snapping for accuracy).</li>
+            <li>Convert the shape to curves.</li>
+            <li>Select the node tool.</li>
+            <li>Click the node in the middle of the straight line.</li>
+            <li>Break apart the object (this creates 2 nodes at the same spot).</li>
+            <li>Delete both of those nodes.</li>
+         </ol>
+         
+         <p>You now have a clean, open semi-circle path!</p>
       `,
-      tags: ["SQL", "Database Analytics", "Window Functions", "Common Table Expressions", "Advanced Joins"]
+      tags: ["Pen Tool", "Vector Design", "Semi-Circle", "Graphic Tips"]
    }, {
       id: 4,
       title: "Streamlining Data Cleaning with Pandas",
@@ -25576,6 +25573,7 @@ const W4 = ({
                VISUALIZATION: "from-purple-500 to-pink-600",
                MATHEMATICS: "from-green-500 to-emerald-600",
                PYTHON: "from-amber-500 to-red-600"
+               DESIGN: "from-fuchsia-500 to-rose-600"
             };
             return f.jsxs(f.Fragment, {
                children: [f.jsxs(Te.div, {
