@@ -25572,7 +25572,7 @@ const W4 = ({
                MECHANICS: "from-blue-500 to-indigo-600",
                VISUALIZATION: "from-purple-500 to-pink-600",
                MATHEMATICS: "from-green-500 to-emerald-600",
-               PYTHON: "from-amber-500 to-red-600"
+               PYTHON: "from-amber-500 to-red-600",
                DESIGN: "from-fuchsia-500 to-rose-600"
             };
             return f.jsxs(f.Fragment, {
