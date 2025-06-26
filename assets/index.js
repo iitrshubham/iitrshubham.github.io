@@ -17522,7 +17522,7 @@ const X_ = () => {
                   }), f.jsx("div", {
                      className: "pt-4",
                      children: f.jsxs("a", {
-                        href: "https://drive.google.com/file/d/1Zm4vzuvrET12PrFBDZ7hb1n0NESs0XfP/view?usp=sharing",
+                        href: "#",
                         target: "_blank", // <-- Open in new tab
                         className: "inline-flex items-center text-primary hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium transition-colors duration-300",
                         children: ["Download CV ", f.jsx(q_, {
