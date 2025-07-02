@@ -26071,19 +26071,7 @@ const S0 = [{
       pdfUrl: "#",
       skills: ["Topology Optimization", "Uncertainty Quantification", "Adaptive Mesh Refinement", "Metamaterial Design", "Computational Mechanics", "Dynamic Structural Analysis", "Artificial Neural Networks", "Numerical Methods", "Open-Source Software Development"],
       duration: "5 years"
-   }, {
-      id: 2,
-      title: "M.Tech in Structural Engineering",
-      slug: "mtech-education",
-      issuer: "National Institute of Technology Hamirpur",
-      date: "2018 - 2020",
-      description: "• Worked on computational health monitoring of structures.\n• Applied finite element model updating techniques for health monitoring of 3D structural systems.\n• Investigated classical damage detection techniques for structural health assessment of 3D structures.",
-      credentialLink: "https://nith.ac.in/",
-      category: "education",
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/nit_hamirpur.png",
-      pdfUrl: "#",
-      skills: ["Structural Health Monitoring", "Finite Element Model Updating", "Damage Detection", "Computational Mechanics", "Structural Engineering"],
-      duration: "2 years"
+
 
    }, {
       id: 3,
@@ -26143,17 +26131,7 @@ const S0 = [{
       imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/iit_roorkee.png",
       skills: ["PhD Research", "Structural Mechanics", "Civil Engineering", "Engineering Fundamentals", "Research Excellence"],
    }, {
-      id: 8,
-      title: "Ministry of Education fellowship",
-      slug: "mhrd-mtech",
-      issuer: "NIT Hamirpur",
-      date: "2018",
-      description: "Awarded for pursuing M.Tech at NIT Hamirpur.",
-      credentialLink: "https://www.education.gov.in/",
-      category: "achievement",
-      imageUrl: "https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/nit_hamirpur.png",
-      skills: ["M.Tech Research", "Structural Mechanics", "Civil Engineering", "Engineering Fundamentals", "Research Excellence"],
-   }, {
+
       id: 9,
       title: "Senior Research Fellowship",
       slug: "senior-research-fellowship",
