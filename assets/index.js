@@ -16582,7 +16582,7 @@ const X_ = () => {
                   }), f.jsx(Te.p, {
                      variants: e,
                      className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl transition-colors duration-300",
-                     children: "Hi, I'm Shubham. My interests are informed decisions through advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite-element methods, I aim to transform complex physical problems into actionable insights that enhance structural performance and design innovation."
+                     children: "Hi, I'm Dr. Shubham. My interests are informed decisions through advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite-element methods, I aim to transform complex physical problems into actionable insights that enhance structural performance and design innovation."
                   }), f.jsxs(Te.div, {
                      variants: e,
                      className: "flex flex-wrap gap-4 pt-4",
@@ -16619,7 +16619,7 @@ const X_ = () => {
                            className: "text-2xl"
                         })
                      }), f.jsx("a", {
-                        href: "mailto:shubham.ce@sric.iitr.ac.in",
+                        href: "mailto:shubham.crri@csir.res.in",
                         className: "text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors duration-300",
                         "aria-label": "Email",
                         children: f.jsx(rp, {
@@ -23917,9 +23917,9 @@ const p4 = Fa.object({
                               className: "font-medium text-gray-900 dark:text-white transition-colors duration-300",
                               children: "Email"
                            }), f.jsx("a", {
-                              href: "mailto:shubham.ce@sric.iitr.ac.in",
+                              href: "mailto:shubham.crri@csir.res.in",
                               className: "text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors duration-300",
-                              children: "shubham.ce@sric.iitr.ac.in"
+                              children: "shubham.crri@csir.res.in"
                            })]
                         })]
                      }), f.jsxs("div", {
@@ -23934,7 +23934,7 @@ const p4 = Fa.object({
                               children: "Location"
                            }), f.jsx("p", {
                               className: "text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                              children: "UK, India"
+                              children: "CSIR-Central Road Research Institute,(Ministry of Science and Technology, Government of India), Delhi - Mathura Road, P.O.- CRRI, New Delhi-110025, India"
                            })]
                         })]
                      }), f.jsxs("div", {
@@ -27214,9 +27214,9 @@ const m3 = () => {
                         children: [f.jsx(rp, {
                            className: "mr-2"
                         }), f.jsx("a", {
-                           href: "mailto:shubham.ce@sric.iitr.ac.in",
+                           href: "mailto:shubham.crri@csir.res.in",
                            className: "hover:text-white transition-colors",
-                           children: "shubham.ce@sric.iitr.ac.in"
+                           children: "shubham.crri@csir.res.in"
                         })]
                      }), f.jsxs("li", {
                         className: "flex items-center text-gray-400",
