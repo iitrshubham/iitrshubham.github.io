@@ -24704,7 +24704,7 @@ const W4 = ({
       }, [a]), e ? f.jsxs(f.Fragment, {
          children: [f.jsxs(Xc, {
             children: [f.jsxs("title", {
-               children: [e.title, " | ", e.category, " | Shubham"]
+               children: [e.title, " | ", e.category, " | Dr. Shubham"]
             }), f.jsx("meta", {
                name: "description",
                content: e.description
@@ -25319,7 +25319,7 @@ const W4 = ({
          children: [f.jsx(Xc, {
             children: t === "detail" && l ? f.jsxs(f.Fragment, {
                children: [f.jsxs("title", {
-                  children: [l.title, " | Notes | Shubham"]
+                  children: [l.title, " | Notes | Dr. Shubham"]
                }), f.jsx("meta", {
                   name: "description",
                   content: l.shortDescription
@@ -25341,7 +25341,7 @@ const W4 = ({
                })]
             }) : f.jsxs(f.Fragment, {
                children: [f.jsx("title", {
-                  children: "Notes | Shubham"
+                  children: "Notes | Dr. Shubham"
                }), f.jsx("meta", {
                   name: "description",
                   content: "Detailed analyses of real-world data challenges and their solutions"
@@ -25350,7 +25350,7 @@ const W4 = ({
                   content: "notes, data analysis, projects, portfolio"
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: "Notes | Shubham"
+                  content: "Notes | Dr. Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
                   content: "Detailed analyses of real-world data challenges and their solutions"
@@ -25377,7 +25377,7 @@ const W4 = ({
       slug: "printing-patterns-python",
       category: "PYTHON",
       date: "June 5, 2025",
-      author: "Shubham",
+      author: "Dr. Shubham",
       shortDescription: "Learn how to print various patterns in Python using nested for loops. This guide covers the fundamentals of controlling rows and columns to create star, number, and alphabet patterns, along with practical examples.",
       fullContent: `<h2>Introduction to Pattern Printing in Python</h2>\n<p>Patterns can be printed in Python using simple for loops. The <strong>outer loop</strong> is used to handle the <strong>number of rows</strong>, and the <strong>Inner nested loop</strong> is used to handle the <strong>number of columns</strong>. By manipulating the print statements, you can create different number patterns, alphabet patterns, or star patterns. Printing various patterns is an excellent way to build a solid understanding of loops in Python. After reading this article, you'll be able to create many types of patterns.</p>\n\n<h2>Steps to Print Patterns in Python</h2>\n<p>Use the below steps to print patterns in Python:</p>\n\n<ol>\n  <li>\n    <p><strong>Decide the number of rows and columns</strong></p>\n    <p>There's a typical structure to print any pattern, which involves defining the number of rows and columns. We need to use two loops—nested loops—to print any pattern. The outer loop determines the number of rows, and the inner loop defines the columns needed to print the pattern. You can accept the number of rows from a user using the <code>input()</code> function to decide the size of a pattern.</p>\n  </li>\n  <li>\n    <p><strong>Iterate rows</strong></p>\n    <p>Next, write an outer loop to iterate through the number of rows using a for loop and the <code>range()</code> function.</p>\n  </li>\n  <li>\n    <p><strong>Iterate columns</strong></p>\n    <p>After that, write the inner loop or nested loop to handle the number of columns. The internal loop's iteration depends on the values of the outer loop.</p>\n  </li>\n  <li>\n    <p><strong>Print star or number</strong></p>\n    <p>Use the <code>print()</code> function in each iteration of the nested <code>for</code> loop to display the symbol or number of a pattern (like a star (asterisk <code>*</code>) or a number).</p>\n  </li>\n  <li>\n    <p><strong>Add new line after each iteration of the outer loop</strong></p>\n    <p>Add a new line using the <code>print()</code> function after each iteration of the outer loop so that the pattern displays appropriately.</p>\n  </li>\n</ol>\n<p>Some of the patterns are shown below for better understanding. Let's start with the easiest of all.</p>\n\n<h3>Right Half-Pyramid Pattern Program</h3>\n<pre><code>* \n* * \n* * * \n* * * * \n* * * * * </code></pre>\n<h4>Code</h4>\n<pre><code class=\"language-python\"># Function to demonstrate printing pattern\ndef righthalf(n):\n    \n    # outer loop to handle number of rows\n    # n in this case\n    for i in range(0, n):\n    \n        # inner loop to handle number of columns\n        # values changing acc. to outer loop\n        for j in range(0, i+1):\n        \n            # printing stars\n            print(\"* \",end=\"\")\n    \n        # ending line after each row\n        print(\"\\r\")\n\n# Driver Code\nn = 5\nrighthalf(n)</code></pre>\n<p>Let's look at another example.</p>\n\n<h3>Left Half-Pyramid Pattern Program</h3>\n<pre><code>        * \n      * * \n    * * * \n  * * * * \n* * * * * </code></pre>\n<h4>Code</h4>\n<pre><code class=\"language-python\"># Function to demonstrate printing pattern\ndef lefthalf(n):\n    \n    # number of spaces\n    k = 2*n - 2\n\n    # outer loop to handle number of rows\n    for i in range(0, n):\n    \n        # inner loop to handle number spaces\n        # values changing acc. to requirement\n        for j in range(0, k):\n            print(end=\" \")\n    \n        # decrementing k after each loop\n        k = k - 2\n    \n        # inner loop to handle number of columns\n        # values changing acc. to outer loop\n        for j in range(0, i+1):\n        \n            # printing stars\n            print(\"* \", end=\"\")\n    \n        # ending line after each row\n        print(\"\\r\")\n\n# Driver Code\nn = 5\nlefthalf(n)</code></pre>\n<p>Now, by combining both patterns, we can create a full pyramid star pattern.</p>\n\n<h3>Full Pyramid Star Pattern</h3>\n<pre><code>   * \n  * * \n * * * \n* * * * \n</code></pre>\n<h4>Code</h4>\n<pre><code class=\"language-python\"># Function to demonstrate printing pattern triangle\ndef pyramid(n):\n    \n    # number of spaces\n    k = n - 1\n\n    # outer loop to handle number of rows\n    for i in range(0, n):\n    \n        # inner loop to handle number spaces\n        # values changing acc. to requirement\n        for j in range(0, k):\n            print(end=\" \")\n    \n        # decrementing k after each loop\n        k = k - 1\n    \n        # inner loop to handle number of columns\n        # values changing acc. to outer loop\n        for j in range(0, i+1):\n        \n            # printing stars\n            print(\"* \", end=\"\")\n    \n        # ending line after each row\n        print(\"\\r\")\n\n# Driver Code\nn = 5\npyramid(n)</code></pre>\n<h3>Exercise problems</h3>\n<p>A problem sheet for practicing loops in Python can be downloaded from <a href=\"https://drive.google.com/file/d/1f-CkvIHurtLtCqTFkO1SxrcjAIUdYjfg/view?usp=sharing\">here</a>.</p>\n`,
       tags: ["Python", "Patterns", "Loops", "Programming", "Star Patterns"]
@@ -25387,7 +25387,7 @@ const W4 = ({
       slug: "boundary-conditions-fenics",
       category: "SIMULATION",
       date: "May 6, 2025",
-      author: "Shubham",
+      author: "Dr. Shubham",
       shortDescription: "Explore the crucial role of boundary conditions in solving boundary value problems within FEniCS.",
       fullContent: `
          <h2>Introduction to Boundary Conditions</h2>
@@ -25411,7 +25411,7 @@ const W4 = ({
       slug: "make-perfect-semi-circle",
       category: "DESIGN",
       date: "June 8, 2025",
-      author: "Shubham",
+      author: "Dr. Shubham",
       shortDescription: "Easily create a perfect semi-circle using the pen tool and curve editing. Quick, clean, and ideal for vector-based design work.",
       fullContent: `
          <h2>Steps to Make a Perfect Semi-Circle</h2>
@@ -25433,7 +25433,7 @@ const W4 = ({
       slug: "data-cleaning-pandas",
       category: "MATHEMATICS",
       date: "April 5, 2025",
-      author: "Shubham",
+      author: "Dr. Shubham",
       shortDescription: "Data cleaning often consumes up to 80% of a data analyst's time. This article shares practical techniques for efficiently handling missing data, outliers, and inconsistencies using the Metamaterials Pandas library.",
       fullContent: `
         <h2>The Data Cleaning Challenge</h2>
@@ -25646,7 +25646,7 @@ const W4 = ({
          children: [f.jsx(Xc, {
             children: t === "detail" && l ? f.jsxs(f.Fragment, {
                children: [f.jsxs("title", {
-                  children: [l.title, " | Blog | Shubham"]
+                  children: [l.title, " | Blog | Dr. Shubham"]
                }), f.jsx("meta", {
                   name: "description",
                   content: l.shortDescription
@@ -25671,7 +25671,7 @@ const W4 = ({
                })]
             }) : f.jsxs(f.Fragment, {
                children: [f.jsx("title", {
-                  children: "Blogs | Shubham"
+                  children: "Blogs | Dr. Shubham"
                }), f.jsx("meta", {
                   name: "description",
                   content: "Thoughts, tutorials, and insights on programming, visualization, and modern techniques"
@@ -25680,7 +25680,7 @@ const W4 = ({
                   content: "mechanics, blog, visualization, python, FEniCS"
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: "Blogs | Shubham"
+                  content: "Blogs | Dr. Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
                   content: "Thoughts, tutorials, and insights on programming, visualization, and modern techniques"
@@ -26726,7 +26726,7 @@ const S0 = [{
          children: [f.jsx(Xc, {
             children: t === "detail" && y ? f.jsxs(f.Fragment, {
                children: [f.jsxs("title", {
-                  children: [y.title, " | Academic background | Shubham"]
+                  children: [y.title, " | Academic background | Dr. Shubham"]
                }), f.jsx("meta", {
                   name: "description",
                   content: y.description
@@ -26748,7 +26748,7 @@ const S0 = [{
                })]
             }) : f.jsxs(f.Fragment, {
                children: [f.jsx("title", {
-                  children: "Academic background | Shubham"
+                  children: "Academic background | Dr. Shubham"
                }), f.jsx("meta", {
                   name: "description",
                   content: "Educational qualifications, achievements, and professional experience"
@@ -26757,7 +26757,7 @@ const S0 = [{
                   content: "Academic background, credentials, Educational qualifications, qualifications, achievements"
                }), f.jsx("meta", {
                   property: "og:title",
-                  content: "Academic background | Shubham"
+                  content: "Academic background | Dr. Shubham"
                }), f.jsx("meta", {
                   property: "og:description",
                   content: "Educational qualifications, achievements, and professional experience"
@@ -27232,7 +27232,7 @@ const m3 = () => {
                className: "border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center",
                children: [f.jsxs("p", {
                   className: "text-gray-400",
-                  children: ["© ", new Date().getFullYear(), " Shubham. All rights reserved."]
+                  children: ["© ", new Date().getFullYear(), " Dr. Shubham. All rights reserved."]
                }), f.jsxs("p", {
                   className: "text-gray-400 mt-2 md:mt-0 flex items-center",
                   children: ["Built with ", f.jsx(Y_, {
