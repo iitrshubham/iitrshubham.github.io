@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iitrshubham.github.io/sitemap.xml
