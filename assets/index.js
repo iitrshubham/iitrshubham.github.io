@@ -16582,7 +16582,7 @@ const X_ = () => {
                   }), f.jsx(Te.p, {
                      variants: e,
                      className: "text-lg text-gray-600 dark:text-gray-300 max-w-2xl transition-colors duration-300",
-                     children: "Hi, I'm Dr. Shubham. My interests are informed decisions through advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite-element methods, I aim to transform complex physical problems into actionable insights that enhance structural performance and design innovation."
+                     children: "Hi, I'm Dr. Shubham. My interests are informed decisions through bridge engineering, advanced computational modeling, structural analysis, and high-fidelity simulations. With expertise in FEniCS, Python, and finite-element methods, I aim to transform complex physical problems into actionable insights that enhance structural performance and design innovation."
                   }), f.jsxs(Te.div, {
                      variants: e,
                      className: "flex flex-wrap gap-4 pt-4",
@@ -16656,10 +16656,10 @@ const X_ = () => {
                            })
                         }), f.jsx("h3", {
                            className: "text-2xl font-bold text-gray-800 dark:text-white mb-2 transition-colors duration-300",
-                           children: "Shubham"
+                           children: "Dr. Shubham"
                         }), f.jsx("p", {
                            className: "text-primary font-medium mb-4",
-                           children: "Using programming across different research domains"
+                           children: "Using programming and numerical simulations across different research domains"
                         }), f.jsxs("div", {
                            className: "w-full mt-4 bg-gray-50 dark:bg-gray-700 p-4 rounded-lg transition-colors duration-300",
                            children: [f.jsx("h4", {
@@ -17336,7 +17336,7 @@ const X_ = () => {
                      children: "About me"
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                     children: "I'm a dedicated Computational Mechanics researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, metamaterials, topology optimization, and data-driven simulations for solving real-world engineering problems. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
+                     children: "I'm a dedicated Structural engineering researcher with expertise in Python, FEniCS, MATLAB, and advanced numerical methods. My work focuses on structural analysis, metamaterials, topology optimization, and data-driven simulations for solving real-world engineering problems. I specialize in turning complex physical models into actionable insights using finite element analysis and custom visualization tools."
                   }), f.jsx("p", {
                      className: "text-lg text-gray-600 dark:text-gray-300 transition-colors duration-300",
                      children: "Currently, I’m enhancing my capabilities in high-performance computing, stochastic modeling, and structural health monitoring, while actively pursuing opportunities in R&D, simulation engineering, and applied computational mechanics."
@@ -23934,7 +23934,7 @@ const p4 = Fa.object({
                               children: "Location"
                            }), f.jsx("p", {
                               className: "text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                              children: "CSIR-Central Road Research Institute,(Ministry of Science and Technology, Government of India), Delhi - Mathura Road, P.O.- CRRI, New Delhi-110025, India"
+                              children: "CSIR-Central Road Research Institute (Ministry of Science and Technology, Government of India), Delhi - Mathura Road, P.O.- CRRI, New Delhi-110025, India"
                            })]
                         })]
                      }), f.jsxs("div", {
@@ -23949,7 +23949,7 @@ const p4 = Fa.object({
                               children: "Working Hours"
                            }), f.jsx("p", {
                               className: "text-gray-600 dark:text-gray-300 transition-colors duration-300",
-                              children: "Monday - Friday, 10AM - 5PM IST"
+                              children: "Monday - Friday, 9:00 AM - 5:30 PM IST"
                            })]
                         })]
                      })]
@@ -27124,7 +27124,7 @@ const m3 = () => {
                      })]
                   }), f.jsx("p", {
                      className: "text-gray-400 dark:text-gray-300 mb-4 max-w-md transition-colors duration-300",
-                     children: "Computational mechanics expert turning complex physical models into clear, actionable engineering insights. Specialized in Python, FEniCS, and finite element analysis."
+                     children: "Structural engineering  expert turning complex physical models into clear, actionable engineering insights. Specialized in Python, FEniCS, and finite element analysis."
                   }), f.jsxs("div", {
                      className: "flex space-x-4",
                      children: [f.jsx("a", {
@@ -27223,7 +27223,7 @@ const m3 = () => {
                         children: [f.jsx(wb, {
                            className: "mr-2"
                         }), f.jsx("span", {
-                           children: "UK, India"
+                           children: "CSIR-Central Road Research Institute (Ministry of Science and Technology, Government of India), Delhi - Mathura Road, P.O.- CRRI, New Delhi-110025, India"
                         })]
                      })]
                   })]
