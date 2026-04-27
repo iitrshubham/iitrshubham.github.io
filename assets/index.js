@@ -27212,7 +27212,7 @@ const m3 = () => {
                      children: [f.jsxs("li", {
                         className: "flex items-center text-gray-400",
                         children: [f.jsx(rp, {
-                           className: "mr-2 w-6 h-6"
+                           className: "mr-2"
                         }), f.jsx("a", {
                            href: "mailto:shubham.crri@csir.res.in",
                            className: "hover:text-white transition-colors",
@@ -27221,7 +27221,7 @@ const m3 = () => {
                      }), f.jsxs("li", {
                         className: "flex items-center text-gray-400",
                         children: [f.jsx(wb, {
-                           className: "mr-2"
+                           className: "mr-2 w-6 h-6"
                         }), f.jsx("span", {
                            children: "CSIR-Central Road Research Institute (Ministry of Science and Technology, Government of India), Delhi - Mathura Road, P.O.- CRRI, New Delhi-110025, India"
                         })]
