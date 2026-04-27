@@ -26906,10 +26906,10 @@ const m3 = () => {
                   className: "text-2xl font-bold",
                   children: [f.jsx("span", {
                      className: "text-primary dark:text-primary",
-                     children: "Shu"
+                     children: "Dr."
                   }), f.jsx("span", {
                      className: "text-gray-800 dark:text-gray-200",
-                     children: "bham"
+                     children: "Shubham"
                   })]
                })]
             }), f.jsxs("div", {
@@ -27117,10 +27117,10 @@ const m3 = () => {
                      className: "text-2xl font-bold mb-4",
                      children: [f.jsx("span", {
                         className: "text-white",
-                        children: "Shu"
+                        children: "Dr."
                      }), f.jsx("span", {
                         className: "text-primary",
-                        children: "bham"
+                        children: "Shubham"
                      })]
                   }), f.jsx("p", {
                      className: "text-gray-400 dark:text-gray-300 mb-4 max-w-md transition-colors duration-300",
