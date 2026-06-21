@@ -1,92 +1,183 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <style data-vite-theme="" data-inject-first="">:root {
-      --background: 0 0% 100%;
---foreground: 20 14.3% 4.1%;
---muted: 60 4.8% 95.9%;
---muted-foreground: 25 5.3% 44.7%;
---popover: 0 0% 100%;
---popover-foreground: 20 14.3% 4.1%;
---card: 0 0% 100%;
---card-foreground: 20 14.3% 4.1%;
---border: 20 5.9% 90%;
---input: 20 5.9% 90%;
---primary: 217 91% 60%;
---primary-foreground: 217 100% 99%;
---secondary: 60 4.8% 95.9%;
---secondary-foreground: 24 9.8% 10%;
---accent: 60 4.8% 95.9%;
---accent-foreground: 24 9.8% 10%;
---destructive: 0 84.2% 60.2%;
---destructive-foreground: 60 9.1% 97.8%;
---ring: 20 14.3% 4.1%;
---radius: 0.5rem;
-  }
-  .dark {
-      --background: 240 10% 3.9%;
---foreground: 0 0% 98%;
---muted: 240 3.7% 15.9%;
---muted-foreground: 240 5% 64.9%;
---popover: 240 10% 3.9%;
---popover-foreground: 0 0% 98%;
---card: 240 10% 3.9%;
---card-foreground: 0 0% 98%;
---border: 240 3.7% 15.9%;
---input: 240 3.7% 15.9%;
---primary: 217 91% 60%;
---primary-foreground: 217 100% 99%;
---secondary: 240 3.7% 15.9%;
---secondary-foreground: 0 0% 98%;
---accent: 240 3.7% 15.9%;
---accent-foreground: 0 0% 98%;
---destructive: 0 62.8% 30.6%;
---destructive-foreground: 0 0% 98%;
---ring: 240 4.9% 83.9%;
---radius: 0.5rem;
-  }</style>
-
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
-
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/iitrshubham/iitrshubham.github.io/refs/heads/main/image/favicon.png">
-
-    <!-- ✅ Google Search Console -->
-    <meta name="google-site-verification" content="ImOCksRrlsN-_Sb0v8pXGQYZftP1wR1CV0V1g3M8BEc" />
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F21DZRN5KD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-F21DZRN5KD');
-    </script>
-
-    <!-- Title Name -->
-    <title>Dr. Shubham | Researcher</title>
-  
-    <!-- SEO Meta -->
-    <meta name="description" content="Portfolio of Dr. Shubham – Data Analyst skilled in Python, SQL, Power BI, and Automation.">
-    <meta name="keywords" content="Researcher, Python, SQL, Power BI, Portfolio, Dashboard, Automation, Projects">
-    <meta name="author" content="Shubham">
-
-    <!-- Open Graph for Link Preview -->
-    <meta property="og:title" content="Dr. Shubham | Researcher">
-    <meta property="og:description" content="Explore real-world data projects, dashboards, and analytics case studies.">
-    <meta property="og:image" content="/assets/og-image.png">
-    <meta property="og:url" content="https://iitrshubham.github.io">
-    <meta name="twitter:card" content="summary_large_image" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Core Hydrogen | Green Hydrogen Intelligence Platform</title>
+    <meta
+      name="description"
+      content="Core Hydrogen is a premier platform for green hydrogen, electrolysers, fuel cells, storage, renewable integration, and the global hydrogen economy."
+    />
+    <meta name="theme-color" content="#061525" />
+    <meta property="og:title" content="Core Hydrogen" />
+    <meta property="og:description" content="Trusted hydrogen technology intelligence for the clean-energy transition." />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Dr. Shubham Portfolio" />
-
-    <script type="module" crossorigin src="/assets/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
-    <div id="root"></div>
-  </body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html" aria-label="Core Hydrogen home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 42 42"><path d="M21 3 37 12v18L21 39 5 30V12L21 3Z" /><circle cx="21" cy="21" r="6.4" /><path d="M12.5 15.5 21 21l8.5-5.5M21 21v10" /></svg></span>
+        <span>Core Hydrogen</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" data-nav-toggle><span></span><span></span></button>
+      <nav class="main-nav" data-nav>
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="technology.html">Technology</a>
+        <a href="blog.html">Blog</a>
+        <a class="nav-pill" href="contact.html">Contact</a>
+      </nav>
+    </header>
 
+    <main>
+      <section class="hero home-hero" aria-labelledby="home-title">
+        <div class="hero-media" aria-hidden="true">
+          <div class="hero-image"></div>
+          <div class="hero-grid"></div>
+          <canvas id="moleculeCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Global hydrogen technology intelligence</p>
+          <h1 id="home-title">Powering the Future Through Hydrogen Innovation</h1>
+          <p>
+            Core Hydrogen connects technical expertise, market intelligence, policy signals,
+            and project insight across green hydrogen, electrolysers, fuel cells, storage,
+            and industrial decarbonization.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="technology.html">Explore Technologies</a>
+            <a class="btn btn-secondary" href="blog.html">Latest Insights</a>
+          </div>
+        </div>
+        <div class="stats-bar" aria-label="Hydrogen industry statistics">
+          <article><strong data-count="95">0</strong><span>+ Million tonnes global hydrogen demand</span></article>
+          <article><strong data-count="500">0</strong><span>+ GW electrolyser pipeline</span></article>
+          <article><strong data-count="70">0</strong><span>+ countries with hydrogen strategies</span></article>
+          <article><strong>2050</strong><span>Net-zero target horizon</span></article>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="section-grid">
+          <div>
+            <p class="eyebrow">About Core Hydrogen</p>
+            <h2>A trusted platform for the hydrogen economy.</h2>
+            <p>
+              Core Hydrogen helps decision-makers understand the technology, economics,
+              infrastructure, safety, and policy requirements behind low-carbon hydrogen
+              deployment. Our mission is to make complex hydrogen systems clear, credible,
+              and actionable.
+            </p>
+            <div class="cred-strip">
+              <span>Technical explainers</span>
+              <span>Market intelligence</span>
+              <span>Research-led content</span>
+            </div>
+          </div>
+          <div class="orbital-card">
+            <svg viewBox="0 0 520 420" role="img" aria-label="Hydrogen intelligence ecosystem">
+              <defs><linearGradient id="orbitGrad" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#77f7ff" /><stop offset="1" stop-color="#2d7dff" /></linearGradient></defs>
+              <circle class="orbit-ring ring-one" cx="260" cy="210" r="142" />
+              <circle class="orbit-ring ring-two" cx="260" cy="210" r="94" />
+              <circle class="core" cx="260" cy="210" r="62" />
+              <text x="260" y="202" text-anchor="middle">Core</text>
+              <text x="260" y="229" text-anchor="middle">Hydrogen</text>
+              <g class="orbit-node" transform="translate(94 112)"><circle r="34" /><text y="5">R&D</text></g>
+              <g class="orbit-node" transform="translate(412 128)"><circle r="34" /><text y="5">Markets</text></g>
+              <g class="orbit-node" transform="translate(124 322)"><circle r="34" /><text y="5">Policy</text></g>
+              <g class="orbit-node" transform="translate(398 318)"><circle r="34" /><text y="5">Scale</text></g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-pad dark-band">
+        <div class="section-heading">
+          <p class="eyebrow">Technology Highlights</p>
+          <h2>Hydrogen systems from renewable power to end-use demand.</h2>
+        </div>
+        <div class="tech-grid compact">
+          <article class="tech-card"><span class="tech-icon icon-molecule"></span><h3>Green Hydrogen</h3><p>Renewable-powered production pathways, certification, and lifecycle emissions.</p></article>
+          <article class="tech-card"><span class="tech-icon icon-stack"></span><h3>Electrolysers</h3><p>Alkaline, PEM, and solid oxide systems for diverse project profiles.</p></article>
+          <article class="tech-card"><span class="tech-icon icon-fuel"></span><h3>Fuel Cells</h3><p>Clean electrochemical power for mobility, backup power, and distributed energy.</p></article>
+          <article class="tech-card"><span class="tech-icon icon-storage"></span><h3>Hydrogen Storage</h3><p>Compressed, liquefied, carrier-based, and underground storage options.</p></article>
+        </div>
+      </section>
+
+      <section class="section-pad">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Hydrogen Value Chain</p>
+            <h2>An integrated clean-energy system.</h2>
+          </div>
+          <a class="text-link" href="technology.html">View technical diagrams</a>
+        </div>
+        <div class="chain-track">
+          <article class="chain-step" tabindex="0"><span class="icon-solar"></span><h3>Renewables</h3><p>Wind, solar, hydro, and grids supply clean electricity.</p></article>
+          <article class="chain-step" tabindex="0"><span class="icon-stack"></span><h3>Electrolysis</h3><p>Water splitting produces hydrogen and oxygen.</p></article>
+          <article class="chain-step" tabindex="0"><span class="icon-tank"></span><h3>Storage</h3><p>Storage buffers variability and supports reliable delivery.</p></article>
+          <article class="chain-step" tabindex="0"><span class="icon-truck"></span><h3>Logistics</h3><p>Pipelines, ports, and trailers connect supply to demand.</p></article>
+          <article class="chain-step" tabindex="0"><span class="icon-factory"></span><h3>End Use</h3><p>Industry, power, transport, and chemicals decarbonize.</p></article>
+        </div>
+      </section>
+
+      <section class="section-pad insights">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Featured Articles</p>
+            <h2>Industry intelligence for leaders building the hydrogen economy.</h2>
+          </div>
+          <a class="text-link" href="blog.html">Open knowledge center</a>
+        </div>
+        <div class="insight-layout">
+          <article class="insight-card featured">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80" alt="Solar energy infrastructure" />
+            <div><span class="category">Market Trends</span><h3>Electrolyser scale-up is changing clean energy infrastructure planning.</h3><p>How developers connect renewables, water, grid services, and offtake demand.</p><small>8 min read · Jun 18, 2026</small></div>
+          </article>
+          <article class="insight-card">
+            <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80" alt="Wind turbines" />
+            <div><span class="category">Renewable Energy</span><h3>Hydrogen hubs are emerging where clean electrons meet industrial demand.</h3><small>6 min read · Jun 14, 2026</small></div>
+          </article>
+          <article class="insight-card">
+            <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=800&q=80" alt="Energy infrastructure" />
+            <div><span class="category">Fuel Cells</span><h3>Fuel cells gain ground in resilient power and fleet electrification.</h3><small>5 min read · Jun 12, 2026</small></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="newsletter section-pad">
+        <div class="newsletter-card">
+          <div>
+            <p class="eyebrow">Newsletter</p>
+            <h2>Stay Ahead of the Hydrogen Revolution</h2>
+            <p>Get hydrogen insights, technology updates, market trends, and industry intelligence delivered directly to your inbox.</p>
+          </div>
+          <form class="signup-form">
+            <label for="home-email">Email address</label>
+            <div><input id="home-email" type="email" placeholder="you@company.com" required /><button class="btn btn-primary" type="submit">Subscribe</button></div>
+            <small>No spam. Research-led updates only. Unsubscribe anytime.</small>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 42 42"><path d="M21 3 37 12v18L21 39 5 30V12L21 3Z" /><circle cx="21" cy="21" r="6.4" /></svg></span><span>Core Hydrogen</span></a>
+        <p>Trusted intelligence for hydrogen technologies and the global clean-energy transition.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About Core Hydrogen</a><a href="technology.html">Technologies</a><a href="blog.html">Knowledge Center</a><a href="contact.html">Contact</a><a href="blog.html">Newsletter</a><a href="#">Privacy Policy</a><a href="#">Terms & Conditions</a>
+      </div>
+      <div class="socials"><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="X">X</a><a href="#" aria-label="YouTube">YT</a></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
