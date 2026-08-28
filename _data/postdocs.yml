@@ -1,0 +1,27 @@
+- name: Jordan Liles
+  photo: Jordan_Liles.jpg
+  info: Postdoctoral Associate
+  email: jliles24@mit.edu
+  linkedin: https://www.linkedin.com/in/jordan-liles-934879126/
+  description: Jordan completed his Ph.D. in Organic Chemistry in 2024 with Matthew Sigman at the University of Utah. Shortly after, he joined the Coley group to pursue machine learning-enabled approaches to catalyst design and automation-assisted reaction optimization. He is interested in developing ML tools rooted in physical organic chemistry principles to drive new reaction discovery and develop new asymmetric methods.
+
+- name: Runzhong Wang
+  photo: Runzhong_Wang.jpeg
+  info: Postdoctoral Associate
+  email: runzhong@mit.edu
+  twitter: https://twitter.com/runzhong_wang
+  description: Runzhong received his PhD in Computer Science at Shanghai Jiao Tong University in the summer of 2023. He joined the Coley Research Group shortly afterward. He is interested in the intersected topics of machine learning and combinatorial optimization, and their applications in computational metabolomics.
+
+- name: Jonas Rein
+  photo: Jonas_Rein.jpg
+  info: Postdoctoral Fellow (co-advised with Prof. Masha Elkin)
+  email: jrein@mit.edu
+  linkedin: https://www.linkedin.com/in/jonas-rein-68a59a23b
+  description: Jonas completed his PhD in Organic Chemistry at Cornell University with Prof. Song Lin in 2024. His postdoctoral research seeks to integrate organic chemistry with data-driven approaches to systematically identify gaps in the current landscape of organic synthesis and accelerate the discovery of innovative solutions in the laboratory.
+
+- name: Ashfaq Iftakher
+  photo: Ashfaq_Iftakher.jpg
+  info: Postdoctoral Associate
+  email: iftakher@mit.edu
+  linkedin: https://www.linkedin.com/in/ashfaqiftakher/
+  description: Ashfaq received his Ph.D. in Chemical Engineering from Texas A&M University with Prof. Faruque Hasan in 2025, where he developed machine learning and optimization-based frameworks for computer-aided molecular and process design. He then joined AspenTech, where he worked at the intersection of mixed-integer optimization and machine learning for refinery scheduling problems. Ashfaq later returned to academia and joined the Coley group to work on process chemistry-aware computer-aided synthesis planning and multiscale decision-making. 
