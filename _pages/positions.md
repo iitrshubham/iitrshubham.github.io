@@ -1,5 +1,5 @@
 ---
-title: "Coley Research Group - Positions"
+title: "Shubham Research Group - Positions"
 layout: textlay
 excerpt: "Positions"
 sitemap: false
@@ -12,7 +12,7 @@ If you might be interested in joining us, please first take a look at our [group
 
 Please note that due to the high volume of email, I am unable to respond to every message I receive.
 
-**Prospective postdocs** should inquire directly at [ccoley@mit.edu](mailto:ccoley@mit.edu) with a CV and a brief statement of your research interests and background. Please also mention what your professional goals are, and what you would hope to learn and accomplish, specifically, while working in the group. If we do not have any postings, I will keep your materials on file and may reach out if openings arise at a future date. If you have independent funding, please mention it in your email.
+**Prospective postdocs** should inquire directly at [shubham.crri@csir.res.in](mailto:shubham.crri@csir.res.in) with a CV and a brief statement of your research interests and background. Please also mention what your professional goals are, and what you would hope to learn and accomplish, specifically, while working in the group. If we do not have any postings, I will keep your materials on file and may reach out if openings arise at a future date. If you have independent funding, please mention it in your email.
 
 Postdoctoral opportunities that we are actively recruiting for will be advertised by topic on this page as they become available.
 

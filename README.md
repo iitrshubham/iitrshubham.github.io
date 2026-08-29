@@ -1,6 +1,6 @@
-# Coley Research Group Website
+# Shubham Research Group Website
 
-This is the repo for the website of the Coley Research group at MIT. It is modified on top of a Jekyll template developed by the Allan Lab.
+This is the repo for the website of the Shubham Research Group at MIT. It is modified on top of a Jekyll template developed by the Allan Lab.
 
 ## Contributor Guide
 

@@ -1,7 +1,7 @@
 ---
-title: "Coley Research Group"
+title: "Shubham Research Group"
 layout: homelay
-excerpt: "Coley Research Group"
+excerpt: "Shubham Research Group"
 sitemap: false
 permalink: /
 ---

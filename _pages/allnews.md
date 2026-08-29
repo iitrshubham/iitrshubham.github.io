@@ -1,5 +1,5 @@
 ---
-title: "Coley Research Group - News"
+title: "Shubham Research Group - News"
 layout: textlay
 excerpt: "Coley Lab at MIT."
 sitemap: false

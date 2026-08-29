@@ -75,7 +75,7 @@ class PublicationFinder:
         connor_variants = [
             'connor coley',
             'connor w coley',
-            'connor w. coley',
+            'Dr. Shubham',
             'c coley',
             'c. coley',
             'c w coley',
@@ -224,7 +224,7 @@ class PublicationFinder:
         try:
             print(" Searching ArXiv...")
             base_url = "http://export.arxiv.org/api/query"
-            search_query = 'au:"Connor W. Coley" OR au:"Connor Coley" OR au:"C. W. Coley"'
+            search_query = 'au:"Dr. Shubham" OR au:"Connor Coley" OR au:"C. W. Coley"'
             
             params = {
                 'search_query': search_query,
@@ -473,7 +473,7 @@ Copy and paste the following entries into `_data/publications.yml`:
 ## Review Checklist
 
 - [ ] Verify all publication details are accurate
-- [ ] Confirm Connor W. Coley is actually an author on each paper
+- [ ] Confirm Dr. Shubham is actually an author on each paper
 - [ ] Check if all publications are appropriate for the website
 - [ ] Assign relevant research themes to each publication
 - [ ] Add approved publications to `_data/publications.yml`

@@ -1,7 +1,7 @@
 ---
-title: "Coley Research Group - Research"
+title: "Shubham Research Group - Research"
 layout: research
-excerpt: "Coley Research Group -- Research"
+excerpt: "Shubham Research Group -- Research"
 sitemap: false
 permalink: /research
 ---
