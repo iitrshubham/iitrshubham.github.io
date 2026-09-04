@@ -1,0 +1,73 @@
+{
+  "menus": [
+    {
+      "label": "Research",
+      "columns": [
+        {"title": "Core Work", "items": [
+          {"title": "Publications", "description": "Peer-reviewed work in computational mechanics and multi-physics simulation.", "href": "/publications/", "icon": "book"},
+          {"title": "Projects", "description": "Academic and industry projects in computational modeling and simulation.", "href": "/projects/", "icon": "code-window"},
+          {"title": "Frameworks", "description": "My workflow for scientific research and development.", "href": "/frameworks/", "icon": "graduation"},
+          {"title": "Research Vision", "description": "Long-term direction and key questions driving the work.", "href": "/research-areas/", "icon": "target"}
+        ]},
+        {"title": "Metadata", "items": [
+          {"title": "Categories", "description": "Organized themes grouping research topics, methods, and applications.", "href": "/categories/", "icon": "grid"},
+          {"title": "Roles", "description": "Across research, development, and collaboration.", "href": "/roles/", "icon": "users"},
+          {"title": "Research Areas", "description": "Primary areas of research spanning methods, materials, and applications.", "href": "/research-areas/", "icon": "compass"},
+          {"title": "Eras", "description": "Institutions, labs, and environments, reflecting shifts in focus and direction.", "href": "/eras/", "icon": "history"}
+        ]}
+      ],
+      "featured_title": "Blogs",
+      "features": [
+        {"title": "Plotting in Python", "description": "How to get publication ready plots in python.", "href": "https://abhigupta.io/blog/2022/07/20/2022-07-20-pdf-plot-python-matplotlib", "image": "menu/plotting.png", "action": "Read tutorial"},
+        {"title": "Offline Latex", "description": "How to setup Sublime as a beautiful latex editor", "href": "https://youtu.be/SZEXdXL_P4w", "image": "menu/latex.png", "action": "Watch video"}
+      ],
+      "actions": [{"title": "Read Books", "href": "/books/", "icon": "open-book"}, {"title": "View all posts", "href": "/blog/", "primary": true}]
+    },
+    {
+      "label": "Codes",
+      "columns": [
+        {"title": "Analysis/Design", "items": [
+          {"title": "Topology Optimization", "description": "Designing optimal structures through physics-based computational methods.", "href": "https://github.com/iitrabhi/topology-optimization-fenics", "icon": "cube"},
+          {"title": "Phase-Field Fracture", "description": "Modeling crack initiation and propagation with variational approaches.", "href": "https://github.com/iitrabhi/phasefieldfracture", "icon": "layers"},
+          {"title": "Isogeometric Topology Optimization", "description": "High-fidelity design using spline-based analysis and geometry integration.", "href": "https://github.com/iitrabhi/isogeometric-topology-optimization", "icon": "spline"},
+          {"title": "Metamaterial Design", "description": "Materials with tailored properties through computational design.", "href": "https://github.com/iitrabhi/metamaterial-topology-optimization", "icon": "material"}
+        ]},
+        {"title": "SciML/HPC", "items": [
+          {"title": "Glacier Simulations", "description": "Modeling fracture and flow behavior in ice and geophysical systems.", "href": "https://github.com/iitrabhi/adaptive-phase-field-fracture", "icon": "temperature"},
+          {"title": "Google Cloud Computing", "description": "Scalable simulation workflows with cloud-based HPC infrastructure.", "href": "https://github.com/iitrabhi/FEniCS-on-cloud", "icon": "cloud"},
+          {"title": "Exascale Computing", "description": "Algorithms and simulations designed for exa-scale systems.", "href": "https://github.com/iitrabhi/exascale-computing", "icon": "server", "badge": "Excited"},
+          {"title": "Scientific Machine Learning", "description": "Integrating physics-based models with data-driven learning methods.", "href": "https://github.com/iitrabhi/harmonic-oscillator-pinn", "icon": "code-window"}
+        ]}
+      ],
+      "featured_title": "Blogs",
+      "features": [
+        {"title": "Installation issues in Linux", "description": "Do this when your system cannot find installed packages in python", "href": "https://abhigupta.io/blog/2022/05/01/2022-05-01-linux-add-to-path", "image": "menu/install.png", "action": "Read tutorial"},
+        {"title": "Understanding Docker", "description": "You have to learn docker if you are working with code", "href": "https://abhigupta.io/blog/2019/06/03/2019-06-03-understanding-docker-dolfinx", "image": "menu/docker.png", "action": "Read tutorial"}
+      ],
+      "actions": [{"title": "Visit Github", "href": "https://github.com/iitrshubham", "icon": "branch"}, {"title": "View all posts", "href": "/blog/", "primary": true}]
+    },
+    {
+      "label": "Highlights",
+      "columns": [
+        {"title": "Featured Work", "items": [
+          {"title": "Key Publications", "description": "Most impactful and representative research papers and contributions.", "href": "/publications/", "icon": "file"},
+          {"title": "Breakthrough Ideas", "description": "Concepts that shaped the direction of my research work.", "href": "/breakthrough-ideas/", "icon": "bulb"},
+          {"title": "Videos & Demos", "description": "Visual demonstrations of research methods, results, and applications.", "href": "/videos/", "icon": "monitor"},
+          {"title": "Applications", "description": "Real problems solved through computational modeling and simulation.", "href": "/applications/", "icon": "tools"}
+        ]},
+        {"title": "Engagement", "items": [
+          {"title": "Talks & Lectures", "description": "Conference presentations and invited talks across academia and industry.", "href": "/talks/", "icon": "presentation"},
+          {"title": "Workshops", "description": "Hands-on sessions teaching computational methods and workflows.", "href": "/workshops/", "icon": "sliders", "badge": "Updated"},
+          {"title": "Blog / Essays", "description": "Insights on mechanics, computation, and scientific thinking.", "href": "/blog/", "icon": "pen"},
+          {"title": "Outreach", "description": "Communicating research to broader audiences beyond academia.", "href": "/outreach/", "icon": "megaphone"}
+        ]}
+      ],
+      "featured_title": "Tutorials",
+      "features": [
+        {"title": "Summer of Math Challenge", "description": "Jump right in—get an overview of the basics and get started on building.", "href": "https://www.youtube.com/watch?v=v_DqwOVr3Vw", "image": "menu/summer.png", "action": "Watch video"},
+        {"title": "NSF Innovation Corps - National", "description": "Once you’re ready, learn more about advanced analytics, features and shortcuts.", "href": "https://www.youtube.com/watch?v=mUHdGOFyqk4", "image": "menu/nsf.png", "action": "Watch video"}
+      ],
+      "actions": [{"title": "Read Books", "href": "/books/", "icon": "open-book"}, {"title": "View all posts", "href": "/blog/", "primary": true}]
+    }
+  ]
+}
