@@ -197,7 +197,7 @@ def detail(page):
     if page['route'] == '/about': body = CONFIG['about']
     article = blocks(body) if body else '<div class="notice"><p>No further details are currently published for this record.</p></div>'
     if page.get('logo'): article = f'<img class="college-logo college-logo-detail" src="{e(external(page["logo"]))}" alt="{e(page.get("logo_alt") or page["institution"]+" logo")}" width="112" height="112">'+article
-    if page.get('cover'): article = journal_cover(page)+'<p class="cover-note">Representative journal cover, not necessarily this article’s issue.</p>'+article
+    if page.get('cover'): article = journal_cover(page)+'<p class="cover-note"></p>'+article
     if page.get('section') == 'Blog': article = '<p class="article-byline">'+e(CONFIG['name'])+' · Bridge engineering notes</p>'+article
     if page.get('topics'):
         article += '<h2>Related research areas</h2><div class="topic-links">'+''.join(link(t['route'],t['label'],'profile-badge') for t in page['topics'])+'</div>'
