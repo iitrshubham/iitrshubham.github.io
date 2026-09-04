@@ -336,6 +336,31 @@
       "kind": "detail"
     },
     {
+      "route": "/outreach",
+      "title": "Outreach & training",
+      "kind": "collection"
+    },
+    {
+      "route": "/outreach/data-driven-bridge-health-monitoring",
+      "title": "Data Driven and Computational Approaches to Bridge Health Monitoring",
+      "kind": "detail"
+    },
+    {
+      "route": "/outreach/bearings-and-expansion-joints-lecture",
+      "title": "Assessment of Present Condition of Bridge Bearings and Expansion Joints",
+      "kind": "detail"
+    },
+    {
+      "route": "/outreach/rcc-psc-bridge-design-lecture",
+      "title": "Design of RCC/PSC Bridges with Examples",
+      "kind": "detail"
+    },
+    {
+      "route": "/outreach/bridge-shm-facilities-demonstration",
+      "title": "Demonstration of structural health monitoring facilities",
+      "kind": "detail"
+    },
+    {
       "route": "/research-areas",
       "title": "Research areas",
       "kind": "collection"
@@ -661,31 +686,6 @@
       "kind": "collection"
     },
     {
-      "route": "/blog/bridge-design-load-path-to-detail",
-      "title": "Bridge design: from load path to lasting details",
-      "kind": "detail"
-    },
-    {
-      "route": "/blog/structural-safety-audit-of-bridges",
-      "title": "Structural safety audits: connect evidence to decisions",
-      "kind": "detail"
-    },
-    {
-      "route": "/blog/visual-inspection-of-bridges",
-      "title": "Visual bridge inspection: make every observation traceable",
-      "kind": "detail"
-    },
-    {
-      "route": "/blog/bearings-and-expansion-joints",
-      "title": "Bearings & expansion joints: small components, system-wide effects",
-      "kind": "detail"
-    },
-    {
-      "route": "/blog/structural-health-monitoring-of-bridges",
-      "title": "Structural health monitoring: turn signals into evidence",
-      "kind": "detail"
-    },
-    {
       "route": "/workshops",
       "title": "Workshops",
       "kind": "collection"
@@ -706,9 +706,29 @@
       "kind": "collection"
     },
     {
-      "route": "/outreach",
-      "title": "Outreach",
-      "kind": "collection"
+      "route": "/blog/bearings-and-expansion-joints",
+      "title": "Bridge bearings and expansion joints: Indian design and inspection context",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/bridge-design-load-path-to-detail",
+      "title": "Designing an Indian road bridge: from load path to detailing",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/structural-health-monitoring-of-bridges",
+      "title": "Structural health monitoring for Indian bridges: turn data into decisions",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/structural-safety-audit-of-bridges",
+      "title": "Structural safety audit of bridges in India: evidence before conclusions",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/visual-inspection-of-bridges",
+      "title": "Visual inspection of Indian bridges: make every observation traceable",
+      "kind": "detail"
     }
   ],
   "redirects": {

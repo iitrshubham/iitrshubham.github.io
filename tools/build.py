@@ -11,12 +11,14 @@ import re
 import shutil
 from urllib.parse import quote, urlsplit
 from cv_content import make_pages, make_redirects
+from markdown_content import load_blogs, render_markdown
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / 'content/site.json').read_text(encoding='utf-8'))
 PROFILE = json.loads((ROOT / 'content/profile.json').read_text(encoding='utf-8'))
 RESEARCH = json.loads((ROOT / 'content/research.json').read_text(encoding='utf-8'))
 CUSTOM_PAGES = json.loads((ROOT / 'content/pages.json').read_text(encoding='utf-8'))
+CUSTOM_PAGES += load_blogs(ROOT / 'content/blogs')
 PAGES = make_pages(PROFILE, CONFIG, RESEARCH, CUSTOM_PAGES)
 BY_ROUTE = {page['route']: page for page in PAGES}
 OLD_ROUTES = json.loads((ROOT / 'content/reference-routes.json').read_text(encoding='utf-8'))['routes']
@@ -63,6 +65,12 @@ def external(value):
     if value.startswith('assets/') or value.startswith('/assets/'): return asset(value)
     raise ValueError(f'Link must use https://, mailto:, or assets/: {value!r}')
 
+def markdown_url(value):
+    if value.startswith('#'): return value
+    if value.lstrip('/').startswith('assets/'): return asset(value)
+    parts = urlsplit(value)
+    return href(parts.path.rstrip('/') or '/') + (('?'+parts.query) if parts.query else '') + (('#'+parts.fragment) if parts.fragment else '')
+
 def icon(name):
     paths = {'search': '<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
              'theme': '<path d="M20.5 13.3A8.5 8.5 0 0 1 10.7 3.5 8.5 8.5 0 1 0 20.5 13.3Z"/>',
@@ -84,10 +92,10 @@ def header():
 
 def footer():
     groups = ''.join('<div class="footer-group"><h2>'+e(label)+'</h2>'+''.join(link(r,t) for r,t in rows)+'</div>' for label,rows in GROUPS.items())
-    socials = button(CONFIG.get('github'), 'GitHub') + button(CONFIG.get('linkedin'), 'LinkedIn')
+    socials = button(CONFIG.get('linkedin'), 'LinkedIn')
     if CONFIG.get('email'): socials += button('mailto:'+CONFIG['email'], 'Email')
     return f'''<section class="contact"><div class="wrap"><div><h2>Contact me</h2><p>Conversations about research, engineering, and collaboration.</p></div><div class="actions">{socials or link('/about','About & contact','button')}</div></div></section>
-      <footer><div class="wrap"><div class="footer-grid">{link('/',CONFIG['initials'],'brand')}{groups}</div><div class="footer-bottom"><span>{e(CONFIG['name'])} © {date.today().year}</span><div>{link('/legal/terms','Terms')}{link('/legal/privacy-policy','Privacy')}{link('/legal/cookies','Cookies')}</div></div></div></footer>'''
+      <footer><div class="wrap"><div class="footer-grid">{link('/',CONFIG['initials'],'brand')}{groups}</div><div class="footer-bottom"><span>{e(CONFIG['name'])} © {date.today().year}</span><div>{link('/legal/terms','Terms')}{link('/legal/privacy-policy','Privacy')}{link('/legal/cookies','Cookies')}<a href="{e(asset('assets/ASSET-SOURCES.md'))}">Image credits</a></div></div></div></footer>'''
 
 def search_dialog():
     entries = [{'title': p['title'], 'section': p.get('section', ''), 'summary': p.get('summary',''), 'url': href(p['route'])} for p in PAGES]
@@ -101,8 +109,14 @@ def layout(page, content):
     noindex = '<meta name="robots" content="noindex,follow">' if CONFIG.get('template_mode',True) or page.get('noindex') else ''
     return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(description)}">{canonical}{noindex}<link rel="icon" type="image/svg+xml" href="{e(asset('assets/favicon.svg'))}"><link rel="stylesheet" href="{e(asset('assets/style.css'))}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('academic-theme')||'light'}}catch(e){{}}</script><script src="{e(asset('assets/app.js'))}" defer></script></head><body>{header()}<main id="main">{content}</main>{footer()}{search_dialog()}</body></html>'''
 
-def feature(route,title,summary,mark,teal=False):
-    return f'<a class="feature-card" href="{e(href(route))}"><div class="feature-art{" teal" if teal else ""}" aria-hidden="true">{mark}</div><div class="feature-body"><h3>{e(title)}</h3><p>{e(summary)}</p></div></a>'
+def feature(route,title,summary,mark,sketch):
+    return f'<a class="feature-card" href="{e(href(route))}"><div class="feature-sketch-area"><img class="feature-sketch" src="{e(asset(sketch))}" width="1536" height="1024" alt="" loading="lazy"></div><div class="feature-body"><span class="profile-kicker accent">{e(mark)}</span><h3>{e(title)}</h3><p>{e(summary)}</p></div></a>'
+
+def journal_cover(item):
+    return '<figure class="journal-cover"><img src="'+e(asset(item['cover']))+'" alt="Representative cover of '+e(item['journal'])+'" width="150" height="204" loading="lazy"><figcaption>Journal cover</figcaption></figure>'
+
+def logo_caption(item):
+    return '<p class="logo-credit">'+e(item['logo_caption'])+'</p>' if item.get('logo_caption') else ''
 
 def home():
     portrait = f'<img src="{e(external(CONFIG["portrait"]))}" alt="Portrait of {e(CONFIG["name"])}">' if CONFIG.get('portrait') else f'<span class="portrait-initials">{e(CONFIG["initials"])}</span>'
@@ -110,9 +124,9 @@ def home():
     if not actions: actions = link('/publications','Explore research','button primary')+link('/about','About me','button')
     roles = ''.join(f'<a class="role-card" href="{e(href(r))}"><img class="role-sketch" src="{e(asset("assets/sketches/"+r.rsplit("/",1)[-1]+".png"))}" alt="" width="1536" height="1024" loading="lazy"><div class="role-caption"><span class="role-number">{n}</span><span class="role-title">{e(t)}</span></div></a>' for r,t,n in ROLES)
     bio = ''.join(f'<p>{e(p)}</p>' for p in CONFIG['about'][:2])
-    works = feature('/publications','Publications','Topology optimization, mechanical metamaterials, uncertainty, and structural dynamics.',str(len(PROFILE['publications']))+' articles')+feature('/projects','Research & consultancy','Bridge assessment, structural audits, AI-based distress assessment, and seismic performance.',str(len(PROFILE['research_projects'])+len(PROFILE['consultancy']))+' projects',True)
+    works = feature('/publications','Publications','Topology optimization, mechanical metamaterials, uncertainty, and structural dynamics.',str(len(PROFILE['publications']))+' articles','assets/sketches/works-publications.png')+feature('/projects','Research & consultancy','Bridge assessment, structural audits, AI-based distress assessment, and seismic performance.',str(len(PROFILE['research_projects'])+len(PROFILE['consultancy']))+' projects','assets/sketches/works-projects.png')
     selected = [next((p for p in PAGES if p.get('record_type')==kind),None) for kind in ['publication','research']]
-    featured = ''.join('<a class="home-record" href="'+e(href(p['route']))+'"><span class="profile-kicker accent">'+e(' · '.join(x for x in [p.get('date',''),p['section']] if x))+'</span><h3>'+e(p['title'])+'</h3><p>'+e(p['summary'])+'</p><span class="text-link">Read record</span></a>' for p in selected if p)
+    featured = ''.join('<a class="home-record illustrated-record" href="'+e(href(p['route']))+'"><div class="feature-sketch-area"><img class="feature-sketch" src="'+e(asset('assets/sketches/focus-'+p['record_type']+'.png'))+'" width="1536" height="1024" alt="" loading="lazy"></div><div class="home-record-copy"><span class="profile-kicker accent">'+e(' · '.join(x for x in [p.get('date',''),p['section']] if x))+'</span><h3>'+e(p['title'])+'</h3><p>'+e(p['summary'])+'</p><span class="text-link">Read record</span></div></a>' for p in selected if p)
     books = ''.join('<article class="home-book"><div><p class="profile-kicker accent">'+e(p['summary'])+'</p><h3>'+e(p['title'])+'</h3><p>Structural engineering research and conference proceedings.</p></div>'+link(p['route'],'View record','button')+'</article>' for p in PAGES if p.get('record_type')=='book')
     book_section = '<section class="section"><div class="section-head"><h2>Books & proceedings</h2>'+link('/books','See all records','text-link')+'</div>'+books+'</section>' if books else ''
     news_items = [p for p in PAGES if p.get('news_type')]
@@ -153,18 +167,21 @@ def collection(page):
         status = item.get('status') or item.get('date') or 'View details'
         searchable = ' '.join([item['title'],item.get('summary',''),item.get('section',''),str(item.get('body',[]))]).lower()
         media = f'<img class="card-figure" src="{e(external(item["image"]))}" alt="{e(item.get("image_alt",""))}" width="1000" height="620" loading="lazy">' if item.get('image') else ''
-        if item.get('logo'): media += f'<img class="college-logo" src="{e(external(item["logo"]))}" alt="{e(item["institution"])} logo" width="96" height="96" loading="lazy">'
+        if item.get('logo'): media += f'<img class="college-logo" src="{e(external(item["logo"]))}" alt="{e(item.get("logo_alt") or item["institution"]+" logo")}" width="96" height="96" loading="lazy">'
+        if item.get('cover'): media += journal_cover(item)
         cards.append(f'<a class="card" data-card data-search="{e(searchable)}" data-category="{e(item.get("section",""))}" href="{e(href(item["route"]))}">{media}<span class="card-label">{e(item.get("section","Page"))}</span><h2>{e(item["title"])}</h2>'+ (f'<p>{e(item["summary"])}</p>' if item.get('summary') else '')+f'<span class="card-bottom">{e(status)}</span></a>')
     categories = sorted(set(item.get('section','') for item in items))
     tabs = ''
     if len(categories)>1:
         tabs = '<div class="filter-tabs" role="group" aria-label="Filter by category"><button class="filter-tab" data-category-filter="all" aria-pressed="true">View all</button>'+''.join(f'<button class="filter-tab" data-category-filter="{e(c)}" aria-pressed="false">{e(c)}</button>' for c in categories)+'</div>'
-    return page_header(page)+f'''<section class="wrap listing" data-collection>{introduction}<div class="collection-toolbar">{tabs}<div class="search-field">{icon('search')}<input data-filter type="search" placeholder="Search {e(page['title'].lower())}…" aria-label="Search {e(page['title'])}"></div><span class="result-count" data-count aria-live="polite">{len(items)} records</span></div><div class="cards">{''.join(cards)}</div><div class="empty-state" data-no-results hidden>No matching records. Try another keyword or category.</div><div class="pagination"><button class="button" data-prev>Previous</button><span data-page-label aria-live="polite">Page 1</span><button class="button" data-next>Next</button></div></section>'''
+    cover_note = '<p class="cover-note">Covers identify the journals; they may show a different issue from the cited article.</p>' if any(item.get('cover') for item in items) else ''
+    return page_header(page)+f'''<section class="wrap listing" data-collection>{introduction}{cover_note}<div class="collection-toolbar">{tabs}<div class="search-field">{icon('search')}<input data-filter type="search" placeholder="Search {e(page['title'].lower())}…" aria-label="Search {e(page['title'])}"></div><span class="result-count" data-count aria-live="polite">{len(items)} records</span></div><div class="cards">{''.join(cards)}</div><div class="empty-state" data-no-results hidden>No matching records. Try another keyword or category.</div><div class="pagination"><button class="button" data-prev>Previous</button><span data-page-label aria-live="polite">Page 1</span><button class="button" data-next>Next</button></div></section>'''
 
 def blocks(body):
     out = []
     for block in body:
         if isinstance(block,str): out.append('<p>'+e(block)+'</p>')
+        elif 'markdown' in block: out.append(render_markdown(block['markdown'],markdown_url))
         elif 'heading' in block: out.append('<h2>'+e(block['heading'])+'</h2>')
         elif 'list' in block: out.append('<ul>'+''.join('<li>'+e(t)+'</li>' for t in block['list'])+'</ul>')
         elif 'facts' in block: out.append('<dl class="record-facts">'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in block['facts'])+'</dl>')
@@ -179,12 +196,13 @@ def detail(page):
     body = page.get('body',[])
     if page['route'] == '/about': body = CONFIG['about']
     article = blocks(body) if body else '<div class="notice"><p>No further details are currently published for this record.</p></div>'
-    if page.get('logo'): article = f'<img class="college-logo college-logo-detail" src="{e(external(page["logo"]))}" alt="{e(page["institution"])} logo" width="112" height="112">'+article
+    if page.get('logo'): article = f'<img class="college-logo college-logo-detail" src="{e(external(page["logo"]))}" alt="{e(page.get("logo_alt") or page["institution"]+" logo")}" width="112" height="112">'+article
+    if page.get('cover'): article = journal_cover(page)+'<p class="cover-note">Representative journal cover, not necessarily this article’s issue.</p>'+article
     if page.get('section') == 'Blog': article = '<p class="article-byline">'+e(CONFIG['name'])+' · Bridge engineering notes</p>'+article
     if page.get('topics'):
         article += '<h2>Related research areas</h2><div class="topic-links">'+''.join(link(t['route'],t['label'],'profile-badge') for t in page['topics'])+'</div>'
     if page['route'] == '/about':
-        article += '<h2>Contact</h2><p>'+e(CONFIG['location'])+'</p><div class="actions">'+button(CONFIG.get('github'),'GitHub')+button(CONFIG.get('linkedin'),'LinkedIn')+button('mailto:'+CONFIG['email'] if CONFIG.get('email') else '', 'Email')+'</div>'
+        article += '<h2>Contact</h2><p>'+e(CONFIG['location'])+'</p><div class="actions">'+button(CONFIG.get('linkedin'),'LinkedIn')+button('mailto:'+CONFIG['email'] if CONFIG.get('email') else '', 'Email')+'</div>'
     related = ''.join(link(r,t) for r,t in GROUPS['Core content'])
     return page_header(page)+'<div class="wrap article-grid"><article class="article">'+article+'</article><aside class="sidebar"><h2>Explore</h2>'+related+'</aside></div>'
 
@@ -199,16 +217,18 @@ def about_page():
         visual = f'<div class="profile-monogram" aria-hidden="true">{e(CONFIG["initials"])}</div>'
     identity = f'''<aside class="profile-identity" aria-label="Profile of {e(CONFIG['name'])}">{visual}<div class="profile-identity-copy"><p class="profile-kicker">Scientist · Engineer · Educator</p><h2>{e(CONFIG['name'])}</h2><p>{e(CONFIG['title'])}</p><div class="profile-identity-rule"></div><p>{e(PROFILE['division'])}<br>{e(PROFILE['institution'])}<br>{e(CONFIG['location'])}</p><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a></div></aside>'''
     actions = '<a class="button primary" href="#research">Research interests</a>'+button(CONFIG.get('cv'), 'Download CV')+button('mailto:'+CONFIG['email'], 'Contact me')
-    jump_links = ''.join(f'<a href="#{id_}">{label}</a>' for id_,label in [('experience','Experience'),('education','Education'),('research','Research'),('publications','Publications'),('projects','Projects'),('awards','Awards'),('conferences','Conferences')])
+    jump_links = ''.join(f'<a href="#{id_}">{label}</a>' for id_,label in [('experience','Experience'),('education','Education'),('memberships','Memberships'),('research','Research'),('publications','Publications'),('projects','Projects'),('awards','Awards'),('conferences','Conferences'),('outreach','Outreach')])
     output = f'<div class="wrap profile-page"><section class="profile-hero"><div class="profile-intro"><p class="profile-kicker accent">My work philosophy</p><h1>{e(PROFILE["heading"])}</h1>{paragraphs}<div class="actions">{actions}</div></div>{identity}</section><nav class="profile-jump" aria-label="About page sections">{jump_links}</nav>'
-    experience = ''.join(f'''<article class="experience-card"><div class="experience-card-head"><span class="institution-mark" aria-hidden="true">{e(item['short'])}</span><div><h3>{e(item['title'])}</h3><p>{e(item['location'])}</p></div></div><p class="experience-institution">{e(item['institution'])}</p><p class="experience-detail">{e(item['detail'])}</p><div class="experience-card-foot"><span class="profile-badge">{e(item['short'])}</span><span>{e(item['period'])}</span></div></article>''' for item in PROFILE['experience'])
+    experience = ''.join(f'''<article class="experience-card"><div class="experience-card-head"><img class="institution-logo" src="{e(external(item['logo']))}" alt="{e(item.get('logo_alt',item['institution']+' logo'))}" width="72" height="72" loading="lazy"><div><h3>{e(item['title'])}</h3><p>{e(item['location'])}</p></div></div>{logo_caption(item)}<p class="experience-institution">{e(item['institution'])}</p><p class="experience-detail">{e(item['detail'])}</p><div class="experience-card-foot"><span class="profile-badge">{e(item['short'])}</span><span>{e(item['period'])}</span></div></article>''' for item in PROFILE['experience'])
     output += profile_section('experience','Experience','<div class="experience-grid">'+experience+'</div>')
     education = ''.join(f'''<article class="education-card education-with-logo"><img class="college-logo" src="{e(external(item['logo']))}" alt="{e(item['institution'])} logo" width="96" height="96" loading="lazy"><div class="education-copy"><div class="education-top"><p class="profile-kicker accent">{e(item['degree'])}</p><span class="profile-badge">{e(item['year'])}</span></div><h3>{e(item['subject'])}</h3><p>{e(item['institution'])}</p><span class="education-division">{e(item['division'])}</span></div></article>''' for item in PROFILE['education'])
     output += profile_section('education','Education','<div class="profile-stack">'+education+'</div>')
+    memberships = ''.join('<article class="membership-card"><span class="profile-badge">'+e(item['type'])+'</span><h3>'+e(item['organisation'])+'</h3></article>' for item in PROFILE.get('memberships',[]))
+    output += profile_section('memberships','Professional memberships',memberships)
     interests = ''.join('<li>'+e(item)+'</li>' for item in PROFILE['interests'])
     output += profile_section('research','Research interests','<ul class="research-chips">'+interests+'</ul>')
-    publications = ''.join(f'''<li class="record-item"><div class="record-meta"><span class="profile-badge">{e(item['year'])}</span><span>Journal article</span></div><h3>{e(item['title'])}</h3><p>{e(item['authors'])}</p><p class="record-venue">{e(item['journal'])} · {e(item['volume'])}</p></li>''' for item in PROFILE['publications'])
-    output += profile_section('publications','Publications','<ol class="record-list">'+publications+'</ol>','Journal articles')
+    publications = ''.join(f'''<li class="record-item publication-record">{journal_cover(item)}<div class="publication-copy"><div class="record-meta"><span class="profile-badge">{e(item['year'])}</span><span>Journal article</span></div><h3>{link('/publications/'+item['id'],item['title'])}</h3><p>{e(item['authors'])}</p><p class="record-venue">{e(item['journal'])} · {e(item['volume'])}</p></div></li>''' for item in PROFILE['publications'])
+    output += profile_section('publications','Publications','<p class="cover-note">Covers identify the journals; they may show a different issue from the cited article.</p><ol class="record-list">'+publications+'</ol>','Journal articles')
     projects = ''.join(f'''<article class="project-record"><div class="record-meta"><span class="profile-badge">{e(item['role'])}</span><span>{e(item['code'])}</span></div><h3>{e(item['title'])}</h3><p>{e(item['programme'])}</p></article>''' for item in PROFILE['research_projects'])
     output += profile_section('projects','Research projects','<div class="profile-stack">'+projects+'</div>')
     consultancy = ''.join(f'''<li class="record-item"><div class="record-meta"><span class="profile-badge">{e(item['code'])}</span><span>{e(item['role'])}</span></div><h3>{e(item['title'])}</h3><p>{e(item['client_or_context'])}</p></li>''' for item in PROFILE['consultancy'])
@@ -223,7 +243,9 @@ def about_page():
         meta = ' · '.join(part for part in [item['event'],item['location'],item['date']] if part)
         conferences.append(f'<li class="record-item">{status}<h3>{e(item["title"])}</h3><p>{e(item["authors"])}</p><p class="record-venue">{e(meta)}</p></li>')
     output += profile_section('conferences','Conferences','<details class="cv-disclosure"><summary>View all '+str(len(conferences))+' conference contributions</summary><ol class="record-list">'+''.join(conferences)+'</ol></details>','Conference contributions and accepted abstracts')
-    contact = f'''<div class="profile-contact"><h3>Let’s discuss research and collaboration.</h3><p>{e(PROFILE['division'])}<br>{e(PROFILE['institution'])}<br>{e(PROFILE['address'])}</p><div class="contact-emails"><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a><a href="mailto:{e(PROFILE['secondary_email'])}">{e(PROFILE['secondary_email'])}</a></div><div class="actions">{link('/join','Join & collaborate','button primary')}{button(CONFIG.get('github'),'GitHub')}</div></div>'''
+    outreach = ''.join('<article class="outreach-record"><p class="profile-kicker accent">'+e(' · '.join(x for x in [item.get('year',''),item['type']] if x))+'</p><h3>'+link('/outreach/'+item['id'],item['title'])+'</h3><p>'+e(item['description'])+'</p></article>' for item in PROFILE.get('outreach',[]))
+    output += profile_section('outreach','Outreach & training',outreach)
+    contact = f'''<div class="profile-contact"><h3>Let’s discuss research and collaboration.</h3><p>{e(PROFILE['division'])}<br>{e(PROFILE['institution'])}<br>{e(PROFILE['address'])}</p><div class="contact-emails"><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a><a href="mailto:{e(PROFILE['secondary_email'])}">{e(PROFILE['secondary_email'])}</a></div><div class="actions">{link('/join','Join & collaborate','button primary')}</div></div>'''
     output += profile_section('contact-details','Contact',contact)
     return output+'</div>'
 

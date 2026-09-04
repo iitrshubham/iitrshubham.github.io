@@ -204,3 +204,39 @@
 .card p{font-size:1rem}
 @media(max-width:560px){.education-with-logo{grid-template-columns:1fr;gap:18px}.college-logo{width:76px;height:76px}.role-caption{padding:16px;gap:8px}.role-card .role-title{font-size:.9rem}}
 @media(max-width:360px){.role-grid{grid-template-columns:1fr}}
+
+/* Homepage research illustrations and publication cover photographs. */
+.feature-sketch-area{background:var(--surface);border-bottom:1px solid var(--line);padding:8px 24px}
+.feature-sketch{display:block;width:100%;height:auto;aspect-ratio:3/2;max-height:310px;object-fit:contain;mix-blend-mode:multiply}
+[data-theme=dark] .feature-sketch{filter:invert(1) grayscale(1);mix-blend-mode:screen;opacity:.86}
+.feature-body>.profile-kicker{display:block;margin-bottom:12px}
+.illustrated-record{padding:0;gap:0;overflow:hidden}
+.home-record-copy{display:flex;flex-direction:column;gap:18px;padding:28px;flex:1;min-width:0}
+.home-record-copy>p{color:var(--muted)}
+.journal-cover{margin:0;flex-shrink:0}
+.journal-cover img{display:block;width:150px;height:204px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:4px;box-shadow:var(--shadow)}
+.journal-cover figcaption{margin-top:8px;font-size:.75rem;line-height:1.4;color:var(--muted)}
+.card .journal-cover{align-self:center;margin:0 0 8px}
+.card .journal-cover img{height:218px;width:162px}
+.publication-record{display:grid;grid-template-columns:120px minmax(0,1fr);gap:26px;align-items:start}
+.publication-record .journal-cover img{width:120px;height:164px}
+.publication-copy{min-width:0}.publication-copy h3 a:hover{color:var(--accent)}
+.cover-note{font-size:.875rem;line-height:1.6;color:var(--muted);margin:0 0 26px}
+.article .journal-cover{margin-bottom:16px}.article .journal-cover img{width:150px;height:204px}
+.institution-logo,.college-logo,.article .college-logo{border-radius:50%;object-fit:contain;background:#fff;border:1px solid #e4e7ec;flex-shrink:0}
+.institution-logo{width:72px;height:72px;padding:9px;display:block}
+.experience-card-head>div{min-width:0}
+.logo-credit{font-size:.75rem;color:var(--muted);padding:0 22px 16px}
+.membership-card{border:1px solid var(--line);border-radius:14px;padding:26px;background:var(--surface)}
+.membership-card h3{font-size:1.3rem;margin-top:18px}
+.outreach-record{padding:28px 0;border-bottom:1px solid var(--line)}
+.outreach-record:first-child{padding-top:0}.outreach-record:last-child{border-bottom:0}
+.outreach-record h3{font-size:1.25rem;line-height:1.5;margin:12px 0}.outreach-record p{color:var(--muted)}
+.article a{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
+.article h3{margin:28px 0 14px;font-size:1.25rem}
+.article ol{padding-left:24px}.article blockquote{margin:28px 0;padding:18px 22px;border-left:3px solid var(--accent);background:var(--surface);color:var(--muted)}
+.article blockquote p{margin:0}.article .table-wrap{margin:24px 0 30px}
+.article-table{width:100%;border-collapse:collapse;text-align:left;font-size:.925rem}
+.article-table th,.article-table td{padding:14px 16px;border:1px solid var(--line);vertical-align:top}
+.article-table th{background:var(--surface)}
+@media(max-width:560px){.publication-record{grid-template-columns:80px minmax(0,1fr);gap:16px}.publication-record .journal-cover img{width:80px;height:110px}.publication-record h3{font-size:1.1rem}.feature-sketch-area{padding:8px 12px}.home-record-copy{padding:22px}.institution-logo{width:62px;height:62px}.article-table th,.article-table td{padding:10px}}

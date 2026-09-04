@@ -24,7 +24,7 @@ def make_pages(profile, config, research, custom):
     page('/join', 'Join', 'Collaboration', profile['join']['introduction'], kind='join')
     collection('/publications', 'Publications', 'Research', 'Journal articles in topology optimization, metamaterials, uncertainty, and computational mechanics.')
     collection('/projects', 'Projects', 'Research & consultancy', f"{len(profile['research_projects'])} research projects and {len(profile['consultancy'])} consultancy assignments in bridge and structural engineering.", direct_records=True)
-    collection('/projects/research', 'Research projects', 'Research', 'Research programmes at CSIR-Central Road Research Institute.')
+    collection('/projects/research', 'Research projects', 'Research', 'Research programmes at '+profile['institution']+'.')
     collection('/projects/consultancy', 'Consultancy projects', 'Consultancy', 'Bridge condition assessment, structural audits, quality audits, and engineering review.')
     collection('/experience', 'Experience', 'Career', 'Research, academic, and teaching appointments.')
     collection('/education', 'Education', 'Career', 'Doctoral and postgraduate education in structural engineering.')
@@ -42,7 +42,7 @@ def make_pages(profile, config, research, custom):
                 f"{item['authors']} ({item['year']}). {item['title']}. {item['journal']}, {item['volume']}."]
         if item.get('url'): body.append({'link': item['url'], 'label': 'Read on the publisher’s website'})
         record = page(route, item['title'], 'Journal article', item['journal']+' · '+item['year'], body,
-                      date=item['year'], record_type='publication', news_type='Publication')
+                      date=item['year'], record_type='publication', news_type='Publication', cover=item['cover'], journal=item['journal'])
         records.append(record)
 
     for group, segment, section in [('research_projects','research','Research project'), ('consultancy','consultancy','Consultancy')]:
@@ -62,7 +62,8 @@ def make_pages(profile, config, research, custom):
         body=[{'facts': [['Position',item['title']],['Institution',item['institution']],
                         ['Location',item['location']],['Period',item['period']]]},item['detail']+'.']
         records.append(page(route,item['title']+' · '+item['short'],'Appointment',item['institution']+' · '+item['period'],body,
-                            record_type='experience',date=item['period'][:4],news_type='Appointment'))
+                            record_type='experience',date=item['period'][:4],news_type='Appointment',
+                            logo=item['logo'],institution=item['institution'],logo_alt=item.get('logo_alt')))
     for item in profile['education']:
         records.append(page('/education/'+slug(item['degree']+'-'+item['year']),item['degree']+' in '+item['subject'],
                             'Education',item['institution']+' · '+item['year'],
@@ -91,6 +92,15 @@ def make_pages(profile, config, research, custom):
                             item['publisher']+' · '+item['year'],
                             [{'facts':[['Title',item['title']],['Publisher',item['publisher']],['Year',item['year']]]},
                              {'route':'/contact','label':'Enquire about this contribution'}],record_type='book',date=item['year']))
+
+    collection('/outreach','Outreach & training','Engagement','Lectures, professional training, and demonstrations of bridge-engineering facilities.')
+    for item in profile.get('outreach',[]):
+        facts=[['Activity',item['type']],['Organiser / institution',profile['institution']]]
+        if item.get('year'): facts.append(['Year',item['year']])
+        if item.get('programme'): facts.append(['Programme',item['programme']])
+        page('/outreach/'+item['id'],item['title'],'Outreach',item['description'],
+             [{'facts':facts},item['description'],{'route':'/contact','label':'Discuss training and outreach'}],
+             date=item.get('year',''),record_type='outreach')
 
     research_records=[p for p in records if p['record_type'] in ('publication','research','consultancy','conference')]
     def matching(spec):
@@ -151,7 +161,7 @@ def make_pages(profile, config, research, custom):
          [config['name'],config['title'],profile['division'],profile['institution'],profile['address'],
           {'link':'mailto:'+config['email'],'label':config['email']},
           {'link':'mailto:'+profile['secondary_email'],'label':profile['secondary_email']},
-          {'link':config['github'],'label':'GitHub: iitrshubham'},{'route':'/join','label':'Join & collaborate'}])
+          {'route':'/join','label':'Join & collaborate'}])
     page('/legal/terms','Website information','Website','About this personal academic portfolio.',
          ['This is the personal academic website of '+config['name']+'. It is not an official website of CSIR-CRRI or AcSIR.',
           'The content summarises professional and research records. It is not a substitute for a project-specific engineering assessment or an institutional approval.',

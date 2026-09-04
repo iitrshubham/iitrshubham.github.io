@@ -1,0 +1,67 @@
+{
+  "retrievedAt": "2026-09-04",
+  "usageNote": "Genuine publisher cover images, downloaded unaltered. Use as representative journal covers, not as exact covers for the listed articles. No open reuse license was found or verified. Copyright remains with the respective publisher/rightsholders; source attribution is not a grant of permission.",
+  "sources": [
+    {
+      "journal": "Engineering Structures",
+      "requestedVolume": "346 (2026)",
+      "file": "engineering-structures-cover.jpg",
+      "dimensions": [576, 768],
+      "sourcePageUrl": "https://www.sciencedirect.com/journal/engineering-structures",
+      "imageUrl": "https://ars.els-cdn.com/content/image/X01410296.jpg",
+      "type": "representative",
+      "visibleIssue": "Volume 366PC, 1 November 2026",
+      "publisher": "Elsevier",
+      "verification": "Downloaded directly from publisher CDN; correct journal title visually verified. Journal HTML was blocked (403), so it was not retried or bypassed."
+    },
+    {
+      "journal": "Computational Mechanics",
+      "requestedVolume": "78 (2026)",
+      "file": "computational-mechanics-cover-large.webp",
+      "dimensions": [440, 586],
+      "sourcePageUrl": "https://link.springer.com/journal/466/volumes-and-issues/78-2",
+      "imageUrl": "https://media.springernature.com/w440/springer-static/cover/journal/466/78/2.jpg?as=webp",
+      "sourceThumbnailUrl": "https://media.springernature.com/w68/springer-static/cover/journal/466/78/2.jpg?as=webp",
+      "type": "representative",
+      "visibleIssue": "Small-print issue information is not reliably legible; official source page identifies volume 78 issue 2, August 2026, but use a representative label to avoid overclaiming exact cover identity.",
+      "publisher": "Springer Nature",
+      "verification": "Official journal and issue pages link this cover asset. Correct journal title visually verified; source image is soft/low-resolution even at publisher-provided 440px width."
+    },
+    {
+      "journal": "Reliability Engineering & System Safety",
+      "requestedVolume": "264 (2025)",
+      "file": "reliability-engineering-cover.jpg",
+      "dimensions": [576, 768],
+      "sourcePageUrl": "https://www.sciencedirect.com/journal/reliability-engineering-and-system-safety",
+      "imageUrl": "https://ars.els-cdn.com/content/image/X09518320.jpg",
+      "type": "representative",
+      "visibleIssue": "Volume 277P1, January 2027",
+      "publisher": "Elsevier",
+      "verification": "Downloaded directly from publisher CDN; correct journal title visually verified. Journal HTML was blocked (403), so it was not retried or bypassed."
+    },
+    {
+      "journal": "Computer Methods in Applied Mechanics and Engineering",
+      "requestedVolume": "426 (2024)",
+      "file": "computer-methods-cover.jpg",
+      "dimensions": [563, 768],
+      "sourcePageUrl": "https://www.sciencedirect.com/journal/computer-methods-in-applied-mechanics-and-engineering",
+      "imageUrl": "https://ars.els-cdn.com/content/image/X00457825.jpg",
+      "type": "representative",
+      "visibleIssue": "Volume 460, 1 October 2026",
+      "publisher": "Elsevier",
+      "verification": "Downloaded directly from publisher CDN; correct journal title visually verified. Journal HTML was blocked (403), so it was not retried or bypassed."
+    },
+    {
+      "journal": "Composite Structures",
+      "requestedVolume": "326 (2023)",
+      "file": "composite-structures-cover.jpg",
+      "dimensions": [576, 768],
+      "sourcePageUrl": "https://www.sciencedirect.com/journal/composite-structures",
+      "imageUrl": "https://ars.els-cdn.com/content/image/X02638223.jpg",
+      "type": "representative",
+      "visibleIssue": "Volume 395, September 2026",
+      "publisher": "Elsevier",
+      "verification": "Downloaded directly from publisher CDN; correct journal title visually verified. Journal HTML was blocked (403), so it was not retried or bypassed."
+    }
+  ]
+}
