@@ -1,0 +1,106 @@
+{
+  "source": "Dr_shubham_cv(1).pdf, supplied by Dr. Shubham Saurabh",
+  "heading": "Research, bridges & computational mechanics",
+  "philosophy": [
+    "My work brings together computational mechanics and bridge engineering. I study how structural health monitoring, topology optimization, and artificial intelligence can support the assessment and design of engineering structures.",
+    "My research spans robust design under uncertain loading, auxetic and mechanical metamaterials, vibration control, and impact mechanics. At CSIR-CRRI, I contribute to bridge research, structural audits, condition assessment, and projects combining experimental, numerical, and AI-based approaches.",
+    "I am a Scientist C at CSIR-Central Road Research Institute, New Delhi, and an Assistant Professor at the Academy of Scientific and Innovative Research (AcSIR). I welcome conversations with students, researchers, and industry partners working on related engineering problems."
+  ],
+  "division": "Bridge Engineering and Structures Division",
+  "institution": "CSIR-Central Road Research Institute",
+  "address": "Delhi-Mathura Road, New Delhi – 110025, India",
+  "secondary_email": "shubham.ce.iitr@gmail.com",
+  "interests": [
+    "Structural health monitoring", "Structural safety audit", "Load testing", "Metamaterials", "Auxetics", "Topology optimization", "Bridge engineering", "Computational mechanics", "Uncertainty quantification", "Vibration control", "Artificial intelligence in bridge engineering", "Impact mechanics"
+  ],
+  "experience": [
+    {"title": "Scientist C", "institution": "CSIR-Central Road Research Institute", "short": "CSIR-CRRI", "location": "New Delhi, India", "period": "2025 – present", "detail": "Bridge Engineering and Structures Division"},
+    {"title": "Assistant Professor", "institution": "Academy of Scientific and Innovative Research", "short": "AcSIR", "location": "India", "period": "2026 – present", "detail": "Academic appointment at AcSIR"},
+    {"title": "Senior Research Fellow", "institution": "Indian Institute of Technology Roorkee", "short": "IITR", "location": "Roorkee, India", "period": "2022 – 2023", "detail": "Senior Research Fellowship supported by DRDL-DRDO, Hyderabad"},
+    {"title": "Junior Research Fellow", "institution": "Indian Institute of Technology Roorkee", "short": "IITR", "location": "Roorkee, India", "period": "2020 – 2022", "detail": "Junior Research Fellowship supported by DRDL-DRDO, Hyderabad"},
+    {"title": "Guest Lecturer", "institution": "Pusa Institute of Technology", "short": "PIT", "location": "New Delhi, India", "period": "2017 – 2018", "detail": "Teaching appointment"},
+    {"title": "Guest Lecturer", "institution": "G.B. Pant Institute of Technology", "short": "GBPI", "location": "Delhi, India", "period": "2017 – 2018", "detail": "Teaching appointment"}
+  ],
+  "education": [
+    {"degree": "Ph.D.", "subject": "Structural Engineering", "institution": "Indian Institute of Technology Roorkee", "year": "2025", "division": "First division"},
+    {"degree": "M.Tech.", "subject": "Structural Engineering", "institution": "National Institute of Technology Hamirpur", "year": "2020", "division": "First division"},
+    {"degree": "B.Tech.", "subject": "Civil Engineering", "institution": "Dr. APJ A.K.T.U., Lucknow", "year": "2016", "division": "First division"}
+  ],
+  "publications": [
+    {"id": "2026-impact-auxetic-metamaterials", "title": "High-velocity impact behaviour of topology-optimized auxetic metamaterials", "authors": "Shubham Saurabh, R.R. Madke, Abhinav Gupta, Rajib Chowdhury", "journal": "Engineering Structures", "volume": "346, 121562", "year": "2026", "url": "https://www.sciencedirect.com/science/article/pii/S0141029625019534"},
+    {"id": "2026-deep-super-resolution", "title": "Accelerating metamaterial topology optimization using deep super-resolution networks", "authors": "Ajendra Singh, Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "journal": "Computational Mechanics", "volume": "78, 101–126", "cv_volume": "1–26", "year": "2026", "url": "https://link.springer.com/article/10.1007/s00466-026-02749-y", "bibliography_note": "Volume and pagination updated from the publisher's version of record on 4 September 2026; the supplied CV lists pages 1–26."},
+    {"id": "2025-uncertain-load-positions", "title": "Robust topology optimization for uncertainty in load positions of transient dynamic loading", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury, Ravindra Duddu", "journal": "Reliability Engineering and System Safety", "volume": "264, 111440", "year": "2025", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0951832025006404"},
+    {"id": "2024-transient-dynamic-response", "title": "Robust topology optimization for transient dynamic response minimization", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury, Pakeeruraju Podugu", "journal": "Computer Methods in Applied Mechanics and Engineering", "volume": "426, 117009", "year": "2024", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045782524002652"},
+    {"id": "2023-parametric-metamaterials", "title": "Impact of parametric variation to achieve extreme mechanical metamaterials through topology optimization", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "journal": "Composite Structures", "volume": "326, 117611", "year": "2023", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263822323009571"}
+  ],
+  "awards": [
+    {"title": "FEniCS travel grant", "institution": "FEniCS steering committee", "year": "2026"},
+    {"title": "Good international conference support", "institution": "Civil Engineering Department, IIT Roorkee", "year": "2025"},
+    {"title": "International Travel Scheme (ITS)", "institution": "ANRF/SERB, Department of Science and Technology, Government of India", "year": "2024"},
+    {"title": "Good international conference support", "institution": "Civil Engineering Department, IIT Roorkee", "year": "2024"},
+    {"title": "Partial support to attend an international conference", "institution": "Dean of Resource and Alumni, IIT Roorkee", "year": "2024"},
+    {"title": "Ministry of Education fellowship", "institution": "Indian Institute of Technology Roorkee", "year": "2024"},
+    {"id": "young-scientist-award-2023", "title": "Young Scientist Award", "institution": "Indian Society of Theoretical and Applied Mechanics, IIT Kharagpur", "year": "2023"},
+    {"title": "Senior Research Fellowship", "institution": "Defence Research and Development Laboratory–DRDO, Hyderabad", "year": "2022"},
+    {"title": "Junior Research Fellowship", "institution": "Defence Research and Development Laboratory–DRDO, Hyderabad", "year": "2020"},
+    {"title": "Ministry of Education fellowship", "institution": "National Institute of Technology Hamirpur", "year": "2018"}
+  ],
+  "research_projects": [
+    {"title": "Perspective-corrected machine learning framework for crack induced distress assessment in bridges", "programme": "RDSF Project", "code": "RDS-000015", "role": "Project Leader"},
+    {"title": "Flexural Performance of Glass Fibre Reinforced Polymer Beams with and without Discrete Glass Fibre Reinforced Concrete (GFRC)", "programme": "In-House R&D Project", "code": "OLP 0681", "role": "Co-Project Leader"},
+    {"title": "Integrated Experimental, Numerical and AI-Based Studies for Seismic Performance Evaluation and Health Assessment of Steel and Fiber Reinforced Bridges", "programme": "ULIP Project", "code": "MLP 0002614", "role": "Task Leader"},
+    {"title": "Evaluation of Response Reduction (R Factor) for RC Piers Designed as per Indian Codes", "programme": "In-House R&D Project", "code": "OLP 0680", "role": "Team Member"},
+    {"title": "Assessment of Influence of Soil-Foundation-Structure Interaction on Seismic Performance of Bridges", "programme": "In-House R&D Project", "code": "OLP 0678", "role": "Team Member"}
+  ],
+  "consultancy": [
+    {"title": "Condition assessment and remedial measures for major and minor bridges in the Odisha road network using modern bridge test procedures", "client_or_context": "Public Works Department, Government of Odisha", "code": "SSP 4733", "role": "Team Member"},
+    {"title": "Structural audit of the six-lane access-controlled spur to Haridwar", "client_or_context": "Delhi–Saharanpur–Dehradun Economic Corridor, Bharatmala Pariyojna", "code": "CNP-3021", "role": "Team Member"},
+    {"title": "Review of Design Progress Report (DPR) under NRIDA", "client_or_context": "NRIDA", "code": "CNP 2912", "role": "Team Member"},
+    {"title": "Comprehensive condition assessment and remedial strategies for the Eastern Peripheral Expressway (NE2)", "client_or_context": "Packages I–VI, Kundli (1.00 km) to Palwal (136.00 km)", "code": "SSP 4813", "role": "Team Member"},
+    {"title": "Structural audit of the elevated portion of the Gurgaon–Pataudi–Rewari section of NH-352W", "client_or_context": "Haryana, Bharatmala Pariyojana", "code": "SSP 4828", "role": "Team Member"},
+    {"title": "Third-party structural audit of the greenfield connectivity to Jewar International Airport", "client_or_context": "DND–Faridabad–Ballabhgarh bypass KMP link-spur to Delhi–Mumbai Expressway; Uttar Pradesh and Haryana, km 0+000 to 31+425", "code": "SSP-4836", "role": "Team Member"},
+    {"title": "Structural audit of the elevated six-lane access-controlled highway from DND Maharani Bagh to Jaitpur–Pushta Road", "client_or_context": "NH-148NA, National Capital Territory; Bharatmala Pariyojana", "code": "CNP 4792", "role": "Team Member"},
+    {"title": "Third-party quality audit of structures during four-laning of the Behsuma–Bijnor section", "client_or_context": "NH-119 (new NH-34), Uttar Pradesh; design km 39.250 to 78.810, Bharatmala Pariyojna", "code": "SSP 4805", "role": "Team Member"}
+  ],
+  "books": [
+    {"id": "structural-engineering-sec-volume-2", "title": "Recent Developments in Structural Engineering, Volume 2: Select Proceedings of 13th Structural Engineering Convention (SEC)", "authors_as_listed": "Anurag Gupta, Shubham Saurabh, Anurag Gupta, Rajib Chowdhury", "publisher": "Springer Nature", "year": "2025"}
+  ],
+  "conferences": [
+    {"title": "Efficient uncertainty quantification in re-entrant auxetic structures using polynomial chaos expansion", "authors": "Shubham Saurabh, Avinandan Modak, R.R. Madke, Rajib Chowdhury", "event": "UK Association of Computational Mechanics", "location": "London, UK", "date": "23–25 April 2025"},
+    {"title": "Topology optimization of metamaterials for improved shear modulus", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "27th International Conference on Composite Structures (ICCS27)", "location": "Ravenna, Italy", "date": "3–6 September 2024"},
+    {"title": "Designing auxetic structures through topology optimization", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "26th Young Researchers Conference, The Institution of Structural Engineers", "location": "London, UK (online)", "date": "2 May 2024"},
+    {"title": "Efficient bridge design using topology optimization", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "68th ISTAM Conference", "location": "NIT Warangal, India", "date": "7–9 December 2023"},
+    {"title": "Mechanical Metamaterials design by topology optimization", "authors": "Shubham Saurabh, Anurag Gupta, Abhinav Gupta, Rajib Chowdhury", "event": "ICCMS-2022", "location": "IIT Indore", "date": "2022"},
+    {"title": "Robust topology optimization incorporating uncertainty in load positions", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "68th ISTAM Conference", "location": "NIT Warangal, India", "date": ""},
+    {"title": "Building bridges for future: Advancing design through topology optimization and additive manufacturing", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "Young Researchers Conclave", "location": "CSIR-CRRI Delhi", "date": "2023"},
+    {"title": "Topology optimization of structures for minimizing transient dynamic response", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "68th ISTAM Conference", "location": "NIT Warangal, India", "date": ""},
+    {"title": "Topology Optimization of metamaterials for improved elastic modulus", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "SEMCE-2023", "location": "LPU Jalandhar", "date": "2023"},
+    {"title": "An open-source adaptive mesh refinement framework for topology optimization", "authors": "Shubham Saurabh, Rajib Chowdhury", "event": "68th ISTAM Conference", "location": "NIT Warangal, India", "date": ""},
+    {"title": "Pushing limits: Topology optimization empowered by parametric variation for exceptional mechanical metamaterials", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "Institute Research Day", "location": "IIT Roorkee", "date": "2024"},
+    {"title": "Topology optimization of metamaterials for extreme elastic modulus", "authors": "Shubham Saurabh, Rajib Chowdhury", "event": "68th ISTAM Conference", "location": "NIT Warangal, India", "date": ""},
+    {"title": "Incorporating stress constraints in the structural topology optimization framework", "authors": "Anurag Gupta, Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "SEC-2023", "location": "VNIT Nagpur", "date": "2023"},
+    {"title": "Metamaterial topology optimization using enhanced deep super-resolution neural network", "authors": "Ajendra Singh, Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "event": "NCMDAO", "location": "IIT Guwahati", "date": "2023"},
+    {"title": "Health monitoring of structures using finite element model updating technique", "authors": "Shubham Saurabh, Joy Pal, Rajib Chowdhury", "event": "CARRS-2025", "location": "IIT Roorkee", "date": "2025"},
+    {"title": "Modified star-shaped elastic metamaterial with triangular ligaments for enhanced bandgap", "authors": "Shubham Saurabh, Rajib Chowdhury", "event": "18SEE", "location": "IIT Roorkee", "date": "2026", "status": "Abstract accepted"},
+    {"title": "Large scale random vibration analysis using FEniCS", "authors": "Shubham Saurabh, Anurag Gupta, Abhinav Gupta, Rajib Chowdhury", "event": "FEniCS-2026 Conference", "location": "Paris, France", "date": "2026", "status": "Abstract accepted"},
+    {"title": "Impact resistance of topology-optimized auxetic metamaterials: A comparative study", "authors": "Shubham Saurabh, R.R. Madke, Abhinav Gupta, Rajib Chowdhury", "event": "SEC-2026", "location": "IIT Hyderabad", "date": "2026", "status": "Abstract accepted"}
+  ],
+  "join": {
+    "heading": "Join the conversation. Shape the next research question.",
+    "introduction": "Interested in bridge engineering, computational mechanics, or the design of mechanical metamaterials? Get in touch to discuss student projects, research ideas, and potential collaborations.",
+    "notice": "This page invites enquiries, not applications to an advertised vacancy. Project supervision, admissions, appointments, and funding depend on availability and the relevant institutional processes. Please email to discuss what may be possible.",
+    "opportunities": [
+      {"title": "Undergraduate projects & internships", "label": "For students", "topics": ["Solid mechanics", "Structural health monitoring", "Bridge engineering"], "description": "Share your interests in structural assessment, bridge behaviour, or computational modelling, along with your coursework and the period you have available.", "subject": "Undergraduate project or internship enquiry"},
+      {"title": "M.Tech. projects", "label": "For postgraduate students", "topics": ["Finite element methods", "Topology optimization", "Uncertainty quantification"], "description": "Discuss a dissertation or project idea involving computational mechanics, structural dynamics, metamaterials, or AI-based bridge assessment.", "subject": "M.Tech. project enquiry"},
+      {"title": "Ph.D. research enquiries", "label": "For prospective researchers", "topics": ["Robust structural design", "Metamaterials", "Bridge assessment"], "description": "Send a short research statement explaining the problem you would like to study and how it connects with my work. Admission and supervision arrangements must be confirmed through the relevant institution.", "subject": "Ph.D. research enquiry"},
+      {"title": "Postdoctoral & academic collaborations", "label": "For researchers", "topics": ["Computational mechanics", "Impact mechanics", "Scientific machine learning"], "description": "Explore complementary expertise, joint research questions, or a potential fellowship proposal. No funded postdoctoral opening is being advertised on this page.", "subject": "Postdoctoral or academic collaboration enquiry"},
+      {"title": "Industry & agency collaborations", "label": "For engineering partners", "topics": ["Structural safety audit", "Load testing", "Bridge health monitoring"], "description": "Discuss research and engineering problems involving bridge condition assessment, structural performance, or experimental, numerical, and AI-based evaluation. Institutional arrangements can be explored after an initial discussion.", "subject": "Industry or agency collaboration enquiry"}
+    ],
+    "what_to_send": [
+      "A short introduction, including your current institution or organisation.",
+      "Your CV and relevant project, publication, or technical experience.",
+      "The research question or topic you would like to explore.",
+      "Your expected timeline and the type of collaboration you have in mind."
+    ]
+  }
+}

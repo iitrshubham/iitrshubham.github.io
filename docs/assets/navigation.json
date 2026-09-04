@@ -1,0 +1,286 @@
+{
+  "menus": [
+    {
+      "label": "Research",
+      "columns": [
+        {
+          "title": "Core Work",
+          "items": [
+            {
+              "title": "Publications",
+              "description": "Journal articles in topology optimization, metamaterials, and structural dynamics.",
+              "href": "/publications/",
+              "icon": "book"
+            },
+            {
+              "title": "Projects",
+              "description": "Research and consultancy in bridge and structural engineering.",
+              "href": "/projects/",
+              "icon": "code-window"
+            },
+            {
+              "title": "Frameworks",
+              "description": "Numerical methods represented in my research record.",
+              "href": "/frameworks/",
+              "icon": "graduation"
+            },
+            {
+              "title": "Research Vision",
+              "description": "Connecting computational mechanics with bridge assessment and design.",
+              "href": "/research-vision/",
+              "icon": "target"
+            }
+          ]
+        },
+        {
+          "title": "Metadata",
+          "items": [
+            {
+              "title": "Categories",
+              "description": "Browse publications, research projects, consultancy, and conferences.",
+              "href": "/categories/",
+              "icon": "grid"
+            },
+            {
+              "title": "Roles",
+              "description": "Research, engineering, academic, and teaching contributions.",
+              "href": "/roles/",
+              "icon": "users"
+            },
+            {
+              "title": "Research Areas",
+              "description": "Structural health monitoring, optimization, uncertainty, and mechanics.",
+              "href": "/research-areas/",
+              "icon": "compass"
+            },
+            {
+              "title": "Eras",
+              "description": "My academic and professional journey across institutions.",
+              "href": "/eras/",
+              "icon": "history"
+            }
+          ]
+        }
+      ],
+      "featured_title": "Research in focus",
+      "features": [
+        {
+          "title": "Robust dynamic design",
+          "description": "Topology optimization for transient dynamic response minimization.",
+          "href": "/publications/2024-transient-dynamic-response/",
+          "cover_label": "2024",
+          "cover_type": "Journal article",
+          "action": "Read publication"
+        },
+        {
+          "title": "Deep super-resolution",
+          "description": "Accelerating metamaterial topology optimization using deep learning.",
+          "href": "/publications/2026-deep-super-resolution/",
+          "cover_label": "2026",
+          "cover_type": "Journal article",
+          "action": "Read publication"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Research areas",
+          "href": "/research-areas/",
+          "icon": "compass"
+        },
+        {
+          "title": "All publications",
+          "href": "/publications/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "label": "Codes",
+      "columns": [
+        {
+          "title": "Analysis / Design",
+          "items": [
+            {
+              "title": "Topology Optimization",
+              "description": "Computational design of structures and mechanical metamaterials.",
+              "href": "/codes/topology-optimization/",
+              "icon": "cube"
+            },
+            {
+              "title": "Robust Design",
+              "description": "Structural optimization under uncertainty and dynamic loading.",
+              "href": "/codes/robust-design/",
+              "icon": "target"
+            },
+            {
+              "title": "Metamaterial Design",
+              "description": "Topology-optimized and auxetic material architectures.",
+              "href": "/codes/metamaterial-design/",
+              "icon": "material"
+            },
+            {
+              "title": "Structural Dynamics",
+              "description": "Transient response, random vibration, impact, and bandgap studies.",
+              "href": "/codes/structural-dynamics/",
+              "icon": "layers"
+            }
+          ]
+        },
+        {
+          "title": "AI / Numerical Methods",
+          "items": [
+            {
+              "title": "AI-Based Bridge Assessment",
+              "description": "Machine learning and integrated AI-based bridge health studies.",
+              "href": "/codes/ai-bridge-assessment/",
+              "icon": "code-window"
+            },
+            {
+              "title": "Deep Super-Resolution",
+              "description": "Neural-network approaches to metamaterial topology optimization.",
+              "href": "/codes/deep-super-resolution/",
+              "icon": "grid"
+            },
+            {
+              "title": "Uncertainty Quantification",
+              "description": "Uncertain loading and polynomial chaos expansion.",
+              "href": "/codes/uncertainty-quantification/",
+              "icon": "compass"
+            },
+            {
+              "title": "FEniCS & Numerical Methods",
+              "description": "Random vibration, model updating, and adaptive mesh refinement.",
+              "href": "/codes/fenics/",
+              "icon": "server"
+            }
+          ]
+        }
+      ],
+      "featured_title": "Methods in research",
+      "features": [
+        {
+          "title": "Uncertain load positions",
+          "description": "Robust topology optimization for transient dynamic loading.",
+          "href": "/publications/2025-uncertain-load-positions/",
+          "cover_label": "2025",
+          "cover_type": "Robust design",
+          "action": "Read publication"
+        },
+        {
+          "title": "FEniCS & numerical methods",
+          "description": "Related conference contributions and computational research.",
+          "href": "/codes/fenics/",
+          "cover_label": "FEniCS",
+          "cover_type": "Methods",
+          "action": "Explore records"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Visit GitHub",
+          "href": "https://github.com/iitrshubham",
+          "icon": "branch"
+        },
+        {
+          "title": "All methods",
+          "href": "/codes/",
+          "primary": true
+        }
+      ]
+    },
+    {
+      "label": "Highlights",
+      "columns": [
+        {
+          "title": "Featured Work",
+          "items": [
+            {
+              "title": "Key Publications",
+              "description": "My journal articles and their publisher links.",
+              "href": "/publications/",
+              "icon": "file"
+            },
+            {
+              "title": "Research Themes",
+              "description": "Robust design, metamaterials, and data-informed bridge engineering.",
+              "href": "/breakthrough-ideas/",
+              "icon": "bulb"
+            },
+            {
+              "title": "Videos & Demos",
+              "description": "Research videos and demonstrations, when published.",
+              "href": "/videos/",
+              "icon": "monitor"
+            },
+            {
+              "title": "Applications",
+              "description": "Bridge infrastructure, material design, and structural assessment.",
+              "href": "/applications/",
+              "icon": "tools"
+            }
+          ]
+        },
+        {
+          "title": "Engagement",
+          "items": [
+            {
+              "title": "Talks & Conferences",
+              "description": "Conference contributions and accepted abstracts listed in my CV.",
+              "href": "/talks/",
+              "icon": "presentation"
+            },
+            {
+              "title": "Workshops",
+              "description": "Workshop programmes and teaching materials, when published.",
+              "href": "/workshops/",
+              "icon": "sliders"
+            },
+            {
+              "title": "Blog / Essays",
+              "description": "Notes and writing on engineering and research, when published.",
+              "href": "/blog/",
+              "icon": "pen"
+            },
+            {
+              "title": "Outreach",
+              "description": "Public engagement records and collaboration enquiries.",
+              "href": "/outreach/",
+              "icon": "megaphone"
+            }
+          ]
+        }
+      ],
+      "featured_title": "Selected highlights",
+      "features": [
+        {
+          "title": "Young Scientist Award",
+          "description": "Indian Society of Theoretical and Applied Mechanics.",
+          "href": "/awards/young-scientist-award-2023/",
+          "cover_label": "2023",
+          "cover_type": "Recognition",
+          "action": "Read record"
+        },
+        {
+          "title": "AI for bridge distress assessment",
+          "description": "Project Leader: perspective-corrected machine learning for bridges.",
+          "href": "/projects/research/rds-000015/",
+          "cover_label": "RDSF",
+          "cover_type": "Research project",
+          "action": "Explore project"
+        }
+      ],
+      "actions": [
+        {
+          "title": "Awards",
+          "href": "/awards/",
+          "icon": "file"
+        },
+        {
+          "title": "All milestones",
+          "href": "/news/",
+          "primary": true
+        }
+      ]
+    }
+  ]
+}

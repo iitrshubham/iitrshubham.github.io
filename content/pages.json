@@ -1,0 +1,8 @@
+[
+  {"route": "/blog", "title": "Blogs", "section": "Writing", "kind": "collection", "summary": "Notes on bridge engineering, computational mechanics, and research.", "empty_message": "No blog posts have been published here yet. You can explore my publications and conference contributions in the meantime."},
+  {"route": "/workshops", "title": "Workshops", "section": "Teaching", "kind": "collection", "summary": "Workshop programmes and teaching resources.", "empty_message": "No workshop materials have been published here yet. Academic appointments and conference contributions are available under Experience and Talks."},
+  {"route": "/videos", "title": "Videos & demos", "section": "Media", "kind": "collection", "summary": "Research videos and demonstrations.", "empty_message": "No videos or demonstrations have been published here yet. Research descriptions are available under Publications and Projects."},
+  {"route": "/press", "title": "Press & media", "section": "Media", "kind": "collection", "summary": "Media coverage and press features.", "empty_message": "No press features are listed here. For professional information or an enquiry, please use the About and Contact pages."},
+  {"route": "/judging", "title": "Academic service", "section": "Service", "kind": "collection", "summary": "Reviewing, panels, and professional service.", "empty_message": "No reviewing or panel-service records have been published here. Academic appointments are listed under Experience."},
+  {"route": "/outreach", "title": "Outreach", "section": "Engagement", "kind": "collection", "summary": "Public engagement and outreach activities.", "empty_message": "No outreach records have been published here yet. For research or educational collaboration, visit Join."}
+]

@@ -1,0 +1,1069 @@
+{
+  "pages": [
+    {
+      "route": "/",
+      "title": "Home",
+      "kind": "home"
+    },
+    {
+      "route": "/about",
+      "title": "About",
+      "kind": "profile"
+    },
+    {
+      "route": "/join",
+      "title": "Join",
+      "kind": "join"
+    },
+    {
+      "route": "/publications",
+      "title": "Publications",
+      "kind": "collection"
+    },
+    {
+      "route": "/projects",
+      "title": "Projects",
+      "kind": "collection"
+    },
+    {
+      "route": "/projects/research",
+      "title": "Research projects",
+      "kind": "collection"
+    },
+    {
+      "route": "/projects/consultancy",
+      "title": "Consultancy projects",
+      "kind": "collection"
+    },
+    {
+      "route": "/experience",
+      "title": "Experience",
+      "kind": "collection"
+    },
+    {
+      "route": "/education",
+      "title": "Education",
+      "kind": "collection"
+    },
+    {
+      "route": "/awards",
+      "title": "Awards & fellowships",
+      "kind": "collection"
+    },
+    {
+      "route": "/talks",
+      "title": "Talks & conference contributions",
+      "kind": "collection"
+    },
+    {
+      "route": "/books",
+      "title": "Books & proceedings",
+      "kind": "collection"
+    },
+    {
+      "route": "/publications/2026-impact-auxetic-metamaterials",
+      "title": "High-velocity impact behaviour of topology-optimized auxetic metamaterials",
+      "kind": "detail"
+    },
+    {
+      "route": "/publications/2026-deep-super-resolution",
+      "title": "Accelerating metamaterial topology optimization using deep super-resolution networks",
+      "kind": "detail"
+    },
+    {
+      "route": "/publications/2025-uncertain-load-positions",
+      "title": "Robust topology optimization for uncertainty in load positions of transient dynamic loading",
+      "kind": "detail"
+    },
+    {
+      "route": "/publications/2024-transient-dynamic-response",
+      "title": "Robust topology optimization for transient dynamic response minimization",
+      "kind": "detail"
+    },
+    {
+      "route": "/publications/2023-parametric-metamaterials",
+      "title": "Impact of parametric variation to achieve extreme mechanical metamaterials through topology optimization",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/research/rds-000015",
+      "title": "Perspective-corrected machine learning framework for crack induced distress assessment in bridges",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/research/olp-0681",
+      "title": "Flexural Performance of Glass Fibre Reinforced Polymer Beams with and without Discrete Glass Fibre Reinforced Concrete (GFRC)",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/research/mlp-0002614",
+      "title": "Integrated Experimental, Numerical and AI-Based Studies for Seismic Performance Evaluation and Health Assessment of Steel and Fiber Reinforced Bridges",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/research/olp-0680",
+      "title": "Evaluation of Response Reduction (R Factor) for RC Piers Designed as per Indian Codes",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/research/olp-0678",
+      "title": "Assessment of Influence of Soil-Foundation-Structure Interaction on Seismic Performance of Bridges",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/ssp-4733",
+      "title": "Condition assessment and remedial measures for major and minor bridges in the Odisha road network using modern bridge test procedures",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/cnp-3021",
+      "title": "Structural audit of the six-lane access-controlled spur to Haridwar",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/cnp-2912",
+      "title": "Review of Design Progress Report (DPR) under NRIDA",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/ssp-4813",
+      "title": "Comprehensive condition assessment and remedial strategies for the Eastern Peripheral Expressway (NE2)",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/ssp-4828",
+      "title": "Structural audit of the elevated portion of the Gurgaon\u2013Pataudi\u2013Rewari section of NH-352W",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/ssp-4836",
+      "title": "Third-party structural audit of the greenfield connectivity to Jewar International Airport",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/cnp-4792",
+      "title": "Structural audit of the elevated six-lane access-controlled highway from DND Maharani Bagh to Jaitpur\u2013Pushta Road",
+      "kind": "detail"
+    },
+    {
+      "route": "/projects/consultancy/ssp-4805",
+      "title": "Third-party quality audit of structures during four-laning of the Behsuma\u2013Bijnor section",
+      "kind": "detail"
+    },
+    {
+      "route": "/experience/csir-crri-scientist-c-2025",
+      "title": "Scientist C \u00b7 CSIR-CRRI",
+      "kind": "detail"
+    },
+    {
+      "route": "/experience/acsir-assistant-professor-2026",
+      "title": "Assistant Professor \u00b7 AcSIR",
+      "kind": "detail"
+    },
+    {
+      "route": "/experience/iitr-senior-research-fellow-2022",
+      "title": "Senior Research Fellow \u00b7 IITR",
+      "kind": "detail"
+    },
+    {
+      "route": "/experience/iitr-junior-research-fellow-2020",
+      "title": "Junior Research Fellow \u00b7 IITR",
+      "kind": "detail"
+    },
+    {
+      "route": "/experience/pit-guest-lecturer-2017",
+      "title": "Guest Lecturer \u00b7 PIT",
+      "kind": "detail"
+    },
+    {
+      "route": "/experience/gbpi-guest-lecturer-2017",
+      "title": "Guest Lecturer \u00b7 GBPI",
+      "kind": "detail"
+    },
+    {
+      "route": "/education/ph-d-2025",
+      "title": "Ph.D. in Structural Engineering",
+      "kind": "detail"
+    },
+    {
+      "route": "/education/m-tech-2020",
+      "title": "M.Tech. in Structural Engineering",
+      "kind": "detail"
+    },
+    {
+      "route": "/education/b-tech-2016",
+      "title": "B.Tech. in Civil Engineering",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2026-fenics-travel-grant-fenics-steering-committee",
+      "title": "FEniCS travel grant",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2025-good-international-conference-support-civil-engineering-department-iit-roorkee",
+      "title": "Good international conference support",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2024-international-travel-scheme-its-anrf-serb-department-of-science-and-technology-government-of-india",
+      "title": "International Travel Scheme (ITS)",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2024-good-international-conference-support-civil-engineering-department-iit-roorkee",
+      "title": "Good international conference support",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2024-partial-support-to-attend-an-international-conference-dean-of-resource-and-alumni-iit-roorkee",
+      "title": "Partial support to attend an international conference",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2024-ministry-of-education-fellowship-indian-institute-of-technology-roorkee",
+      "title": "Ministry of Education fellowship",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/young-scientist-award-2023",
+      "title": "Young Scientist Award",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2022-senior-research-fellowship-defence-research-and-development-laboratory-drdo-hyderabad",
+      "title": "Senior Research Fellowship",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2020-junior-research-fellowship-defence-research-and-development-laboratory-drdo-hyderabad",
+      "title": "Junior Research Fellowship",
+      "kind": "detail"
+    },
+    {
+      "route": "/awards/2018-ministry-of-education-fellowship-national-institute-of-technology-hamirpur",
+      "title": "Ministry of Education fellowship",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/efficient-uncertainty-quantification-in-re-entrant-auxetic-structures-using-polynomial-chaos-expansion",
+      "title": "Efficient uncertainty quantification in re-entrant auxetic structures using polynomial chaos expansion",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/topology-optimization-of-metamaterials-for-improved-shear-modulus",
+      "title": "Topology optimization of metamaterials for improved shear modulus",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/designing-auxetic-structures-through-topology-optimization",
+      "title": "Designing auxetic structures through topology optimization",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/efficient-bridge-design-using-topology-optimization",
+      "title": "Efficient bridge design using topology optimization",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/mechanical-metamaterials-design-by-topology-optimization",
+      "title": "Mechanical Metamaterials design by topology optimization",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/robust-topology-optimization-incorporating-uncertainty-in-load-positions",
+      "title": "Robust topology optimization incorporating uncertainty in load positions",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/building-bridges-for-future-advancing-design-through-topology-optimization-and-additive-manufacturing",
+      "title": "Building bridges for future: Advancing design through topology optimization and additive manufacturing",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/topology-optimization-of-structures-for-minimizing-transient-dynamic-response",
+      "title": "Topology optimization of structures for minimizing transient dynamic response",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/topology-optimization-of-metamaterials-for-improved-elastic-modulus",
+      "title": "Topology Optimization of metamaterials for improved elastic modulus",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/an-open-source-adaptive-mesh-refinement-framework-for-topology-optimization",
+      "title": "An open-source adaptive mesh refinement framework for topology optimization",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/pushing-limits-topology-optimization-empowered-by-parametric-variation-for-exceptional-mechanical-metamaterials",
+      "title": "Pushing limits: Topology optimization empowered by parametric variation for exceptional mechanical metamaterials",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/topology-optimization-of-metamaterials-for-extreme-elastic-modulus",
+      "title": "Topology optimization of metamaterials for extreme elastic modulus",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/incorporating-stress-constraints-in-the-structural-topology-optimization-framework",
+      "title": "Incorporating stress constraints in the structural topology optimization framework",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/metamaterial-topology-optimization-using-enhanced-deep-super-resolution-neural-network",
+      "title": "Metamaterial topology optimization using enhanced deep super-resolution neural network",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/health-monitoring-of-structures-using-finite-element-model-updating-technique",
+      "title": "Health monitoring of structures using finite element model updating technique",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/modified-star-shaped-elastic-metamaterial-with-triangular-ligaments-for-enhanced-bandgap",
+      "title": "Modified star-shaped elastic metamaterial with triangular ligaments for enhanced bandgap",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/large-scale-random-vibration-analysis-using-fenics",
+      "title": "Large scale random vibration analysis using FEniCS",
+      "kind": "detail"
+    },
+    {
+      "route": "/talks/impact-resistance-of-topology-optimized-auxetic-metamaterials-a-comparative-study",
+      "title": "Impact resistance of topology-optimized auxetic metamaterials: A comparative study",
+      "kind": "detail"
+    },
+    {
+      "route": "/books/structural-engineering-sec-volume-2",
+      "title": "Recent Developments in Structural Engineering, Volume 2: Select Proceedings of 13th Structural Engineering Convention (SEC)",
+      "kind": "detail"
+    },
+    {
+      "route": "/research-areas",
+      "title": "Research areas",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags",
+      "title": "Topics & tags",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/structural-health-monitoring",
+      "title": "Structural health monitoring",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/structural-health-monitoring",
+      "title": "Structural health monitoring",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/structural-safety-audit",
+      "title": "Structural safety audit",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/structural-safety-audit",
+      "title": "Structural safety audit",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/load-testing",
+      "title": "Load testing",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/load-testing",
+      "title": "Load testing",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/metamaterials",
+      "title": "Metamaterials",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/metamaterials",
+      "title": "Metamaterials",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/auxetics",
+      "title": "Auxetics",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/auxetics",
+      "title": "Auxetics",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/topology-optimization",
+      "title": "Topology optimization",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/topology-optimization",
+      "title": "Topology optimization",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/bridge-engineering",
+      "title": "Bridge engineering",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/bridge-engineering",
+      "title": "Bridge engineering",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/computational-mechanics",
+      "title": "Computational mechanics",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/computational-mechanics",
+      "title": "Computational mechanics",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/uncertainty-quantification",
+      "title": "Uncertainty quantification",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/uncertainty-quantification",
+      "title": "Uncertainty quantification",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/vibration-control",
+      "title": "Vibration control",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/vibration-control",
+      "title": "Vibration control",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/ai-bridge-engineering",
+      "title": "Artificial intelligence in bridge engineering",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/ai-bridge-engineering",
+      "title": "Artificial intelligence in bridge engineering",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-areas/impact-mechanics",
+      "title": "Impact mechanics",
+      "kind": "collection"
+    },
+    {
+      "route": "/tags/impact-mechanics",
+      "title": "Impact mechanics",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes",
+      "title": "Codes & numerical methods",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/topology-optimization",
+      "title": "Topology optimization",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/robust-design",
+      "title": "Robust structural design",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/metamaterial-design",
+      "title": "Metamaterial design",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/structural-dynamics",
+      "title": "Structural dynamics",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/ai-bridge-assessment",
+      "title": "AI-based bridge assessment",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/deep-super-resolution",
+      "title": "Deep super-resolution",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/uncertainty-quantification",
+      "title": "Uncertainty quantification",
+      "kind": "collection"
+    },
+    {
+      "route": "/codes/fenics",
+      "title": "FEniCS & numerical methods",
+      "kind": "collection"
+    },
+    {
+      "route": "/frameworks",
+      "title": "Methods & frameworks",
+      "kind": "collection"
+    },
+    {
+      "route": "/applications",
+      "title": "Applications",
+      "kind": "collection"
+    },
+    {
+      "route": "/applications/bridge-infrastructure",
+      "title": "Bridge infrastructure",
+      "kind": "collection"
+    },
+    {
+      "route": "/applications/mechanical-metamaterials",
+      "title": "Mechanical metamaterials",
+      "kind": "collection"
+    },
+    {
+      "route": "/applications/ai-assisted-assessment",
+      "title": "AI-assisted assessment",
+      "kind": "collection"
+    },
+    {
+      "route": "/applications/structural-performance",
+      "title": "Structural performance",
+      "kind": "collection"
+    },
+    {
+      "route": "/breakthrough-ideas",
+      "title": "Research themes",
+      "kind": "collection"
+    },
+    {
+      "route": "/breakthrough-ideas/design-under-uncertainty",
+      "title": "Design under uncertainty",
+      "kind": "collection"
+    },
+    {
+      "route": "/breakthrough-ideas/computational-metamaterials",
+      "title": "Computational metamaterials",
+      "kind": "collection"
+    },
+    {
+      "route": "/breakthrough-ideas/data-informed-bridge-engineering",
+      "title": "Data-informed bridge engineering",
+      "kind": "collection"
+    },
+    {
+      "route": "/categories",
+      "title": "Categories",
+      "kind": "collection"
+    },
+    {
+      "route": "/category",
+      "title": "Categories",
+      "kind": "collection"
+    },
+    {
+      "route": "/category/journal-articles",
+      "title": "Journal articles",
+      "kind": "collection"
+    },
+    {
+      "route": "/category/research-projects",
+      "title": "Research projects",
+      "kind": "collection"
+    },
+    {
+      "route": "/category/consultancy",
+      "title": "Engineering consultancy",
+      "kind": "collection"
+    },
+    {
+      "route": "/category/conference-contributions",
+      "title": "Conference contributions",
+      "kind": "collection"
+    },
+    {
+      "route": "/roles",
+      "title": "Roles",
+      "kind": "collection"
+    },
+    {
+      "route": "/roles/scientist",
+      "title": "Scientist C",
+      "kind": "collection"
+    },
+    {
+      "route": "/roles/educator",
+      "title": "Academic & educator",
+      "kind": "collection"
+    },
+    {
+      "route": "/roles/computational-researcher",
+      "title": "Computational researcher",
+      "kind": "collection"
+    },
+    {
+      "route": "/roles/bridge-engineer",
+      "title": "Bridge engineer",
+      "kind": "collection"
+    },
+    {
+      "route": "/eras",
+      "title": "Academic & professional journey",
+      "kind": "collection"
+    },
+    {
+      "route": "/news",
+      "title": "News & milestones",
+      "kind": "collection"
+    },
+    {
+      "route": "/funding",
+      "title": "Fellowships & research support",
+      "kind": "collection"
+    },
+    {
+      "route": "/research-vision",
+      "title": "Research direction",
+      "kind": "detail"
+    },
+    {
+      "route": "/contact",
+      "title": "Contact",
+      "kind": "detail"
+    },
+    {
+      "route": "/legal/terms",
+      "title": "Website information",
+      "kind": "detail"
+    },
+    {
+      "route": "/legal/privacy-policy",
+      "title": "Privacy information",
+      "kind": "detail"
+    },
+    {
+      "route": "/legal/cookies",
+      "title": "Cookies & local preferences",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog",
+      "title": "Blogs",
+      "kind": "collection"
+    },
+    {
+      "route": "/workshops",
+      "title": "Workshops",
+      "kind": "collection"
+    },
+    {
+      "route": "/videos",
+      "title": "Videos & demos",
+      "kind": "collection"
+    },
+    {
+      "route": "/press",
+      "title": "Press & media",
+      "kind": "collection"
+    },
+    {
+      "route": "/judging",
+      "title": "Academic service",
+      "kind": "collection"
+    },
+    {
+      "route": "/outreach",
+      "title": "Outreach",
+      "kind": "collection"
+    }
+  ],
+  "redirects": {
+    "/applications/2026-06-01-advanced-manufacturing": "/applications",
+    "/applications/2026-06-01-aerospace-defense": "/applications",
+    "/applications/2026-06-01-ai-engineering": "/applications",
+    "/applications/2026-06-01-automotive": "/applications",
+    "/applications/2026-06-01-battery-energy-storage": "/applications",
+    "/applications/2026-06-01-biomedical-healthcare": "/applications",
+    "/applications/2026-06-01-civil-infrastructure": "/applications",
+    "/applications/2026-06-01-climate-glaciology": "/applications",
+    "/applications/2026-06-01-digital-engineering": "/applications",
+    "/applications/2026-06-01-education-outreach": "/applications",
+    "/applications/2026-06-01-hpc-exascale": "/applications",
+    "/applications/2026-06-01-materials-metamaterials": "/applications",
+    "/applications/2026-06-01-nuclear-energy": "/applications",
+    "/applications/2026-06-01-scientific-software": "/applications",
+    "/artist": "/about",
+    "/blog/2019/05/08/2019-05-08-selected-in-gsoc": "/blog",
+    "/blog/2019/05/17/2019-05-17-first-meeting-mentors": "/blog",
+    "/blog/2019/05/27/2019-05-27-community-bonding": "/blog",
+    "/blog/2019/06/01/2019-06-01-first-week-coding": "/blog",
+    "/blog/2019/06/03/2019-06-03-understanding-docker-dolfinx": "/blog",
+    "/blog/2019/06/05/2019-06-05-understanding-circleci": "/blog",
+    "/blog/2019/06/10/2019-06-10-understanding-make-cmake": "/blog",
+    "/blog/2019/06/24/2019-06-24-complete-phase-one": "/blog",
+    "/blog/2019/07/01/2019-07-01-xdmf-schema": "/blog",
+    "/blog/2019/07/22/2019-07-22-complete-phase-two": "/blog",
+    "/blog/2019/08/24/2019-08-24-gsoc-complete": "/blog",
+    "/blog/2020/07/07/2020-07-07-parallel-for-loop": "/blog",
+    "/blog/2020/11/20/2020-11-20-new-blog": "/blog",
+    "/blog/2020/11/21/2020-11-21-how-to-website": "/blog",
+    "/blog/2020/11/22/2020-11-22-add-formula-images": "/blog",
+    "/blog/2021/01/05/2021-01-05-setup-typora": "/blog",
+    "/blog/2021/01/06/2021-01-06-fenics-is-awesome": "/blog",
+    "/blog/2021/01/10/2021-01-10-circumradius-fenics": "/blog",
+    "/blog/2021/01/11/2021-01-11-finding-fenics-commands": "/blog",
+    "/blog/2021/01/12/2021-01-12-function-average-over-cell": "/blog",
+    "/blog/2021/01/15/2021-01-15-modularizing-fenics": "/blog",
+    "/blog/2021/01/16/2021-01-16-paraview-animation": "/blog",
+    "/blog/2021/01/18/2021-01-18-build-python-project": "/blog",
+    "/blog/2021/01/22/2021-01-22-converting-serial-to-parallel": "/blog",
+    "/blog/2021/01/22/2021-01-22-set-sublime-in-gmsh": "/blog",
+    "/blog/2021/01/25/2021-01-25-visualize-dofs": "/blog",
+    "/blog/2021/01/31/2021-01-31-python-vs-cpp-boundary-definition-fenics": "/blog",
+    "/blog/2021/02/09/2021-02-09-project-based-learning": "/blog",
+    "/blog/2021/02/10/2021-02-10-dark-mode-sumatra": "/blog",
+    "/blog/2021/02/14/2021-02-14-first-javascript-project": "/blog",
+    "/blog/2021/03/12/2021-03-12-matlab-direct": "/blog",
+    "/blog/2021/03/18/2021-03-18-load-to-pypi": "/blog",
+    "/blog/2021/04/01/2021-04-01-load-to-dockerhub": "/blog",
+    "/blog/2021/05/07/2021-05-07-custom-enumerate-header": "/blog",
+    "/blog/2021/05/11/2021-05-11-clean-latex": "/blog",
+    "/blog/2021/05/14/2021-05-14-clean-sublime-setup": "/blog",
+    "/blog/2021/06/30/2021-06-30-correct-way-to-add-bib": "/blog",
+    "/blog/2021/07/04/2021-07-04-making-tutorial-on-jupyter": "/blog",
+    "/blog/2021/11/08/2021-11-08-nomenclature-in-latex": "/blog",
+    "/blog/2021/12/08/2021-12-08-installing-petsc-complex": "/blog",
+    "/blog/2021/12/19/2021-12-19-local-build-jekyll-website": "/blog",
+    "/blog/2022/01/01/2022-01-01-happy-new-year": "/blog",
+    "/blog/2022/01/23/2022-01-23-how-to-prepare-for-meetings": "/blog",
+    "/blog/2022/01/24/2022-01-24-writing-synopsis": "/blog",
+    "/blog/2022/01/31/2022-01-31-please-use-sparse-matrices": "/blog",
+    "/blog/2022/02/03/2022-02-03-projects-worked-on": "/blog",
+    "/blog/2022/02/13/2022-02-13-math-preview-in-sublime": "/blog",
+    "/blog/2022/02/14/2022-02-14-parallel-run-in-jupyter": "/blog",
+    "/blog/2022/02/15/2022-02-15-sparsity-multiplication-order": "/blog",
+    "/blog/2022/02/22/2022-02-22-deciding-the-content-of-thesis": "/blog",
+    "/blog/2022/02/26/2022-02-26-fenics-vscode-notebook": "/blog",
+    "/blog/2022/03/04/2022-03-04-matplotlib-to-stl": "/blog",
+    "/blog/2022/03/16/2022-03-16-financial-terms": "/blog",
+    "/blog/2022/03/21/2022-03-21-derivatives-with-sympy": "/blog",
+    "/blog/2022/03/25/2022-03-25-draw-with-twojs": "/blog",
+    "/blog/2022/03/27/2022-03-27-custom-md-font-vscode": "/blog",
+    "/blog/2022/03/27/2022-03-27-thoughts-on-writing-on-the-web": "/blog",
+    "/blog/2022/04/02/2022-04-02-add-search-jekyll-blog": "/blog",
+    "/blog/2022/04/06/2022-04-06-julia-jupyter-notebook": "/blog",
+    "/blog/2022/04/12/2022-04-12-point-load-fenics": "/blog",
+    "/blog/2022/04/28/2022-04-28-zotero-pcloud-box": "/blog",
+    "/blog/2022/04/30/2022-04-30-latex-math-alphabets": "/blog",
+    "/blog/2022/05/01/2022-05-01-linux-add-to-path": "/blog",
+    "/blog/2022/07/20/2022-07-20-pdf-plot-python-matplotlib": "/blog",
+    "/blog/2022/07/23/2022-07-23-gradient-in-matplotlib": "/blog",
+    "/blog/2022/07/28/2022-07-28-plotly-plot": "/blog",
+    "/blog/2022/08/26/2022-08-26-apply-equality-volume-constraint-mma-topology": "/blog",
+    "/blog/2022/10/30/2022-10-30-use-svg-in-html": "/blog",
+    "/blog/2022/11/22/2022-11-22-large-scale-matrix-multiplication": "/blog",
+    "/blog/2023/04/20/2023-04-20-hpc-for-fea": "/blog",
+    "/blog/2024/01/06/2024-01-06-python-mutable-fenics": "/blog",
+    "/blog/2024/01/23/2024-01-23-stokes-equation-ice-glacier-modelling": "/blog",
+    "/blog/2024/01/24/2024-01-24-stokes-flow-icepack": "/blog",
+    "/blog/2024/01/24/2024-01-24-units-for-numerical-stabalization": "/blog",
+    "/blog/2024/02/02/2024-02-02-understanding-viscoelasticity": "/blog",
+    "/blog/2024/05/16/2024-05-16-learning-javascript-basics": "/blog",
+    "/blog/2024/07/31/2024-07-31-tenses-person-academic-writing": "/blog",
+    "/blog/2026/05/07": "/blog",
+    "/blog/2026/05/08/2026-05-08-core-meets-code": "/blog",
+    "/books/phase-field-fracture": "/books",
+    "/books/topology-optimization": "/books",
+    "/breakthrough-ideas/2017-09-01-isogeometric-analysis": "/breakthrough-ideas",
+    "/breakthrough-ideas/2017-09-01-open-source-scientific-computing": "/breakthrough-ideas",
+    "/breakthrough-ideas/2017-09-01-software-engineering-as-a-research-skill": "/breakthrough-ideas",
+    "/breakthrough-ideas/2017-09-01-topology-optimization-as-computational-design": "/breakthrough-ideas",
+    "/breakthrough-ideas/2017-09-01-variational-principles": "/breakthrough-ideas",
+    "/breakthrough-ideas/2018-12-01-multi-physics-and-multi-scale-thinking": "/breakthrough-ideas",
+    "/breakthrough-ideas/2018-12-01-phase-field-methods-beyond-fracture": "/breakthrough-ideas",
+    "/breakthrough-ideas/2019-01-01-high-performance-computing": "/breakthrough-ideas",
+    "/breakthrough-ideas/2019-06-01-adaptive-mesh-refinement": "/breakthrough-ideas",
+    "/breakthrough-ideas/2021-01-01-scientific-machine-learning": "/breakthrough-ideas",
+    "/category/coding": "/category",
+    "/category/entrepreneurship": "/category",
+    "/category/general": "/category",
+    "/category/metadata": "/category",
+    "/category/presentation": "/category",
+    "/category/productivity": "/category",
+    "/category/research": "/category",
+    "/computational-scientist": "/roles/computational-researcher",
+    "/designer-animator": "/about",
+    "/education/00-senior": "/education",
+    "/education/01-btech": "/education/b-tech-2016",
+    "/education/02-mtech": "/education/m-tech-2020",
+    "/education/03-ocdf": "/education",
+    "/education/04-phd": "/education/ph-d-2025",
+    "/entrepreneur": "/about",
+    "/experience/01-npcil": "/experience",
+    "/experience/02-eigenplus": "/experience",
+    "/experience/03-avkalan-labs": "/experience",
+    "/experience/04-adviser-labs": "/experience",
+    "/experience/05-vanderbilt-pd": "/experience",
+    "/experience/06-vanderbilt-ap": "/experience",
+    "/frameworks/2017-09-01-computational-mechanics-frameworks": "/frameworks",
+    "/frameworks/2018-01-01-scalable-scientific-computing": "/frameworks",
+    "/frameworks/2018-06-01-geometry-and-simulation-pipelines": "/frameworks",
+    "/frameworks/2019-01-01-scientific-software-infrastructure": "/frameworks",
+    "/frameworks/2019-06-01-scientific-visualization-and-communication": "/frameworks",
+    "/frameworks/2020-01-01-computational-programming-ecosystem": "/frameworks",
+    "/frameworks/2021-01-01-open-learning-ecosystem": "/frameworks",
+    "/frameworks/2021-06-01-research-workflows-and-templates": "/frameworks",
+    "/news/2004-01-01-olympiad": "/news",
+    "/news/2005-01-01-hp-board-11": "/news",
+    "/news/2006-01-01-hp-board-12": "/news",
+    "/news/2010-01-01-mtech-mhrd-award": "/news",
+    "/news/2010-01-02-dgfs": "/news",
+    "/news/2016-01-01-eigenplus-website": "/news",
+    "/news/2017-01-01-concrete-mix-design-app": "/news",
+    "/news/2017-01-01-phd-mhrd-award": "/news",
+    "/news/2017-01-01-rcc-beam-design-app": "/news",
+    "/news/2017-01-01-rcc-column-design-app": "/news",
+    "/news/2017-01-01-rcc-slab-design-app": "/news",
+    "/news/2017-01-01-solid-mechanics-app": "/news",
+    "/news/2017-01-02-phd-hp-award": "/news",
+    "/news/2018-03-11-startup-weekend": "/news",
+    "/news/2019-01-01-gsoc": "/news",
+    "/news/2019-05-01-phd-website": "/news",
+    "/news/2019-07-19-numfocus": "/news",
+    "/news/2020-08-01-sub-stepping": "/news",
+    "/news/2020-09-01-hyperelastic": "/news",
+    "/news/2020-12-15-55-line": "/news",
+    "/news/2022-01-01-robust-meta": "/news",
+    "/news/2022-05-01-adaptive-iga": "/news",
+    "/news/2022-09-01-adaptive-fracture": "/news",
+    "/news/2022-10-01-error-estimator": "/news",
+    "/news/2023-01-01-avkalan-labs": "/news",
+    "/news/2023-01-18-icorps-regional-adviser": "/news",
+    "/news/2023-07-01": "/news",
+    "/news/2023-07-01-cdf-amr": "/news",
+    "/news/2023-12-01-parametric-meta": "/news",
+    "/news/2024-01-01-adviser-labs": "/news",
+    "/news/2024-01-15-nsf-regionals": "/news",
+    "/news/2024-01-18-icorps-nationals-adviser": "/news",
+    "/news/2024-02-11-efm": "/news",
+    "/news/2024-05-15-nsf-nationals": "/news",
+    "/news/2024-06-01-thermo-fracture": "/news",
+    "/news/2024-06-01-transient-response": "/news",
+    "/news/2024-07-01": "/news",
+    "/news/2024-08-01-dmc": "/news",
+    "/news/2024-09-01-c1-framework": "/news",
+    "/news/2024-10-01-pce-amr": "/news",
+    "/news/2024-11-01-auxetic-stress": "/news",
+    "/news/2024-11-01-pfczm-fgm": "/news",
+    "/news/2025-01-01-eigenplus-youtube": "/news",
+    "/news/2025-01-01-personal-academic-website": "/news",
+    "/news/2025-01-15-nsf-nationals": "/news",
+    "/news/2025-01-18-icorps-fourier-energy": "/news",
+    "/news/2025-02-01-heterogeneous-media": "/news",
+    "/news/2025-04-25-generalized-iga": "/news",
+    "/news/2025-05-01-cnn-surrogate": "/news",
+    "/news/2025-05-15-google": "/news",
+    "/news/2025-08-01-insole": "/news",
+    "/news/2025-11-25-cmpb": "/news",
+    "/news/2025-12-01-load-position": "/news",
+    "/news/2026-01-01-impact-behaviour": "/news",
+    "/news/2026-01-11-softwarex": "/news",
+    "/news/2026-01-13-ades": "/news",
+    "/news/2026-02-01-softwarex": "/news",
+    "/news/2026-02-02-composites-part-b": "/news",
+    "/news/2026-02-03-nsf-geo": "/news",
+    "/news/2026-02-05-super-resolution": "/news",
+    "/news/2026-03-01-dgx": "/news",
+    "/news/2026-03-01-olcf": "/news",
+    "/news/2026-03-11-reaction-diffusion": "/news",
+    "/news/2026-03-14-ades": "/news",
+    "/news/2026-03-17-composite-plates": "/news",
+    "/news/2026-03-19-cas": "/news",
+    "/news/2026-04-07-composites-part-b": "/news",
+    "/news/2026-04-08-nsf-cssi": "/news",
+    "/news/2026-04-26-efm": "/news",
+    "/news/2026-05-03-samo": "/news",
+    "/news/2026-05-10-midwest-glaciology-meeting": "/news",
+    "/news/2026-05-17-ades": "/news",
+    "/news/2026-05-17-cma": "/news",
+    "/news/2026-05-17-rie": "/news",
+    "/news/2026-06-01-emi-2026-colorado": "/news",
+    "/news/2026-06-02": "/news",
+    "/news/2026-06-08-cellular": "/news",
+    "/news/2026-06-22-ijf": "/news",
+    "/news/2026-06-30-battery": "/news",
+    "/news/2026-07-02-aescte": "/news",
+    "/news/2026-07-05-aes": "/news",
+    "/news/2026-07-05-cas-1": "/news",
+    "/news/2026-07-06-cas-2": "/news",
+    "/news/2026-07-07-cas-3": "/news",
+    "/news/2026-07-09-sr": "/news",
+    "/news/2026-07-09-tws": "/news",
+    "/news/2026-07-14-visit-to-jhons-hopkins-university": "/news",
+    "/news/2026-07-15-visit-to-cdfam-at-washington-dc": "/news",
+    "/news/2026-07-23-wccm-eccomas2026": "/news",
+    "/news/2026-08-01-cas-4": "/news",
+    "/news/adaptive-phase-field-modeling-imece2025": "/news",
+    "/news/adaptive-phtsplines-iga2023": "/news",
+    "/news/adaptive-topology-fourthorder-phtsplines": "/news",
+    "/news/additive-manufacturing-young-researchers-2023": "/news",
+    "/news/auxetic-metamaterials-incmdao2024": "/news",
+    "/news/auxetic-structures-young-researchers-2024": "/news",
+    "/news/bezier-extraction-nafed2021": "/news",
+    "/news/continuous-adaptive-material-distribution-wcsmo2023": "/news",
+    "/news/deep-superresolution-metamaterials-ncmdao2023": "/news",
+    "/news/demystifying-hpc-fea-vanderbilt-2023": "/news",
+    "/news/development-isogeometric-elements-nafed2020": "/news",
+    "/news/efficient-bridge-design-istam2023": "/news",
+    "/news/elastic-modulus-metamaterials-semce2023": "/news",
+    "/news/finite-element-analysis-apple-hardware-2025": "/news",
+    "/news/gsoc-2019-interview-numfocus": "/news",
+    "/news/gsoc-2019-project": "/news",
+    "/news/higher-order-continuity-bezier-2022": "/news",
+    "/news/incorporating-isogeometric-analysis-feast-2025": "/news",
+    "/news/isogeometric-shape-optimization-ncmdao2019": "/news",
+    "/news/laminated-composites-phasefield-imece2025": "/news",
+    "/news/large-scale-topology-optimization-fenics2022": "/news",
+    "/news/machine-learning-fea-nitraipur-2025": "/news",
+    "/news/mechanical-metamaterials-iccms2022": "/news",
+    "/news/mesh-processing-pipeline-fenics2020": "/news",
+    "/news/minimizing-computational-expense-phasefield-2024": "/news",
+    "/news/multipatch-isogeometric-framework-usnccm18": "/news",
+    "/news/nsf-icorps-cloud-platform": "/news",
+    "/news/optimization-using-isogeometric-analysis-nafed2019": "/news",
+    "/news/pushing-limits-metamaterials-iitroorkee-2024": "/news",
+    "/news/readme": "/news",
+    "/news/robust-topology-load-positions-istam2023": "/news",
+    "/news/runtime-300-years-to-300-min-fenics2020": "/news",
+    "/news/shear-modulus-metamaterials-iccs27": "/news",
+    "/news/shell-structures-isogeometric-wcsmo2025": "/news",
+    "/news/sketch-to-structure-poster-usnccm18": "/news",
+    "/news/stress-constraints-topology-sec2023": "/news",
+    "/news/stress-driven-auxetic-microstructure-ncmdao2023": "/news",
+    "/news/transient-dynamic-response-istam2023": "/news",
+    "/news/uncertainty-aware-surrogate-phasefield-batteries-imece2025": "/news",
+    "/news/unified-design-analysis-iga-iitdelhi-2023": "/news",
+    "/projects/2005-01-01-fees-management": "/projects",
+    "/projects/2010-01-01-btech": "/projects",
+    "/projects/2012-01-01-mtech": "/projects",
+    "/projects/2013-01-01-npcil": "/projects",
+    "/projects/2016-01-01-eigenplus": "/projects",
+    "/projects/2017-01-01-phd": "/projects",
+    "/projects/2023-01-01-pd": "/projects",
+    "/projects/2024-01-01-icorps": "/projects",
+    "/publications/2020-08-01-sub-stepping": "/publications",
+    "/publications/2020-09-01-hyperelastic": "/publications",
+    "/publications/2020-12-15-55-line": "/publications",
+    "/publications/2022-01-01-robust-meta": "/publications",
+    "/publications/2022-05-01-adaptive-iga": "/publications",
+    "/publications/2022-09-01-adaptive-fracture": "/publications",
+    "/publications/2022-10-01-error-estimator": "/publications",
+    "/publications/2023-07-01-cdf-amr": "/publications",
+    "/publications/2023-12-01-parametric-meta": "/publications",
+    "/publications/2024-06-01-thermo-fracture": "/publications",
+    "/publications/2024-06-01-transient-response": "/publications",
+    "/publications/2024-08-01-dmc": "/publications",
+    "/publications/2024-09-01-c1-framework": "/publications",
+    "/publications/2024-10-01-pce-amr": "/publications",
+    "/publications/2024-11-01-auxetic-stress": "/publications",
+    "/publications/2024-11-01-pfczm-fgm": "/publications",
+    "/publications/2025-02-01-heterogeneous-media": "/publications",
+    "/publications/2025-04-25-generalized-iga": "/publications",
+    "/publications/2025-05-01-cnn-surrogate": "/publications",
+    "/publications/2025-12-01-load-position": "/publications",
+    "/publications/2026-01-01-impact-behaviour": "/publications",
+    "/publications/2026-02-05-super-resolution": "/publications",
+    "/publications/2026-03-11-reaction-diffusion": "/publications",
+    "/publications/2026-03-17-composite-plates": "/publications",
+    "/publications/2026-06-08-cellular": "/publications",
+    "/publications/2026-06-30-battery": "/publications",
+    "/research-areas/entrepreneurship": "/research-areas",
+    "/research-areas/hpc": "/research-areas",
+    "/research-areas/phase-field": "/research-areas",
+    "/tags/academia": "/tags",
+    "/tags/blog": "/tags",
+    "/tags/box": "/tags",
+    "/tags/cloud": "/tags",
+    "/tags/complex-numbers": "/tags",
+    "/tags/css": "/tags",
+    "/tags/dark-mode": "/tags",
+    "/tags/design": "/tags",
+    "/tags/direct": "/tags",
+    "/tags/docker": "/tags",
+    "/tags/equality-constraint": "/tags",
+    "/tags/fem": "/tags",
+    "/tags/fenics": "/tags",
+    "/tags/figures": "/tags",
+    "/tags/firedrake": "/tags",
+    "/tags/glacier": "/tags",
+    "/tags/gmsh": "/tags",
+    "/tags/gsoc": "/tags",
+    "/tags/home": "/tags",
+    "/tags/hpc": "/tags",
+    "/tags/html": "/tags",
+    "/tags/iterative": "/tags",
+    "/tags/javascript": "/tags",
+    "/tags/jekyll": "/tags",
+    "/tags/js": "/tags",
+    "/tags/julia": "/tags",
+    "/tags/jupyter": "/tags",
+    "/tags/latex": "/tags",
+    "/tags/liquid": "/tags",
+    "/tags/markdown": "/tags",
+    "/tags/matlab": "/tags",
+    "/tags/matrix": "/tags",
+    "/tags/mdx": "/tags",
+    "/tags/meetings": "/tags",
+    "/tags/metadata": "/tags",
+    "/tags/mma": "/tags",
+    "/tags/mpi": "/tags",
+    "/tags/multiplication": "/tags",
+    "/tags/nomenclature": "/tags",
+    "/tags/notebook": "/tags",
+    "/tags/notebooks": "/tags",
+    "/tags/notion": "/tags",
+    "/tags/numpy": "/tags",
+    "/tags/parallel": "/tags",
+    "/tags/paraview": "/tags",
+    "/tags/pcloud": "/tags",
+    "/tags/pdf": "/tags",
+    "/tags/petsc": "/tags",
+    "/tags/plot": "/tags",
+    "/tags/plotly": "/tags",
+    "/tags/plots": "/tags",
+    "/tags/pypi": "/tags",
+    "/tags/python": "/tags",
+    "/tags/ram": "/tags",
+    "/tags/research": "/tags",
+    "/tags/search": "/tags",
+    "/tags/simulation": "/tags",
+    "/tags/software": "/tags",
+    "/tags/solvers": "/tags",
+    "/tags/sparse": "/tags",
+    "/tags/sublime": "/tags",
+    "/tags/sumatra": "/tags",
+    "/tags/synopsis": "/tags",
+    "/tags/teaching": "/tags",
+    "/tags/thesis": "/tags",
+    "/tags/volume-constraint": "/tags",
+    "/tags/vscode": "/tags",
+    "/tags/writing": "/tags",
+    "/tags/zotero": "/tags",
+    "/videos/01-topology-optimization-walkthrough": "/videos",
+    "/web-android-developer": "/about"
+  }
+}

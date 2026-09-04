@@ -1,0 +1,37 @@
+{
+  "areas": [
+    {"id": "structural-health-monitoring", "title": "Structural health monitoring", "summary": "Bridge health assessment, distress identification, and finite element model updating.", "match": ["health", "distress", "condition assessment"]},
+    {"id": "structural-safety-audit", "title": "Structural safety audit", "summary": "Structural audits, quality audits, and engineering review of bridge infrastructure.", "match": ["audit", "design progress", "remedial"]},
+    {"id": "load-testing", "title": "Load testing", "summary": "Load testing is one of my stated areas of interest in structural and bridge engineering.", "match": ["load testing", "test procedures"]},
+    {"id": "metamaterials", "title": "Metamaterials", "summary": "Computational design and investigation of mechanical metamaterials.", "match": ["metamaterial", "auxetic"]},
+    {"id": "auxetics", "title": "Auxetics", "summary": "Auxetic structures, re-entrant geometries, and impact behaviour.", "match": ["auxetic"]},
+    {"id": "topology-optimization", "title": "Topology optimization", "summary": "Topology-based design of structures and mechanical metamaterials.", "match": ["topology"]},
+    {"id": "bridge-engineering", "title": "Bridge engineering", "summary": "Bridge assessment, structural performance, seismic response, and engineering consultancy.", "match": ["bridge", "piers", "expressway", "highway", "nh-", "jewar", "haridwar", "nrida"]},
+    {"id": "computational-mechanics", "title": "Computational mechanics", "summary": "Numerical methods for structural analysis, optimization, and mechanics research.", "match": ["topology", "finite element", "numerical", "fenics", "uncertainty", "bandgap", "impact", "vibration"]},
+    {"id": "uncertainty-quantification", "title": "Uncertainty quantification", "summary": "Robust topology optimization and polynomial-chaos-based uncertainty analysis.", "match": ["uncertainty", "uncertain", "robust", "polynomial chaos"]},
+    {"id": "vibration-control", "title": "Vibration control", "summary": "Structural dynamics, transient response, random vibration, and metamaterial bandgaps.", "match": ["vibration", "dynamic", "bandgap", "seismic"]},
+    {"id": "ai-bridge-engineering", "title": "Artificial intelligence in bridge engineering", "summary": "Machine-learning-based distress assessment and integrated AI-based bridge studies.", "match": ["machine learning", "ai-based"]},
+    {"id": "impact-mechanics", "title": "Impact mechanics", "summary": "Impact behaviour and resistance of topology-optimized auxetic metamaterials.", "match": ["high-velocity impact", "impact resistance"]}
+  ],
+  "methods": [
+    {"id": "topology-optimization", "title": "Topology optimization", "summary": "Structural and metamaterial design through topology optimization.", "match": ["topology"]},
+    {"id": "robust-design", "title": "Robust structural design", "summary": "Optimization considering uncertain load positions and transient dynamic response.", "match": ["robust", "uncertainty", "uncertain"]},
+    {"id": "metamaterial-design", "title": "Metamaterial design", "summary": "Topology-optimized and auxetic material architectures.", "match": ["metamaterial", "auxetic"]},
+    {"id": "structural-dynamics", "title": "Structural dynamics", "summary": "Transient response, random vibration, impact, and bandgap-related studies.", "match": ["dynamic", "vibration", "impact resistance", "high-velocity", "bandgap"]},
+    {"id": "ai-bridge-assessment", "title": "AI-based bridge assessment", "summary": "Perspective-corrected machine learning and integrated AI-based bridge research.", "match": ["machine learning framework", "ai-based"]},
+    {"id": "deep-super-resolution", "title": "Deep super-resolution", "summary": "Deep super-resolution networks for metamaterial topology optimization.", "match": ["super-resolution"]},
+    {"id": "uncertainty-quantification", "title": "Uncertainty quantification", "summary": "Uncertain loading and polynomial chaos expansion in auxetic structures.", "match": ["uncertainty", "uncertain", "polynomial chaos"]},
+    {"id": "fenics", "title": "FEniCS & numerical methods", "summary": "FEniCS-based random vibration analysis, finite element model updating, and adaptive mesh refinement.", "match": ["fenics", "finite element", "adaptive mesh"]}
+  ],
+  "applications": [
+    {"id": "bridge-infrastructure", "title": "Bridge infrastructure", "summary": "Condition assessment, structural audits, and research into bridge performance.", "match": ["bridge", "expressway", "highway", "piers", "nh-", "jewar", "haridwar"]},
+    {"id": "mechanical-metamaterials", "title": "Mechanical metamaterials", "summary": "Optimized architectures for mechanical behaviour, auxetic response, and impact studies.", "match": ["metamaterial", "auxetic"]},
+    {"id": "ai-assisted-assessment", "title": "AI-assisted assessment", "summary": "Machine learning and AI-based approaches to bridge distress and health assessment.", "match": ["machine learning framework", "ai-based"]},
+    {"id": "structural-performance", "title": "Structural performance", "summary": "Flexural behaviour, seismic response, uncertainty, and dynamics.", "match": ["flexural", "seismic", "uncertainty", "dynamic", "vibration", "response reduction"]}
+  ],
+  "themes": [
+    {"id": "design-under-uncertainty", "title": "Design under uncertainty", "summary": "Research linking robust topology optimization with uncertain loading and dynamic structural response.", "match": ["robust", "uncertainty", "uncertain"]},
+    {"id": "computational-metamaterials", "title": "Computational metamaterials", "summary": "Work on topology optimization, parametric variation, auxetic structures, and impact behaviour.", "match": ["metamaterial", "auxetic"]},
+    {"id": "data-informed-bridge-engineering", "title": "Data-informed bridge engineering", "summary": "Projects connecting bridge health assessment with model updating, machine learning, and experimental/numerical investigation.", "match": ["machine learning framework", "health", "condition assessment", "ai-based"]}
+  ]
+}
