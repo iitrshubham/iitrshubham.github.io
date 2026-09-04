@@ -1,0 +1,18 @@
+{
+  "name": "Your name",
+  "initials": "YN",
+  "title": "Researcher · Engineer · Educator",
+  "tagline": "Research, ideas, and the work behind them.",
+  "introduction": "Welcome to my personal website. Explore my research, projects, teaching resources, and technical writing.",
+  "about": ["Add your professional biography here: your current role, institution, research interests, and the questions that motivate your work.", "Describe your background and how your research connects to engineering practice, education, or society."],
+  "location": "Your city, country",
+  "email": "",
+  "github": "",
+  "linkedin": "",
+  "cv": "",
+  "research_statement": "",
+  "portrait": "",
+  "site_url": "",
+  "base_path": "",
+  "template_mode": true
+}
