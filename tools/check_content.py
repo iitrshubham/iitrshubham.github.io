@@ -40,7 +40,7 @@ for p in pages:
     assert 'nav-join' not in nav,p['route']
     contact=html.split('<section class="contact">',1)[1].split('</section>',1)[0]
     assert 'github.com' not in contact.lower(),p['route']
-    assert not re.search(r'CSIR-Central Road Research Institute(?! \(Ministry of Science and Technology, Govt of India\))',html),p['route']
+    assert not re.search(r'CSIR-Central Road Research Institute(?! \(Ministry of Science and Technology, Govt. of India\))',html),p['route']
     assert config['name'] in html,p['route']
     for unwanted in ('Your name','Awaiting your content','Add your professional biography','Vanderbilt','NPCIL','eigenplus','Glacier Simulations','Designer / animator'):
         assert unwanted not in html,(p['route'],unwanted)

@@ -3,21 +3,21 @@
   "philosophy": [
     "My work brings together computational mechanics and bridge engineering. I study how structural health monitoring, topology optimization, and artificial intelligence can support the assessment and design of engineering structures.",
     "My research spans robust design under uncertain loading, auxetic and mechanical metamaterials, vibration control, and impact mechanics. At CSIR-CRRI, I contribute to bridge research, structural audits, condition assessment, and projects combining experimental, numerical, and AI-based approaches.",
-    "I am a Scientist C at CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt of India), New Delhi, and an Assistant Professor at the Academy of Scientific and Innovative Research (AcSIR). I welcome conversations with students, researchers, and industry partners working on related engineering problems."
+    "I am a Scientist C at CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt. of India), New Delhi, and an Assistant Professor at the Academy of Scientific and Innovative Research (AcSIR). I welcome conversations with students, researchers, and industry partners working on related engineering problems."
   ],
   "division": "Bridge Engineering and Structures Division",
-  "institution": "CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt of India)",
+  "institution": "CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt. of India)",
   "address": "Delhi-Mathura Road, New Delhi – 110025, India",
   "secondary_email": "shubham.ce.iitr@gmail.com",
   "interests": [
     "Structural health monitoring", "Structural safety audit", "Load testing", "Metamaterials", "Auxetics", "Topology optimization", "Bridge engineering", "Computational mechanics", "Uncertainty quantification", "Vibration control", "Artificial intelligence in bridge engineering", "Impact mechanics"
   ],
   "experience": [
-    {"title": "Scientist C", "institution": "CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt of India)", "short": "CSIR-CRRI", "location": "New Delhi, India", "period": "2025 – present", "detail": "Bridge Engineering and Structures Division", "logo": "assets/logos/csir-crri.png"},
+    {"title": "Scientist C", "institution": "CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt. of India)", "short": "CSIR-CRRI", "location": "New Delhi, India", "period": "2025 – present", "detail": "Bridge Engineering and Structures Division", "logo": "assets/logos/csir-crri.png"},
     {"title": "Assistant Professor", "institution": "Academy of Scientific and Innovative Research", "short": "AcSIR", "location": "India", "period": "2026 – present", "detail": "Academic appointment at AcSIR", "logo": "assets/logos/acsir.png"},
     {"title": "Senior Research Fellow", "institution": "Indian Institute of Technology Roorkee", "short": "IITR", "location": "Roorkee, India", "period": "2022 – 2023", "detail": "Senior Research Fellowship supported by DRDL-DRDO, Hyderabad", "logo": "assets/logos/iit-roorkee.svg"},
     {"title": "Junior Research Fellow", "institution": "Indian Institute of Technology Roorkee", "short": "IITR", "location": "Roorkee, India", "period": "2020 – 2022", "detail": "Junior Research Fellowship supported by DRDL-DRDO, Hyderabad", "logo": "assets/logos/iit-roorkee.svg"},
-    {"title": "Guest Lecturer", "institution": "Pusa Institute of Technology", "short": "PIT", "location": "New Delhi, India", "period": "2017 – 2018", "detail": "Teaching appointment", "logo": "assets/logos/dtte-delhi.png", "logo_alt": "Government of NCT of Delhi / DTTE emblem", "logo_caption": "DTTE emblem · governing department"},
+    {"title": "Guest Lecturer", "institution": "Pusa Institute of Technology", "short": "PIT", "location": "New Delhi, India", "period": "2017 – 2018", "detail": "Teaching appointment", "logo": "assets/logos/dtte-delhi.png", "logo_alt": "Government of NCT of Delhi / DTTE emblem", "logo_caption": ""},
     {"title": "Guest Lecturer", "institution": "G.B. Pant Institute of Technology", "short": "GBPI", "location": "Delhi, India", "period": "2017 – 2018", "detail": "Teaching appointment", "logo": "assets/logos/gbpit-delhi.jpg", "logo_alt": "Historical G.B. Pant Institute of Technology Delhi monogram"}
   ],
   "education": [

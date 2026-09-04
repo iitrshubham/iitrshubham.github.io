@@ -174,7 +174,7 @@ def collection(page):
     tabs = ''
     if len(categories)>1:
         tabs = '<div class="filter-tabs" role="group" aria-label="Filter by category"><button class="filter-tab" data-category-filter="all" aria-pressed="true">View all</button>'+''.join(f'<button class="filter-tab" data-category-filter="{e(c)}" aria-pressed="false">{e(c)}</button>' for c in categories)+'</div>'
-    cover_note = '<p class="cover-note">Covers identify the journals; they may show a different issue from the cited article.</p>' if any(item.get('cover') for item in items) else ''
+    cover_note = '<p class="cover-note"></p>' if any(item.get('cover') for item in items) else ''
     return page_header(page)+f'''<section class="wrap listing" data-collection>{introduction}{cover_note}<div class="collection-toolbar">{tabs}<div class="search-field">{icon('search')}<input data-filter type="search" placeholder="Search {e(page['title'].lower())}…" aria-label="Search {e(page['title'])}"></div><span class="result-count" data-count aria-live="polite">{len(items)} records</span></div><div class="cards">{''.join(cards)}</div><div class="empty-state" data-no-results hidden>No matching records. Try another keyword or category.</div><div class="pagination"><button class="button" data-prev>Previous</button><span data-page-label aria-live="polite">Page 1</span><button class="button" data-next>Next</button></div></section>'''
 
 def blocks(body):
@@ -228,7 +228,7 @@ def about_page():
     interests = ''.join('<li>'+e(item)+'</li>' for item in PROFILE['interests'])
     output += profile_section('research','Research interests','<ul class="research-chips">'+interests+'</ul>')
     publications = ''.join(f'''<li class="record-item publication-record">{journal_cover(item)}<div class="publication-copy"><div class="record-meta"><span class="profile-badge">{e(item['year'])}</span><span>Journal article</span></div><h3>{link('/publications/'+item['id'],item['title'])}</h3><p>{e(item['authors'])}</p><p class="record-venue">{e(item['journal'])} · {e(item['volume'])}</p></div></li>''' for item in PROFILE['publications'])
-    output += profile_section('publications','Publications','<p class="cover-note">Covers identify the journals; they may show a different issue from the cited article.</p><ol class="record-list">'+publications+'</ol>','Journal articles')
+    output += profile_section('publications','Publications','<p class="cover-note"></p><ol class="record-list">'+publications+'</ol>','Journal articles')
     projects = ''.join(f'''<article class="project-record"><div class="record-meta"><span class="profile-badge">{e(item['role'])}</span><span>{e(item['code'])}</span></div><h3>{e(item['title'])}</h3><p>{e(item['programme'])}</p></article>''' for item in PROFILE['research_projects'])
     output += profile_section('projects','Research projects','<div class="profile-stack">'+projects+'</div>')
     consultancy = ''.join(f'''<li class="record-item"><div class="record-meta"><span class="profile-badge">{e(item['code'])}</span><span>{e(item['role'])}</span></div><h3>{e(item['title'])}</h3><p>{e(item['client_or_context'])}</p></li>''' for item in PROFILE['consultancy'])
