@@ -1,5 +1,4 @@
 {
-  "source": "Dr_shubham_cv(1).pdf, supplied by Dr. Shubham Saurabh",
   "heading": "Research, bridges & computational mechanics",
   "philosophy": [
     "My work brings together computational mechanics and bridge engineering. I study how structural health monitoring, topology optimization, and artificial intelligence can support the assessment and design of engineering structures.",
@@ -22,13 +21,12 @@
     {"title": "Guest Lecturer", "institution": "G.B. Pant Institute of Technology", "short": "GBPI", "location": "Delhi, India", "period": "2017 – 2018", "detail": "Teaching appointment"}
   ],
   "education": [
-    {"degree": "Ph.D.", "subject": "Structural Engineering", "institution": "Indian Institute of Technology Roorkee", "year": "2025", "division": "First division"},
-    {"degree": "M.Tech.", "subject": "Structural Engineering", "institution": "National Institute of Technology Hamirpur", "year": "2020", "division": "First division"},
-    {"degree": "B.Tech.", "subject": "Civil Engineering", "institution": "Dr. APJ A.K.T.U., Lucknow", "year": "2016", "division": "First division"}
+    {"degree": "Ph.D.", "subject": "Structural Engineering", "institution": "Indian Institute of Technology Roorkee", "year": "2025", "division": "First division", "logo": "assets/logos/iit-roorkee.svg"},
+    {"degree": "M.Tech.", "subject": "Structural Engineering", "institution": "National Institute of Technology Hamirpur", "year": "2020", "division": "First division", "logo": "assets/logos/nit-hamirpur.png"}
   ],
   "publications": [
     {"id": "2026-impact-auxetic-metamaterials", "title": "High-velocity impact behaviour of topology-optimized auxetic metamaterials", "authors": "Shubham Saurabh, R.R. Madke, Abhinav Gupta, Rajib Chowdhury", "journal": "Engineering Structures", "volume": "346, 121562", "year": "2026", "url": "https://www.sciencedirect.com/science/article/pii/S0141029625019534"},
-    {"id": "2026-deep-super-resolution", "title": "Accelerating metamaterial topology optimization using deep super-resolution networks", "authors": "Ajendra Singh, Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "journal": "Computational Mechanics", "volume": "78, 101–126", "cv_volume": "1–26", "year": "2026", "url": "https://link.springer.com/article/10.1007/s00466-026-02749-y", "bibliography_note": "Volume and pagination updated from the publisher's version of record on 4 September 2026; the supplied CV lists pages 1–26."},
+    {"id": "2026-deep-super-resolution", "title": "Accelerating metamaterial topology optimization using deep super-resolution networks", "authors": "Ajendra Singh, Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "journal": "Computational Mechanics", "volume": "78, 101–126", "year": "2026", "url": "https://link.springer.com/article/10.1007/s00466-026-02749-y", "bibliography_note": "Volume and pagination verified against the publisher's version of record on 4 September 2026."},
     {"id": "2025-uncertain-load-positions", "title": "Robust topology optimization for uncertainty in load positions of transient dynamic loading", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury, Ravindra Duddu", "journal": "Reliability Engineering and System Safety", "volume": "264, 111440", "year": "2025", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0951832025006404"},
     {"id": "2024-transient-dynamic-response", "title": "Robust topology optimization for transient dynamic response minimization", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury, Pakeeruraju Podugu", "journal": "Computer Methods in Applied Mechanics and Engineering", "volume": "426, 117009", "year": "2024", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0045782524002652"},
     {"id": "2023-parametric-metamaterials", "title": "Impact of parametric variation to achieve extreme mechanical metamaterials through topology optimization", "authors": "Shubham Saurabh, Abhinav Gupta, Rajib Chowdhury", "journal": "Composite Structures", "volume": "326, 117611", "year": "2023", "url": "https://www.sciencedirect.com/science/article/abs/pii/S0263822323009571"}

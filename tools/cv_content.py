@@ -27,10 +27,10 @@ def make_pages(profile, config, research, custom):
     collection('/projects/research', 'Research projects', 'Research', 'Research programmes at CSIR-Central Road Research Institute.')
     collection('/projects/consultancy', 'Consultancy projects', 'Consultancy', 'Bridge condition assessment, structural audits, quality audits, and engineering review.')
     collection('/experience', 'Experience', 'Career', 'Research, academic, and teaching appointments.')
-    collection('/education', 'Education', 'Career', 'Qualifications in structural and civil engineering.')
-    collection('/awards', 'Awards & fellowships', 'Recognition', 'Awards, travel support, and fellowships listed in my CV.')
-    collection('/talks', 'Talks & conference contributions', 'Engagement', 'Conference contributions, including abstracts recorded as accepted in the supplied CV.')
-    collection('/books', 'Books & proceedings', 'Research', 'A books/proceedings contribution listed in my CV.')
+    collection('/education', 'Education', 'Career', 'Doctoral and postgraduate education in structural engineering.')
+    collection('/awards', 'Awards & fellowships', 'Recognition', 'Awards, travel support, and research fellowships.')
+    collection('/talks', 'Talks & conference contributions', 'Engagement', 'Conference contributions and accepted abstracts in structural and computational engineering.')
+    collection('/books', 'Books & proceedings', 'Research', 'Structural engineering research and conference proceedings.')
 
     records = []
     for item in profile['publications']:
@@ -52,7 +52,7 @@ def make_pages(profile, config, research, custom):
             else: facts += [['Location / context',item['client_or_context']]]
             body = [{'facts': facts}, {'heading': 'Project scope'}, item['title']+'.']
             if group == 'consultancy': body.append(item['client_or_context']+'.')
-            body += [{'heading': 'My contribution'}, f"Role recorded in my CV: {item['role']}.",
+            body += [{'heading': 'My contribution'}, f"{item['role']}.",
                      {'route': '/contact', 'label': 'Discuss this work'}]
             records.append(page('/projects/'+segment+'/'+slug(item['code']),item['title'],section,
                                 item['role']+' · '+item['code'],body,record_type=segment))
@@ -68,7 +68,8 @@ def make_pages(profile, config, research, custom):
                             'Education',item['institution']+' · '+item['year'],
                             [{'facts':[['Degree',item['degree']],['Subject',item['subject']],['Institution',item['institution']],
                                        ['Year',item['year']],['Division',item['division']]]}],
-                            record_type='education',date=item['year'],news_type='Education'))
+                            record_type='education',date=item['year'],news_type='Education',
+                            logo=item['logo'],institution=item['institution']))
     for i,item in enumerate(profile['awards'],1):
         records.append(page('/awards/'+item.get('id',slug(item['year']+'-'+item['title']+'-'+item['institution'])),item['title'],
                             'Award' if 'Award' in item['title'] else 'Fellowship & support',item['institution']+' · '+item['year'],
@@ -78,8 +79,7 @@ def make_pages(profile, config, research, custom):
         body=[{'facts':[['Authors',item['authors']],['Conference',item['event']],['Location',item['location']]]}]
         if item['date']: body[0]['facts'].append(['Date / year',item['date']])
         if item.get('status'):
-            body[0]['facts'].append(['Status in CV',item['status']])
-            body.append('The supplied CV records this contribution as an accepted abstract; a delivered presentation is not confirmed here.')
+            body[0]['facts'].append(['Status',item['status']])
         body += [{'heading':'Contribution topic'},item['title']+'.',{'route':'/contact','label':'Enquire about this contribution'}]
         years=re.findall(r'\b(?:19|20)\d{2}\b',item['date']+' '+item['event'])
         records.append(page('/talks/'+item.get('id',slug(item['title'])),item['title'],
@@ -90,7 +90,6 @@ def make_pages(profile, config, research, custom):
         records.append(page('/books/'+item.get('id',slug(item['title'])),item['title'],'Books & proceedings',
                             item['publisher']+' · '+item['year'],
                             [{'facts':[['Title',item['title']],['Publisher',item['publisher']],['Year',item['year']]]},
-                             'This title is listed under books, reports, chapters, and general articles in my CV.',
                              {'route':'/contact','label':'Enquire about this contribution'}],record_type='book',date=item['year']))
 
     research_records=[p for p in records if p['record_type'] in ('publication','research','consultancy','conference')]
@@ -139,12 +138,12 @@ def make_pages(profile, config, research, custom):
             [p['route'] for p in records if p['record_type'] in ('research','consultancy')])]
     collection('/roles','Roles','Career','Research, engineering, academic, and teaching contributions.')
     for id_,title,summary,items in roles: collection('/roles/'+id_,title,'Role',summary,items=items,body=[summary])
-    collection('/eras','Academic & professional journey','Career','Education and appointments, using the years recorded in my CV.',
+    collection('/eras','Academic & professional journey','Career','Education, research appointments, and teaching experience.',
                items=[p['route'] for p in records if p['record_type'] in ('experience','education')])
-    collection('/news','News & milestones','Updates','Appointments, qualifications, publications, and recognition. Years are shown where exact dates are not provided in the CV.',
+    collection('/news','News & milestones','Updates','Appointments, qualifications, publications, and recognition.',
                items=[p['route'] for p in records if p.get('news_type')])
     collection('/funding','Fellowships & research support','Research support',
-               'Listed fellowships, travel/conference support, and research programmes. Funding amounts are not specified in the CV.',
+               'Research fellowships, travel and conference support, and research programmes.',
                items=[p['route'] for p in records if p['record_type']=='research' or p['section']=='Fellowship & support'])
     page('/research-vision','Research direction','Research',profile['heading'],
          profile['philosophy']+[{'heading':'Areas of interest'},{'list':profile['interests']},{'route':'/join','label':'Explore collaboration enquiries'}])
@@ -180,11 +179,14 @@ def make_redirects(old_routes, pages):
     special={'/computational-scientist':'/roles/computational-researcher',
              '/designer-animator':'/about','/web-android-developer':'/about','/entrepreneur':'/about','/artist':'/about',
              '/education/04-phd':'/education/ph-d-2025','/education/02-mtech':'/education/m-tech-2020',
-             '/education/01-btech':'/education/b-tech-2016'}
+             '/education/01-btech':'/education'}
     redirects={}
     for route in old_routes:
         if route in active: continue
         parent='/'+route.strip('/').split('/')[0]
         target=special.get(route,parent if parent in active else '/about')
         redirects[route]=target if target in active else '/about'
+    # Retire the previously published qualification without breaking its old link.
+    # Keeping a neutral redirect also overwrites that page during a ZIP upload.
+    redirects['/education/b-tech-2016']='/education'
     return redirects

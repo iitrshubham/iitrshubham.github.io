@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Bearing restraint and deck-joint movement</title><desc id="desc">An idealised deck has one longitudinally restrained support and one movement-permitting support. Rotation, longitudinal movement and joint opening are separate aspects of the system.</desc>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 8 4 0 8Z" fill="#7251b6"/></marker></defs>
+<rect width="1000" height="620" rx="18" fill="#f8fafc"/>
+<g font-family="Arial,sans-serif" fill="#1e293b"><text x="45" y="55" font-size="28" font-weight="700">MOVEMENT NEEDS A PATH</text><text x="45" y="90" font-size="20" fill="#64748b">Idealised longitudinal model · not an installation detail</text></g>
+<g stroke="#334155" stroke-width="3" fill="#e2e8f0"><rect x="85" y="245" width="690" height="40" fill="#e9e0f7"/><rect x="807" y="245" width="125" height="40"/><path d="M195 285l-28 48h56Z"/><path d="M690 285l-28 48h56Z"/><circle cx="676" cy="343" r="9" fill="#fff"/><circle cx="704" cy="343" r="9" fill="#fff"/><path d="M150 355H240V375H150Zm495 0h90v20h-90Z"/><rect x="177" y="375" width="36" height="65"/><rect x="672" y="375" width="36" height="65"/></g>
+<g fill="none" stroke="#7251b6" stroke-width="3" marker-end="url(#arrow)"><path d="M263 305C278 333 254 360 225 351"/><path d="M714 302H763" marker-start="url(#arrow)"/></g>
+<path d="M777 175v58m29-58v58m-28-34h26" stroke="#7251b6" stroke-width="2"/>
+<path d="M715 149H790V174" fill="none" stroke="#94a3b8" stroke-width="2"/>
+<g font-family="Arial,sans-serif" font-size="22" fill="#334155"><text x="535" y="153">Deck-joint opening</text><text x="90" y="205">Deck / superstructure</text><text x="102" y="476" font-weight="700">Restrained support</text><text x="575" y="476" font-weight="700">Movement-permitting support</text></g>
+<g font-family="Arial,sans-serif" font-size="20" fill="#64748b"><text x="103" y="508">Longitudinal translation restrained</text><text x="103" y="538">Rotation allowed in this model</text><text x="576" y="508">Longitudinal movement allowed</text><text x="576" y="538">Rotation allowed in this model</text></g>
+<text x="45" y="593" font-family="Arial,sans-serif" font-size="18" fill="#64748b">Check the actual restraint arrangement, movement context, and drainage together.</text>
+</svg>

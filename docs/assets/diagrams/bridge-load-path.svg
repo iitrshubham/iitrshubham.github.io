@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Follow the gravity-load path</title><desc id="desc">Deck loads pass through girders and bearings to a pier cap, pier, foundation and ground. Horizontal restraint is a separate design question.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#7251b6"/></marker></defs>
+<rect width="1000" height="620" rx="18" fill="#f8fafc"/>
+<g font-family="Arial, sans-serif" fill="#1e293b"><text x="45" y="55" font-size="28" font-weight="700">FOLLOW THE LOAD</text><text x="45" y="90" font-size="20" fill="#64748b">Idealised girder bridge · transverse section</text></g>
+<g fill="#e2e8f0" stroke="#334155" stroke-width="3" stroke-linejoin="round">
+<path d="M70 180H600V210H70Z" fill="#e9e0f7"/>
+<path d="M175 210H275V230H238V265H275V285H175V265H212V230H175Z"/>
+<path d="M405 210H505V230H468V265H505V285H405V265H442V230H405Z"/>
+<rect x="190" y="293" width="70" height="15" rx="3" fill="#bba2e3"/>
+<rect x="420" y="293" width="70" height="15" rx="3" fill="#bba2e3"/>
+<path d="M140 315H540V350H140Z"/><rect x="305" y="350" width="70" height="125"/>
+<path d="M220 475H460V520H220Z"/>
+</g>
+<path d="M70 535H600" stroke="#64748b" stroke-width="3"/>
+<path d="M90 535l-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18m58-18-18 18" stroke="#94a3b8" stroke-width="2"/>
+<g fill="none" stroke="#7251b6" stroke-width="3" marker-end="url(#arrow)"><path d="M120 125v46m105-46v46m115-46v46m115-46v46m105-46v46"/><path d="M340 220v83M340 366v92M340 485v33"/></g>
+<g stroke="#94a3b8" stroke-width="2" fill="none"><path d="M602 194H658M512 251H658M493 300H658M543 332H658M378 410H658M465 498H658"/></g>
+<g font-family="Arial, sans-serif" fill="#334155" font-size="23"><text x="675" y="202">01  Deck</text><text x="675" y="259">02  Girders</text><text x="675" y="308">03  Bearings</text><text x="675" y="340">04  Pier cap</text><text x="675" y="418">05  Pier</text><text x="675" y="506">06  Foundation</text></g>
+<text x="45" y="590" font-family="Arial, sans-serif" font-size="19" fill="#64748b">Gravity path only. Horizontal actions need an explicit restraint path.</text>
+</svg>

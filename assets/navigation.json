@@ -225,7 +225,7 @@
           "items": [
             {
               "title": "Talks & Conferences",
-              "description": "Conference contributions and accepted abstracts listed in my CV.",
+              "description": "Conference contributions and accepted abstracts in structural engineering.",
               "href": "/talks/",
               "icon": "presentation"
             },
@@ -237,7 +237,7 @@
             },
             {
               "title": "Blog / Essays",
-              "description": "Notes and writing on engineering and research, when published.",
+              "description": "Illustrated notes on bridge design, safety audits, inspection, components, and monitoring.",
               "href": "/blog/",
               "icon": "pen"
             },

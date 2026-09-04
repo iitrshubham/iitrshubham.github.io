@@ -27,7 +27,7 @@ if BASE and (not BASE.startswith('/') or '..' in BASE or '://' in BASE):
     raise ValueError('base_path must be empty or a path such as /my-website')
 
 GROUPS = {
-    'Home': [('/', 'Main page'), ('/join', 'Join'), ('/about', 'About'), ('/contact', 'Contact')],
+    'Home': [('/', 'Main page'), ('/about', 'About'), ('/join', 'Join'), ('/contact', 'Contact')],
     'Core content': [('/blog', 'Blogs'), ('/talks', 'Talks'), ('/projects', 'Projects'), ('/workshops', 'Workshops'), ('/publications', 'Publications')],
     'Curated': [('/books', 'Books & proceedings'), ('/codes', 'Codes & methods'), ('/frameworks', 'Frameworks'), ('/breakthrough-ideas', 'Research themes')],
     'Metadata': [('/eras', 'Eras'), ('/tags', 'Tags'), ('/roles', 'Roles'), ('/categories', 'Categories'), ('/research-areas', 'Research areas')],
@@ -79,7 +79,7 @@ def button(value, title, primary=False):
 def header():
     menus = ''.join(f'<details><summary>{label}</summary><div class="dropdown">' + ''.join(link(r,t) for r,t in rows) + '</div></details>' for label,rows in NAV.items())
     return f'''<a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap nav-shell">
-      {link('/', CONFIG['initials'], 'brand')}<nav class="nav-links" data-nav id="primary-nav" aria-label="Main navigation">{menus}{link('/blog','Blogs')}{link('/join','Join','nav-join')}{link('/about','About')}</nav>
+      {link('/', CONFIG['initials'], 'brand')}<nav class="nav-links" data-nav id="primary-nav" aria-label="Main navigation">{menus}{link('/blog','Blogs')}{link('/about','About')}{link('/join','Join')}</nav>
       <div class="nav-tools"><button class="icon-button" data-open-search aria-label="Search website">{icon('search')}</button><button class="icon-button" data-theme-toggle aria-label="Change color theme">{icon('theme')}</button><button class="icon-button menu-button" data-menu aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">{icon('menu')}</button></div></div></header>'''
 
 def footer():
@@ -108,12 +108,12 @@ def home():
     portrait = f'<img src="{e(external(CONFIG["portrait"]))}" alt="Portrait of {e(CONFIG["name"])}">' if CONFIG.get('portrait') else f'<span class="portrait-initials">{e(CONFIG["initials"])}</span>'
     actions = button(CONFIG.get('research_statement'),'Research statement',True)+button(CONFIG.get('cv'),'CV')
     if not actions: actions = link('/publications','Explore research','button primary')+link('/about','About me','button')
-    roles = ''.join(f'<a class="role-card" href="{e(href(r))}"><span>{n}</span>{t}</a>' for r,t,n in ROLES)
+    roles = ''.join(f'<a class="role-card" href="{e(href(r))}"><img class="role-sketch" src="{e(asset("assets/sketches/"+r.rsplit("/",1)[-1]+".png"))}" alt="" width="1536" height="1024" loading="lazy"><div class="role-caption"><span class="role-number">{n}</span><span class="role-title">{e(t)}</span></div></a>' for r,t,n in ROLES)
     bio = ''.join(f'<p>{e(p)}</p>' for p in CONFIG['about'][:2])
     works = feature('/publications','Publications','Topology optimization, mechanical metamaterials, uncertainty, and structural dynamics.',str(len(PROFILE['publications']))+' articles')+feature('/projects','Research & consultancy','Bridge assessment, structural audits, AI-based distress assessment, and seismic performance.',str(len(PROFILE['research_projects'])+len(PROFILE['consultancy']))+' projects',True)
     selected = [next((p for p in PAGES if p.get('record_type')==kind),None) for kind in ['publication','research']]
     featured = ''.join('<a class="home-record" href="'+e(href(p['route']))+'"><span class="profile-kicker accent">'+e(' · '.join(x for x in [p.get('date',''),p['section']] if x))+'</span><h3>'+e(p['title'])+'</h3><p>'+e(p['summary'])+'</p><span class="text-link">Read record</span></a>' for p in selected if p)
-    books = ''.join('<article class="home-book"><div><p class="profile-kicker accent">'+e(p['summary'])+'</p><h3>'+e(p['title'])+'</h3><p>Books/proceedings contribution listed in my CV.</p></div>'+link(p['route'],'View record','button')+'</article>' for p in PAGES if p.get('record_type')=='book')
+    books = ''.join('<article class="home-book"><div><p class="profile-kicker accent">'+e(p['summary'])+'</p><h3>'+e(p['title'])+'</h3><p>Structural engineering research and conference proceedings.</p></div>'+link(p['route'],'View record','button')+'</article>' for p in PAGES if p.get('record_type')=='book')
     book_section = '<section class="section"><div class="section-head"><h2>Books & proceedings</h2>'+link('/books','See all records','text-link')+'</div>'+books+'</section>' if books else ''
     news_items = [p for p in PAGES if p.get('news_type')]
     news = '<div class="empty-state">No updates have been published yet.</div>'
@@ -126,7 +126,7 @@ def home():
       <section class="section"><div class="section-head"><div><h2>Works</h2><p>Explore research publications and the projects behind them.</p></div>{link('/projects','See all works','text-link')}</div><div class="feature-grid">{works}</div></section>
       <section class="section"><div class="section-head"><div><h2>Research in focus</h2><p>From computational material design to the assessment of bridges.</p></div>{link('/research-areas','Research areas','text-link')}</div><div class="feature-grid">{featured}</div></section>
       {book_section}
-      <section class="section"><div class="section-head"><div><h2>News & milestones</h2><p>Publications, appointments, education, and recognition recorded in my CV.</p></div>{link('/news','See all milestones','text-link')}</div>{news}</section></div>'''
+      <section class="section"><div class="section-head"><div><h2>News & milestones</h2><p>Publications, appointments, education, and recognition.</p></div>{link('/news','See all milestones','text-link')}</div>{news}</section></div>'''
 
 def page_header(page):
     route = page['route']
@@ -152,7 +152,9 @@ def collection(page):
     for item in items:
         status = item.get('status') or item.get('date') or 'View details'
         searchable = ' '.join([item['title'],item.get('summary',''),item.get('section',''),str(item.get('body',[]))]).lower()
-        cards.append(f'<a class="card" data-card data-search="{e(searchable)}" data-category="{e(item.get("section",""))}" href="{e(href(item["route"]))}"><span class="card-label">{e(item.get("section","Page"))}</span><h2>{e(item["title"])}</h2>'+ (f'<p>{e(item["summary"])}</p>' if item.get('summary') else '')+f'<span class="card-bottom">{e(status)}</span></a>')
+        media = f'<img class="card-figure" src="{e(external(item["image"]))}" alt="{e(item.get("image_alt",""))}" width="1000" height="620" loading="lazy">' if item.get('image') else ''
+        if item.get('logo'): media += f'<img class="college-logo" src="{e(external(item["logo"]))}" alt="{e(item["institution"])} logo" width="96" height="96" loading="lazy">'
+        cards.append(f'<a class="card" data-card data-search="{e(searchable)}" data-category="{e(item.get("section",""))}" href="{e(href(item["route"]))}">{media}<span class="card-label">{e(item.get("section","Page"))}</span><h2>{e(item["title"])}</h2>'+ (f'<p>{e(item["summary"])}</p>' if item.get('summary') else '')+f'<span class="card-bottom">{e(status)}</span></a>')
     categories = sorted(set(item.get('section','') for item in items))
     tabs = ''
     if len(categories)>1:
@@ -168,7 +170,7 @@ def blocks(body):
         elif 'facts' in block: out.append('<dl class="record-facts">'+''.join('<div><dt>'+e(k)+'</dt><dd>'+e(v)+'</dd></div>' for k,v in block['facts'])+'</dl>')
         elif 'route' in block: out.append('<p>'+link(block['route'],block.get('label',block['route']),'text-link')+'</p>')
         elif 'code' in block: out.append('<pre><code>'+e(block['code'])+'</code></pre>')
-        elif 'image' in block: out.append('<figure><img loading="lazy" src="'+e(external(block['image']))+'" alt="'+e(block.get('alt',''))+'"><figcaption>'+e(block.get('caption',''))+'</figcaption></figure>')
+        elif 'image' in block: out.append('<figure class="article-figure"><img loading="lazy" src="'+e(external(block['image']))+'" alt="'+e(block.get('alt',''))+'"><figcaption>'+e(block.get('caption',''))+'</figcaption></figure>')
         elif 'link' in block: out.append('<p><a class="text-link" href="'+e(external(block['link']))+'">'+e(block.get('label',block['link']))+'</a></p>')
         else: raise ValueError(f'Unknown body block: {block!r}')
     return ''.join(out)
@@ -177,6 +179,8 @@ def detail(page):
     body = page.get('body',[])
     if page['route'] == '/about': body = CONFIG['about']
     article = blocks(body) if body else '<div class="notice"><p>No further details are currently published for this record.</p></div>'
+    if page.get('logo'): article = f'<img class="college-logo college-logo-detail" src="{e(external(page["logo"]))}" alt="{e(page["institution"])} logo" width="112" height="112">'+article
+    if page.get('section') == 'Blog': article = '<p class="article-byline">'+e(CONFIG['name'])+' · Bridge engineering notes</p>'+article
     if page.get('topics'):
         article += '<h2>Related research areas</h2><div class="topic-links">'+''.join(link(t['route'],t['label'],'profile-badge') for t in page['topics'])+'</div>'
     if page['route'] == '/about':
@@ -199,12 +203,12 @@ def about_page():
     output = f'<div class="wrap profile-page"><section class="profile-hero"><div class="profile-intro"><p class="profile-kicker accent">My work philosophy</p><h1>{e(PROFILE["heading"])}</h1>{paragraphs}<div class="actions">{actions}</div></div>{identity}</section><nav class="profile-jump" aria-label="About page sections">{jump_links}</nav>'
     experience = ''.join(f'''<article class="experience-card"><div class="experience-card-head"><span class="institution-mark" aria-hidden="true">{e(item['short'])}</span><div><h3>{e(item['title'])}</h3><p>{e(item['location'])}</p></div></div><p class="experience-institution">{e(item['institution'])}</p><p class="experience-detail">{e(item['detail'])}</p><div class="experience-card-foot"><span class="profile-badge">{e(item['short'])}</span><span>{e(item['period'])}</span></div></article>''' for item in PROFILE['experience'])
     output += profile_section('experience','Experience','<div class="experience-grid">'+experience+'</div>')
-    education = ''.join(f'''<article class="education-card"><div class="education-top"><p class="profile-kicker accent">{e(item['degree'])}</p><span class="profile-badge">{e(item['year'])}</span></div><h3>{e(item['subject'])}</h3><p>{e(item['institution'])}</p><span class="education-division">{e(item['division'])}</span></article>''' for item in PROFILE['education'])
+    education = ''.join(f'''<article class="education-card education-with-logo"><img class="college-logo" src="{e(external(item['logo']))}" alt="{e(item['institution'])} logo" width="96" height="96" loading="lazy"><div class="education-copy"><div class="education-top"><p class="profile-kicker accent">{e(item['degree'])}</p><span class="profile-badge">{e(item['year'])}</span></div><h3>{e(item['subject'])}</h3><p>{e(item['institution'])}</p><span class="education-division">{e(item['division'])}</span></div></article>''' for item in PROFILE['education'])
     output += profile_section('education','Education','<div class="profile-stack">'+education+'</div>')
     interests = ''.join('<li>'+e(item)+'</li>' for item in PROFILE['interests'])
     output += profile_section('research','Research interests','<ul class="research-chips">'+interests+'</ul>')
     publications = ''.join(f'''<li class="record-item"><div class="record-meta"><span class="profile-badge">{e(item['year'])}</span><span>Journal article</span></div><h3>{e(item['title'])}</h3><p>{e(item['authors'])}</p><p class="record-venue">{e(item['journal'])} · {e(item['volume'])}</p></li>''' for item in PROFILE['publications'])
-    output += profile_section('publications','Publications','<ol class="record-list">'+publications+'</ol>','Journal articles listed in my CV')
+    output += profile_section('publications','Publications','<ol class="record-list">'+publications+'</ol>','Journal articles')
     projects = ''.join(f'''<article class="project-record"><div class="record-meta"><span class="profile-badge">{e(item['role'])}</span><span>{e(item['code'])}</span></div><h3>{e(item['title'])}</h3><p>{e(item['programme'])}</p></article>''' for item in PROFILE['research_projects'])
     output += profile_section('projects','Research projects','<div class="profile-stack">'+projects+'</div>')
     consultancy = ''.join(f'''<li class="record-item"><div class="record-meta"><span class="profile-badge">{e(item['code'])}</span><span>{e(item['role'])}</span></div><h3>{e(item['title'])}</h3><p>{e(item['client_or_context'])}</p></li>''' for item in PROFILE['consultancy'])
@@ -212,13 +216,13 @@ def about_page():
     awards = ''.join(f'''<li class="award-row"><span class="award-year">{e(item['year'])}</span><div><h3>{e(item['title'])}</h3><p>{e(item['institution'])}</p></div></li>''' for item in PROFILE['awards'])
     output += profile_section('awards','Awards & fellowships','<ul class="award-list">'+awards+'</ul>')
     books = ''.join(f'''<article class="education-card"><div class="record-meta"><span class="profile-badge">{e(item['year'])}</span><span>{e(item['publisher'])}</span></div><h3>{e(item['title'])}</h3></article>''' for item in PROFILE['books'])
-    output += profile_section('books-record','Books & proceedings',books,'Contribution listed in my CV')
+    output += profile_section('books-record','Books & proceedings',books)
     conferences = []
     for item in PROFILE['conferences']:
-        status = f'<span class="profile-badge">{e(item["status"])} · per CV</span>' if item.get('status') else ''
+        status = f'<span class="profile-badge">{e(item["status"])}</span>' if item.get('status') else ''
         meta = ' · '.join(part for part in [item['event'],item['location'],item['date']] if part)
         conferences.append(f'<li class="record-item">{status}<h3>{e(item["title"])}</h3><p>{e(item["authors"])}</p><p class="record-venue">{e(meta)}</p></li>')
-    output += profile_section('conferences','Conferences','<details class="cv-disclosure"><summary>View all '+str(len(conferences))+' conference contributions</summary><ol class="record-list">'+''.join(conferences)+'</ol></details>','Includes three abstracts listed as accepted in the supplied CV')
+    output += profile_section('conferences','Conferences','<details class="cv-disclosure"><summary>View all '+str(len(conferences))+' conference contributions</summary><ol class="record-list">'+''.join(conferences)+'</ol></details>','Conference contributions and accepted abstracts')
     contact = f'''<div class="profile-contact"><h3>Let’s discuss research and collaboration.</h3><p>{e(PROFILE['division'])}<br>{e(PROFILE['institution'])}<br>{e(PROFILE['address'])}</p><div class="contact-emails"><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a><a href="mailto:{e(PROFILE['secondary_email'])}">{e(PROFILE['secondary_email'])}</a></div><div class="actions">{link('/join','Join & collaborate','button primary')}{button(CONFIG.get('github'),'GitHub')}</div></div>'''
     output += profile_section('contact-details','Contact',contact)
     return output+'</div>'

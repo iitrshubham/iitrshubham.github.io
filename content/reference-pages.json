@@ -1017,7 +1017,7 @@
   },
   {
     "route": "/education/01-btech",
-    "title": "Btech",
+    "title": "Archived education route",
     "section": "Education",
     "kind": "detail",
     "summary": "",
@@ -2313,7 +2313,7 @@
   },
   {
     "route": "/projects/2010-01-01-btech",
-    "title": "Btech",
+    "title": "Archived project route",
     "section": "Projects",
     "kind": "detail",
     "summary": "",

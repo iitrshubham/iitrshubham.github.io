@@ -8,7 +8,7 @@ Edit your professional information in `content/profile.json`. Rebuilding updates
 | --- | --- |
 | `philosophy` | About and Research direction text |
 | `experience` | Appointments and teaching roles |
-| `education` | Degrees, institutions, years, and division |
+| `education` | Degrees, institutions, years, division, and local `logo` asset path |
 | `publications` | Journal articles, citations, publisher links |
 | `research_projects` | Research project title, programme, code, role |
 | `consultancy` | Consultancy title, context, code, role |
@@ -42,7 +42,9 @@ Project URLs use their project code. For awards, books, and conference entries, 
 
 ## Add a blog or detailed page
 
-Append a record to `content/pages.json`. This file can add new routes or override a generated route. For example:
+The five illustrated articles are fully editable in `content/pages.json`. Their diagrams are editable SVG files in `assets/diagrams/`. Change a post's top-level `image` to change its listing-card picture; change the image block in its `body` to change the figure within the article. No external image service is needed.
+
+Append a record to the same file to add a route, or use it to override a generated route. For example:
 
 ```json
 {
@@ -66,7 +68,7 @@ Append a record to `content/pages.json`. This file can add new routes or overrid
 
 Add the figure file to `assets` before rebuilding, or omit the image block. Raw HTML is escaped. Supported blocks are paragraphs, headings, lists, code, images, facts, external links, and internal route links.
 
-The Blogs index will automatically list direct child routes. When the first real post exists, its not-yet-published state is replaced by the list of posts. The same pattern works for Videos, Workshops, Outreach, Press, and Academic service.
+The Blogs index automatically lists direct child routes, including all five current articles. The same pattern works for Videos, Workshops, Outreach, Press, and Academic service.
 
 To add extra detail to an existing generated project, add a page object with that project's exact `route` and a replacement `body`. Its title, summary, section, and other generated fields are preserved unless explicitly overridden. Include any factual fields you still want in the replacement body, using a `facts` block:
 
@@ -90,7 +92,7 @@ To add a downloadable CV, put a **public-ready** PDF in `assets/cv.pdf`, set `"c
 
 ## Join page
 
-The Join navigation button is already between Blogs and About on every active page. Edit `profile.json → join` to change the cards. The `subject` field becomes the email subject; the recipient is your primary email from `site.json`.
+The Join navigation link follows About and uses the same styling as Blogs and About on every active page. Edit `profile.json → join` to change the cards. The `subject` field becomes the email subject; the recipient is your primary email from `site.json`.
 
 Do not advertise confirmed places, funding, deadlines, or supervision arrangements until you have verified them. The current text invites enquiries without promising a vacancy.
 
@@ -100,9 +102,17 @@ Do not advertise confirmed places, funding, deadlines, or supervision arrangemen
 
 The exact active page and redirect lists are in `docs/route-manifest.json`. If you deliberately reuse an old route for your own content, add it to `content/pages.json`; it becomes an active page instead of a forwarding page.
 
-## Source notes requiring your review
+The removed qualification's old address is a neutral redirect to Education. Keep it when uploading this package so it replaces the previously published page. The active profile contains only the Ph.D. and M.Tech. entries.
 
-- The Springer article **Accelerating metamaterial topology optimization using deep super-resolution networks** is now listed as *Computational Mechanics* **78, 101–126 (2026)**, following the [publisher's citation](https://link.springer.com/article/10.1007/s00466-026-02749-y). The CV's original `1–26` value is retained in `cv_volume`.
+## Sketches and college logos
+
+The four role cards use `assets/sketches/scientist.png`, `educator.png`, `computational-researcher.png`, and `bridge-engineer.png`. These original illustrations were made with built-in image generation; exact prompts are preserved in `content/illustration-prompts.json`. Replace an image at the same path to keep the card link unchanged. White-background graphite illustrations also work in dark mode through the shared stylesheet.
+
+The education records point to `assets/logos/iit-roorkee.svg` and `assets/logos/nit-hamirpur.png`. These are official emblems, kept on white plates so their colours remain unchanged in both themes. Source and reuse information is in `assets/ASSET-SOURCES.md`.
+
+## Content notes requiring your review
+
+- The Springer article **Accelerating metamaterial topology optimization using deep super-resolution networks** is listed as *Computational Mechanics* **78, 101–126 (2026)**, following the [publisher's citation](https://link.springer.com/article/10.1007/s00466-026-02749-y).
 - The book/proceedings entry repeats “Anurag Gupta” in its author string. The original is retained as `authors_as_listed`, but the page does not display an uncertain author/editor role. Please confirm your exact chapter/contribution details before adding them.
 - Three 2026 conference contributions remain marked “Abstract accepted” because that is their status in the uploaded CV. Update their status only when appropriate.
 - Year-only records display only the year. No 1 January dates, funding amounts, project completion statuses, numerical outcomes, job vacancies, or software releases have been invented.

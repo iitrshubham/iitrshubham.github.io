@@ -1,6 +1,6 @@
 # Route inventory
 
-This historical list records the 401 addresses originally discovered on the reference website. The current personalised site generates **138 active pages**, **373 direct forwarding pages**, and a custom 404 page.
+This historical list records the 401 addresses originally discovered on the reference website. The current personalised site generates **142 active pages**, **374 direct forwarding pages**, and a custom 404 page.
 
 **The historical URLs below are not claims about Shubham's work.** Active page titles and data now come from his CV. Unrelated legacy addresses forward to the appropriate personal portfolio section. The exact current map is in `docs/route-manifest.json`. The earlier page scaffold is retained outside the published `docs` site in `content/reference-pages.json`; it remains visible in a public GitHub repository.
 

@@ -34,11 +34,14 @@ for p in pages:
     html=(OUTPUT/p['route'].strip('/')/'index.html').read_text()
     assert html.count('<h1')==1,p['route']
     nav=html.split('id="primary-nav"',1)[1].split('</nav>',1)[0]
-    assert nav.index('>Blogs</a>')<nav.index('>Join</a>')<nav.index('>About</a>'),p['route']
+    assert nav.index('>Blogs</a>')<nav.index('>About</a>')<nav.index('>Join</a>'),p['route']
+    assert 'nav-join' not in nav,p['route']
     assert config['name'] in html,p['route']
     for unwanted in ('Your name','Awaiting your content','Add your professional biography','Vanderbilt','NPCIL','eigenplus','Glacier Simulations','Designer / animator'):
         assert unwanted not in html,(p['route'],unwanted)
     for target in p.get('items',[]): assert target in routes,(p['route'],target)
+    assert not re.search(r'\b(?:listed|recorded|records|supplied|provided|per|in|from)\s+(?:in\s+)?(?:the\s+|my\s+|supplied\s+)?CV\b',html,re.I),p['route']
+    assert not re.search(r'\bB\.?\s*Tech\b|bachelor|A\.K\.T\.U\.',html,re.I),p['route']
     if p.get('record_type'):
         visible=plaintext(html.split('<main id="main">',1)[1].split('</main>',1)[0])
         assert p['title'] in visible,p['route']
@@ -58,6 +61,16 @@ for item in profile['interests']: assert item in about,item
 for unwanted in ('Pay Level','Rs. 6600','1000 per hour'): assert unwanted not in about,unwanted
 assert all(item.get('url','').startswith('https://') for item in profile['publications'])
 assert sum(p.get('status')=='Abstract accepted' for p in pages)==3
+assert [x['degree'] for x in profile['education']]==['Ph.D.','M.Tech.']
+assert len([p for p in pages if p.get('section')=='Blog'])>=5
+for p in pages:
+    if p.get('section')=='Blog':
+        assert p.get('image') and len(p.get('body',[]))>=15,p['route']
+        assert any(isinstance(b,dict) and b.get('image') for b in p['body']),p['route']
+        assert any(isinstance(b,dict) and b.get('link') for b in p['body']),p['route']
+for item in profile['education']: assert (OUTPUT/item['logo']).is_file(),item['logo']
+for role in ['scientist','educator','computational-researcher','bridge-engineer']:
+    assert (OUTPUT/'assets/sketches'/f'{role}.png').is_file(),role
 menu=json.loads((OUTPUT/'assets/navigation.json').read_text())
 assert [x['label'] for x in menu['menus']]==['Research','Codes','Highlights']
 assert all(len(col['items'])==4 for group in menu['menus'] for col in group['columns'])

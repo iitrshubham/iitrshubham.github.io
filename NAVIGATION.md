@@ -1,10 +1,10 @@
 # Personalised dropdown navigation
 
-Navigation order: **Research → Codes → Highlights → Blogs → Join → About**.
+Navigation order: **Research → Codes → Highlights → Blogs → About → Join**. Join is an ordinary text link with the same treatment as Blogs and About, including on mobile.
 
 The previous wide-panel design is retained: each dropdown has two columns of four links, a two-card feature panel, and two bottom actions. Its light/dark themes, mobile stacking, search, and keyboard controls are preserved.
 
-All active entries are now relevant to Dr. Shubham Saurabh's CV. Borrowed tutorial titles, external code repositories, startup claims, and unrelated achievements have been replaced. The earlier screenshot-thumbnail crops remain in `reference-assets/menu` for recovery but are not published in `docs`.
+All active entries refer to Dr. Shubham Saurabh's work and writing. Borrowed tutorial titles, external code repositories, startup claims, and unrelated achievements have been replaced. The earlier screenshot-thumbnail crops remain in `reference-assets/menu` for recovery but are not published in `docs`.
 
 Edit `assets/navigation.json`:
 

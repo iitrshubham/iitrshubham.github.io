@@ -191,11 +191,6 @@
       "kind": "detail"
     },
     {
-      "route": "/education/b-tech-2016",
-      "title": "B.Tech. in Civil Engineering",
-      "kind": "detail"
-    },
-    {
       "route": "/awards/2026-fenics-travel-grant-fenics-steering-committee",
       "title": "FEniCS travel grant",
       "kind": "detail"
@@ -666,6 +661,31 @@
       "kind": "collection"
     },
     {
+      "route": "/blog/bridge-design-load-path-to-detail",
+      "title": "Bridge design: from load path to lasting details",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/structural-safety-audit-of-bridges",
+      "title": "Structural safety audits: connect evidence to decisions",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/visual-inspection-of-bridges",
+      "title": "Visual bridge inspection: make every observation traceable",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/bearings-and-expansion-joints",
+      "title": "Bearings & expansion joints: small components, system-wide effects",
+      "kind": "detail"
+    },
+    {
+      "route": "/blog/structural-health-monitoring-of-bridges",
+      "title": "Structural health monitoring: turn signals into evidence",
+      "kind": "detail"
+    },
+    {
       "route": "/workshops",
       "title": "Workshops",
       "kind": "collection"
@@ -808,7 +828,7 @@
     "/computational-scientist": "/roles/computational-researcher",
     "/designer-animator": "/about",
     "/education/00-senior": "/education",
-    "/education/01-btech": "/education/b-tech-2016",
+    "/education/01-btech": "/education",
     "/education/02-mtech": "/education/m-tech-2020",
     "/education/03-ocdf": "/education",
     "/education/04-phd": "/education/ph-d-2025",
@@ -1064,6 +1084,7 @@
     "/tags/writing": "/tags",
     "/tags/zotero": "/tags",
     "/videos/01-topology-optimization-walkthrough": "/videos",
-    "/web-android-developer": "/about"
+    "/web-android-developer": "/about",
+    "/education/b-tech-2016": "/education"
   }
 }
