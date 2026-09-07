@@ -146,7 +146,7 @@ def collaboration_strip():
     if not items:
         return ''
     marks = ''.join(f'''<div class="collaboration-mark"><img class="{'collaboration-logo-wide' if item.get('wide_logo') else ''}" src="{e(external(item['logo']))}" alt="" width="{126 if item.get('wide_logo') else 54}" height="54" loading="lazy"><span>{e(item['name'])}</span></div>''' for item in items)
-    return f'''<section class="collaboration-section" aria-labelledby="collaboration-title"><h2 id="collaboration-title">Collaborating in both Industry and Academia</h2><div class="collaboration-marquee"><div class="collaboration-track"><div class="collaboration-set">{marks}</div><div class="collaboration-set" aria-hidden="true">{marks}</div></div></div></section>'''
+    return f'''<section class="collaboration-section" aria-labelledby="collaboration-title"><h2 id="collaboration-title">Proud partners</h2><div class="collaboration-marquee"><div class="collaboration-track"><div class="collaboration-set">{marks}</div><div class="collaboration-set" aria-hidden="true">{marks}</div></div></div></section>'''
 
 def home():
     portrait = f'<img src="{e(external(CONFIG["portrait"]))}" alt="Portrait of {e(CONFIG["name"])}">' if CONFIG.get('portrait') else f'<span class="portrait-initials">{e(CONFIG["initials"])}</span>'
@@ -161,8 +161,8 @@ def home():
     news = home_news()
     template = '<span class="template-chip">Editable website template</span>' if CONFIG.get('template_mode') else ''
     return f'''<div class="wrap"><section class="hero"><div class="portrait-card"><div class="portrait-area">{portrait}</div><div class="portrait-caption">Research · Design<br>Model · Build</div></div><div class="hero-copy">{template}<p class="hello">Hi, I'm</p><h1>{e(CONFIG['name'])}</h1><p class="tagline">{e(CONFIG['tagline'])}</p><p class="position">{e(CONFIG['title'])}</p><div class="actions">{actions}</div></div></section>
-      {collaboration_strip()}
       <section class="section"><div class="section-head"><h2>About</h2>{link('/about','Read more','text-link')}</div><div class="about-grid"><div class="body-copy">{bio}</div><aside class="bio-panel"><dl><div><dt>Location</dt><dd>{e(CONFIG['location'])}</dd></div><div><dt>Focus</dt><dd>{e(CONFIG['title'])}</dd></div><div><dt>Contact</dt><dd>{e(CONFIG.get('email') or 'Contact details to be added')}</dd></div></dl></aside></div><div class="role-grid">{roles}</div></section>
+      {collaboration_strip()}
       <section class="section"><div class="section-head"><div><h2>Works</h2><p>Explore research publications and the projects behind them.</p></div>{link('/projects','See all works','text-link')}</div><div class="feature-grid">{works}</div></section>
       <section class="section"><div class="section-head"><div><h2>Research in focus</h2><p>From computational material design to the assessment of bridges.</p></div>{link('/research-areas','Research areas','text-link')}</div>{focus_carousel}</section>
       <section class="section"><div class="section-head"><div><h2>News & milestones</h2><p>Publications, appointments, education, and recognition.</p></div>{link('/news','See all milestones','text-link')}</div>{news}</section></div>'''

@@ -102,7 +102,8 @@ assert 'data-news' in home and 'data-news-search' in home
 assert '<h2>Books &amp; proceedings</h2>' not in home
 assert 'class="role-number"' not in home
 assert home.count('class="role-title"')==4
-assert 'Collaborating in both Industry and Academia' in home
+assert 'Proud partners' in home and 'Collaborating in both Industry and Academia' not in home
+assert home.index('Proud partners')<home.index('<h2>Works</h2>')
 assert home.count('class="collaboration-mark"')==2*len(profile['collaborators'])
 assert home.count('data-focus-slide')==2 and 'data-focus-carousel' in home
 for item in profile['collaborators']:

@@ -22,7 +22,7 @@ Checked on 7 September 2026 against the user-designated GitHub source at commit 
 | Homepage illustrations | 8 generated sketches: all 4 role cards plus all 4 Works/Research in focus cards |
 | Homepage role cards | Four centred role titles with 01–04 numbering removed |
 | Homepage identity | Name reduced in size; descriptive line changed to a clean sans-serif face |
-| Collaboration strip | CPWD, NHAI, CSIR, IIT Roorkee, and Vanderbilt University marks in a continuous, reduced-motion-aware marquee |
+| Proud partners strip | Full-colour CPWD, NHAI, CSIR, IIT Roorkee, and Vanderbilt University marks immediately above Works |
 | Research in focus | One visible item at a time; publication/project carousel with automatic and manual navigation |
 | Publication covers | All 5 About entries have left-hand covers; all 5 publication cards and individual records have covers |
 | Cover accuracy | Genuine representative journal covers; exact article issue is not claimed |

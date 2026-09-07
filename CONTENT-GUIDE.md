@@ -139,7 +139,7 @@ The homepage Recent news panel is generated from dated milestones and research r
 
 All current research projects use the `year` field and appear under Research in both the homepage News & milestones panel and `/news/`. Books and proceedings remain available through their dedicated page and navigation, but are intentionally not repeated on the homepage.
 
-The collaboration strip repeats the `collaborators` list only to create a seamless visual loop; assistive technology reads the list once. Research in focus automatically alternates between its publication and research-project cards, while retaining previous/next controls and pausing for interaction or reduced-motion preferences.
+The **Proud partners** strip appears directly above Works and repeats the `collaborators` list only to create a seamless visual loop; assistive technology reads the list once. Partner marks retain their original colours on neutral plates in both colour themes. Research in focus automatically alternates between its publication and research-project cards, while retaining previous/next controls and pausing for interaction or reduced-motion preferences.
 
 ## Content notes requiring your review
 
