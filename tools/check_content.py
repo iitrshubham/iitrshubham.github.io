@@ -43,7 +43,7 @@ for p in pages:
     assert not re.search(r'CSIR-Central Road Research Institute(?! \(Ministry of Science and Technology, Govt. of India\))',html),p['route']
     assert config['name'] in html,p['route']
     assert 'data-search-panel' in html and 'data-search-dialog' not in html,p['route']
-    for unwanted in ('Your name','Awaiting your content','Add your professional biography','Vanderbilt','NPCIL','eigenplus','Glacier Simulations','Designer / animator'):
+    for unwanted in ('Your name','Awaiting your content','Add your professional biography','NPCIL','eigenplus','Glacier Simulations','Designer / animator'):
         assert unwanted not in html,(p['route'],unwanted)
     for target in p.get('items',[]): assert target in routes,(p['route'],target)
     assert not re.search(r'\b(?:listed|recorded|records|supplied|provided|per|in|from)\s+(?:in\s+)?(?:the\s+|my\s+|supplied\s+)?CV\b',html,re.I),p['route']
@@ -102,6 +102,11 @@ assert 'data-news' in home and 'data-news-search' in home
 assert '<h2>Books &amp; proceedings</h2>' not in home
 assert 'class="role-number"' not in home
 assert home.count('class="role-title"')==4
+assert 'Collaborating in both Industry and Academia' in home
+assert home.count('class="collaboration-mark"')==2*len(profile['collaborators'])
+assert home.count('data-focus-slide')==2 and 'data-focus-carousel' in home
+for item in profile['collaborators']:
+    assert item['name'] in home and (OUTPUT/item['logo']).is_file(),item['name']
 for category in ['View all','Research','Achievements','Publications']:
     assert f'>{category}</button>' in home,category
 for item in profile['research_projects']:

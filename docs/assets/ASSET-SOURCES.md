@@ -72,3 +72,17 @@ Except for the explicitly licensed GBPIT image, no open-reuse permission has bee
 | Indian Roads Congress | `logos/irc.svg` | [Indian Roads Congress emblem, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Indian_Roads_Congress.svg); the organisation's official site is [irc.nic.in](https://www.irc.nic.in/) |
 
 The red circular IRC emblem is displayed beside the life-membership entry for identification, not endorsement. The mirrored Commons file is marked as a public-domain text logo, while trademark and other restrictions may still apply. The source file is bundled unchanged and is not covered by the repository's MIT software licence.
+
+## Collaboration-strip marks
+
+These marks identify organisations named by the website owner in the homepage collaboration strip. Their display does not imply that an organisation endorses this personal website. Unless stated otherwise, no asset-specific open licence was found; institutional trademark and copyright rights remain with their owners.
+
+| Organisation | Local asset | Official source |
+| --- | --- | --- |
+| Central Public Works Department | `logos/cpwd.png` | [CPWDSewa](https://cpwdsewa.gov.in/) · [official image](https://cpwdsewa.gov.in/Images/cpwdlogo.png) |
+| National Highways Authority of India | `logos/nhai.png` | [NHAI](https://nhai.gov.in/) · [official image](https://nhai.gov.in/assets/images/mainLogo-inner.png) · [copyright policy](https://skillbridge.nhai.gov.in/copyrightpolicy) |
+| Council of Scientific and Industrial Research | `logos/csir.svg` | [CSIR logo downloads](https://www.csir.res.in/en/csir-logo) · [official SVG](https://www.csir.res.in/sites/default/files/CSIR-Logo-With-Tagline-Bilingual.svg) |
+| Indian Institute of Technology Roorkee | `logos/iit-roorkee.svg` | Official IITR emblem already credited under College logos above |
+| Vanderbilt University | `logos/vanderbilt-university.png` | [Vanderbilt brand guide](https://brand.vanderbilt.edu/logos-and-lockups/) · [official logotype](https://cdn.vanderbilt.edu/vu-sub/wp-content/uploads/sites/276/2022/01/19191558/Logotype2.png) |
+
+Vanderbilt states that its logos are trademarks and restricts its primary lockups to authorised use. The bundled custom logotype is used only as the identifying mark requested by the website owner. CSIR's official page provides downloadable artwork but retains copyright. NHAI's general copyright policy is not treated here as an unrestricted trademark licence.

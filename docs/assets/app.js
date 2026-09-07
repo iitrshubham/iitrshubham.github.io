@@ -204,6 +204,41 @@
     }));
     render();
   }
+  document.querySelectorAll('[data-focus-carousel]').forEach(carousel => {
+    const track = carousel.querySelector('[data-focus-track]');
+    const slides = [...carousel.querySelectorAll('[data-focus-slide]')];
+    const status = carousel.querySelector('[data-focus-status]');
+    const previous = carousel.querySelector('[data-focus-prev]');
+    const next = carousel.querySelector('[data-focus-next]');
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+    let active = 0, timer;
+    const show = index => {
+      active = (index + slides.length) % slides.length;
+      track.style.transform = `translateX(-${active * 100}%)`;
+      slides.forEach((slide, position) => {
+        const visible = position === active;
+        slide.setAttribute('aria-hidden', String(!visible));
+        slide.tabIndex = visible ? 0 : -1;
+      });
+      status.textContent = `${active + 1} / ${slides.length}`;
+    };
+    const stop = () => { window.clearInterval(timer); timer = undefined; };
+    const start = () => {
+      stop();
+      if (slides.length > 1 && !reducedMotion.matches && !document.hidden) timer = window.setInterval(() => show(active + 1), 6500);
+    };
+    if (slides.length < 2) carousel.querySelector('.focus-controls').hidden = true;
+    previous.addEventListener('click', () => { show(active - 1); start(); });
+    next.addEventListener('click', () => { show(active + 1); start(); });
+    carousel.addEventListener('mouseenter', stop);
+    carousel.addEventListener('mouseleave', start);
+    carousel.addEventListener('focusin', stop);
+    carousel.addEventListener('focusout', event => { if (!carousel.contains(event.relatedTarget)) start(); });
+    document.addEventListener('visibilitychange', () => document.hidden ? stop() : start());
+    reducedMotion.addEventListener?.('change', start);
+    show(0); start();
+  });
+
   const news = document.querySelector('[data-news]');
   if (news) {
     const rows = [...news.querySelectorAll('[data-news-row]')];

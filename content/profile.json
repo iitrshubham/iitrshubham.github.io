@@ -12,6 +12,13 @@
   "interests": [
     "Structural health monitoring", "Structural safety audit", "Load testing", "Metamaterials", "Auxetics", "Topology optimization", "Bridge engineering", "Computational mechanics", "Uncertainty quantification", "Vibration control", "Artificial intelligence in bridge engineering", "Impact mechanics"
   ],
+  "collaborators": [
+    {"name": "Central Public Works Department (CPWD)", "logo": "assets/logos/cpwd.png"},
+    {"name": "National Highways Authority of India (NHAI)", "logo": "assets/logos/nhai.png", "wide_logo": true},
+    {"name": "Council of Scientific and Industrial Research (CSIR)", "logo": "assets/logos/csir.svg"},
+    {"name": "IIT Roorkee", "logo": "assets/logos/iit-roorkee.svg"},
+    {"name": "Vanderbilt University", "logo": "assets/logos/vanderbilt-university.png", "wide_logo": true}
+  ],
   "experience": [
     {"title": "Scientist C", "institution": "CSIR-Central Road Research Institute (Ministry of Science and Technology, Govt. of India)", "short": "CSIR-CRRI", "location": "New Delhi, India", "period": "2025 – present", "detail": "Bridge Engineering and Structures Division", "logo": "assets/logos/csir-crri.png"},
     {"title": "Assistant Professor", "institution": "Academy of Scientific and Innovative Research", "short": "AcSIR", "location": "India", "period": "2026 – present", "detail": "Academic appointment at AcSIR", "logo": "assets/logos/acsir.png"},

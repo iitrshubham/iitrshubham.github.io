@@ -18,6 +18,7 @@ Edit your professional information in `content/profile.json`. Rebuilding updates
 | `books` | Books/proceedings contribution |
 | `conferences` | Titles, author lists, event, location, date, and status |
 | `interests` | Research interests displayed on About |
+| `collaborators` | Names and local logo paths in the moving homepage collaboration strip |
 | `join` | Enquiry types, descriptions, and contact instructions |
 
 Your shared name, role, email, location, biography, portrait path, and optional CV link are in `content/site.json`. To add a new topic to the topic navigation, also add its description and matching terms in `content/research.json`.
@@ -137,6 +138,8 @@ Keep the ministry parenthesis with the full CSIR–CRRI name in `site.json` and 
 The homepage Recent news panel is generated from dated milestones and research records. Its classification tabs, keyword search, page-size selector, and paging controls require no manual HTML editing. The header search index is generated from every active page during the same build.
 
 All current research projects use the `year` field and appear under Research in both the homepage News & milestones panel and `/news/`. Books and proceedings remain available through their dedicated page and navigation, but are intentionally not repeated on the homepage.
+
+The collaboration strip repeats the `collaborators` list only to create a seamless visual loop; assistive technology reads the list once. Research in focus automatically alternates between its publication and research-project cards, while retaining previous/next controls and pausing for interaction or reduced-motion preferences.
 
 ## Content notes requiring your review
 
