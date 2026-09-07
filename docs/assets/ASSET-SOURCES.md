@@ -64,3 +64,11 @@ Emblems are displayed intact on circular white plates, using `object-fit: contai
 | G.B. Pant Institute of Technology, Delhi | `logos/gbpit-delhi.jpg`: **Monurawal17**, [GBPIT Logo, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GBPIT_Logo.jpg), **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. Downloaded unchanged; circular display is CSS only. A matching historical monogram appears on an alumni site; an official historical image source was not verified. Do not confuse this institute with G.B. Pant Engineering College or similarly named institutions outside Delhi. |
 
 Except for the explicitly licensed GBPIT image, no open-reuse permission has been established. Institutional and government emblems retain their owners' rights and any applicable use restrictions. The source/authority references establish identity, not permission or endorsement.
+
+## Professional membership emblem
+
+| Organisation | Local asset | Source |
+| --- | --- | --- |
+| Indian Roads Congress | `logos/irc.svg` | [Indian Roads Congress emblem, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Indian_Roads_Congress.svg); the organisation's official site is [irc.nic.in](https://www.irc.nic.in/) |
+
+The red circular IRC emblem is displayed beside the life-membership entry for identification, not endorsement. The mirrored Commons file is marked as a public-domain text logo, while trademark and other restrictions may still apply. The source file is bundled unchanged and is not covered by the repository's MIT software licence.

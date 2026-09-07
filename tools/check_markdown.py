@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Regression checks for the intentionally small Markdown feature set."""
-from markdown_content import load_blogs, render_markdown
+from markdown_content import load_blogs, markdown_headings, render_markdown
 from pathlib import Path
 
 def render(text):
     return render_markdown(text, lambda path: '/portfolio/'+path.lstrip('/'))
 
-assert '<h2>Section</h2>' in render('## Section')
+assert '<h2 id="section">Section</h2>' in render('## Section')
+assert [item['anchor'] for item in markdown_headings('## Same\n### Same\n```text\n## Not a heading\n```')]==['same','same-2']
+assert '<h2 id="actual">Actual</h2>' in render('```text\n## Not a heading\n```\n## Actual')
 assert '<strong>bold</strong>' in render('**bold**')
 assert '<em>italic</em>' in render('*italic*')
 assert '<code>a &lt; b</code>' in render('`a < b`')
@@ -33,7 +35,8 @@ blogs=load_blogs(Path(__file__).resolve().parents[1]/'content/blogs')
 assert len(blogs)>=5
 for blog in blogs:
     html=render(blog['body'][0]['markdown'])
+    for heading in markdown_headings(blog['body'][0]['markdown']): assert f'id="{heading["anchor"]}"' in html,blog['route']
     assert '<table class="article-table">' in html,blog['route']
     assert '<figure class="article-figure">' in html,blog['route']
     assert '![' not in html,blog['route']
-print(f'PASS: Markdown features, safe links, escaping, subpath assets, and all {len(blogs)} complete blog posts.')
+print(f'PASS: Markdown features, TOC anchors, safe links, escaping, subpath assets, and all {len(blogs)} complete blog posts.')

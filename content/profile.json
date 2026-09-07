@@ -25,7 +25,7 @@
     {"degree": "M.Tech.", "subject": "Structural Engineering", "institution": "National Institute of Technology Hamirpur", "year": "2020", "division": "First division", "logo": "assets/logos/nit-hamirpur.png"}
   ],
   "memberships": [
-    {"organisation": "Indian Roads Congress (IRC)", "type": "Life member"}
+    {"organisation": "Indian Roads Congress (IRC)", "type": "Life member", "logo": "assets/logos/irc.svg", "logo_alt": "Indian Roads Congress emblem"}
   ],
   "outreach": [
     {"id": "data-driven-bridge-health-monitoring", "title": "Data Driven and Computational Approaches to Bridge Health Monitoring", "type": "Lecture", "year": "2026", "description": "Delivered a lecture in the training programme on Quality Assurance, Health Assessment, and Rehabilitation Techniques, organised by CRRI in 2026.", "programme": "Quality Assurance, Health Assessment, and Rehabilitation Techniques"},

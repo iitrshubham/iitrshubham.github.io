@@ -78,6 +78,8 @@ Build with `python tools/build.py`. Commit both the source and rebuilt `docs` wh
 
 The Blogs index and search index update automatically during a build. Keep each `route` stable to retain existing links. Do not also add the same blog to `content/pages.json`.
 
+Each blog's right-hand table of contents is also generated automatically from its `##`–`######` headings. Duplicate heading names receive unique anchors. Keep headings short and descriptive; changing one also changes its fragment link.
+
 ## Other detailed pages
 
 Use `content/pages.json` for optional sections or per-route overrides of generated pages. Non-blog bodies support paragraph strings and objects with `heading`, `list`, `image`/`alt`/`caption`, `facts`, `link`/`label`, `route`/`label`, or `code`.
@@ -130,7 +132,9 @@ Experience and education emblems sit on circular white plates with their entire 
 
 GitHub is retained only where relevant to Codes; it is removed from the Contact me footer, Contact page, and About contact block. Email remains the primary contact method. The optional LinkedIn field can be filled in later.
 
-Keep the ministry parenthesis with the full CSIR–CRRI name in `site.json` and `profile.json`. Membership is under `memberships`. Outreach has three 2026 lectures and one undated laboratory demonstration, with no date inferred for that demonstration. Edit those records once to update About, `/outreach/`, and the individual outreach pages.
+Keep the ministry parenthesis with the full CSIR–CRRI name in `site.json` and `profile.json`. Membership is under `memberships`; its optional `logo` and `logo_alt` fields supply the circular emblem on About. Outreach has three 2026 lectures and one undated laboratory demonstration, with no date inferred for that demonstration. Edit those records once to update About, `/outreach/`, and the individual outreach pages.
+
+The homepage Recent news panel is generated from dated milestones and research records. Its classification tabs, keyword search, page-size selector, and paging controls require no manual HTML editing. The header search index is generated from every active page during the same build.
 
 ## Content notes requiring your review
 

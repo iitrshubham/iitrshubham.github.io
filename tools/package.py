@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 target=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT.parent/'shubham-complete-repository.zip'
 if target.exists(): raise SystemExit('Output ZIP already exists. Choose a new filename to preserve the previous package.')
 required=['assets','content','docs','tools','.github','reference-assets','reference-history',
-          '.gitignore','README.md','CONTENT-GUIDE.md','VALIDATION.md','ROUTE-INVENTORY.md','NAVIGATION.md','LICENSE']
+          '.gitignore','CONTENT-GUIDE.md','VALIDATION.md','ROUTE-INVENTORY.md','NAVIGATION.md','LICENSE']
 for rel in required:
     if not (ROOT/rel).exists(): raise SystemExit('Missing repository item: '+rel)
 assert (ROOT/'docs/index.html').is_file()

@@ -11,6 +11,28 @@ import re
 from urllib.parse import urlsplit
 
 
+def markdown_headings(text):
+    """Return stable, unique anchors for Markdown headings used by article TOCs."""
+    headings, seen = [], {}
+    fenced = False
+    for line in text.splitlines():
+        if line.strip().startswith('```'):
+            fenced = not fenced
+            continue
+        if fenced:
+            continue
+        match = re.match(r'^(#{2,6})\s+(.+?)\s*$', line.strip())
+        if not match:
+            continue
+        label = re.sub(r'[`*_]', '', match.group(2)).strip()
+        anchor = re.sub(r'[^a-z0-9]+', '-', label.lower()).strip('-') or 'section'
+        seen[anchor] = seen.get(anchor, 0) + 1
+        if seen[anchor] > 1:
+            anchor += '-'+str(seen[anchor])
+        headings.append({'level': len(match.group(1)), 'label': label, 'anchor': anchor})
+    return headings
+
+
 def load_blogs(directory):
     pages = []
     for file in sorted(Path(directory).glob('*.md')):
@@ -42,6 +64,7 @@ def load_blogs(directory):
 
 
 def render_markdown(text, local_url):
+    heading_items = iter(markdown_headings(text))
     def safe_url(value):
         parts = urlsplit(value)
         if parts.scheme in {'https', 'http', 'mailto'}: return value
@@ -90,7 +113,8 @@ def render_markdown(text, local_url):
         if heading:
             level = len(heading[1])
             if level==1: raise ValueError('Use ## for sections; the title supplies the page h1')
-            out.append(f'<h{level}>'+inline(heading[2])+f'</h{level}>'); i+=1; continue
+            heading_item = next(heading_items)
+            out.append(f'<h{level} id="'+escape(heading_item['anchor'],quote=True)+'">'+inline(heading[2])+f'</h{level}>'); i+=1; continue
         picture = re.fullmatch(r'!\[([^\]]*)\]\(([^\s)]+)(?:\s+"([^"]*)")?\)',line)
         if picture:
             alt, url, caption = picture.groups()

@@ -7,7 +7,7 @@ import json
 import re
 import sys
 from cv_content import make_pages, make_redirects
-from markdown_content import load_blogs
+from markdown_content import load_blogs, markdown_headings
 
 ROOT=Path(__file__).resolve().parents[1]
 OUTPUT=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else ROOT/'docs'
@@ -42,6 +42,7 @@ for p in pages:
     assert 'github.com' not in contact.lower(),p['route']
     assert not re.search(r'CSIR-Central Road Research Institute(?! \(Ministry of Science and Technology, Govt. of India\))',html),p['route']
     assert config['name'] in html,p['route']
+    assert 'data-search-panel' in html and 'data-search-dialog' not in html,p['route']
     for unwanted in ('Your name','Awaiting your content','Add your professional biography','Vanderbilt','NPCIL','eigenplus','Glacier Simulations','Designer / animator'):
         assert unwanted not in html,(p['route'],unwanted)
     for target in p.get('items',[]): assert target in routes,(p['route'],target)
@@ -75,6 +76,11 @@ for p in pages:
         assert len(markdown.split())>=350,p['route']
         assert '![' in markdown and '](' in markdown,p['route']
         assert 'IRC:' in markdown and 'India' in markdown,p['route']
+        html=(OUTPUT/p['route'].strip('/')/'index.html').read_text()
+        headings=markdown_headings(markdown)
+        assert 'class="blog-toc"' in html and 'Table of contents' in html,p['route']
+        for heading in headings:
+            assert f'href="#{heading["anchor"]}"' in html and f'id="{heading["anchor"]}"' in html,p['route']
 for item in profile['education']+profile['experience']: assert (OUTPUT/item['logo']).is_file(),item['logo']
 about_html=(OUTPUT/'about/index.html').read_text()
 pub_html=(OUTPUT/'publications/index.html').read_text()
@@ -85,11 +91,16 @@ for item in profile['publications']:
     assert (OUTPUT/item['cover']).is_file(),item['cover']
     assert item['cover'] in about_html and item['cover'] in pub_html,item['title']
 assert 'Indian Roads Congress (IRC)' in about and 'Life member' in about
+assert 'assets/logos/irc.svg' in about_html and 'class="membership-logo"' in about_html
+assert (OUTPUT/'assets/logos/irc.svg').is_file()
 assert 'Online lecture' in about
 for route in ['/contact','/about']:
     main=(OUTPUT/route.strip('/')/'index.html').read_text().split('<main id="main">')[1].split('</main>')[0]
     assert 'github.com' not in main.lower(),route
 home=(OUTPUT/'index.html').read_text()
+assert 'data-news' in home and 'data-news-search' in home
+for category in ['View all','Research','Achievements','Publications']:
+    assert f'>{category}</button>' in home,category
 for name in ['works-publications','works-projects','focus-publication','focus-research']:
     assert f'assets/sketches/{name}.png' in home,name
 for role in ['scientist','educator','computational-researcher','bridge-engineer']:

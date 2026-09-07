@@ -11,7 +11,7 @@ import re
 import shutil
 from urllib.parse import quote, urlsplit
 from cv_content import make_pages, make_redirects
-from markdown_content import load_blogs, render_markdown
+from markdown_content import load_blogs, markdown_headings, render_markdown
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = json.loads((ROOT / 'content/site.json').read_text(encoding='utf-8'))
@@ -75,6 +75,7 @@ def icon(name):
     paths = {'search': '<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>',
              'theme': '<path d="M20.5 13.3A8.5 8.5 0 0 1 10.7 3.5 8.5 8.5 0 1 0 20.5 13.3Z"/>',
              'menu': '<path d="M4 6h16M4 12h16M4 18h16"/>',
+             'toc': '<path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01" stroke-width="3"/>',
              'close': '<path d="m6 6 12 12M18 6 6 18"/>'}
     return f'<svg class="icon" aria-hidden="true" viewBox="0 0 24 24">{paths[name]}</svg>'
 
@@ -84,11 +85,14 @@ def link(route, title, cls=''):
 def button(value, title, primary=False):
     return f'<a class="button{" primary" if primary else ""}" href="{e(external(value))}">{e(title)}</a>' if value else ''
 
+def search_shell():
+    return f'''<div class="header-search" data-search-shell><button class="icon-button search-launch" data-open-search aria-label="Search website" aria-expanded="false" aria-controls="site-search-panel">{icon('search')}</button><div class="search-panel" data-search-panel id="site-search-panel" hidden><div class="search-inline-field">{icon('search')}<input type="search" data-global-search aria-label="Search all pages" placeholder="Search" autocomplete="off" role="searchbox"><kbd aria-label="Keyboard shortcut">⌘K</kbd><button class="search-close" data-close-search aria-label="Close search">{icon('close')}</button></div><div class="search-results" data-search-results aria-live="polite"></div></div></div>'''
+
 def header():
     menus = ''.join(f'<details><summary>{label}</summary><div class="dropdown">' + ''.join(link(r,t) for r,t in rows) + '</div></details>' for label,rows in NAV.items())
     return f'''<a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="wrap nav-shell">
       {link('/', CONFIG['initials'], 'brand')}<nav class="nav-links" data-nav id="primary-nav" aria-label="Main navigation">{menus}{link('/blog','Blogs')}{link('/about','About')}{link('/join','Join')}</nav>
-      <div class="nav-tools"><button class="icon-button" data-open-search aria-label="Search website">{icon('search')}</button><button class="icon-button" data-theme-toggle aria-label="Change color theme">{icon('theme')}</button><button class="icon-button menu-button" data-menu aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">{icon('menu')}</button></div></div></header>'''
+      <div class="nav-tools">{search_shell()}<button class="icon-button" data-theme-toggle aria-label="Change color theme">{icon('theme')}</button><button class="icon-button menu-button" data-menu aria-controls="primary-nav" aria-expanded="false" aria-label="Toggle navigation">{icon('menu')}</button></div></div></header>'''
 
 def footer():
     groups = ''.join('<div class="footer-group"><h2>'+e(label)+'</h2>'+''.join(link(r,t) for r,t in rows)+'</div>' for label,rows in GROUPS.items())
@@ -97,17 +101,18 @@ def footer():
     return f'''<section class="contact"><div class="wrap"><div><h2>Contact me</h2><p>Conversations about research, engineering, and collaboration.</p></div><div class="actions">{socials or link('/about','About & contact','button')}</div></div></section>
       <footer><div class="wrap"><div class="footer-grid">{link('/',CONFIG['initials'],'brand')}{groups}</div><div class="footer-bottom"><span>{e(CONFIG['name'])} © {date.today().year}</span><div>{link('/legal/terms','Terms')}{link('/legal/privacy-policy','Privacy')}{link('/legal/cookies','Cookies')}<a href="{e(asset('assets/ASSET-SOURCES.md'))}">Image credits</a></div></div></div></footer>'''
 
-def search_dialog():
-    entries = [{'title': p['title'], 'section': p.get('section', ''), 'summary': p.get('summary',''), 'url': href(p['route'])} for p in PAGES]
+def search_index():
+    groups = {'publication':'Publication','research':'Research','consultancy':'Project','conference':'Talk','award':'Achievement','book':'Book','experience':'Experience','education':'Education','outreach':'Outreach'}
+    entries = [{'title': p['title'], 'section': groups.get(p.get('record_type'),p.get('section') or 'Page'), 'summary': p.get('summary',''), 'url': href(p['route'])} for p in PAGES]
     data = json.dumps(entries, ensure_ascii=False, separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
-    return f'''<dialog class="search-dialog" data-search-dialog aria-labelledby="search-title"><div class="search-top"><h2 id="search-title">Search the website</h2><button class="icon-button" data-close-search aria-label="Close search">{icon('close')}</button></div><div class="search-field">{icon('search')}<input type="search" data-global-search aria-label="Search all pages" placeholder="Search research, projects, or topics…" autocomplete="off"></div><div class="search-results" data-search-results aria-live="polite"></div></dialog><script id="site-search-index" type="application/json">{data}</script>'''
+    return f'<script id="site-search-index" type="application/json">{data}</script>'
 
 def layout(page, content):
     title = CONFIG['name'] if page['route'] == '/' else page['title'] + ' · ' + CONFIG['name']
     description = page.get('summary') or CONFIG['tagline']
     canonical = f'<link rel="canonical" href="{e(ORIGIN + href(page["route"]))}">' if ORIGIN else ''
     noindex = '<meta name="robots" content="noindex,follow">' if CONFIG.get('template_mode',True) or page.get('noindex') else ''
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(description)}">{canonical}{noindex}<link rel="icon" type="image/svg+xml" href="{e(asset('assets/favicon.svg'))}"><link rel="stylesheet" href="{e(asset('assets/style.css'))}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('academic-theme')||'light'}}catch(e){{}}</script><script src="{e(asset('assets/app.js'))}" defer></script></head><body>{header()}<main id="main">{content}</main>{footer()}{search_dialog()}</body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{e(title)}</title><meta name="description" content="{e(description)}">{canonical}{noindex}<link rel="icon" type="image/svg+xml" href="{e(asset('assets/favicon.svg'))}"><link rel="stylesheet" href="{e(asset('assets/style.css'))}"><script>try{{document.documentElement.dataset.theme=localStorage.getItem('academic-theme')||'light'}}catch(e){{}}</script><script src="{e(asset('assets/app.js'))}" defer></script></head><body>{header()}<main id="main">{content}</main>{footer()}{search_index()}</body></html>'''
 
 def feature(route,title,summary,mark,sketch):
     return f'<a class="feature-card" href="{e(href(route))}"><div class="feature-sketch-area"><img class="feature-sketch" src="{e(asset(sketch))}" width="1536" height="1024" alt="" loading="lazy"></div><div class="feature-body"><span class="profile-kicker accent">{e(mark)}</span><h3>{e(title)}</h3><p>{e(summary)}</p></div></a>'
@@ -117,6 +122,24 @@ def journal_cover(item):
 
 def logo_caption(item):
     return '<p class="logo-credit">'+e(item['logo_caption'])+'</p>' if item.get('logo_caption') else ''
+
+def home_news():
+    items = [p for p in PAGES if p.get('news_type') or p.get('record_type') == 'research']
+    if not items:
+        return '<div class="empty-state">No updates have been published yet.</div>'
+    def category(item):
+        if item.get('record_type') == 'publication': return 'Publications'
+        if item.get('record_type') == 'research': return 'Research'
+        return 'Achievements'
+    items.sort(key=lambda item: (item.get('date') or '0000', item['title']), reverse=True)
+    rows = []
+    for item in items:
+        classification = category(item)
+        label = 'Research' if classification == 'Research' else item.get('news_type',classification.rstrip('s'))
+        searchable = ' '.join([item['title'],item.get('summary',''),classification,label,item.get('date','')]).lower()
+        rows.append(f'''<tr data-news-row data-category="{e(classification)}" data-search="{e(searchable)}"><td>{e(item.get('date') or '—')}</td><td><span class="news-kind">{e(label)}</span></td><td>{link(item['route'],item['title'])}</td><td>{link(item['route'],'Read more','news-read')}</td></tr>''')
+    tabs = ''.join(f'<button class="news-filter" type="button" data-news-filter="{e(value)}" aria-pressed="{str(value == "all").lower()}">{e("View all" if value == "all" else value)}</button>' for value in ['all','Research','Achievements','Publications'])
+    return f'''<section class="news-panel" data-news><h3>Recent news</h3><div class="news-toolbar"><div class="news-filters" role="group" aria-label="Filter recent news">{tabs}</div><label class="news-search">{icon('search')}<span class="sr-only">Search recent news</span><input type="search" data-news-search placeholder="Search" autocomplete="off"></label></div><div class="news-table-wrap"><table class="news-table"><thead><tr><th scope="col" aria-sort="descending">Year ↓</th><th scope="col">Classification</th><th scope="col">Description</th><th scope="col"><span class="sr-only">Open record</span></th></tr></thead><tbody>{''.join(rows)}</tbody></table><p class="news-empty" data-news-empty hidden>No matching news.</p></div><div class="news-pagination"><span data-news-page>Page 1 of 1</span><label><span class="sr-only">Rows per page</span><select data-news-size aria-label="Rows per page"><option value="5">5 per page</option><option value="10">10 per page</option><option value="20">20 per page</option></select></label><div><button class="button" type="button" data-news-prev>Previous</button><button class="button" type="button" data-news-next>Next</button></div></div></section>'''
 
 def home():
     portrait = f'<img src="{e(external(CONFIG["portrait"]))}" alt="Portrait of {e(CONFIG["name"])}">' if CONFIG.get('portrait') else f'<span class="portrait-initials">{e(CONFIG["initials"])}</span>'
@@ -129,11 +152,7 @@ def home():
     featured = ''.join('<a class="home-record illustrated-record" href="'+e(href(p['route']))+'"><div class="feature-sketch-area"><img class="feature-sketch" src="'+e(asset('assets/sketches/focus-'+p['record_type']+'.png'))+'" width="1536" height="1024" alt="" loading="lazy"></div><div class="home-record-copy"><span class="profile-kicker accent">'+e(' · '.join(x for x in [p.get('date',''),p['section']] if x))+'</span><h3>'+e(p['title'])+'</h3><p>'+e(p['summary'])+'</p><span class="text-link">Read record</span></div></a>' for p in selected if p)
     books = ''.join('<article class="home-book"><div><p class="profile-kicker accent">'+e(p['summary'])+'</p><h3>'+e(p['title'])+'</h3><p>Structural engineering research and conference proceedings.</p></div>'+link(p['route'],'View record','button')+'</article>' for p in PAGES if p.get('record_type')=='book')
     book_section = '<section class="section"><div class="section-head"><h2>Books & proceedings</h2>'+link('/books','See all records','text-link')+'</div>'+books+'</section>' if books else ''
-    news_items = [p for p in PAGES if p.get('news_type')]
-    news = '<div class="empty-state">No updates have been published yet.</div>'
-    if news_items:
-        rows = ''.join(f'<tr><td>{e(p.get("date",""))}</td><td>{e(p["news_type"])}</td><td>{link(p["route"],p["title"])}</td></tr>' for p in sorted(news_items,key=lambda x:x.get('date',''),reverse=True)[:5])
-        news = '<div class="table-wrap"><table class="news-table"><thead><tr><th scope="col">Year</th><th scope="col">Type</th><th scope="col">Milestone</th></tr></thead><tbody>'+rows+'</tbody></table></div>'
+    news = home_news()
     template = '<span class="template-chip">Editable website template</span>' if CONFIG.get('template_mode') else ''
     return f'''<div class="wrap"><section class="hero"><div class="portrait-card"><div class="portrait-area">{portrait}</div><div class="portrait-caption">Research · Design<br>Model · Build</div></div><div class="hero-copy">{template}<p class="hello">Hi, I'm</p><h1>{e(CONFIG['name'])}</h1><p class="tagline">{e(CONFIG['tagline'])}</p><p class="position">{e(CONFIG['title'])}</p><div class="actions">{actions}</div></div></section>
       <section class="section"><div class="section-head"><h2>About</h2>{link('/about','Read more','text-link')}</div><div class="about-grid"><div class="body-copy">{bio}</div><aside class="bio-panel"><dl><div><dt>Location</dt><dd>{e(CONFIG['location'])}</dd></div><div><dt>Focus</dt><dd>{e(CONFIG['title'])}</dd></div><div><dt>Contact</dt><dd>{e(CONFIG.get('email') or 'Contact details to be added')}</dd></div></dl></aside></div><div class="role-grid">{roles}</div></section>
@@ -204,7 +223,14 @@ def detail(page):
     if page['route'] == '/about':
         article += '<h2>Contact</h2><p>'+e(CONFIG['location'])+'</p><div class="actions">'+button(CONFIG.get('linkedin'),'LinkedIn')+button('mailto:'+CONFIG['email'] if CONFIG.get('email') else '', 'Email')+'</div>'
     related = ''.join(link(r,t) for r,t in GROUPS['Core content'])
-    return page_header(page)+'<div class="wrap article-grid"><article class="article">'+article+'</article><aside class="sidebar"><h2>Explore</h2>'+related+'</aside></div>'
+    sidebar = '<aside class="sidebar"><h2>Explore</h2>'+related+'</aside>'
+    grid_class = 'wrap article-grid'
+    if page.get('section') == 'Blog':
+        headings = markdown_headings(page['body'][0]['markdown'])
+        toc = ''.join('<li class="toc-level-'+str(item['level'])+'"><a href="#'+e(item['anchor'])+'">'+e(item['label'])+'</a></li>' for item in headings)
+        sidebar = f'''<aside class="blog-toc"><nav class="toc-card" aria-label="Table of contents"><span class="toc-symbol" aria-hidden="true">{icon('toc')}</span><h2>Table of contents</h2><ol>{toc}</ol></nav></aside>'''
+        grid_class += ' blog-layout'
+    return page_header(page)+'<div class="'+grid_class+'"><article class="article">'+article+'</article>'+sidebar+'</div>'
 
 def profile_section(id_, title, content, subtitle=''):
     return f'<section class="profile-section" id="{e(id_)}" aria-labelledby="{e(id_)}-title"><div class="profile-section-label"><h2 id="{e(id_)}-title">{e(title)}</h2>'+ (f'<p>{e(subtitle)}</p>' if subtitle else '')+f'</div><div class="profile-section-content">{content}</div></section>'
@@ -223,7 +249,7 @@ def about_page():
     output += profile_section('experience','Experience','<div class="experience-grid">'+experience+'</div>')
     education = ''.join(f'''<article class="education-card education-with-logo"><img class="college-logo" src="{e(external(item['logo']))}" alt="{e(item['institution'])} logo" width="96" height="96" loading="lazy"><div class="education-copy"><div class="education-top"><p class="profile-kicker accent">{e(item['degree'])}</p><span class="profile-badge">{e(item['year'])}</span></div><h3>{e(item['subject'])}</h3><p>{e(item['institution'])}</p><span class="education-division">{e(item['division'])}</span></div></article>''' for item in PROFILE['education'])
     output += profile_section('education','Education','<div class="profile-stack">'+education+'</div>')
-    memberships = ''.join('<article class="membership-card"><span class="profile-badge">'+e(item['type'])+'</span><h3>'+e(item['organisation'])+'</h3></article>' for item in PROFILE.get('memberships',[]))
+    memberships = ''.join('<article class="membership-card membership-with-logo">'+(f'<img class="membership-logo" src="{e(external(item["logo"]))}" alt="{e(item.get("logo_alt",item["organisation"]+" logo"))}" width="88" height="88" loading="lazy">' if item.get('logo') else '')+'<div><span class="profile-badge">'+e(item['type'])+'</span><h3>'+e(item['organisation'])+'</h3></div></article>' for item in PROFILE.get('memberships',[]))
     output += profile_section('memberships','Professional memberships',memberships)
     interests = ''.join('<li>'+e(item)+'</li>' for item in PROFILE['interests'])
     output += profile_section('research','Research interests','<ul class="research-chips">'+interests+'</ul>')
