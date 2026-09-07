@@ -53,11 +53,11 @@
     {"title": "Ministry of Education fellowship", "institution": "National Institute of Technology Hamirpur", "year": "2018"}
   ],
   "research_projects": [
-    {"title": "Perspective-corrected machine learning framework for crack induced distress assessment in bridges", "programme": "RDSF Project", "code": "RDS-000015", "role": "Project Leader"},
-    {"title": "Flexural Performance of Glass Fibre Reinforced Polymer Beams with and without Discrete Glass Fibre Reinforced Concrete (GFRC)", "programme": "In-House R&D Project", "code": "OLP 0681", "role": "Co-Project Leader"},
-    {"title": "Integrated Experimental, Numerical and AI-Based Studies for Seismic Performance Evaluation and Health Assessment of Steel and Fiber Reinforced Bridges", "programme": "ULIP Project", "code": "MLP 0002614", "role": "Task Leader"},
-    {"title": "Evaluation of Response Reduction (R Factor) for RC Piers Designed as per Indian Codes", "programme": "In-House R&D Project", "code": "OLP 0680", "role": "Team Member"},
-    {"title": "Assessment of Influence of Soil-Foundation-Structure Interaction on Seismic Performance of Bridges", "programme": "In-House R&D Project", "code": "OLP 0678", "role": "Team Member"}
+    {"title": "Perspective-corrected machine learning framework for crack induced distress assessment in bridges", "programme": "RDSF Project", "code": "RDS-000015", "role": "Project Leader", "year": "2026"},
+    {"title": "Flexural Performance of Glass Fibre Reinforced Polymer Beams with and without Discrete Glass Fibre Reinforced Concrete (GFRC)", "programme": "In-House R&D Project", "code": "OLP 0681", "role": "Co-Project Leader", "year": "2026"},
+    {"title": "Integrated Experimental, Numerical and AI-Based Studies for Seismic Performance Evaluation and Health Assessment of Steel and Fiber Reinforced Bridges", "programme": "ULIP Project", "code": "MLP 0002614", "role": "Task Leader", "year": "2026"},
+    {"title": "Evaluation of Response Reduction (R Factor) for RC Piers Designed as per Indian Codes", "programme": "In-House R&D Project", "code": "OLP 0680", "role": "Team Member", "year": "2026"},
+    {"title": "Assessment of Influence of Soil-Foundation-Structure Interaction on Seismic Performance of Bridges", "programme": "In-House R&D Project", "code": "OLP 0678", "role": "Team Member", "year": "2026"}
   ],
   "consultancy": [
     {"title": "Condition assessment and remedial measures for major and minor bridges in the Odisha road network using modern bridge test procedures", "client_or_context": "Public Works Department, Government of Odisha", "code": "SSP 4733", "role": "Team Member"},

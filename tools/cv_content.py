@@ -48,14 +48,15 @@ def make_pages(profile, config, research, custom):
     for group, segment, section in [('research_projects','research','Research project'), ('consultancy','consultancy','Consultancy')]:
         for item in profile[group]:
             facts = [['Role',item['role']], ['Project reference',item['code']]]
-            if group == 'research_projects': facts += [['Programme',item['programme']]]
+            if group == 'research_projects': facts += [['Programme',item['programme']], ['Year',item['year']]]
             else: facts += [['Location / context',item['client_or_context']]]
             body = [{'facts': facts}, {'heading': 'Project scope'}, item['title']+'.']
             if group == 'consultancy': body.append(item['client_or_context']+'.')
             body += [{'heading': 'My contribution'}, f"{item['role']}.",
                      {'route': '/contact', 'label': 'Discuss this work'}]
             records.append(page('/projects/'+segment+'/'+slug(item['code']),item['title'],section,
-                                item['role']+' · '+item['code'],body,record_type=segment))
+                                item['role']+' · '+item['code'],body,record_type=segment,
+                                **({'date':item['year'],'news_type':'Research'} if group == 'research_projects' else {})))
 
     for i,item in enumerate(profile['experience']):
         route='/experience/'+slug(item['short']+'-'+item['title']+'-'+item['period'].split(' ')[0])

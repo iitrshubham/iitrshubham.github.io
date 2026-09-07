@@ -12,7 +12,7 @@ Edit your professional information in `content/profile.json`. Rebuilding updates
 | `publications` | Journal articles, citations, publisher links, and local `cover` images |
 | `memberships` | Professional organisation and membership type |
 | `outreach` | Lectures, programmes, year, descriptions, and stable IDs |
-| `research_projects` | Research project title, programme, code, role |
+| `research_projects` | Research project title, programme, code, role, and year |
 | `consultancy` | Consultancy title, context, code, role |
 | `awards` | Awards, fellowships, and travel/conference support |
 | `books` | Books/proceedings contribution |
@@ -135,6 +135,8 @@ GitHub is retained only where relevant to Codes; it is removed from the Contact 
 Keep the ministry parenthesis with the full CSIR–CRRI name in `site.json` and `profile.json`. Membership is under `memberships`; its optional `logo` and `logo_alt` fields supply the circular emblem on About. Outreach has three 2026 lectures and one undated laboratory demonstration, with no date inferred for that demonstration. Edit those records once to update About, `/outreach/`, and the individual outreach pages.
 
 The homepage Recent news panel is generated from dated milestones and research records. Its classification tabs, keyword search, page-size selector, and paging controls require no manual HTML editing. The header search index is generated from every active page during the same build.
+
+All current research projects use the `year` field and appear under Research in both the homepage News & milestones panel and `/news/`. Books and proceedings remain available through their dedicated page and navigation, but are intentionally not repeated on the homepage.
 
 ## Content notes requiring your review
 

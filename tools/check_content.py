@@ -99,8 +99,17 @@ for route in ['/contact','/about']:
     assert 'github.com' not in main.lower(),route
 home=(OUTPUT/'index.html').read_text()
 assert 'data-news' in home and 'data-news-search' in home
+assert '<h2>Books &amp; proceedings</h2>' not in home
+assert 'class="role-number"' not in home
+assert home.count('class="role-title"')==4
 for category in ['View all','Research','Achievements','Publications']:
     assert f'>{category}</button>' in home,category
+for item in profile['research_projects']:
+    assert item['year']=='2026',item['title']
+    project=next(p for p in pages if p.get('record_type')=='research' and p['title']==item['title'])
+    assert project.get('date')=='2026' and project.get('news_type')=='Research',item['title']
+    assert project['route'] in next(p for p in pages if p['route']=='/news')['items'],item['title']
+    assert f'data-category="Research"' in home and item['title'] in home,item['title']
 for name in ['works-publications','works-projects','focus-publication','focus-research']:
     assert f'assets/sketches/{name}.png' in home,name
 for role in ['scientist','educator','computational-researcher','bridge-engineer']:

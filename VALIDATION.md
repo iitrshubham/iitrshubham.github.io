@@ -9,8 +9,8 @@ Checked on 7 September 2026 against the user-designated GitHub source at commit 
 | Compatibility forwarding pages | 374; all lead directly to active pages |
 | Original reference addresses retained | 401 of 401 |
 | Total HTML files, including custom 404 | 521 |
-| Local links/assets checked in domain-root build | 9,706; all resolved |
-| Local links/assets checked in `/portfolio` build | 9,706; all resolved |
+| Local links/assets checked in domain-root build | 9,709; all resolved |
+| Local links/assets checked in `/portfolio` build | 9,709; all resolved |
 | About page coverage | All retained interests and professional entries checked |
 | Publication links | HTTPS publisher links located for all 5 papers |
 | Accepted abstract labels | 3, matching the CV |
@@ -20,6 +20,8 @@ Checked on 7 September 2026 against the user-designated GitHub source at commit 
 | Blog articles | 5 separate Markdown sources, rewritten for Indian practice, with IRC/BIS references, diagrams, tables, and scope limitations |
 | Markdown checks | Headings, lists, emphasis, code, tables, images/captions, escaping, safe URLs, and project-subpath assets |
 | Homepage illustrations | 8 generated sketches: all 4 role cards plus all 4 Works/Research in focus cards |
+| Homepage role cards | Four centred role titles with 01–04 numbering removed |
+| Homepage identity | Name reduced in size; descriptive line changed to a clean sans-serif face |
 | Publication covers | All 5 About entries have left-hand covers; all 5 publication cards and individual records have covers |
 | Cover accuracy | Genuine representative journal covers; exact article issue is not claimed |
 | Circular emblems | All 6 experience cards and both education cards; Pusa uses a clearly labelled DTTE emblem |
@@ -28,6 +30,8 @@ Checked on 7 September 2026 against the user-designated GitHub source at commit 
 | Membership emblem | IRC emblem shown to the left on a circular plate; provenance recorded |
 | Blog table of contents | Generated from each Markdown article's `##`–`######` headings with stable unique anchors |
 | Homepage news | Classification tabs, keyword search, selectable page size, and paging controls |
+| Research project years | All 5 current research projects show 2026 and appear in News & milestones |
+| Homepage books | Books & proceedings section removed from Home; dedicated Books page retained |
 | Header search | Compact expandable search with grouped page results and keyboard shortcut |
 | Outreach | 3 supplied 2026 lectures, including one online lecture, and 1 undated facilities demonstration |
 | Ministry affiliation | Exact requested parenthesis wherever the full CSIR–CRRI name is rendered |
